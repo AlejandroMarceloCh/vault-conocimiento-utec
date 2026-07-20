@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+CursosUTEC/_raw/
+Vault/_sources/
+.DS_Store
+._*
