@@ -10,17 +10,29 @@ Eres el re-ranker del sistema. Un buscador híbrido trae candidatos; TÚ decides
 **Requisito:** la variable `$VAULT_CURSOS` apunta a la carpeta donde se clonó el repo (ej.
 `export VAULT_CURSOS=~/vault-conocimiento-utec`), y `pip install -r requirements.txt` ya se corrió.
 
-## Paso 1 — traer candidatos
+## Paso 1 — traer candidatos (SIEMPRE busca con dos textos y une)
 
-**MODO PRECISO:** una sola búsqueda con el texto del proyecto.
+Tu proyecto se describe con palabras de usuario ("app de reservas de gimnasio"); los capítulos usan
+vocabulario técnico ("base de datos, modelo entidad-relación, control de aforo, API"). Buscar solo con
+la frase cruda pierde la mitad. **Regla medida (sube el recall de cursos relevantes +0.12): busca con
+DOS textos y une los candidatos** (quita duplicados por `id`):
 
-**MODO APORTE:** primero DESCOMPÓN el proyecto en sus facetas y busca por CADA una, después une los
-candidatos. Un proyecto tiene varias caras y una sola búsqueda tapa la mitad. Facetas típicas:
-técnica · producto de datos · datos · estadística. Corre la herramienta una vez por faceta:
+1. **La frase cruda** del proyecto, tal cual.
+2. **Una versión enriquecida**: reescribe el proyecto con el vocabulario técnico que tendría un
+   capítulo relevante —conceptos, métodos y herramientas del dominio—. Ej.: "app de reservas de
+   gimnasio con aforo" → "gestión de reservas, base de datos de usuarios y horarios, control de
+   capacidad, arquitectura cliente-servidor, API, modelo entidad-relación".
+
 ```
-python3 "$VAULT_CURSOS/Vault/_tools/recomendar.py" --text "<faceta>" --k-fts 10 --k-emb 15
+python3 "$VAULT_CURSOS/Vault/_tools/recomendar.py" --text "<frase cruda>"
+python3 "$VAULT_CURSOS/Vault/_tools/recomendar.py" --text "<versión enriquecida>"
 ```
-Devuelve JSON: cada candidato con `id`, `curso`, `titulo`, `temas` (índice), `archivo` (ruta al capítulo).
+
+**MODO APORTE** (cuando piden "qué me sirve / qué suma"): además descompón el proyecto en facetas
+(técnica · producto de datos · datos · estadística) y busca también por cada una. Más ángulos, más
+cobertura.
+
+Cada candidato trae `id`, `curso`, `titulo`, `temas` (índice), `archivo` (ruta al capítulo).
 
 ## Paso 2 — LEE LOS CAPÍTULOS COMPLETOS (no juzgues por el índice)
 La búsqueda es el eslabón DÉBIL; tú eres el fuerte. Cada candidato viene con `archivo`: la ruta a su
