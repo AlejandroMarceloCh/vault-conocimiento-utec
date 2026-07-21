@@ -5,71 +5,102 @@ slides: 9
 fuente: 15 - Semana 14/IS1 - Semana 14 - Cierre de Curso__pptx.pdf
 ---
 
-Ingeniería de Software
+## Slide 1
 
-   Aula de Presentación: Profesor Christian Paz
-                 Próximas Actividades
+Portada. Título grande "Ingeniería de Software" sobre fondo azul decorativo (silueta de figura caminando por un túnel tecnológico). Subtítulo: "Aula de Presentación: Profesor Christian Paz". Logos UTEC / "Reinventa el mundo" / TransformaTec decorativos.
 
+## Slide 2
 
-Miércoles 25 de Junio: Evaluación.
+Título: **Próximas Actividades**
 
-•   20 minutos por equipo
-•   Arquitectura (3 minutos)
-•   Demo puntual de profesor y alumno (5 minutos)
-•   Estructura de Repositorios de Código (3 minutos)
-                 Próximas Actividades
+**Miércoles 25 de Junio: Evaluación.**
 
+- 20 minutos por equipo
+- Arquitectura (3 minutos)
+- Demo puntual de profesor y alumno (5 minutos)
+- Estructura de Repositorios de Código (3 minutos)
 
-Martes 1 de Julio: Evaluación Externa (Jesús Bellido y Eric Biagioli).
+(Fondo lateral decorativo con foto de estudiantes; solo texto de contenido.)
 
-•   15 minutos por equipo
-•   Arquitectura (3 minutos)
-•   Demo puntual de profesor y alumno (5 minutos)
-•   Estructura de Repositorios de Código (3 minutos)
-                Próximas Actividades
+## Slide 3
 
+Título: **Próximas Actividades**
 
+**Martes 1 de Julio: Evaluación Externa (Jesús Bellido y Eric Biagioli).**
 
-Sábado 5 de Julio: Evento de Cierre del Programa y Pitches de los proyectos.
-                  Próximas Actividades
-Teoría:
+- 15 minutos por equipo
+- Arquitectura (3 minutos)
+- Demo puntual de profesor y alumno (5 minutos)
+- Estructura de Repositorios de Código (3 minutos)
 
+## Slide 4
 
-Miércoles 2 de Julio: Pruebas Unitarias y Performance (Coverage 100%)
+Título: **Próximas Actividades**
 
-Sobre la implementación del App de Monedas, agregar pruebas unitarias y realizar el
-reporte de code coverage (PyTest o UnitTest) con 100%. Sólo para el Backend.
+**Sábado 5 de Julio: Evento de Cierre del Programa y Pitches de los proyectos.**
 
-Utilizar Jmeter para lanzar requests a la aplicación y validar su funcionamiento sobre una
-carga de uso.
+(Slide de solo texto, una línea de contenido.)
 
--   Diseñar una secuencia de pruebas de modo que todos los requests den positivo:
--   Deposito y Transferencia.
--   Transferencia de ida y vuelta, usando diferentes monedas.
--   Al final de la ejecución validar que el estado de la BD es consistente:
--   Si hice 1000 depositos de 100 y 1000 transferencias de 50, verificar el saldo restante.
-                Próximas Actividades
+## Slide 5
 
+Título: **Próximas Actividades**
 
-Teoría:
+**Teoría:**
 
+**Miércoles 2 de Julio: Pruebas Unitarias y Performance (Coverage 100%)**
 
-Lunes 7 de Julio: Examen Final – Implementación de API con Pruebas Unitarias
+Sobre la implementación del App de Monedas, agregar pruebas unitarias y realizar el reporte de code coverage (PyTest o UnitTest) con 100%. Sólo para el Backend.
+
+Utilizar Jmeter para lanzar requests a la aplicación y validar su funcionamiento sobre una carga de uso.
+
+- Diseñar una secuencia de pruebas de modo que todos los requests den positivo:
+- Deposito y Transferencia.
+- Transferencia de ida y vuelta, usando diferentes monedas.
+- Al final de la ejecución validar que el estado de la BD es consistente:
+- Si hice 1000 depositos de 100 y 1000 transferencias de 50, verificar el saldo restante.
+
+## Slide 6
+
+Título: **Próximas Actividades**
+
+**Teoría:**
+
+**Lunes 7 de Julio: Examen Final – Implementación de API con Pruebas Unitarias**
 
 Ejemplo de Enunciado en Canvas
-Visión del Curso
-                                               Desarrollo de Software
 
+## Slide 7
 
+Título: **Visión del Curso**
 
+Diagrama infográfico importado (en inglés): **"6 Phases of the Software Development Life Cycle"**. Seis chevrons/flechas encadenadas de izquierda a derecha, cada fase con un color distinto y debajo los roles asociados:
 
-    Análisis                     Diseño              Implementación            Pruebas                 Despliegue             Mantenimiento
+| Fase (color) | Roles asociados |
+|---|---|
+| **ANALYSIS** (turquesa) | Product Owner · Project Manager · Business Analyst · CTO |
+| **DESIGN** (morado) | System Architect · UX/UI designer |
+| **DEVELOPMENT** (violeta oscuro) | Front-end Developer · Back-end Developer |
+| **TESTING** (vino/borgoña) | Solutions Architect · QA Engineer · Tester · DevOps |
+| **DEPLOYMENT** (magenta) | Data Administrator · DevOps |
+| **MAINTENANCE** (naranja) | Users · Testers · Support managers |
 
+## Slide 8
 
-Qué debe    hacer   el   Cómo      se   hará   el   Hacer el Software.   El software hace lo que   Entregar,   poner   en   El software funciona, pero
-software?                software?                                       se supone que debe        marcha.                  le falta esto, o está lento,
-                                                                         hacer?                                             o necesita mejorar esto.
-GRACIAS
-CHRISTIAN PAZ TRILLO
+Título: **Desarrollo de Software**
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Infografía horizontal de 6 etapas conectadas por una línea con nodos (cada etapa un ícono circular azul: diana, lupa, cohete, calendario, cohete despegando, cadena/enlace). Debajo, tarjetas con la etapa y su pregunta guía:
+
+| Etapa | Descripción |
+|---|---|
+| **Análisis** | ¿Qué debe hacer el software? |
+| **Diseño** | ¿Cómo se hará el software? |
+| **Implementación** | Hacer el Software. |
+| **Pruebas** | El software hace lo que se supone que debe hacer? |
+| **Despliegue** | Entregar, poner en marcha. |
+| **Mantenimiento** | El software funciona, pero le falta esto, o está lento, o necesita mejorar esto. |
+
+(Es la versión en español, con íconos, del ciclo de vida mostrado en inglés en la slide 7.)
+
+## Slide 9
+
+Cierre. Texto grande "GRACIAS" y subtítulo "CHRISTIAN PAZ TRILLO" sobre foto decorativa de laboratorio con teñido azul. Logos UTEC / TransformaTec decorativos.

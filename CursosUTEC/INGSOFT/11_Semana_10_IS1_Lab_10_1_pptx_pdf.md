@@ -5,23 +5,37 @@ slides: 3
 fuente: 11 - Semana 10/IS1 - Lab 10-1__pptx.pdf
 ---
 
-Ingeniería de Software
+## Slide 1
 
-         Laboratorio
-                      Laboratorio de Software
+Portada del curso.
 
+**Ingeniería de Software**
 
+Subtítulo: *Laboratorio*
 
+(Fondo decorativo: silueta de una figura humanoide/robot caminando por un túnel tecnológico azul; logos UTEC, "Reinventa el mundo" y "TransformaTEC" son chrome de plantilla.)
 
-Próxima Revisión: 10 de Junio
+## Slide 2
 
-Presentación Arquitectura
+**Laboratorio de Software**
+
+**Próxima Revisión: 10 de Junio**
+
+**Presentación Arquitectura**
 - Estructura de Repositorios.
-- Modelo de Despiegue.
+- Modelo de Despliegue. *(en la slide aparece escrito "Despiegue")*
 
-Demo Funcional
+**Demo Funcional**
 - Incluir Funcionalidad Core.
-GRACIAS
-CHRISTIAN PAZ TRILLO
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+(Solo texto sobre plantilla; banda superior con foto decorativa de personas trabajando y línea de gradiente azul. Sin diagramas ni tablas.)
+
+## Slide 3
+
+Slide de cierre.
+
+**GRACIAS**
+
+**CHRISTIAN PAZ TRILLO**
+
+(Fondo decorativo: foto de dos personas con lentes de seguridad trabajando en un laboratorio; chrome de plantilla UTEC/TransformaTEC.)

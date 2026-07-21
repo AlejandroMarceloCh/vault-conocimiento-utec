@@ -5,10 +5,10 @@ slides: 2
 fuente: 10 - Semana 8/Sem8_Evaluación.pdf
 ---
 
-Semana Examen
-Mg. Aldo Lezama Benavides
+## Slide 1
 
+Portada. Título "Semana Examen", subtítulo "Mg. Aldo Lezama Benavides" y "Semana 8". Fondo azul con plantilla UTEC (logo, "Reinventa el mundo", foto del edificio UTEC) — decorativa. Sin diagramas ni contenido adicional.
 
-Semana 8
+## Slide 2
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Cierre. Solo el logo UTEC "Universidad de Ingeniería y Tecnología" centrado sobre fondo azul — decorativa. Sin contenido.
