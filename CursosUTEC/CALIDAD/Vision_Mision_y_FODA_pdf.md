@@ -5,454 +5,326 @@ slides: 26
 fuente: Visión - Misión y FODA.pdf
 ---
 
-GESTIÓN DE LA CALIDAD
+## Slide 1
 
-VISIÓN, MISIÓN y FODA
-     Contenido de Clase
-1.     Visión de la empresa
-2.     Misión de la empresa
-3.     FODA
-   Objetivos de clase
+Portada decorativa: foto del edificio UTEC con overlay azul. Título "GESTIÓN DE LA CALIDAD" y subtítulo "VISIÓN, MISIÓN y FODA". Logo UTEC. Sin contenido académico.
 
-1. Comprender los conceptos de visión, misión y política
-  de calidad como pilares del planeamiento estratégico
-  empresarial.
-2. Analizar las características y estructura de una visión y
-  misión efectivas, considerando el entorno
-  organizacional.
-3. Identificar los elementos clave del análisis FODA como
-  herramienta de diagnóstico estratégico en
-  organizacioneS
-Visión de la empresa
-                                                         VISIÓN DE LA EMPRESA
+## Slide 2
 
-Es la imagen de lo que deseamos que sea nuestra
-empresa en el futuro, de modo que sepamos hacia
-dónde dirigir la empresa, cómo queremos que nos vean
-los clientes.
+"Contenido de Clase". Lista numerada:
+1. Visión de la empresa
+2. Misión de la empresa
+3. FODA
 
-Es importante que sea sintética, expresiva y clara, con
-el fin de lograr una comprensión y un compromiso por
-actuar de acuerdo con los valores que expresa.
+Imagen decorativa lateral (foto arquitectónica UTEC con ícono de checklist superpuesto).
 
+## Slide 3
 
+"Objetivos de clase". Lista numerada:
+1. Comprender los conceptos de visión, misión y política de calidad como pilares del planeamiento estratégico empresarial.
+2. Analizar las características y estructura de una visión y misión efectivas, considerando el entorno organizacional.
+3. Identificar los elementos clave del análisis FODA como herramienta de diagnóstico estratégico en organizaciones.
 
-                                                                                                                            Fuente: https://repositorio.promperu.gob.pe
+Imagen decorativa lateral (foto arquitectónica UTEC).
 
+## Slide 4
 
+Slide separador/portada de sección: "1. Visión de la empresa" sobre foto del edificio UTEC con overlay azul. Decorativa.
 
+## Slide 5
 
-                                                                                          Ejemplo: Visión de Disney:
-                                                                                          "Ser la empresa de entretenimiento líder en el mundo".
-                                Fuente:
-    https://biancamartinez201630030040.blogspot.com/2020/12/difer
-                    encia-entre-mision-y-vision.html
+**VISIÓN DE LA EMPRESA** (encabezado en banda roja).
 
+Texto: "Es la imagen de lo que deseamos que sea nuestra empresa en el futuro, de modo que sepamos hacia dónde dirigir la empresa, cómo queremos que nos vean los clientes. Es importante que sea sintética, expresiva y clara, con el fin de lograr una comprensión y un compromiso por actuar de acuerdo con los valores que expresa."
 
+Diagrama comparativo "SIN VISIÓN vs CON VISIÓN" (fondo verde oliva):
+- Panel izquierdo "SIN VISIÓN": flechas dispersas apuntando en todas direcciones alrededor de un círculo central con la pregunta "¿CUÁL ES EL OBJETIVO?" — representa desorganización sin rumbo claro.
+- Panel derecho "CON VISIÓN": flechas paralelas alineadas apuntando todas hacia un círculo central etiquetado "OBJETIVO" — representa dirección unificada.
 
-                               Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
+Imagen decorativa: gráfico de barras ascendentes con siluetas de personas subiendo, y la palabra "Visión" en cursiva, simbolizando crecimiento/progreso hacia una meta (flecha verde ascendente).
 
-                                                                                                    GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                                          VISIÓN DE LA EMPRESA
-   CARACTERÍSTICAS
+Recuadro amarillo destacado: "Ejemplo: Visión de Disney: 'Ser la empresa de entretenimiento líder en el mundo'."
 
-1. Expresa un horizonte o propósito al que todos los
-   integrantes de la organización desean llegar.
+## Slide 6
 
-1. Ayuda en la correcta toma de decisiones y asignación de
-   recursos.
+**VISIÓN DE LA EMPRESA — CARACTERÍSTICAS** (encabezado rojo).
 
-1. Es una motivación para la organización y promueve la
-   acción.
+Lista de 6 características (numeradas como "1." repetido en el original, es una lista simple):
+1. Expresa un horizonte o propósito al que todos los integrantes de la organización desean llegar.
+2. Ayuda en la correcta toma de decisiones y asignación de recursos.
+3. Es una motivación para la organización y promueve la acción.
+4. Su campo de visualización es a largo plazo abarcando objetivos hacia el futuro.
+5. Debe ser fidedigna, teniendo en cuenta el entorno, la tecnología, la cultura organizacional, los recursos y la competencia.
+6. Puede ajustarse con el paso del tiempo si así se requiere.
 
-1. Su campo de visualización es a largo plazo abarcando
-   objetivos hacia el futuro.
+Diagrama radial "Visión" (círculo central gris con la palabra "Visión") rodeado de 4 círculos naranjas conectados por flechas en sentido circular, cada uno con una pregunta:
+- "¿Qué y cómo queremos ser?" (arriba)
+- "¿Para qué lo hacemos?" (derecha)
+- "¿Hacia dónde vamos?" (abajo)
+- "¿Qué valores tenemos?" (izquierda)
 
-1. Debe ser fidedigna, teniendo en cuenta el entorno, la
-   tecnología, la cultura organizacional, los recursos y la
-   competencia.
+## Slide 7
 
-1. Puede ajustarse con el paso del tiempo si así se requiere.
+**Estructura de una Visión** (encabezado rojo).
 
-      Fuente: https://enciclopediaeconomica.com/vision/
+Texto introductorio: "Una visión empresarial debe estar diseñada de manera clara y motivadora, enfocándose en el futuro y el propósito de la organización. Para estructurar adecuadamente, se recomienda:"
 
-
-                                                                                       Fuente: https://enciclopediaeconomica.com/vision/
-
-
-                                                                       GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                             Estructura de una Visión
-
-
-Una visión empresarial debe estar diseñada de manera clara y motivadora, enfocándose en el
-futuro y el propósito de la organización.
-Para estructurar adecuadamente, se recomienda:
+Lista numerada de 6 elementos de estructura:
 1. Horizonte a largo plazo: Definir cómo la organización se proyecta en el futuro.
-2. Propósito claro: Expresar el objetivo principal de la empresa hacia el cual todos los
-   integrantes deben trabajar.
+2. Propósito claro: Expresar el objetivo principal de la empresa hacia el cual todos los integrantes deben trabajar.
 3. Inspiración: Motivar a los empleados y stakeholders con un mensaje aspiracional.
 4. Claridad y síntesis: Mantener el mensaje simple y fácil de entender.
-5. Fidelidad al entorno: Tener en cuenta la realidad del mercado, los recursos disponibles y la
-   competencia.
-6. Adaptabilidad: Dejar espacio para ajustes con el paso del tiempo según los cambios del
-   entorno.
+5. Fidelidad al entorno: Tener en cuenta la realidad del mercado, los recursos disponibles y la competencia.
+6. Adaptabilidad: Dejar espacio para ajustes con el paso del tiempo según los cambios del entorno.
 
+Slide solo texto, sin gráficos.
 
+## Slide 8
 
-                                                    GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-Misión de la empresa
-                                                               MISIÓN DE LA EMPRESA
-                                                                                                                           • ¿Quiénes somos?
-Es la razón del por la que has creado tu empresa, es
-                                                                                                                           • ¿Qué hacemos?
+Slide separador/portada de sección: "2. Misión de la empresa" sobre foto del edificio UTEC con overlay azul. Decorativa.
 
+## Slide 9
 
+**MISIÓN DE LA EMPRESA** (encabezado rojo).
 
-                                                                                                              RESPONDE
-el fin último de sus actividades, en qué mejora el mundo                                                                   • ¿Hacia dónde nos dirigimos?
-gracias a la actividad que tú realizas.                                                                                    • ¿A quién estoy ofreciendo los productos o
-                                                                                                                              servicios que vendo?
-La misión debe ser formulada en un lenguaje motivador,
-                                                                                                                           • ¿Qué         necesidad           de   mis   clientes   pretendo
-claro y desafiante. Su comprensión orientará las                                                                              satisfacer?
-acciones de los miembros de la organización.
+Texto: "Es la razón del por la que has creado tu empresa, es el fin último de sus actividades, en qué mejora el mundo gracias a la actividad que tú realizas. La misión debe ser formulada en un lenguaje motivador, claro y desafiante. Su comprensión orientará las acciones de los miembros de la organización."
 
-                                                                                              Visión                de     Disney:             "Ser           la   empresa          de
-                                                                                              entretenimiento líder en el mundo".
+Diagrama: banda vertical roja etiquetada "RESPONDE" con llave que conecta a lista de preguntas:
+- ¿Quiénes somos?
+- ¿Qué hacemos?
+- ¿Hacia dónde nos dirigimos?
+- ¿A quién estoy ofreciendo los productos o servicios que vendo?
+- ¿Qué necesidad de mis clientes pretendo satisfacer?
 
-                                                                                              Misión de Disney: "Crear y distribuir entretenimiento y
-                                                                                              experiencias de alta calidad que inspiran, emocionan y
-                                                                                              enriquecen la vida de las personas en todo el mundo, al
+Imagen decorativa: escalera de rompecabezas con siluetas de personas subiendo y la palabra "MISIÓN".
 
-                                       Fuente:
-                                                                                              mismo tiempo que generamos valor a largo plazo para
-           https://biancamartinez201630030040.blogspot.com/2020/12/difer
-                           encia-entre-mision-y-vision.html                                   nuestros accionistas".
-                     Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                                            GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                                             MISIÓN DE LA EMPRESA
+Recuadros amarillos destacados con ejemplo Disney:
+- Visión de Disney: "Ser la empresa de entretenimiento líder en el mundo".
+- Misión de Disney: "Crear y distribuir entretenimiento y experiencias de alta calidad que inspiran, emocionan y enriquecen la vida de las personas en todo el mundo, al mismo tiempo que generamos valor a largo plazo para nuestros accionistas".
 
-                  CARACTERÍSTICAS
+## Slide 10
 
+**MISIÓN DE LA EMPRESA — CARACTERÍSTICAS** (encabezado rojo).
+
+Lista de 8 características:
 1. Describe la razón de ser y el propósito de la organización.
+2. Es precisa, factible, memorable y fácil de recordar.
+3. Se encuentra enfocada hacia la actualidad, y en esto se diferencia con la visión.
+4. Comunica los principios de la empresa.
+5. Visualiza valores importantes de la empresa.
+6. Orientada principalmente a los consumidores.
+7. Muestra aspectos personales instaurados humanamente en la empresa.
+8. Es clara y fácil de comprender.
 
-1. Es precisa, factible, memorable y fácil de recordar.
+Diagrama radial "Misión" (círculo central gris) rodeado de 4 círculos naranjas conectados por flechas circulares, cada uno con una pregunta:
+- "¿Quiénes somos?" (arriba)
+- "¿Qué hacemos?" (derecha)
+- "¿Qué nos diferencia?" (abajo)
+- "¿Para quiénes trabajamos?" (izquierda)
 
-1. Se encuentra enfocada hacia la actualidad, y en esto se
-   diferencia con la visión.
+## Slide 11
 
-1. Comunica los principios de la empresa.
+**Estructura de una Misión** (encabezado rojo).
 
-1. Visualiza valores importantes de la empresa.
+Lista de 5 elementos con ejemplo cada uno:
+- Propósito o razón de ser: Explica por qué existe la empresa y qué busca lograr. Ejemplo: "Brindar soluciones tecnológicas innovadoras que mejoren la vida de las personas."
+- Qué hace la empresa: Describe las actividades principales o servicios que ofrece. Ejemplo: "Diseñamos y desarrollamos software personalizado."
+- A quién está dirigida: Identifica quiénes son los clientes o beneficiarios principales. Ejemplo: "Ayudamos a pequeñas y medianas empresas."
+- Diferenciación: Destaca qué hace única a la empresa o cómo se diferencia de la competencia. Ejemplo: "Nos enfocamos en soluciones sostenibles y accesibles."
+- Impacto o valores: Muestra el impacto deseado en la sociedad o los valores que guían a la empresa. Ejemplo: "Promovemos el uso de tecnologías verdes para un futuro más sostenible."
 
-1. Orientada principalmente a los consumidores.
+Recuadro destacado (fondo durazno claro) con ejemplo de misión completa:
+"Facilitamos el acceso a productos naturales y sostenibles, promoviendo un estilo de vida saludable mientras apoyamos a comunidades locales y protegemos el medio ambiente."
 
-1. Muestra aspectos personales instaurados humanamente en
-   la empresa.
+## Slide 12
 
-1. Es clara y fácil de comprender.
+**MISIÓN Y VISIÓN DE LA EMPRESA** (encabezado rojo). Tabla comparativa:
 
-                                                                                          Fuente: https://enciclopediaeconomica.com/mision/
+| | VISIÓN | MISIÓN |
+|---|---|---|
+| DEFINICIÓN | Lugar al que la organización desea llegar. | Razón y propósito de la organización. |
+| RESPONDE | ¿A dónde queremos llegar? ¿Qué valores tenemos? ¿Hacia dónde vamos? | ¿Quiénes somos? ¿Qué hacemos? ¿Qué nos diferencia? |
+| TIEMPO | Futuro a largo plazo. | Futuro a corto plazo. |
+| FUNCIÓN | Inspiración. | Identidad. |
 
+## Slide 13
 
+"Ejemplos" — Amazon.
 
-                  Fuente: https://enciclopediaeconomica.com/mision/
-                                                                          GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                  Estructura de una Misión
+**Visión** Amazon: "Ser la empresa más centrada en el cliente del mundo, donde los clientes pueden encontrar y descubrir cualquier cosa que quieran comprar en línea".
 
-• Propósito o razón de ser: Explica por qué existe la empresa y qué busca lograr.
-  Ejemplo: "Brindar soluciones tecnológicas innovadoras que mejoren la vida de las personas."
-• Qué hace la empresa: Describe las actividades principales o servicios que ofrece.
-  Ejemplo: "Diseñamos y desarrollamos software personalizado."
-• A quién está dirigida: Identifica quiénes son los clientes o beneficiarios principales.
-  Ejemplo: "Ayudamos a pequeñas y medianas empresas."
-• Diferenciación: Destaca qué hace única a la empresa o cómo se diferencia de la competencia.
-  Ejemplo: "Nos enfocamos en soluciones sostenibles y accesibles."
-• Impacto o valores: Muestra el impacto deseado en la sociedad o los valores que guían a la empresa.
-  Ejemplo: "Promovemos el uso de tecnologías verdes para un futuro más sostenible."
+**Misión** Amazon: "Ofrecer a nuestros clientes la mejor experiencia de compra en línea, proporcionando una amplia selección de productos, precios competitivos, envíos rápidos y confiables, y un servicio al cliente excepcional. Nos esforzamos por ser una empresa innovadora y tecnológica, donde los empleados puedan alcanzar su máximo potencial y contribuir al éxito de la empresa".
 
+Slide solo texto (títulos en rojo "Visión"/"Misión" subrayados), sin gráficos.
 
-Por ejemplo, una misión bien elaborada podría ser:
-"Facilitamos el acceso a productos naturales y sostenibles, promoviendo un estilo de vida saludable mientras
-apoyamos a comunidades locales y protegemos el medio ambiente.
+## Slide 14
 
-                                                             GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                     MISIÓN Y VISIÓN DE LA EMPRESA
+"Ejemplos" — Starbucks.
 
-A continuación, se relacionan las principales diferencias entre los conceptos de misión y visión:
+**Visión** Starbucks: "Inspirar y nutrir el espíritu humano: una persona, una taza de café y una comunidad a la vez".
 
+**Misión** Starbucks: "Proporcionar una experiencia única y personalizada a través de la pasión por el café de alta calidad, el compromiso con la excelencia y el respeto por las comunidades en las que operamos. Nos esforzamos por crear un ambiente acogedor donde los clientes puedan disfrutar de momentos de conexión y alegría, y donde los socios (empleados) se sientan valorados, respetados y empoderados".
 
-                                                             VISIÓN                                   MISIÓN
+Slide solo texto, mismo formato que la anterior.
 
+## Slide 15
 
-                                              Lugar al que la organización                 Razón y propósito de la
-     DEFINICIÓN
-                                                     desea llegar.                             organización.
+"¿PREGUNTAS?" — slide de transición con ilustración decorativa: ícono de dos personas (silueta hombre pelo castaño con polo rojo, silueta mujer pelirroja con polo celeste) y un globo de diálogo amarillo con signo de interrogación entre ambas. Sin contenido académico adicional.
 
+## Slide 16
 
+"Actividades en Clase". Texto destacado en color teal/turquesa:
+"Buscar 2 ejemplos de Visión y misión de una empresa existente y luego replantearlos"
 
-                                         ¿A dónde queremos llegar? ¿Qué
-                                                                                        ¿Quiénes somos? ¿Qué
-      RESPONDE                            valores tenemos? ¿Hacia dónde
-                                                                                     hacemos? ¿Qué nos diferencia?
-                                                      vamos?
+Slide de instrucción de actividad, sin gráficos adicionales.
 
+## Slide 17
 
-        TIEMPO                                       Futuro a largo plazo.                   Futuro a corto plazo.
+Slide separador/portada de sección: "3. FODA" sobre foto del edificio UTEC con overlay azul. Decorativa.
 
-       FUNCIÓN                                             Inspiración.                              Identidad.
+## Slide 18
 
+**DIAGNÓSTICO DE LA EMPRESA: FODA** (encabezado rojo).
 
+Texto: "Mediante el análisis interno y externo se compara la situación actual de la empresa con la realidad y se analiza la gestión de las estrategias dentro de la organización. En base a ello también se pueden crear, actualizar o eliminar estrategias."
 
-       Fuente: https://enciclopediaeconomica.com/mision/
-                                                                             GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                      Ejemplos
-                Visión
+Recuadro "ANÁLISIS FODA": "Nos permite analizar y conocer el estado o realidad de la situación (interna y externa) de la empresa." Este análisis nos permitirá conocer:
+- El desempeño de la empresa, entre ellos, la capacidad de operación, la capacidad financiera, uso de tecnología, entre otros.
+- El entorno que la rodea, entre ellos, la parte política, económica, competidores, cambios en el mercado, entre otros.
+- Con qué herramientas contamos para hacer frente a los cambios que se presentan en el mercado.
 
-Amazon:
-"Ser la empresa más centrada en el cliente del mundo, donde los clientes
-pueden encontrar y descubrir cualquier cosa que quieran comprar en línea".
+Diagrama/infografía "ANÁLISIS FODA" en cuadrantes con íconos:
+- FORTALEZAS (ícono de mancuerna/fuerza, mano levantando pesas)
+- OPORTUNIDADES (ícono de manos conectando piezas, como enchufe)
+- DEBILIDADES (ícono de cadena rota)
+- AMENAZAS (ícono de triángulo de advertencia con exclamación)
 
+## Slide 19
 
-            Misión
+**FODA: ANÁLISIS INTERNO** — Fortalezas (encabezado rojo).
 
-Amazon: "Ofrecer a nuestros clientes la mejor experiencia de compra en línea, proporcionando una
-amplia selección de productos, precios competitivos, envíos rápidos y confiables, y un servicio al
-cliente excepcional. Nos esforzamos por ser una empresa innovadora y tecnológica, donde los
-empleados puedan alcanzar su máximo potencial y contribuir al éxito de la empresa".
+Texto: "Es necesario que prestes atención a las diferentes áreas de la empresa, los colaboradores, las finanzas, operaciones, recursos. Una vez que los hayas detectado, dividirlos en:"
 
+Recuadro "FORTALEZAS": "Son las principales ventajas (comparativas), capacidades y recursos, en los cuales la empresa se puede apoyar para llegar a concretar la visión. Deben capitalizarse y aprovecharse para contrarrestar las DEBILIDADES."
 
+EJEMPLO (lista):
+- Conocimientos técnicos.
+- Buena red con los clientes.
+- Experiencia en gestión.
+- Sistema de distribución.
+- Precio comparativamente bajo.
+- Nuevas mejoras del producto.
+- Calidad de los Empaques.
+- Tecnología superior del producto.
+- Características del producto.
 
+Imagen: pirámide de bloques de madera con íconos (bombilla de idea, gráfico de barras ascendente, gráfico circular, apretón de manos, personas, globo de diálogo, cabezas con engranajes) sobre fondo de oficina/pantallas — ilustra "Conocimiento y experiencia del equipo".
 
-                                                                            GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2
-                                       Ejemplos
-         Visión
+## Slide 20
 
-Starbucks:
-"Inspirar y nutrir el espíritu humano: una persona, una taza de café y una
-comunidad a la vez".
+**FODA: ANÁLISIS INTERNO** — Debilidades (encabezado rojo).
 
-          Misión
+Recuadro "DEBILIDADES": "Son las razones, circunstancias reales o percibidas por las cuales la empresa no funciona bien (no se orientan hacia la visión) y los clientes no se sienten contentos o satisfechos. En la medida de lo posible, deben ser eliminadas."
 
+EJEMPLO (lista):
+- Ningún control sobre materia prima.
+- Producto de vida limitada.
+- Mal diseño del producto del trabajo.
+- Débil empeño en las ventas.
+- Bajo nivel de existencias.
+- Gerentes o dueños sin experiencia.
+- Falta de experiencia en promoción.
+- Tecnología obsoleta.
+- Falta de capital.
 
-Starbucks: "Proporcionar una experiencia única y personalizada a través de la pasión por el café de
-alta calidad, el compromiso con la excelencia y el respeto por las comunidades en las que operamos.
-Nos esforzamos por crear un ambiente acogedor donde los clientes puedan disfrutar de momentos
-de conexión y alegría, y donde los socios (empleados) se sientan valorados, respetados y
-empoderados".
+Imagen: ilustración de un hombre con camisa a rayas sentado en escritorio, con las manos en la cabeza en gesto de frustración, frente a una laptop con un ícono de calavera/pirata en la pantalla (simboliza fallo/virus de sistema obsoleto). Sobre el escritorio hay gráficos impresos, una taza de café y lentes. Título de ejemplo: "Tecnología/software obsoleto".
 
+## Slide 21
 
+**FODA: ANÁLISIS EXTERNO** — Oportunidades (encabezado gris azulado).
 
+Texto: "Puedes apoyarte en estudios de mercado, así investigamos los principales competidores y te informaras sobre los cambios legales y políticos pertinentes a tu sector. Los puedes dividir en:"
 
-                                                                              GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2
-¿PREGUNTAS?
-      Actividades en Clase
+Recuadro "OPORTUNIDADES": "Son circunstancias externas favorables que la empresa puede aprovechar para avanzar hacia la visión. Deben capitalizarse y aprovecharse para contrarrestar las AMENAZAS."
 
+EJEMPLO (lista):
+- Pocos competidores y débiles.
+- Incremento de ingresos en mercado meta.
+- Demanda en aumento.
+- Productos similares tienen ganancia.
+- Disponibilidad de asistencia técnica.
+- Acceso a materia prima barata.
+- No hay producto igual.
+- Escasez del producto.
+- Políticas favorables.
 
+Imagen: ilustración de figuras humanas subiendo escalones/bloques verdes en ascenso, con una figura corriendo hacia un círculo oscuro (meta) al final del camino — simboliza avanzar aprovechando "Poca competencia de tu producto".
 
+## Slide 22
 
-Buscar 2 ejemplos de Visión y misión
- de una empresa existente y luego
-            replantearlos
+**FODA: ANÁLISIS EXTERNO** — Amenazas (encabezado gris azulado).
 
+Mismo texto introductorio que slide 21.
 
+Recuadro "AMENAZAS": "Son aspectos desfavorables en el contexto, que pueden afectar negativamente el desarrollo de la empresa hacia la visión. Afectan adversamente a la empresa, deben ser identificadas y eliminadas."
 
+EJEMPLO (lista):
+- Aumento en costo de materia prima.
+- Déficit de materia prima calificada.
+- Desastres naturales.
+- Soborno y corrupción.
+- Mala infraestructura.
+- Cambios en reglamentos del gobierno.
+- Burocracia gubernamental.
+- Robo de mano de obra.
+- Insuficiente energía.
 
-                                GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2
-FODA
-                                 DIAGNÓSTICO DE LA EMPRESA: FODA
-
-Mediante el análisis interno y externo se compara la situación actual de la empresa
-con la realidad y se analiza la gestión de las estrategias dentro de la organización.
-En base a ello también se pueden crear, actualizar o eliminar estrategias.
-
-                      ANÁLISIS FODA
-Nos permite analizar y conocer el estado o realidad
-de la situación (interna y externa) de la empresa.
-
-Este análisis nos permitirá conocer:
-
-• El desempeño de la empresa, entre ellos, la
-  capacidad de operación, la capacidad financiera,
-  uso de tecnología, entre otros.
-
-• El entorno que la rodea, entre ellos, la parte política,
-  económica, competidores, cambios en el mercado,
-  entre otros.
-
-• Con qué herramientas contamos para hacer frente a                                            Fuente: https://economipedia.com/definiciones/analisis-dafo.html
-  los cambios que se presentan en el mercado.
-         Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                                GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                                      FODA: ANÁLISIS INTERNO
-
-Es necesario que prestes atención a las diferentes áreas de la empresa, los colaboradores, las finanzas,
-operaciones, recursos. Una vez que los hayas detectado, dividirlos en:
-
-                        FORTALEZAS
-                                                                                                  Ejemplo: Conocimiento y experiencia del equipo
- Son    las  principales    ventajas     (comparativas),
- capacidades y recursos, en los cuales la empresa se
- puede apoyar para llegar a concretar la visión.
-
- Deben capitalizarse y aprovecharse para contrarrestar
- las DEBILIDADES.
- EJEMPLO:
- • Conocimientos técnicos.
- • Buena red con los clientes.
- • Experiencia en gestión.
- • Sistema de distribución.
- • Precio comparativamente bajo.
- • Nuevas mejoras del producto.
- • Calidad de los Empaques.                                                                       Fuente: https://www.pragma.com.co/blog/la-gestion-del-conocimiento-
-                                                                                                                      y-el-marketing-de-contenidos
- • Tecnología superior del producto.
- • Características del producto.
-              Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                                     GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                                     FODA: ANÁLISIS INTERNO
-
-                       DEBILIDADES
-                                                                                                     Ejemplo: Tecnología/software obsoleto
-Son las razones, circunstancias reales o percibidas por
-las cuales la empresa no funciona bien (no se orientan
-hacia la visión) y los clientes no se sienten contentos o
-satisfechos.
+Imagen: billete de $100 dólares (rostro de Benjamin Franklin) craquelado/agrietado con una flecha roja en zigzag descendente superpuesta, simbolizando "Crisis financiera internacional".
 
-En la medida de lo posible, deben ser eliminadas.
-EJEMPLO
-• Ningún control sobre materia prima.
-• Producto de vida limitada.
-• Mal diseño del producto del trabajo.
-• Débil empeño en las ventas.
-• Bajo nivel de existencias.
-• Gerentes o dueños sin experiencia.
-• Falta de experiencia en promoción.                                                             Fuente: https://latam.kaspersky.com/blog/47-de-empresas-latinas-usa-
-                                                                                                     tecnologia-obsoleta-dentro-de-su-infraestructura-de-ti/21321/
-• Tecnología obsoleta.
-• Falta de capital.
+## Slide 23
 
+"Preguntas claves para elaborar un análisis FODA" (encabezado rojo).
 
+Captura/infografía tipo tabla escrita a mano (estilo cartel), organizada en cuadrantes por "Factores internos" y "Factores externos", cruzados con "Aspectos Negativos" y "Aspectos Positivos":
 
+| | Aspectos Negativos | Aspectos Positivos |
+|---|---|---|
+| **Factores internos** | **Debilidades**: ¿Qué se puede mejorar? ¿Qué se debería evitar? ¿Existen dificultades financieras? ¿Hay problemas de motivación del personal? ¿Existen resistencias a posibles cambios? | **Fortalezas**: ¿Qué ventaja tiene la empresa? ¿Qué hace la empresa mejor que las demás? ¿Qué recursos distinguen a la empresa? ¿Qué percibe el mercado como fortalezas de la empresa? ¿Qué elementos la acreditan? |
+| **Factores externos** | **Amenazas**: ¿A qué obstáculos se enfrenta la empresa? ¿Qué hacen mejor los competidores? ¿Existen problemas con los competidores? ¿Existen nuevos productos sustitutivos? ¿Qué factores reducen las ventas? | **Oportunidades**: ¿Qué tendencias nos favorecen? ¿Estamos en bonanza económica? ¿Cambios tecnológicos favorables a la empresa? ¿Cambios en los estilos de vida? ¿Muestran debilidades los competidores? |
 
-             Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                                    GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
+## Slide 24
 
-                                                 FODA: ANÁLISIS EXTERNO
+**APLICACIÓN DEL ANÁLISIS FODA** (encabezado rojo).
 
-Puedes apoyarte en estudios de mercado, así investigamos los principales competidores y
-te informaras sobre los cambios legales y políticos pertinentes a tu sector. Los puedes
-dividir en:
-                                                                                                             OPORTUNIDADES
-            Ejemplo: Poca competencia de tu producto
-                                                                                 Son circunstancias externas favorables que la empresa
-                                                                                 puede aprovechar para avanzar hacia la visión.
+Texto: "Algunas pautas para la aplicación del análisis FODA en su empresa. Se recomienda trabajar con una matriz de análisis FODA."
 
-                                                                                 Deben capitalizarse y aprovecharse para contrarrestar
-                                                                                 las AMENAZAS.
+Diagrama de flujo vertical (4 pasos, cajas de colores progresivos de celeste a azul oscuro, conectadas con flechas rojas descendentes):
+1. Analice sobre la situación y desempeño actual de su empresa. Anote sus fortalezas y las debilidades.
+2. Piense en el entorno externo para su empresa ¿Cuáles son las oportunidades y amenazas?
+3. Marque con un (*) todos los puntos que piensa son muy importantes y tendrán un gran impacto en el empresa.
+4. Pregúntese: ¿Puedo aprovechar las oportunidades y fortalezas para esta empresa? ¿Puedo superar las debilidades y evitar las amenazas para esta empresa?
 
-                                                                                 EJEMPLO:
-                                                                                 • Pocos competidores y débiles.
-                                                                                 • Incremento de ingresos en mercado meta.
-                                                                                 • Demanda en aumento.
-                                                                                 • Productos similares tienen ganancia.
-                                                                                 • Disponibilidad de asistencia técnica.
-                                                                                 • Acceso a materia prima barata.
-         Fuente: https://serprofempsa.com/2020/01/04/desarrollo-competitivo/
-                                                                                 • No hay producto igual.
-                                                                                 • Escasez del producto.
-                                                                                 • Políticas favorables.
+Diagrama plantilla de matriz FODA (morado), con 4 cabeceras y recuadros vacíos debajo/encima para completar:
+- FORTALEZAS "DEBEN CAPITALIZARSE" → recuadro vacío
+- DEBILIDADES "DEBEN ELIMINARSE" → recuadro vacío
+- OPORTUNIDADES "PARA HACER USO DE ELLAS" → recuadro vacío (flecha hacia arriba)
+- AMENAZAS "PARA EVADIRLAS" → recuadro vacío (flecha hacia arriba)
 
-        Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                               GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                                 FODA: ANÁLISIS EXTERNO
-Puedes apoyarte en estudios de mercado, así investigamos los principales competidores y
-te informaras sobre los cambios legales y políticos pertinentes a tu sector. Los puedes
-dividir en:
-                                                                                                                          AMENAZAS
-              Ejemplo: Crisis financiera internacional
-                                                                                         Son aspectos desfavorables en el contexto, que
-                                                                                         pueden afectar negativamente el desarrollo de la
-                                                                                         empresa hacia la visión.
+## Slide 25
 
-                                                                                         Afectan adversamente a la empresa, deben ser
-                                                                                         identificadas y eliminadas.
-                                                                                         EJEMPLO:
-                                                                                         • Aumento en costo de materia prima.
-                                                                                         • Déficit de materia prima calificada.
-                                                                                         • Desastres naturales.
-                                                                                         • Soborno y corrupción.
-                                                                                         • Mala infraestructura.
-                                                                                         • Cambios en reglamentos del gobierno.
-            Fuente: https://revistaideele.com/ideele/content/entre-la-crisis-
-                                                                                         • Burocracia gubernamental.
-        financiera-y-la-crisis-social-el-nuevo-dilema-de-am%C3%A9rica-latina             • Robo de mano de obra.
-                                                                                         • Insuficiente energía.
+**DEFINICIÓN DE LA ESTRATEGIA** (encabezado rojo).
 
-        Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                               GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-Preguntas claves para elaborar un análisis FODA
+Texto: "Según el análisis FODA, una empresa puede planificar sus estrategias:"
+- Respondiendo a las oportunidades y amenazas de su entorno.
+- Explotando sus fortalezas y evitando sus debilidades.
 
+Tabla/matriz estratégica (imagen, fondo azul):
 
+| | OPORTUNIDADES | AMENAZAS |
+|---|---|---|
+| **FORTALEZAS** | **ESTRATEGIA DE ÉXITO** — Estrategia FO: Utilizar las fortalezas para aprovechar las oportunidades | **ESTRATEGIA DEFENSIVA** — Estrategia FA: Utilizar las fortalezas para evitar las amenazas |
+| **DEBILIDADES** | **ESTRATEGIA DE REORIENTACIÓN** — Estrategia DO: Superar las debilidades para aprovechar las oportunidades | **ESTRATEGIA DE SUPERVIVENCIA** — Estrategia DA: Reducir las debilidades y evitar las amenazas |
 
+## Slide 26
 
-                           GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                               APLICACIÓN DEL ANÁLISIS FODA
-
-Algunas pautas para la aplicación del análisis FODA en su empresa. Se recomienda
-trabajar con una matriz de análisis FODA.
-
-
-1. Analice sobre la situación y desempeño
-   actual de su empresa. Anote sus
-   fortalezas y las debilidades.
-
-
-2. Piense en el entorno externo para su
-   empresa ¿Cuáles son las oportunidades y
-   amenazas?.
-
-3. Marque con un (*) todos los puntos que
-   piensa son muy importantes y tendrán un
-   gran impacto en el empresa.
-
-
-4. Pregúntese: ¿Puedo aprovechar las
-   oportunidades y fortalezas para esta
-                                                                                                                   Fuente:
-   empresa? ¿Puedo superar las debilidades                                         https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/G
-   y evitar las amenazas para esta empresa?                                            uia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-
-
-
-
-Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                       GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-                                  DEFINICIÓN DE LA ESTRATEGIA
-
-  Según el análisis FODA, una empresa puede planificar sus estrategias:
-
-  • Respondiendo a las oportunidades y amenazas de su entorno.
-  • Explotando sus fortalezas y evitando sus debilidades.
-
-
-
-
-                                         ESTRATEGIA DE ÉXITO                                              ESTRATEGIA DEFENSIVA
-
-
-
-
-                                         ESTRATEGIA DE                                                  ESTRATEGIA DE
-                                         REORIENTACIÓN                                                  SUPERVIVENCIA
-
-
-
-
-                                                                            Fuente de imagen:
-                   https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-
-Fuente: https://repositorio.promperu.gob.pe/bitstream/handle/123456789/175/Guia_11_Planeamiento_estrategico_2014_keyword_principal.pdf
-                                                                                               GESTIÓN DE LA CALIDAD / Sesión 4.1 / ciclo 2025-2 / Mg. Ing. Cintya Garcia Ramos
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Slide de cierre decorativa: foto de escaleras concreto/interior UTEC con overlay azul turquesa, logo UTEC y texto "UNIVERSIDAD DE INGENIERÍA Y TECNOLOGÍA". Sin contenido académico.
