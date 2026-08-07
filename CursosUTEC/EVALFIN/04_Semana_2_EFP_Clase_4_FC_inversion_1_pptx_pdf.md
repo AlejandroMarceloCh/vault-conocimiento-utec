@@ -5,703 +5,473 @@ slides: 46
 fuente: 04 - Semana 2/EFP - Clase 4 - FC inversión-1__pptx.pdf
 ---
 
-Flujo de Caja de la Inversión
-Evaluación Financiera de Proyectos - Semana 4
-Objetivo(s) de la sesión
-                           • Comprender el rol de la depreciación
-                             y amortización en la evaluación
-                             financiera de proyectos.
+## Slide 1
 
-                           • Analizar el flujo de caja de la inversión
-                             considerando valor residual y capital
-                             de trabajo.
+Portada del capítulo. Título "Flujo de Caja de la Inversión", subtítulo "Evaluación Financiera de Proyectos - Semana 4". Fondo: imagen decorativa (túnel digital azul con silueta humana/robot, marca de agua "TransformaTec"). Sin contenido académico adicional.
 
+## Slide 2
 
+"Objetivo(s) de la sesión". Dos objetivos en viñetas:
+- Comprender el rol de la depreciación y amortización en la evaluación financiera de proyectos.
+- Analizar el flujo de caja de la inversión considerando valor residual y capital de trabajo.
 
+Imagen lateral decorativa (dos personas revisando documentos).
 
-                                                                         2
-Contenido
+## Slide 3
+
+"Contenido" — lista numerada de 6 temas del capítulo:
 1. Depreciación de un activo tangible.
-
 2. Amortización de un activo intangible.
-
 3. Valor residual.
-
 4. Capital de trabajo.
-
 5. Flujo de caja de la inversión.
-
 6. Casos de aplicación.
 
+Imagen lateral decorativa (persona con visor VR).
 
+## Slide 4
 
+Slide separador de sección "1. Depreciación de un activo tangible". Solo título e ícono de lista; imagen decorativa (mano robótica sobre globo digital).
 
-                                           3
-1.
-     Depreciación de un
-     activo tangible
+## Slide 5
 
+"Depreciación de un activo tangible". Texto:
+- Disminución del valor de un activo a lo largo del tiempo debido al uso, desgaste u obsolescencia.
+- No representa salida de efectivo.
+- Tiene efecto tributario.
+- Se aplica a activos tangibles: Maquinaria y Equipos, Edificios, Vehículos, Mobiliario y Enseres.
 
+Diagrama circular ("Métodos de depreciación") con un círculo central azul "Métodos de depreciación" y 4 cajas conectadas por flechas alrededor:
+- Arriba: "Lineal" → nota lateral: "Disminuye el valor uniformemente. Usada en evaluación de proyectos" (en negrita).
+- Izquierda: "Unidades de producción".
+- Derecha: "Suma de dígitos del año".
+- Abajo: "Acelerada (doble decreciente)".
 
+## Slide 6
 
-                          4
-               Depreciación de un activo tangible
-                                                               Disminuye el valor
-• Disminución del valor de un                       Lineal     uniformemente.
-  activo a lo largo del tiempo                                 Usada en evaluación
-  debido al uso, desgaste u                                    de proyectos.
-  obsolescencia.
-• No representa salida de
-  efectivo.
-                                                 Métodos
-• Tiene efecto tributario.       Unidades de                              Suma de
-                                 producción        de                  dígitos del año
-                                               depreciación
-Se aplica a activos tangibles:
-• Maquinaria y Equipos.
-• Edificios.
-• Vehículos.
-                                                 Acelerada
-• Mobiliario y Enseres.                            (doble
-                                                decreciente)
+"Método de depreciación lineal". Texto:
+- Más común y simple para calcular la depreciación.
+- Asume que el activo pierde el mismo valor cada año durante su vida útil.
 
-                                                                                     5
-            Método de depreciación lineal
+Tres fórmulas en recuadros redondeados (LaTeX):
 
-• Más común y simple para calcular la depreciación.
+$$\text{Depreciación anual} = \frac{\text{Valor en libros inicial} - \text{Valor de rescate}}{\text{Vida útil (en años)}}$$
 
+$$\text{Depreciación acumulada} = \text{Depreciación anual} \times \text{Años depreciándose contablemente}$$
 
-• Asume que el activo pierde el mismo valor cada año durante su vida útil.
+$$\text{Valor en libros final} = \text{Valor en libros inicial} - \text{Depreciación acumulada}$$
 
+## Slide 7
 
-Fórmulas:
+"Ejemplo". Enunciado: maquinaria adquirida en $10,000, valor de rescate $1,000, vida útil 5 años; calcular depreciación anual y valor en libros final.
 
+Tabla "Solución" (encabezado celeste, filas alternadas):
 
+| Año | Valor en libros inicial | Depreciación anual | Valor en libros final |
+|---|---|---|---|
+| 1 | $10,000 | $1,800 | $8,200 |
+| 2 | $8,200 | $1,800 | $6,400 |
+| 3 | $6,400 | $1,800 | $4,600 |
+| 4 | $4,600 | $1,800 | $2,800 |
+| 5 | $2,800 | $1,800 | **$1,000** |
 
+## Slide 8
 
-                                                                             6
-            Ejemplo
+Slide separador de sección "2. Amortización de un activo intangible". Solo título e ícono; imagen decorativa (mano robótica sobre globo digital, igual estilo que slide 4).
 
-Una maquinaria se adquiere al valor de $10,000. Sabiendo que tendrá un valor de rescate de
-$1,000 y una vida útil de 5 años, calcule la depreciación anual y el valor en libros final.
+## Slide 9
 
-Solución:
+"Amortización de un activo intangible". Texto:
+- Distribución del costo de un activo intangible a lo largo de su vida útil.
+- Aplica a activos sin forma física.
+- No implica salida de efectivo.
+- Se asume valor residual cero en evaluación financiera de proyectos (en negrita).
+- Se aplica a activos intangibles: Marcas registradas, Patentes, Derechos de autor, Licencias y permisos.
 
-                                                                 Valor en Depreciación       Valor en
-                                                      Año
-                                                             libros inicial      anual    libros final
-                                                        1         $10,000      $1,800         $8,200
-                                                        2         $8,200         $1,800       $6,400
-                                                        3         $6,400         $1,800       $4,600
-                                                        4         $4,600         $1,800       $2,800
-                                                        5         $2,800         $1,800       $1,000
+Mismo diagrama circular que slide 5 pero con el centro "Métodos de amortización": Lineal (arriba, con nota "Disminuye el valor uniformemente. Usada en evaluación de proyectos"), Unidades de producción (izquierda), Suma de dígitos del año (derecha), Acelerada (doble decreciente) (abajo).
 
+## Slide 10
 
+"Método de amortización lineal". Texto:
+- Más común y simple para calcular la amortización.
+- Asume que el activo pierde el mismo valor cada año durante su vida útil.
 
-                                                                                                     7
-2.
-     Amortización de un
-     activo intangible
+Mismas 3 fórmulas que slide 6 mostradas en recuadros, pero para "Amortización" en vez de "Depreciación":
 
+$$\text{Amortización anual} = \frac{\text{Valor en libros inicial} - \text{Valor de rescate}}{\text{Vida útil (en años)}}$$
 
+En esta fórmula, el término "Valor de rescate" aparece tachado con una X roja grande superpuesta, indicando visualmente que para amortización NO se considera valor residual (coherente con el texto debajo: "Para fines tributarios, no se considera valor residual").
 
+$$\text{Amortización acumulada} = \text{Amortización anual} \times \text{Años amortizándose contablemente}$$
 
-                          8
-              Amortización de un activo intangible
-                                                                     Disminuye el valor
-• Distribución del costo de un                           Lineal      uniformemente.
-  activo intangible a lo largo de su                                 Usada en evaluación
-  vida útil.                                                         de proyectos.
+$$\text{Valor en libros final} = \text{Valor en libros inicial} - \text{Amortización acumulada}$$
 
-• Aplica a activos sin forma física.
-• No implica salida de efectivo.
-• Se asume valor residual cero en                     Métodos
-  evaluación financiera de             Unidades de                              Suma de
-                                       producción        de                  dígitos del año
-  proyectos.                                         amortización
+## Slide 11
 
-Se aplica a activos intangibles:
-• Marcas registradas.
-• Patentes.
-                                                       Acelerada
-• Derechos de autor.                                     (doble
-• Licencias y permisos.                               decreciente)
+"Ejemplo". Enunciado: patente comprada a $20,000, vida útil 10 años; calcular amortización anual y valor en libros final.
 
-                                                                                           9
-            Método de amortización lineal
+Tabla "Solución":
 
-• Más común y simple para calcular la amortización.
+| Año | Valor en libros inicial | Amortización anual | Valor en libros final |
+|---|---|---|---|
+| 1 | $20,000 | $2,000 | $18,000 |
+| 2 | $18,000 | $2,000 | $16,000 |
+| 3 | $16,000 | $2,000 | $14,000 |
+| 4 | $14,000 | $2,000 | $12,000 |
+| 5 | $12,000 | $2,000 | $10,000 |
+| 6 | $10,000 | $2,000 | $8,000 |
+| 7 | $8,000 | $2,000 | $6,000 |
+| 8 | $6,000 | $2,000 | $4,000 |
+| 9 | $4,000 | $2,000 | $2,000 |
+| 10 | $2,000 | $2,000 | $0 |
 
-• Asume que el activo pierde el mismo valor cada año durante su vida útil.
+## Slide 12
 
-Fórmulas:
+Slide de transición temática (fondo fotográfico de manos con calculadora, gráficos y documentos, decorativo). Texto superpuesto en dos bloques:
+- Arriba (esquina superior izquierda): "La depreciación y amortización no generan salidas de efectivo y no afectan el flujo de inversión."
+- Abajo (esquina inferior derecha): "Afectan el flujo operativo vía ahorro tributario."
 
+Mensaje clave del capítulo: dep./amort. son partidas contables no monetarias que no impactan el flujo de inversión pero sí reducen impuestos en el flujo operativo.
 
+## Slide 13
 
+Slide separador de sección "3. Valor residual". Solo título e ícono; imagen decorativa (mano robótica sobre globo digital).
 
-Para fines tributarios, no se considera valor residual.
+## Slide 14
 
-                                                                             10
-            Ejemplo
+"Valor residual". Columna izquierda (texto):
+- Valor estimado de reventa del activo al final del proyecto.
+- Se incorpora como ingreso en el último periodo.
+- Una mala estimación puede distorsionar la evaluación financiera.
 
-Se compra una patente a $20,000 sabiendo que               Valor en Amortización      Valor en
-                                                 Año
-tendrá una vida útil de 10 años. Calcule la            libros inicial      anual   libros final
-amortización anual y el valor en libros final.    1         $20,000      $2,000       $18,000
-                                                  2       $18,000        $2,000      $16,000
-Solución:
-                                                  3       $16,000        $2,000      $14,000
-                                                  4       $14,000        $2,000      $12,000
-                                                  5       $12,000        $2,000      $10,000
-                                                  6       $10,000        $2,000        $8,000
-                                                  7        $8,000        $2,000        $6,000
-                                                  8        $6,000        $2,000        $4,000
-                                                  9        $4,000        $2,000        $2,000
-                                                 10        $2,000        $2,000             $0
+Imagen decorativa debajo: fotografía/ilustración de un auto de juguete rojo sobre monedas apiladas junto a una calculadora (representa "valor de reventa/rescate").
 
-                                                                                             11
-La depreciación y amortización no
-generan salidas de efectivo y no
-afectan el flujo de inversión.
+Columna derecha (texto):
+- Sinónimos utilizados en evaluación financiera: Valor de rescate, Valor de salvamento.
+- Términos usados en otros contextos: Valor de reventa, Valor al final de la vida útil, Valor de recuperación, Valor remanente, Valor de desecho, Valor final.
 
+## Slide 15
 
+Slide separador de sección "4. Capital de trabajo inicial". Solo título e ícono; imagen decorativa (mano robótica sobre globo digital).
 
+## Slide 16
 
-                                    Afectan el flujo operativo
-                                        vía ahorro tributario.
-                                                           12
-3.
-     Valor residual
+"Capital de trabajo inicial". Columna izquierda:
+- También conocido como capital de trabajo incremental.
+- Concepto: Recursos necesarios para financiar la operación del proyecto desde el inicio, hasta generar ingresos.
 
+Columna derecha: "¿Por qué se incluye en la inversión inicial?"
+- Es un desembolso que se requiere al inicio del proyecto.
+- Inmoviliza recursos, aunque no se consume.
+- Suele recuperarse al final del proyecto.
 
+Imagen decorativa (persona de traje con gráficos financieros y monedas).
 
+## Slide 17
 
-                      13
-            Valor residual
+"Componentes del capital de trabajo inicial". Tabla:
 
-• Valor estimado de reventa del activo al final del   Sinónimos utilizados en evaluación financiera:
-  proyecto.                                           • Valor de rescate.
-                                                      • Valor de salvamento.
-• Se incorpora como ingreso en el último
-  periodo.
-                                                      Términos usados en otros contextos:
-                                                      • Valor de reventa.
-• Una mala estimación puede distorsionar la
-                                                      • Valor al final de la vida útil.
-  evaluación financiera.
-                                                      • Valor de recuperación.
-                                                      • Valor remanente.
-                                                      • Valor de desecho.
-                                                      • Valor final.
+| Componente | Característica | Ejemplo |
+|---|---|---|
+| Inventarios | Bienes necesarios para iniciar la operación del proyecto. | Materias primas, productos en proceso. |
+| Cuentas por cobrar | Ventas a crédito que inmovilizan efectivo. | Ventas a crédito (30 días). |
+| Efectivo mínimo | Fondo para pagos inmediatos de la operación diaria. | Caja operativa inicial. |
+| Cuentas por pagar | Créditos de proveedores que reducen el efectivo requerido. | Deudas con proveedores (60 días). |
 
+## Slide 18
 
+"Ejemplo: capital de trabajo inicial para un proyecto". Enunciado: proyecto con costos operativos:
 
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Costos operativos | | 50,000 | 55,000 | 58,000 | 60,000 |
 
-                                                                                             14
-4.
-     Capital de trabajo inicial
+Datos adicionales: período de inventario 21 días, período de cuentas x cobrar 15 días. En el último año se espera recuperación completa de capital de trabajo. Calcular el capital de trabajo del proyecto (año = 360 días).
 
+## Slide 19
 
+"Ejemplo - Solución" (parte 1). Repite la tabla de costos operativos con fila "Capital de trabajo por año" aún vacía (se muestra una miniatura ilustrativa borrosa/repetida de la tabla de cálculo, no legible con precisión — decorativa/de transición del cálculo).
 
+Fórmulas debajo:
 
-                                  15
-           Capital de trabajo inicial
+$$\text{Ciclo operativo} = \text{Período de inventario (21 días)} + \text{Período de cuentas por cobrar (15 días)} = 36 \text{ días}$$
 
-También conocido como                             ¿Por qué se incluye en la inversión inicial?
-capital de trabajo incremental.
-                                                  • Es un desembolso que se requiere al inicio del
-                                                    proyecto.
-                                                  • Inmoviliza recursos, aunque no se consume.
-                                                  • Suele recuperarse al final del proyecto.
-Concepto
-Recursos necesarios para financiar la operación
-del proyecto desde el inicio, hasta generar
-ingresos.
+$$\text{Capital de trabajo por año} = \frac{\text{Ciclo operativo} \times \text{Costo operativo}}{360}$$
 
+## Slide 20
 
+"Ejemplo - Solución" (parte 2). Tabla:
 
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Costos operativos | | 50,000 | 55,000 | 58,000 | 60,000 |
+| Capital de trabajo por año | 5,000 | 5,500 | 5,800 | 6,000 | |
+| Variación de capital de trabajo | | 5,500-5,000=500 | 5,800-5,500=300 | 6,000-5,800=200 | |
 
-                                                                                                 16
-    Componentes del capital de trabajo inicial
+Fórmula: Variación de capital de trabajo año "n" = Capital de trabajo año "n" − Capital de trabajo año "n−1".
 
- Componente                    Característica                     Ejemplo
+## Slide 21
 
-                  Bienes necesarios para iniciar la     Materias primas, productos
-  Inventarios
-                  operación del proyecto.               en proceso.
+"Ejemplo - Solución" (parte 3). Misma tabla, agregando fila "Recuperación de capital de trabajo" en Año 4: cálculo mostrado como 5,000 + 500 + 300 + 200 = 6,000 (recuperación de capital de trabajo inicial + variaciones acumuladas).
 
- Cuentas por      Ventas a crédito que inmovilizan      Ventas a crédito
-   cobrar         efectivo.                             (30 días).
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Costos operativos | | 50,000 | 55,000 | 58,000 | 60,000 |
+| Capital de trabajo por año | 5,000 | 5,500 | 5,800 | 6,000 | |
+| Variación de capital de trabajo | | 500 | 300 | 200 | |
+| Recuperación de capital de trabajo | | | | | 6,000 |
 
-                  Fondo para pagos inmediatos de la
-Efectivo mínimo                                         Caja operativa inicial.
-                  operación diaria.
+## Slide 22
 
- Cuentas por      Créditos de proveedores que reducen   Deudas con proveedores
-    pagar         el efectivo requerido.                (60 días).
+"Ejemplo - Solución" (parte 4, final). Tabla completa con fila resultado en rojo/azul:
 
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Costos operativos | | 50,000 | 55,000 | 58,000 | 60,000 |
+| Capital de trabajo por año | 5,000 | 5,500 | 5,800 | 6,000 | |
+| Variación de capital de trabajo | | 500 | 300 | 200 | |
+| Recuperación de capital de trabajo | | | | | 6,000 |
+| **Inversión en capital Trabajo** | **-5,000** | **-500** | **-300** | **-200** | **6,000** |
 
-                                                                                     17
-            Ejemplo: capital de trabajo inicial para un proyecto
+Fórmula debajo:
 
-Un proyecto de inversión estima los siguientes costos operativos:
+$$\text{Inversión en capital de trabajo} = \text{Capital de trabajo año 0} + \text{Variación de capital de trabajo} + \text{Recuperación de capital de trabajo}$$
 
-                                            Año 0         Año 1     Año 2        Año 3        Año 4
-Costos operativos                                        50,000     55,000      58,000       60,000
+## Slide 23
 
+"Variación del capital de trabajo". Texto:
+- El crecimiento del proyecto puede requerir mayor capital de trabajo.
+- Los incrementos son salidas de efectivo.
+- Las reducciones son ingresos de efectivo.
 
+Ilustración decorativa (vector de personas con reloj, gráfico circular, monedas y documento — representa análisis financiero/negociación).
 
+## Slide 24
 
-• Además, se sabe que el período de inventario es 21 días y el período de cuentas x cobrar es 15
-  días.
-• En el último año se espera una recuperación completa de capital de trabajo.
+"Recuperación del capital de trabajo inicial". Columna izquierda:
+- Se recupera al final del proyecto (supuesto académico) y se registra como ingreso.
+- Usualmente se asume recuperación total, cuando el proyecto se liquida: Inventarios se venden, Cuentas por cobrar se cobran, Cuentas por pagar se pagan.
 
+Columna derecha:
+- Puede darse una recuperación parcial, cuando: No todos los inventarios o cuentas se recuperan; Parte del capital queda inmovilizado.
 
-Calcule el capital de trabajo del proyecto (año = 360 días).
+Frase destacada al pie (en azul, negrita): "El capital de trabajo no se pierde: se transforma y luego se recupera, total o parcialmente."
 
+## Slide 25
 
+Slide separador de sección "5. Flujo de caja de la inversión". Solo título e ícono; imagen decorativa (mano robótica sobre globo digital).
 
-                                                                                                      18
-           Ejemplo - Solución
+## Slide 26
 
-•
+"Componentes de la inversión". Texto:
+- Para implementar un proyecto se requiere invertir en infraestructura, maquinaria, equipos y otros necesarios para iniciar la operación.
+- Los desembolsos necesarios para ejecutar el proyecto se agrupan en: Inversión fija tangible, Inversión fija intangible, Capital de trabajo.
 
-                                Año 0   Año 1    Año 2    Año 3    Año 4
-Costos operativos                       50,000   55,000   58,000   60,000
+Imagen decorativa (collage financiero con gráficos, ícono de moneda "$5" y manos escribiendo, etiquetado "Financial Evaluation").
 
+## Slide 27
 
-Capital de trabajo por año
+"Componentes del flujo de caja de la inversión" — punto 1: Inversión fija tangible. Texto:
+- Activos físicos y permanentes necesarios para la operación del proyecto.
+- Tienen una vida útil prolongada y no se consumen en el corto plazo.
+- Ejemplos: Maquinarias y equipos, Edificios (plantas, almacenes, oficinas), Infraestructura básica (servicios), Vehículos.
 
+Ilustración tipo clip-art (icónica) que muestra: edificio, maquinaria industrial, excavadora/tractor amarillo, escritorio, computadora de escritorio, celular y camioneta — representando ejemplos de activos tangibles.
 
+## Slide 28
 
+"Componentes del flujo de caja de la inversión" — punto 2: Inversión fija intangible. Texto:
+- Gastos necesarios para la puesta en marcha del proyecto que no generan activos físicos.
+- Ejemplos: Capacitación inicial del personal, Constitución legal, Asesorías profesionales, Patentes, licencias y permisos.
 
-                                                                            19
-           Ejemplo - Solución
+Imagen decorativa (composición gráfica con íconos y textos "ACTIVOS INTANGIBLES", "PATENTS", "VALOR MARCAS", "VALOR DE LICARCIAS", etc. — imagen generada tipo collage temático, ilegible/decorativa en varios íconos).
 
-•
+## Slide 29
 
-                                  Año 0    Año 1     Año 2     Año 3    Año 4
-Costos operativos                         50,000    55,000    58,000    60,000
-Capital de trabajo por año        5,000     5,500     5,800     6,000
-                                          5,500 –   5,800 –   6,000 –
-Variación de capital de trabajo           5,000 =   5,500 =   5,800 =
-                                              500       300       200
+"Componentes del flujo de caja de la inversión" — "Diferencia entre activos fijos". Tabla:
 
+| Característica | Activos Fijos Tangibles | Activos Fijos Intangibles |
+|---|---|---|
+| Naturaleza | Física (se pueden tocar) | No física (derechos, licencias) |
+| Ejemplo | Maquinaria, edificios | Patentes, marcas registradas |
+| Depreciación/Amortización | Depreciación | **Amortización** |
 
+## Slide 30
 
+"Componentes del flujo de caja de la inversión" — punto 3: Inversión en capital de trabajo. Texto:
+- Recursos financieros necesarios para financiar la operación del proyecto hasta que se reciban los ingresos por ventas.
+- Su cálculo depende del tiempo del ciclo operativo.
+- Ejemplo: Si el ciclo operativo es de 45 días, el capital de trabajo debe cubrir las operaciones durante ese período, hasta que se cobren las ventas.
 
-                                                                                 20
+Imagen decorativa (fotografía de manos entregando billetes de dólar sobre un escritorio con laptop y documento, representando desembolso/pago).
 
-           Ejemplo - Solución
+## Slide 31
 
+"Componentes del flujo de caja de la inversión" — tabla resumen consolidada (caso ejemplo con años calendario 2018-2022):
 
-                                  Año 0   Año 1    Año 2    Año 3     Año 4
-Costos operativos                         50,000   55,000   58,000   60,000
-Capital de trabajo por año        5,000    5,500    5,800    6,000
-Variación de capital de trabajo             500      300      200
-                                                                     5,000 +
-Recuperación de capital de                                             500 +
-trabajo inicial + variaciones                                          300 +
-acumuladas.                                                            200 =
-                                                                       6.000
+| | 0 | 2018 | 2019 | 2020 | 2021 | 2022 |
+|---|---|---|---|---|---|---|
+| Inversión en activos fijos tangibles | -69,300 | | | | | |
+| Valor Rescate de activos fijos | | | | | | 33,155 |
+| Inversión en activos fijos intangibles | -5,150 | | | | | |
+| Capital de Trabajo | -68,374 | -742 | -742 | -742 | -742 | |
+| **Flujo de caja de la inversión** | **-142,824** | **-742** | **-742** | **-742** | **-742** | **33,155** |
 
+(Fila total resaltada en azul claro)
 
+## Slide 32
 
+Slide de transición temática (fondo fotográfico de calculadora, gráficos y papeles con marca de agua "Unsplash+", decorativo). Texto superpuesto central: "La depreciación y amortización reducen impuestos y se registran en el flujo operativo." — refuerza el mensaje de la slide 12.
 
-                                                                               21
-           Ejemplo - Solución
+## Slide 33
 
-•
+"¿Qué es el flujo de caja de la inversión?". Texto:
+- Representa los desembolsos e ingresos asociados a la inversión del proyecto.
+- Se concentra principalmente en el periodo inicial y final.
 
-                                     Año 0    Año 1    Año 2    Año 3    Año 4
-Costos operativos                             50,000   55,000   58,000   60,000
-Capital de trabajo por año           5,000     5,500    5,800    6,000
-Variación de capital de trabajo                 500      300      200
-Recuperación de capital de trabajo                                        6,000
-      Inversión en capital Trabajo   -5,000     -500     -300     -200    6,000
+Imagen decorativa (celular mostrando un gráfico de velas/candlestick bursátil sobre billetes de dólar, representa finanzas/inversión de forma genérica).
 
+## Slide 34
 
+"Estructura del flujo de caja de la inversión". Columna izquierda: "Egresos de inversión": Activos tangibles, Activos intangibles. Ambos conforman el CAPEX del proyecto.
+Columna derecha: "Ingresos por desinversión": Venta de activos fijos (valor residual), Recuperación de capital de trabajo.
 
+Diagrama de flujo horizontal con 3 cajas conectadas por signos "−" y "=":
+"Ingresos por desinversión" (celeste) − "Egresos de inversión" (celeste) = "Flujo de caja de la inversión" (gris).
 
-                                                                                  22
-           Variación del capital de trabajo
+## Slide 35
 
-• El crecimiento del proyecto puede requerir
-  mayor capital de trabajo.
+Slide separador de sección "6. Casos de aplicación". Solo título e ícono; imagen decorativa (mano robótica sobre globo digital).
 
-• Los incrementos son salidas de efectivo.
+## Slide 36
 
+"Ejercicio 6.1". Datos del Proyecto:
+- Inversión inicial (Año 0): Compra de maquinaria $200,000; Gastos de instalación $20,000; Adquisición de una patente $30,000.
+- Año 3: Entrada de efectivo por venta de maquinaria (valor residual) $50,000; la patente no tiene valor residual al final del proyecto.
 
-• Las reducciones son ingresos de efectivo.
+Consigna: Elabore el flujo de caja de la inversión. No se cuenta con datos para calcular el capital de trabajo.
 
+## Slide 37
 
+"Ejercicio 6.1 - Solución". Tabla "Flujo de caja de la inversión":
 
+| | Año 0 | Año 1 | Año 2 | Año 3 |
+|---|---|---|---|---|
+| Compra de maquinaria | -200,000 | | | |
+| Gastos de instalación | -20,000 | | | |
+| Adquisición de una patente | -30,000 | | | |
+| Venta de maquinaria (valor residual) | | | | 50,000 |
+| Patente (valor residual) | | | | 0 |
+| **Flujo de caja de la inversión** | **-250,000** | **0** | **0** | **50,000** |
 
-                                               23
-            Recuperación del capital de trabajo inicial
+## Slide 38
 
-• Se recupera al final del proyecto (supuesto         • Puede darse una recuperación parcial,
-  académico) y se registra como ingreso.                cuando:
-                                                        - No todos los inventarios o cuentas se
-                                                          recuperan.
-• Usualmente se asume recuperación total,
-  cuando el proyecto se liquida:                        - Parte del capital queda inmovilizado.
-  - Inventarios se venden.
-  - Cuentas por cobrar se cobran.
-  - Cuentas por pagar se pagan.
+"Ejercicio 6.2". Enunciado: empresa InnovaTech, proyecto a 5 años.
+- Activo tangible: Camión de reparto (valor $80,000, vida útil 5 años, valor residual $10,000).
+- Activo intangible: Software de logística (valor $24,000, amortización lineal en 3 años, sin valor residual).
+- Inversión inicial adicional: $5,000 (adaptaciones del camión).
+- No se cuenta con datos para calcular el capital de trabajo.
 
+Preguntas:
+1. Calcular depreciación anual del camión de reparto.
+2. Calcular amortización anual del software de logística.
+3. Elabore el flujo de caja de la inversión para los 5 años.
 
+## Slide 39
 
+"Ejercicio 6.2 - Solución" (parte 1/2). Cálculos:
 
-    El capital de trabajo no se pierde: se transforma y luego se recupera, total o parcialmente.
+1. Cálculo de la depreciación:
+$$\text{Depreciación anual} = \frac{80,000 - 10,000}{5} = 14,000$$
 
+2. Cálculo de la amortización:
+$$\text{Amortización anual} = \frac{24,000}{3} = 8,000$$
 
-                                                                                                   24
-5.
-     Flujo de caja de la inversión
+## Slide 40
 
+"Ejercicio 6.2 - Solución" (parte 2/2). Tabla "Flujo de caja de la inversión":
 
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
+|---|---|---|---|---|---|---|
+| Compra de camión de reparto | -80,000 | | | | | |
+| Adaptaciones del camión | -5,000 | | | | | |
+| Compra de software de logística | -24,000 | | | | | |
+| Venta de camión de reparto (VR) | | | | | | 10,000 |
+| Venta de software de logística (VR) | | | | | | 0 |
+| **Flujo de caja de la inversión** | **-109,000** | **0** | **0** | **0** | **0** | **10,000** |
 
+## Slide 41
 
-                                     25
-            Componentes de la inversión
+"Ejercicio 6.3". Enunciado: empresa TechSolutions S.A., desarrollo y comercialización de equipos tecnológicos; expande capacidad productiva. Período promedio de cobro 20 días, período promedio de inventario 30 días. Costos de producción anuales estimados $500,000, crecen 10% anual. En el último año se espera recuperar un capital de trabajo equivalente a 20% del capital de trabajo inicial.
 
-Para implementar un proyecto se requiere
-invertir en infraestructura, maquinaria, equipos
-y otros necesarios para iniciar la operación.
+Consigna: Elabore el flujo de caja de la inversión, conociendo los datos referidos a las compras a realizar. Lista de activos:
+- Edificio: 120,000 (vida útil 20 años, valor residual 20,000).
+- Equipos: 30,000 (vida útil 20 años, valor residual 3,000).
+- Licencias: $8,000 (vida útil 5 años).
+- Maquinaria: 80,000 (vida útil 10 años, valor residual 5,000).
+- Patentes: $15,000 (vida útil 10 años).
+- Software: $10,000 (vida útil 4 años).
+- Terreno: 50,000.
+- Vehículos: 25,000 (vida útil 8 años, valor residual 4,000).
 
+## Slide 42
 
-Los desembolsos necesarios para ejecutar el
-proyecto se agrupan en:
-• Inversión fija tangible.
-• Inversión fija intangible.
-• Capital de trabajo.
+"Ejercicio 6.3 - Solución" (parte 1). Tabla de depreciación de activos fijos tangibles:
 
+| Activo fijo tangible | Valor inicial (VI) | Vida útil en años (VU) | Valor residual (VR) | Depreciación anual (VI-VR)/VU |
+|---|---|---|---|---|
+| Terreno | 50,000 | | | No se deprecia |
+| Edificio | 120,000 | 20 | 20,000 | 5,000 |
+| Maquinaria | 80,000 | 10 | 5,000 | 7,500 |
+| Equipos | 30,000 | 20 | 3,000 | 1,350 |
+| Vehículos | 25,000 | 8 | 4,000 | 2,625 |
+| **Total** | **305,000** | | | |
 
+## Slide 43
 
+"Ejercicio 6.3 - Solución" (parte 2). Tabla de amortización de activos fijos intangibles:
 
-                                                   26
-            Componentes del flujo de caja de la inversión
+| Activo fijo intangible | Valor inicial (VI) | Vida útil en años (VU) | Valor residual (VR) | Amortización anual (VI-VR)/VU |
+|---|---|---|---|---|
+| Patentes | 15,000 | 10 | 0 | 1,500 |
+| Software | 10,000 | 4 | 0 | 2,500 |
+| Licencias | 8,000 | 8 | 0 | 1,000 |
+| **Total** | **33.000** | | | |
 
-1.        Inversión fija tangible
-• Activos físicos y permanentes necesarios para
-   la operación del proyecto.
+Nota: la vida útil de Licencias mostrada en la tabla (8 años) difiere del enunciado de la slide 41, que indicaba 5 años; se transcribe el valor tal como aparece en la tabla de solución.
 
-• Tienen una vida útil prolongada y no se
-  consumen en el corto plazo.
+## Slide 44
 
+"Ejercicio 6.3 - Solución" (parte 3). Tabla "Inversión en capital trabajo" con anotaciones manuscritas (círculos/flechas) mostrando las fórmulas de cálculo:
 
-Ejemplos:
-• Maquinarias y equipos.
-• Edificios (plantas, almacenes, oficinas).
-• Infraestructura básica (servicios).
-• Vehículos.
+| Inversión en capital trabajo | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Costos operativos | | 500,000 | 550,000 | 605,000 | 665,500 |
+| Capital de trabajo por año | 68,493 | 75,342 | 82,877 | 91,164 | |
+| Variación de capital de trabajo | | 6,849 | 7,534 | 8,288 | |
+| Recuperación de capital de trabajo | | | | | 13,699 |
+| **Total** | **-68,493** | **-6,849** | **-7,534** | **-8,288** | **13,699** |
 
+Anotaciones visuales (callouts con flechas apuntando a las celdas): "50 × 500,000 / 365" → explica el cálculo de capital de trabajo por año (Año 0); "75,342 − 68,493" → explica la variación de capital de trabajo (Año 1); "20% × 68,493" → explica la recuperación de capital de trabajo (Año 4, = 13,699).
 
+Debajo: "Ciclo operativo = 20 + 30 = 50" (en azul). Fórmula:
 
-                                                            27
-            Componentes del flujo de caja de la inversión
+$$\text{Inversión en capital de trabajo} = \text{Capital de trabajo año 0} + \text{Variación de capital de trabajo} + \text{Recuperación de capital de trabajo}$$
 
-2. Inversión fija intangible
-Gastos necesarios para la puesta en marcha del
-proyecto que no generan activos físicos.
+## Slide 45
 
+"Ejercicio 6.3 - Solución" (parte 4, final). Tabla consolidada del flujo de caja de la inversión:
 
-Ejemplos:
-• Capacitación inicial del personal.
-• Constitución legal.
-• Asesorías profesionales.
-• Patentes, licencias y permisos.
+| | Año 0 | Año 1 | Año 2 | Año 3 | Año 4 |
+|---|---|---|---|---|---|
+| Activo fijo tangible | -305,000 | | | | |
+| Activo fijo intangible | -33.000 | | | | |
+| Inversión en capital trabajo | -68,493 | -6,849 | -7,534 | -8,288 | |
+| Recuperación de capital de trabajo | | | | | 13,699 |
+| **Flujo de caja de la inversión** | **-406,493** | **-6,849** | **-7,534** | **-8,288** | **13,699** |
 
+Nota al pie: "No se incluye ningún valor residual porque estos se dan después de los 4 años del proyecto."
 
+## Slide 46
 
-
-                                                            28
-            Componentes del flujo de caja de la inversión
-
-Diferencia entre activos fijos
-
-
-            Característica       Activos Fijos Tangibles      Activos Fijos Intangibles
-
-
-              Naturaleza         Física (se pueden tocar)   No física (derechos, licencias)
-
-
-               Ejemplo            Maquinaria, edificios     Patentes, marcas registradas
-
-
-     Depreciación/Amortización        Depreciación                  Amortización
-
-
-
-
-                                                                                              29
-            Componentes del flujo de caja de la inversión
-
-3.       Inversión en capital de trabajo
-• Recursos financieros necesarios para financiar la
-  operación del proyecto hasta que se reciban los
-  ingresos por ventas.
-• Su cálculo depende del tiempo del ciclo operativo.
-
-
-Ejemplo:
-• Si el ciclo operativo es de 45 días, el capital de trabajo
-  debe cubrir las operaciones durante ese período,
-  hasta que se cobren las ventas.
-
-
-
-
-                                                               30
-            Componentes del flujo de caja de la inversión
-
-
-                                              0    2018   2019   2020   2021    2022
-
-Inversión en activos fijos tangibles     -69,300
-
-Valor Rescate de activos fijos                                                 33,155
-
-Inversión en activos fijos intangibles    -5,150
-
-Capital de Trabajo                       -68,374   -742   -742   -742   -742
-
-        Flujo de caja de la inversión -142,824     -742   -742   -742   -742   33,155
-
-
-
-
-                                                                                   31
-  La depreciación y amortización
-reducen impuestos y se registran
-            en el flujo operativo.
-
-
-
-                                32
-           ¿Qué es el flujo de caja de la inversión?
-
-• Representa los desembolsos e ingresos
-  asociados a la inversión del proyecto.
-
-
-• Se concentra principalmente en el periodo
-  inicial y final.
-
-
-
-
-                                                       33
-            Estructura del flujo de caja de la inversión
-
-Egresos de inversión:                            Ingresos por desinversión:
-• Activos tangibles.                             • Venta de activos fijos (valor residual).
-• Activos intangibles.                           • Recuperación de capital de trabajo.
-Ambos conforman el CAPEX del proyecto.
-
-
-
-
-              Ingresos por               Egresos de                  Flujo de caja
-              desinversión                inversión                 de la inversión
-
-
-
-                                                                                              34
-6.
-     Casos de aplicación
-
-
-
-
-                           35
-            Ejercicio 6.1
-
-Datos del Proyecto
-• Inversión inicial (Año 0):
-    • Compra de maquinaria: $200,000.
-    • Gastos de instalación: $20,000.
-    • Adquisición de una patente: $30,000.
-
-
-• Año 3:
-    • Entrada de efectivo por venta de maquinaria (valor residual): $50,000.
-    • La patente no tiene valor residual al final del proyecto.
-
-
-Elabore el flujo de caja de la inversión. No se cuenta con datos para calcular el capital de trabajo.
-
-
-
-
-                                                                                                        36
-      Ejercicio 6.1 - Solución
-
-Flujo de caja de la inversión
-Columna1                                 Año 0    Año 1   Año 2   Año 3
-
-Compra de maquinaria                   -200,000
-
-Gastos de instalación                   -20,000
-
-Adquisición de una patente              -30,000
-
-Venta de maquinaria (valor residual)                              50,000
-
-Patente (valor residual)                                              0
-
-    Flujo de caja de la inversión      -250,000      0       0    50,000
-
-
-
-                                                                           37
-            Ejercicio 6.2
-
-La empresa InnovaTech planea un proyecto a 5         1. Calcular depreciación anual del camión de
-años con:                                               reparto.
-
-• Activo tangible: Camión de reparto (valor:         2. Calcular amortización anual del software de
-  $80,000, vida útil: 5 años, valor residual:           logística.
-  $10,000).
-                                                     3. Elabore el flujo de caja de la inversión para
-• Activo intangible: Software de logística (valor:      los 5 años.
-  $24,000, amortización lineal en 3 años, sin
-  valor residual).
-
-• Inversión inicial adicional: $5,000
-  (adaptaciones del camión).
-
-No se cuenta con datos para calcular el capital
-de trabajo.
-
-
-                                                                                                        38
-    Ejercicio 6.2 - Solución
-
-•
-
-
-
-
-                               39
-            Ejercicio 6.2 - Solución
-
-3. Flujo de caja de la inversión
-   Columna1                                Año 0    Año 1   Año 2   Año 3   Año 4   Año 5
-
-   Compra de camión de reparto            -80,000
-
-   Adaptaciones del camión                 -5,000
-
-   Compra de software de logística        -24,000
-
-   Venta de camión de reparto (VR)                                                  10,000
-
-   Venta de software de logística (VR)                                                  0
-
-      Flujo de caja de la inversión      -109,000      0       0       0       0    10,000
-
-
-
-                                                                                        40
-
-            Ejercicio 6.3
-
-La empresa TechSolutions S.A. se dedica al desarrollo y           • Edificio: 120,000 (vida útil 20 años,
-comercialización de equipos tecnológicos para la industria.         valor residual 20,000).
-Actualmente, planea expandir su capacidad productiva              • Equipos: 30,000 (vida útil 20 años,
-mediante la adquisición de nuevos activos fijos y requiere          valor residual 3,000).
-calcular el flujo de caja de la inversión para evaluar,           • Licencias: $8,000 (vida útil 5 años).
-posteriormente, la viabilidad financiera del proyecto.
-                                                                  • Maquinaria: 80,000 (vida útil 10 años,
-Además, se sabe que el período promedio de cobro (cuentas           valor residual 5,000).
-por cobrar) es de 20 días, el período promedio de inventario es
-de 30 días. Los costos de producción anuales estimados            • Patentes: $15,000 (vida útil 10 años).
-ascienden a 500,000 y crecen 10% anual.                           • Software: $10,000 (vida útil 4 años).
-En el último año, se espera recuperar un capital de trabajo       • Terreno: 50,000.
-equivalente a 20% del capital de trabajo inicial.
-                                                                  • Vehículos: 25,000 (vida útil 8 años,
-Elabore el flujo de caja de la inversión, conociendo los            valor residual 4,000).
-siguientes datos referidos a las compras a realizar:
-
-                                                                                                     41
-Ejercicio 6.3 - Solución
-
-Activo fijo        Valor inicial   Vida útil en Valor residual   Depreciación anual
-tangible                    (VI)    años (VU)             (VR)        (VI - VR) / VU
-
-Terreno                 50,000                                       No se deprecia
-
-Edificio               120,000              20         20,000                 5,000
-
-Maquinaria              80,000              10          5,000                 7,500
-
-Equipos                 30,000              20          3,000                 1,350
-
-Vehículos               25,000               8          4,000                 2,625
-
-           Total       305,000
-
-
-
-                                                                                       42
-Ejercicio 6.3 - Solución
-
-Activo fijo     Valor inicial   Vida útil en Valor residual   Amortización anual
-intangible               (VI)    años (VU)             (VR)        (VI - VR) / VU
-
-Patentes             15,000              10              0                 1,500
-
-Software             10,000               4              0                 2,500
-
-Licencias             8,000               8              0                 1,000
-
-        Total        33.000
-
-
-
-
-                                                                                    43
-           Ejercicio 6.3 - Solución
-
-•      Inversión en capital trabajo       Año 0      Año 1     Año 2     Año 3     Año 4
-
-    Costos operativos                               500,000   550,000   605,000   665,500
-
-    Capital de trabajo por año            68,493     75,342    82,877    91,164
-
-    Variación de capital de trabajo                   6,849     7,534     8,288
-
-    Recuperación de capital de trabajo                                             13,699
-
-                                  Total   -68,493    -6,849    -7,534    -8,288    13,699
-
-
-
-
-                                                                                            44
-       Ejercicio 6.3 - Solución
-
-                                        Año 0      Año 1       Año 2      Año 3       Año 4
-
-Activo fijo tangible                   -305,000
-
-Activo fijo intangible                  -33.000
-
-Inversión en capital trabajo            -68,493     -6,849     -7,534      -8,288
-
-Recuperación de capital de trabajo                                                    13,699
-
-       Flujo de caja de la inversión   -406,493     -6,849     -7,534      -8,288     13,699
-
-
-No se incluye ningún valor residual porque estos se dan después de los 4 años del proyecto.
-
-
-                                                                                               45
-Flujo de Caja de la Inversión
-Evaluación Financiera de Proyectos - Semana 4
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Slide de cierre/contraportada, idéntica en diseño a la slide 1: título "Flujo de Caja de la Inversión", subtítulo "Evaluación Financiera de Proyectos - Semana 4". Fondo decorativo (túnel digital azul con silueta humana/robot, marca "TransformaTec"). Sin contenido académico adicional.

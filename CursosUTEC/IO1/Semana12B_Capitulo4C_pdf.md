@@ -5,800 +5,276 @@ slides: 64
 fuente: Semana12B-Capitulo4C.pdf
 ---
 
-                                                             Teoría de la dualidad
+## Slide 1
+Portada del capítulo: "Teoría de la dualidad". Imagen decorativa de fondo: René Magritte, *La Décalcomanie* (1966) — pintura surrealista con silueta recortada de un hombre de espaldas sobre fondo de cielo/cortina roja, usada solo como ilustración decorativa de portada, sin relación matemática con el contenido. Logo UTEC.
 
+## Slide 2
+Slide de transición/título de sección: "Investigación de operaciones 1" — texto simple, sin gráficos relevantes.
 
+## Slide 3
+Título de sección: "A la búsqueda de un límite inferior" (solo título, sin contenido adicional visible).
 
+## Slide 4
+"A la búsqueda de un límite inferior". Texto: "Cualquier solución factible es un límite inferior del óptimo". Pregunta retórica al pie: "¿Por ejemplo?" — invita a que el estudiante proponga un punto factible.
 
-                     René Magritte, La Décalcomanie (1966)
+## Slide 5
+"A la búsqueda de un límite superior". Dos ejemplos de evaluación de la función objetivo en puntos factibles: `(1, 0, 0) => 4` y `(0, 0, 3) => 9`. Pregunta: "¿Cuánto cerca estamos del óptimo?" y "Necesitamos un límite superior".
 
+## Slide 6
+"A la búsqueda de un límite superior". Pregunta: "¿Cómo encontrar un límite superior?" con respuesta guiada: "Podemos utilizar las restricciones".
 
+## Slide 7
+"A la búsqueda de un límite superior". Texto: "Buscamos una combinación lineal de las dos restricciones que sea mayor que la función objetivo".
 
+## Slide 8
+"A la búsqueda de un límite superior". Pregunta: "¿Ejemplo?" (transición hacia el ejemplo numérico de las siguientes slides).
 
-Investigación de operaciones 1
-A la búsqueda de un límite inferior
-A la búsqueda de un límite inferior
+## Slide 9
+"A la búsqueda de un límite superior". Se muestran las restricciones del ejemplo trabajado, marcadas con las variables x2 y x3 destacadas como "mayor que la función objetivo":
+$$11x_1 + 5x_2 + 3x_3 \le 11$$
+$$10x_1 + x_2 + 3x_3 \le 10$$
 
-                         Cualquier solución
-                           factible es un
-                         límite inferior del
-                               óptimo
-                           Por ejemplo?
-A la búsqueda de un límite superior
-                            (1, 0, 0) => 4
-                            (0, 0, 3) => 9
-
-                           Cuanto cerca
-                            estamos del
-                              óptimo?
-
-
-
-                          Necesitamos un
-                           límite superior
-A la búsqueda de un límite superior
-
-                        Cómo encontrar un
-                          límite superior?
-
-
-
-                          Podemos utilizar
-                         las restricciones
-A la búsqueda de un límite superior
-
-
-                            Buscamos una
-                          combinación lineal
-                              de las dos
-                          restricciones que
-                          sea mayor que la
-                           función objetivo
-A la búsqueda de un límite superior
-
-
-
-
-                            Ejemplo?
-A la búsqueda de un límite superior
-
-
-
-                            x2
-                                 mayor que la
-                            x3   función objetivo
-
-
-    11x1 + 5x2 + 3x3  11
-    10x1 + x2 + 3x3  10
-A la búsqueda de un límite superior
-                                 Se puede mejorar?
-                                 Qué significa
-                                 mejorar el límite
-                                 superior?
-                            x2
-                            x3    Un mejor límite
-                                  superior debería
-                                  ser mayor o
-    11x1 + 5x2 + 3x3  11         menor que 11?
-    10x1 + x2 + 3x3  10
-A la búsqueda de un límite superior
-
-
-
-                        x1
-                                 todavía mayor que
-                            x3   la función objetivo
-
-    11x1 + 5x2 + 3x3  11
-    10x1 + x2 + 3x3  10
-           A la búsqueda de un límite superior
-
-
-
-                                             x y1
-                                             x y2
-11x1 + 5x2 + 3x3  11
-10x1 + x2 + 3x3  10                                Que tenemos
-(y1 + 3y2 )x1 + (4y1 y2 )x2 + (y2 )x3  y1 + 3y2     que hacer?
-                                                     Maximizar?
-                                                     Minimizar?
-           A la búsqueda de un límite superior
-
-
-
-                                             x y1      Tenemos
-                                             x y2   restricciones?
-                                ≥
-11x1 + 5x≥2 + 3x3  11≥
-10x1 + x2 + 3x3  10
-(y1 + 3y2 )x1 + (4y1 y2 )x2 + (y2 )x3  y1 + 3y2     Minimizar
-               A la búsqueda de un límite superior
-                                                       Ese problema de
-                                              x y1
-                                                       minimización es el
-                                              x y2
-                                                     dual del problema de
-                                ≥
-11x1 + 5x2≥ + 3x3  11≥                              maximización original
-10x1 + x2 + 3x3  10
-(y1 + 3y2 )x1 + (4y1 y2 )x2 + (y2 )x3  y1 + 3y2
-
-
-                  Minimizar el límite
-                  superior es resolver
-                  un nuevo problema
-                  de minimización
-          Dual de un problema
-
-Problema primal…           … y su dual
-          Dual de un problema
-
-Problema primal…           … y su dual
-          Dual de un problema
-
-Problema primal…           … y su dual
-          Dual de un problema
-
-Problema primal…           … y su dual
-              Dual de un problema
-
-
-
-
-Cómo escribir el
-problema en
-forma canónica?
-Dual de un problema
-
-
-                      Minimizar algo
-                      es maximizar
-                      su negativo y
-                      “negativar” el
-                      resultado
-Dual de un problema
-
-                  – max         y1      3y2
-                    s.t.       y1      3y2        4
-                               4y1 + y2           1
-                                        y2        3
-                                    y1 , y 2   0
-        Minimizar algo es
-    maximizar su negativo y
-    “negativar” el resultado
-
-El dual del dual de un problema es su primal
-          Primal                                       Dual
-
-
-
-
-              Teorema de la dualidad débil
-
-Si (x1 , x2 , . . . , xn ) es una solución factible del primal y
-(y1 , y2 , . . . , ym ) es una solución factible del dual, tenemos:
-                                 X            X
-                                     c j xj     b i yi .
-                             j            i
-Valor objetivo de cualquier                   Valor objetivo decualquier
- solución del problema de           ≤          solución del problema de
-       maximización                                   minimización
-            Primal                                      Dual
-
-
-
-
-                Teorema de la dualidad débil
-
-  Si (x1 , x2 , . . . , xn ) es una solución factible del primal y
-  (y1 , y2 , . . . , ym ) es una solución factible del dual, tenemos:
-                                   X            X             es el mejor límite
-                                       c j xj     b i yi .  superior del primal
-                               j           i
-
-Valor óptimo del problema de               Valor óptimo del problema de
-        maximización                 ≤             minimización
-                 Teorema de la dualidad débil
-
-
-
-                              ]   [
-
-valores posibles del primal           valores posibles del dual
-                Teorema de la dualidad débil
-
-
-
-                           ]    [
-
-valore óptimo del primal            valor óptimo del dual
-
-
-                           ¿gap
-                      (diferencia) de
-                         dualidad?
-                Teorema de la dualidad débil
-
-
-
-                               ][
-
-valore óptimo del primal            valor óptimo del dual
-
-
-                                               Si no hay gap,
-                           …o no gap?          qué significa?
-             Primal                                         Dual
-
-
-
-
-                 Teorema de la dualidad fuerte
-                                             ⇤     ⇤          ⇤
- Si el primal tiene una solución óptima (x1 , x2 , . . . , xn ), el dual
-                                         ⇤   ⇤            ⇤
- tiene también una solución óptima (y1 , y2 , . . . , ym ) tal que:
-                            X                X
-                                       ⇤               ⇤
-                                  c j xj =       b i yi .
-                              j              i
-
-Valor óptimo del problema de                     Valor óptimo del problema de
-        maximización                     =               minimización
-               Teorema de la dualidad fuerte
-
-    valor óptimo del                  valor óptimo del
-problema de maximización
-                            =     problema de minimización
-
-                             ][
-
-valor óptimo del primal             valor óptimo del dual
-                                    No hay gap de
-                                    optimalidad si existe una
-                                    solución óptima para el
-                                    problema primal o dual
-                 Resultados:
-
-(1) Primal óptimo <=> dual óptimo
-(2) Primal no acotado => dual no factible
-(3) Dual no acotado => primal no factible
- Ejercicio 1
-
-max     z=       5x1 + 2x2
-s.t.        x1 + x2           2
-        2x1 + 3x2  5
-              x1 , x2      0
-
-
- Escribir el dual del programa
-   Ejercicio 2
-
-min     z = 6x1 + 3x2
-s.t.    6x1      3x2 + x3          2
-        3x1 + 4x2 + x3             5
-                x1 , x2 , x3       0
-
-
-
-   Escribir el dual del programa
-Ejercicio 3
-
-max      z = x1 + x2
-s.t.     2x1 + x2 = 5
-         3x1      x2 = 6
-                                2
-             x1 , x2 2 R
-
-
-Escribir el dual del programa
-                                        Ejercicio 4
-                                                     1. Escribir el programa en forma estándar
-min          2x1    3x2       2x3      3x4           2. Escribir el dual del programa
-                                                     3. Encontrar una solución óptima del dual con el
-s.t.        2x1    x2      3x3      2x4          8      método grá co
-                                                     4. Hacer la primera iteración del simplex con el
-            3x1 + 2x2 + 2x3 + x4  7                    programa original (primal). Después de 3
-                                                        iteraciones obtenemos que la solución óptima
-                        x1 , x2 , x3 , x4    0          es (0, 2, 0, 3)
-                                                     5. Averiguar que la solución encontrada en la
-                                                        pregunta 3 es óptima
-
-
-
-
-       fi
-Método simplex dual
-              <— Primal (P)
-
-
-
-
-Dual (D) —>             Escribir el problema dual
-              <— Primal (P)
-
-
-
-
-Dual (D) —>
-(P)
-
-
-           Escribir el diccionario inicial
-
-
-
-
-(D)
-
-           Escribir el diccionario inicial
-         minimizar algo es maximizar su
-      negativo y “negativar” el resultado
-(P)
-
-
-
-
-         minimizar algo es maximizar su
-(D)   negativo y “negativar” el resultado
-(P)
-
-      <— diccionario factible?
-
-
-
-
-(D)
-      <— diccionario factible?
-(P)
-
-      <— el diccionario primal no es factible
-
-
-
-
-(D)
-              <— diccionario factible?
-
-(P)
-
-      <— el diccionario primal no es factible
-
-
-
-
-(D)
-         <— el diccionario dual es factible
-
-         Idea: más simple aplicar el simplex al dual
-(P)                                 y2 en (D) corresponde a w2 en (P)
-
-                                    z1 en (D) corresponde a x1 en (P)
-
-
-
-
-variable de salida   variable de entrada
-
-
-(D)
-(P)                            Paso 1
-
-
-                                           Escribir el diccionario después del paso 1
-
-
-
-
-variable de salida   variable de entrada
-
-
-(D)
-                                           Escribir el diccionario después del paso 1
-(P)                            Paso 1
-
-
-
-
-variable de salida   variable de entrada
-
-
-(D)
-(P)                         Paso 2
-
-
-
-
- variable de salida   variable de entrada
-
-
-(D)
-
-
-
-                                            ¿y ahora?
- los dos diccionarios son óptimos
-
-
-
-Conclusión: No se necesita
-escribir el diccionario dual para
-aplicar el simplex dual, se puede
-aplicar directamente al
-diccionario primal
-
-
-           ¿Cómo no?
-                     variable de entrada
-(P)
-                            Ilustración con el primer paso:
-
-                           1) seleccionar la variable de salida
-                              (en las variables básicas) que
-                              tiene el término constante más
-                              negativo
-variable de salida
-                           2) seleccionar la variable de
-                              entrada calculando el ratio del
-(D)                           coeficiente de la linea de la
-                              variable de salida y del
-                              coeficiente del objetivo, y elegir
-                              el pivote que corresponde al
-                              ratio más negativo
-¿Qué pasa cuando los diccionarios
-   primal y dual, ambos, son no
-            factibles?
-                            n
-                            X
-¿Se acuerdan                                                           <- problema original
-                    max           c j xj
-del método del              j=1
-   problema                 Xn
-
-    auxiliar?        s.t.         aij xj  bi    i = 1, . . . , m
-                            j=1
-Existe un método
-                            xj     0             j = 1, . . . , n
-más elegante con
-     el dual!
-
-          problema auxiliar ->     max          x0
-                                           0                  1
-                                                n
-                                                X
-                                   s.t.    @             aij xj A   x0  b i   i = 1, . . . , m
-                                                j=1
-
-                                           xj        0                         j = 0, . . . , n
-             Primal (P) —>
-
-
-
-
-             Dual (D) —>
-
-
-
-
-Problema: ningún diccionario es factible
-                              Primal (P) —>
-
-
-
-
-Idea:                          Dual (D) —>
-Si modificamos el objetivo del
-problema primal tal que el
-diccionario inicial del dual sea
-factible. Su solución óptima no      Modificamos el objetivo de (P) de
-será óptima para el problema         tal manera que el diccionario (D)
-original, pero será factible.        sea factible, por ejemplo:
-
-                                                    —>
-                             <— diccionario óptimo del primal modificado
-
-                         substitución
-
-                                                   Función objetivo original
-
-
-después de varias
-iteraciones simplex dual…
-que corresponden a                                           variable de
-iteraciones del simplex                                      entrada: x2
-“primal” sobre el problema
-dual.                                                        —> problema
-                                                             no acotado
-Síntesis:
-
-1) Hacemos que el primer
-   diccionario del dual sea
-   factible modificando la
-   función objetivo del primal.
-2) Utilizamos el simplex dual
-   sobre el primal.
-3) Obtenemos un punto
-   extremo (factible) del
-   primal.
-4) Utilizamos el punto
-   extremo encontrado como
-   punto inicial del simplex
-   sobre el problema original.
- Interpretación
-económica de la
-    dualidad
-Producción de cerveza
-
-
-            # batch Triple (C1)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               # batch Oscura (C2)
-
-
-            max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 6x1 + 2x2
-            <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         s.t.   6x1 + 4x2  24 <- Recursos malta Munich (M1)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                x1 + 2x2  6        <- Recursos malta Chocolate (M2)
-Producción de cerveza
-
-           max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 6x1 + 2x2                 Si producimos un batch
-           <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         menos de Tripel (C1),
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        s.t.   6x1 + 4x2  24            liberamos 6 unidades de
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               x1 + 2x2  6              malta Munich (M1) y 1
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         unidad de malta
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Chocolate (M2)
-        Vender las 6 unidades de                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ¿Me interesa producir un
-        Munich (M1) a y1 dólares/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 batch menos de Tripel (C1)
-        unidad y la unidad de                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      para vender la malta no
-        Chocolate (M2) a y2 dólares/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      utilizada?
-        unidad genera una utilidad
-        de 6y1 + y2 dólares                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     —> depende de los precios y1 e y2
-Interpretación económica de las variables duales
-
-
-           max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              6x1 + 2x2
-           <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        s.t.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                6x1 + 4x2  24
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            x1 + 2x2  6
-
-          ¿A qué precio mínimo vender                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ¿Me interesa producir un
-                  la malta 1 ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 batch menos de Tripel (C1)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                para vender la malta no
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       utilizada?
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          6y1 + y2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <latexit sha1_base64="adPRlota6uLQg8pphBp+xRnhHrc=">AAAB+3icbVBNS8NAEJ3Ur1q/Yj16WSyCIJSklOqx4MVjBfsBbQib7aZdutnE3Y0YQv+KFw+KePWPePPfmLQ5aOuDgcd7M8zM8yLOlLasb6O0sbm1vVPereztHxwemcfVngpjSWiXhDyUAw8rypmgXc00p4NIUhx4nPa92U3u9x+pVCwU9zqJqBPgiWA+I1hnkmtWW4lro0uUuA00mtAH1Kq4Zs2qWwugdWIXpAYFOq75NRqHJA6o0IRjpYa2FWknxVIzwum8MooVjTCZ4QkdZlTggConXdw+R+eZMkZ+KLMSGi3U3xMpDpRKAi/rDLCeqlUvF//zhrH2r52UiSjWVJDlIj/mSIcoDwKNmaRE8yQjmEiW3YrIFEtMdBZXHoK9+vI66TXqdqvevGvW2p0ijjKcwhlcgA1X0IZb6EAXCDzBM7zCmzE3Xox342PZWjKKmRP4A+PzB5V/kkM=</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             —> depende de los precios y1 e y2
-Interpretación económica de las variables duales
-
-
-           max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             6x1 + 2x2
-           <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        s.t.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               6x1 + 4x2  24
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           x1 + 2x2  6
-
-          ¿A qué precio mínimo vender                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ¿Me interesa producir un
-                  la malta 2 ?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  batch menos de Oscura
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (C2) para vender la malta
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      no utilizada?
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          4y1 + 2y2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <latexit sha1_base64="yuw7Pd+TpvXz0nuR3mSf+F12LqQ=">AAAB/HicbVBNS8NAEJ34WetXtEcvi0UQhJKEoh4LXjxWsB/QhrDZbtqlm03c3Qgh1L/ixYMiXv0h3vw3Jm0O2vpg4PHeDDPz/JgzpS3r21hb39jc2q7sVHf39g8OzaPjrooSSWiHRDySfR8rypmgHc00p/1YUhz6nPb86U3h9x6pVCwS9zqNqRvisWABI1jnkmfWmqlnowvkpJ6DhmP6gJyqZ9athjUHWiV2SepQou2ZX8NRRJKQCk04VmpgW7F2Myw1I5zOqsNE0RiTKR7TQU4FDqlys/nxM3SWKyMURDIvodFc/T2R4VCpNPTzzhDriVr2CvE/b5Do4NrNmIgTTQVZLAoSjnSEiiTQiElKNE9zgolk+a2ITLDEROd5FSHYyy+vkq7TsC8bzbtmvdUu46jACZzCOdhwBS24hTZ0gEAKz/AKb8aT8WK8Gx+L1jWjnKnBHxifPwELknk=</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            —> depende de los precios y1 e y2
-Interpretación económica de las variables duales
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ¿A qué precio mínimo de
-     max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 6x1 + 2x2
-     <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             la malta es interesante
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               no producir cerveza
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  s.t.   6x1 + 4x2  24
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               para vender todo el
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         x1 + 2x2  6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            stock de malta?
-
-
-
-Si un comprador quiere comprar toda la                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          6y1 + y2 6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <latexit sha1_base64="adPRlota6uLQg8pphBp+xRnhHrc=">AAAB+3icbVBNS8NAEJ3Ur1q/Yj16WSyCIJSklOqx4MVjBfsBbQib7aZdutnE3Y0YQv+KFw+KePWPePPfmLQ5aOuDgcd7M8zM8yLOlLasb6O0sbm1vVPereztHxwemcfVngpjSWiXhDyUAw8rypmgXc00p4NIUhx4nPa92U3u9x+pVCwU9zqJqBPgiWA+I1hnkmtWW4lro0uUuA00mtAH1Kq4Zs2qWwugdWIXpAYFOq75NRqHJA6o0IRjpYa2FWknxVIzwum8MooVjTCZ4QkdZlTggConXdw+R+eZMkZ+KLMSGi3U3xMpDpRKAi/rDLCeqlUvF//zhrH2r52UiSjWVJDlIj/mSIcoDwKNmaRE8yQjmEiW3YrIFEtMdBZXHoK9+vI66TXqdqvevGvW2p0ijjKcwhlcgA1X0IZb6EAXCDzBM7zCmzE3Xox342PZWjKKmRP4A+PzB5V/kkM=</latexit>
-
-
-
-
-malta al costo mínimo, tiene que resolver                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       4y1 + 2y2 2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <latexit sha1_base64="yuw7Pd+TpvXz0nuR3mSf+F12LqQ=">AAAB/HicbVBNS8NAEJ34WetXtEcvi0UQhJKEoh4LXjxWsB/QhrDZbtqlm03c3Qgh1L/ixYMiXv0h3vw3Jm0O2vpg4PHeDDPz/JgzpS3r21hb39jc2q7sVHf39g8OzaPjrooSSWiHRDySfR8rypmgHc00p/1YUhz6nPb86U3h9x6pVCwS9zqNqRvisWABI1jnkmfWmqlnowvkpJ6DhmP6gJyqZ9athjUHWiV2SepQou2ZX8NRRJKQCk04VmpgW7F2Myw1I5zOqsNE0RiTKR7TQU4FDqlys/nxM3SWKyMURDIvodFc/T2R4VCpNPTzzhDriVr2CvE/b5Do4NrNmIgTTQVZLAoSjnSEiiTQiElKNE9zgolk+a2ITLDEROd5FSHYyy+vkq7TsC8bzbtmvdUu46jACZzCOdhwBS24hTZ0gEAKz/AKb8aT8WK8Gx+L1jWjnKnBHxifPwELknk=</latexit>
-
-
-
-
-el problema siguiente —>   min 24y + 6y
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <latexit sha1_base64="P2Ju4MREcEJQK6pvw+oh4lOwh9M=">AAACOHicbVDLSsNAFJ34rPVVdelmsFgEISShVJcFN+6sYB/QlDCZTtuhk0k6MxFC6Ge58TPciRsXirj1C5y0QbT1wMDhnHO5c48fMSqVZT0bK6tr6xubha3i9s7u3n7p4LAlw1hg0sQhC0XHR5IwyklTUcVIJxIEBT4jbX98lfnteyIkDfmdSiLSC9CQ0wHFSGnJK90ElEN3EqM+rECnmng2PIe1xHNctyhNZeZWbW5oHbpDMoE1bVdgHnd+ZKfolcqWac0Al4mdkzLI0fBKT24/xHFAuMIMSdm1rUj1UiQUxYxMi24sSYTwGA1JV1OOAiJ76ezwKTzVSh8OQqEfV3Cm/p5IUSBlEvg6GSA1koteJv7ndWM1uOyllEexIhzPFw1iBlUIsxZhnwqCFUs0QVhQ/VeIR0ggrHTXWQn24snLpOWYds2s3lbL9UZeRwEcgxNwBmxwAergGjRAE2DwAF7AG3g3Ho1X48P4nEdXjHzmCPyB8fUN5aKl2Q==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1        2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  s.t.   6y1 + y2        6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         4y1 + 2y2       2
-Interpretación económica de las variables duales
-
-       max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              6x1 + 2x2           min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        24y1 + 6y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <latexit sha1_base64="P2Ju4MREcEJQK6pvw+oh4lOwh9M=">AAACOHicbVDLSsNAFJ34rPVVdelmsFgEISShVJcFN+6sYB/QlDCZTtuhk0k6MxFC6Ge58TPciRsXirj1C5y0QbT1wMDhnHO5c48fMSqVZT0bK6tr6xubha3i9s7u3n7p4LAlw1hg0sQhC0XHR5IwyklTUcVIJxIEBT4jbX98lfnteyIkDfmdSiLSC9CQ0wHFSGnJK90ElEN3EqM+rECnmng2PIe1xHNctyhNZeZWbW5oHbpDMoE1bVdgHnd+ZKfolcqWac0Al4mdkzLI0fBKT24/xHFAuMIMSdm1rUj1UiQUxYxMi24sSYTwGA1JV1OOAiJ76ezwKTzVSh8OQqEfV3Cm/p5IUSBlEvg6GSA1koteJv7ndWM1uOyllEexIhzPFw1iBlUIsxZhnwqCFUs0QVhQ/VeIR0ggrHTXWQn24snLpOWYds2s3lbL9UZeRwEcgxNwBmxwAergGjRAE2DwAF7AG3g3Ho1X48P4nEdXjHzmCPyB8fUN5aKl2Q==</latexit>
-
-
-
-
-       <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    s.t.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                6x1 + 4x2  24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   s.t.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          6y1 + y2     6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        x1 + 2x2  6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   4y1 + 2y2    2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ⇤    ⇤
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <latexit sha1_base64="8Vs2/KfPVWl2pokMqn5Gxb1v+F8=">AAAB/3icbVDLSsNAFJ34rPUVFdy4GSxCK6UkpagboeDGZQX7gDaGyXTSDp1MwsxELLELf8WNC0Xc+hvu/BsnbRbaeuByD+fcy9w5XsSoVJb1bSwtr6yurec28ptb2zu75t5+S4axwKSJQxaKjockYZSTpqKKkU4kCAo8Rtre6Cr12/dESBryWzWOiBOgAac+xUhpyTUPiw93p65dhmmrluAlLNbKVsk1C1bFmgIuEjsjBZCh4ZpfvX6I44BwhRmSsmtbkXISJBTFjEzyvViSCOERGpCuphwFRDrJ9P4JPNFKH/qh0MUVnKq/NxIUSDkOPD0ZIDWU814q/ud1Y+VfOAnlUawIx7OH/JhBFcI0DNingmDFxpogLKi+FeIhEggrHVleh2DPf3mRtKoV+6xSu6kV6o0sjhw4AsegCGxwDurgGjRAE2DwCJ7BK3gznowX4934mI0uGdnOAfgD4/MHs4GSug==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           (x1 , x2 ) = (4, 0)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ⇤ ⇤
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <latexit sha1_base64="It/lG7O1Wg3kb7Xq/ACsk/57D9Y=">AAAB/3icbVDLSsNAFJ3UV62vqODGzWARWiklKUXdCAU3LivYB7QxTKaTduhkEmYmQohd+CtuXCji1t9w5984abvQ1gOXezjnXubO8SJGpbKsbyO3srq2vpHfLGxt7+zumfsHbRnGApMWDlkouh6ShFFOWooqRrqRICjwGOl44+vM7zwQIWnI71QSESdAQ059ipHSkmselZL7M9euwKzVyvAKluyKVXbNolW1poDLxJ6TIpij6Zpf/UGI44BwhRmSsmdbkXJSJBTFjEwK/ViSCOExGpKephwFRDrp9P4JPNXKAPqh0MUVnKq/N1IUSJkEnp4MkBrJRS8T//N6sfIvnZTyKFaE49lDfsygCmEWBhxQQbBiiSYIC6pvhXiEBMJKR1bQIdiLX14m7VrVPq/Wb+vFRnMeRx4cgxNQAja4AA1wA5qgBTB4BM/gFbwZT8aL8W58zEZzxnznEPyB8fkDshWSuQ==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (y1 , y2 ) = (1, 0)
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Al óptimo, los valores y1* y y2*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         representan el valor de la malta.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         En P.L. se llama “precios duales” o
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         “precios sombras” (en inglés: dual
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         prices o shadow prices)
-
-Interpretación económica de las restricciones duales
-
-       max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6x1 + 2x2                 min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 24y1 + 6y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <latexit sha1_base64="P2Ju4MREcEJQK6pvw+oh4lOwh9M=">AAACOHicbVDLSsNAFJ34rPVVdelmsFgEISShVJcFN+6sYB/QlDCZTtuhk0k6MxFC6Ge58TPciRsXirj1C5y0QbT1wMDhnHO5c48fMSqVZT0bK6tr6xubha3i9s7u3n7p4LAlw1hg0sQhC0XHR5IwyklTUcVIJxIEBT4jbX98lfnteyIkDfmdSiLSC9CQ0wHFSGnJK90ElEN3EqM+rECnmng2PIe1xHNctyhNZeZWbW5oHbpDMoE1bVdgHnd+ZKfolcqWac0Al4mdkzLI0fBKT24/xHFAuMIMSdm1rUj1UiQUxYxMi24sSYTwGA1JV1OOAiJ76ezwKTzVSh8OQqEfV3Cm/p5IUSBlEvg6GSA1koteJv7ndWM1uOyllEexIhzPFw1iBlUIsxZhnwqCFUs0QVhQ/VeIR0ggrHTXWQn24snLpOWYds2s3lbL9UZeRwEcgxNwBmxwAergGjRAE2DwAF7AG3g3Ho1X48P4nEdXjHzmCPyB8fUN5aKl2Q==</latexit>
-
-
-
-
-       <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              s.t.   6x1 + 4x2  24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         s.t.   6y1 + y2     6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     x1 + 2x2  6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  4y1 + 2y2    2
-
- costo de los                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Si no se produce Tripel en el plan de
- recursos para                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           utilidad de        producción actual, el incremento en la
- producir un batch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       cada batch         producción de Tripel mejorará el ingreso
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            sólo si el costo reducido de la Tripel es
- de Tripel (C1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          de Tripel (C1)     negativo.
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    6y1 + y2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             6 —> “costo reducido” de la Tripel (C1)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <latexit sha1_base64="NC+9peE2hOQGCUazSN3rR//8JSI=">AAAB+HicbVBNS8NAEJ3Ur1o/GvXoZbEIgliSUqrHghePFewHtCFstpt26WYTdjdCDP0lXjwo4tWf4s1/Y9LmoK0PBh7vzTAzz4s4U9qyvo3SxubW9k55t7K3f3BYNY+OeyqMJaFdEvJQDjysKGeCdjXTnA4iSXHgcdr3Zre533+kUrFQPOgkok6AJ4L5jGCdSa5ZbSWujS5R4jbQFWpVXLNm1a0F0DqxC1KDAh3X/BqNQxIHVGjCsVJD24q0k2KpGeF0XhnFikaYzPCEDjMqcECVky4On6PzTBkjP5RZCY0W6u+JFAdKJYGXdQZYT9Wql4v/ecNY+zdOykQUayrIcpEfc6RDlKeAxkxSonmSEUwky25FZIolJjrLKg/BXn15nfQadbtVb943a+1OEUcZTuEMLsCGa2jDHXSgCwRieIZXeDOejBfj3fhYtpaMYuYE/sD4/AHvOJC5</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *    *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    4y1 + 2y2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <latexit sha1_base64="fy0rvSlr3GPtaXcMKQH8ajXerJU=">AAAB+XicbVDLSsNAFL2pr1pfUZduBosgiCUJRV0W3LisYB/QhjCZTtqhkwczk0II/RM3LhRx65+482+ctFlo64ELh3Pu5d57/IQzqSzr26hsbG5t71R3a3v7B4dH5vFJV8apILRDYh6Lvo8l5SyiHcUUp/1EUBz6nPb86X3h92ZUSBZHTypLqBviccQCRrDSkmeazcyz0RVyMs9B18ipeWbdalgLoHVil6QOJdqe+TUcxSQNaaQIx1IObCtRbo6FYoTTeW2YSppgMsVjOtA0wiGVbr64fI4utDJCQSx0RQot1N8TOQ6lzEJfd4ZYTeSqV4j/eYNUBXduzqIkVTQiy0VBypGKUREDGjFBieKZJpgIpm9FZIIFJkqHVYRgr768TrpOw75pNB+b9Va7jKMKZ3AOl2DDLbTgAdrQAQIzeIZXeDNy48V4Nz6WrRWjnDmFPzA+fwBaLpDv</latexit>
-Interpretación económica de las restricciones duales
-
-       max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6x1 + 2x2                    min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 24y1 + 6y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <latexit sha1_base64="P2Ju4MREcEJQK6pvw+oh4lOwh9M=">AAACOHicbVDLSsNAFJ34rPVVdelmsFgEISShVJcFN+6sYB/QlDCZTtuhk0k6MxFC6Ge58TPciRsXirj1C5y0QbT1wMDhnHO5c48fMSqVZT0bK6tr6xubha3i9s7u3n7p4LAlw1hg0sQhC0XHR5IwyklTUcVIJxIEBT4jbX98lfnteyIkDfmdSiLSC9CQ0wHFSGnJK90ElEN3EqM+rECnmng2PIe1xHNctyhNZeZWbW5oHbpDMoE1bVdgHnd+ZKfolcqWac0Al4mdkzLI0fBKT24/xHFAuMIMSdm1rUj1UiQUxYxMi24sSYTwGA1JV1OOAiJ76ezwKTzVSh8OQqEfV3Cm/p5IUSBlEvg6GSA1koteJv7ndWM1uOyllEexIhzPFw1iBlUIsxZhnwqCFUs0QVhQ/VeIR0ggrHTXWQn24snLpOWYds2s3lbL9UZeRwEcgxNwBmxwAergGjRAE2DwAF7AG3g3Ho1X48P4nEdXjHzmCPyB8fUN5aKl2Q==</latexit>
-
-
-
-
-       <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              s.t.   6x1 + 4x2  24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            s.t.   6y1 + y2     6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     x1 + 2x2  6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     4y1 + 2y2    2
-
- costo de los                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Si no se produce Oscura en el plan de
- recursos para                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 producción actual, el incremento en la
- producir un batch                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            utilidad de      producción de Oscura mejorará el ingreso
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              cada batch       sólo si el costo reducido de la Oscura es
- de Oscura (C2)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                negativo.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              de Oscura (C2)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    6y + y*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <latexit sha1_base64="NC+9peE2hOQGCUazSN3rR//8JSI=">AAAB+HicbVBNS8NAEJ3Ur1o/GvXoZbEIgliSUqrHghePFewHtCFstpt26WYTdjdCDP0lXjwo4tWf4s1/Y9LmoK0PBh7vzTAzz4s4U9qyvo3SxubW9k55t7K3f3BYNY+OeyqMJaFdEvJQDjysKGeCdjXTnA4iSXHgcdr3Zre533+kUrFQPOgkok6AJ4L5jGCdSa5ZbSWujS5R4jbQFWpVXLNm1a0F0DqxC1KDAh3X/BqNQxIHVGjCsVJD24q0k2KpGeF0XhnFikaYzPCEDjMqcECVky4On6PzTBkjP5RZCY0W6u+JFAdKJYGXdQZYT9Wql4v/ecNY+zdOykQUayrIcpEfc6RDlKeAxkxSonmSEUwky25FZIolJjrLKg/BXn15nfQadbtVb943a+1OEUcZTuEMLsCGa2jDHXSgCwRieIZXeDOejBfj3fhYtpaMYuYE/sD4/AHvOJC5</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1     2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *   *
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    4y + 2y
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <latexit sha1_base64="fy0rvSlr3GPtaXcMKQH8ajXerJU=">AAAB+XicbVDLSsNAFL2pr1pfUZduBosgiCUJRV0W3LisYB/QhjCZTtqhkwczk0II/RM3LhRx65+482+ctFlo64ELh3Pu5d57/IQzqSzr26hsbG5t71R3a3v7B4dH5vFJV8apILRDYh6Lvo8l5SyiHcUUp/1EUBz6nPb86X3h92ZUSBZHTypLqBviccQCRrDSkmeazcyz0RVyMs9B18ipeWbdalgLoHVil6QOJdqe+TUcxSQNaaQIx1IObCtRbo6FYoTTeW2YSppgMsVjOtA0wiGVbr64fI4utDJCQSx0RQot1N8TOQ6lzEJfd4ZYTeSqV4j/eYNUBXduzqIkVTQiy0VBypGKUREDGjFBieKZJpgIpm9FZIIFJkqHVYRgr768TrpOw75pNB+b9Va7jKMKZ3AOl2DDLbTgAdrQAQIzeIZXeDNy48V4Nz6WrRWjnDmFPzA+fwBaLpDv</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               2   —> “costo reducido” de la Oscura (C2)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1         2
-Interpretación económica de las restricciones duales
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   max                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  6x1 + 2x2                     min                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          24y1 + 6y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <latexit sha1_base64="P2Ju4MREcEJQK6pvw+oh4lOwh9M=">AAACOHicbVDLSsNAFJ34rPVVdelmsFgEISShVJcFN+6sYB/QlDCZTtuhk0k6MxFC6Ge58TPciRsXirj1C5y0QbT1wMDhnHO5c48fMSqVZT0bK6tr6xubha3i9s7u3n7p4LAlw1hg0sQhC0XHR5IwyklTUcVIJxIEBT4jbX98lfnteyIkDfmdSiLSC9CQ0wHFSGnJK90ElEN3EqM+rECnmng2PIe1xHNctyhNZeZWbW5oHbpDMoE1bVdgHnd+ZKfolcqWac0Al4mdkzLI0fBKT24/xHFAuMIMSdm1rUj1UiQUxYxMi24sSYTwGA1JV1OOAiJ76ezwKTzVSh8OQqEfV3Cm/p5IUSBlEvg6GSA1koteJv7ndWM1uOyllEexIhzPFw1iBlUIsxZhnwqCFUs0QVhQ/VeIR0ggrHTXWQn24snLpOWYds2s3lbL9UZeRwEcgxNwBmxwAergGjRAE2DwAF7AG3g3Ho1X48P4nEdXjHzmCPyB8fUN5aKl2Q==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <latexit sha1_base64="kgGX5+7KC3yEz2FKuYzj+4QevZE=">AAACOHicbVDLSsNAFJ34rPFVdelmsFgEISShVJcFN+6sYB/QhDCZTtuhk0dnJtIS+llu/Ax34saFIm79AidtQG09MHA451zu3OPHjAppms/ayura+sZmYUvf3tnd2y8eHDZFlHBMGjhiEW/7SBBGQ9KQVDLSjjlBgc9Iyx9eZX7rnnBBo/BOTmLiBqgf0h7FSCrJK94EaAydUYK6sAyrY8+C59Aee7bj6MKQRu7kRkUZ0GFkBO2KCpThT34uV3WvWDINcwa4TKyclECOuld8croRTgISSsyQEB3LjKWbIi4pZmSqO4kgMcJD1CcdRUMUEOGms8On8FQpXdiLuHqhhDP190SKAiEmga+SAZIDsehl4n9eJ5G9SzelYZxIEuL5ol7CoIxg1iLsUk6wZBNFEOZU/RXiAeIIS9V1VoK1ePIyadqGVTUqt5VSrZ7XUQDH4AScAQtcgBq4BnXQABg8gBfwBt61R+1V+9A+59EVLZ85An+gfX0D8TCl3w==</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                s.t.    6x1 + 4x2  24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      s.t.   6y1 + y2     6
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        x1 + 2x2  6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               4y1 + 2y2    2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             (– costo reducido) de la Oscura (C2)
-Últimos diccionarios:
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ⇣ = 24                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 w1     2x2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ⌘=      24   4s1        2y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <latexit sha1_base64="0t64e93rrnoiGnyjaZNaSYpYdIg=">AAACRXicbZBLSwMxFIUzPuv4qrp0c7EogrTMTEt1Uyi4cVnBVqFThkyatqGZB0lGGAb/nBv37vwHblwo4lbTmS58XQh8nHMuSY4fcyaVZT0ZC4tLyyurpTVzfWNza7u8s9uTUSII7ZKIR+LGx5JyFtKuYorTm1hQHPicXvvT85l/fUuFZFF4pdKYDgI8DtmIEay05JVd06UKw1ELqk4DqtCQnq0x9RzXNVPN2tECWDW7eZp7ORW+9Bw4ghY4cKIDzSJwAnatXq/rhOmVK1bNygf+gj2HCppPxys/usOIJAENFeFYyr5txWqQYaEY4fTOdBNJY0ymeEz7GkMcUDnI8hbu4FArQxhFQp9QQa5+38hwIGUa+DoZYDWRv72Z+J/XT9TobJCxME4UDUlx0SjhoCKYVQpDJihRPNWAiWD6rUAmWGCidPGzEuzfX/4LPUfXWmtcNirtzryOEtpHB+gY2egUtdEF6qAuIugePaNX9GY8GC/Gu/FRRBeM+c4e+jHG5xegEaVc</latexit>
-
-
-
-
-   <latexit sha1_base64="Dl6n2bDgqstAMdvxhz1zUiedGkE=">AAACRHicbZBNSwJBHMZne7XtbatjlyFJglB2V9EugdClo0G+gCvL7Djq4OwLM7OpiR+uSx+gW5+gS4ciukaz6sG0Pwz8eJ7nz8w8XsSokKb5qq2tb2xubad29N29/YND4+i4JsKYY1LFIQt5w0OCMBqQqqSSkUbECfI9Rupe/ybx6w+ECxoG93IUkZaPugHtUIykklyjqTuPRCKYuYZ2AWbhwLVg1h66tuPoQ8VKT2QzZxVLU09hsViaBQauDTNQbcLLhYSVy+fzKqC7RtrMmdOBq2DNIQ3mU3GNF6cd4tgngcQMCdG0zEi2xohLihmZ6E4sSIRwH3VJU2GAfCJa42kJE3iulDbshFydQMKpurgxRr4QI99TSR/Jnlj2EvE/rxnLzlVrTIMoliTAs4s6MYMyhEmjsE05wZKNFCDMqXorxD3EEZaq96QEa/nLq1CzVX25wl0hXa7M60iBU3AGLoAFSqAMbkEFVAEGT+ANfIBP7Vl7176071l0TZvvnIA/o/38AsDgpXw=</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                x1 = 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 0.167w1       0.667x2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       y1 = 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             0.167s1        0.167y2
-   w2 = 2 + 0.167w1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  1.333x2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       s2 = 2 + 0.667s1 + 1.333y2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 De cuánto debería subir la utilidad de la
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 cerveza C2 para que sea rentable producirla?
-                               Ejercicio 6
-Antes de ser reabastecido con nuevos modelos, un vendedor de teléfonos móviles quiere
-vender su stock de 8 móviles, 4 kits mano libre y 19 tarjetas de llamadas prepagables. Su
-experiencia les asegura que podría proponer a sus clientes paquetes que contienen un
-móvil y 2 tarjetas prepagables, para obtener una utilidad neta de 70 soles. También podría
-preparar paquetes que contienen un móvil, un kit mano libre y 3 tarjetas para una utilidad
-neta de 90 soles. Está seguro vender cualquier cantidad de esas dos ofertas en el limite
-del stock disponible.
-
-1. ¿Cuál cantidad de cada oferta el vendedor debería proponer para maximizar su utilidad
-neta?
-
-2. Una tienda propone al vendedor comprar su stock por mayor. ¿Cuáles son los precios
-razonables que el vendedor tendría que negociar para cada producto (móvil, kit mano
-libre, tarjeta)?
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+## Slide 10
+"A la búsqueda de un límite superior". Mismas restricciones que la slide anterior. Pregunta: "¿Se puede mejorar? ¿Qué significa mejorar el límite superior? Un mejor límite superior debería ser mayor o menor que 11?" (razonamiento guiado sobre cómo combinar las restricciones para bajar la cota).
+
+## Slide 11
+"A la búsqueda de un límite superior". Mismas restricciones, ahora resaltando x1 con la pregunta "todavía mayor que la función objetivo" — se explora combinar las restricciones multiplicándolas por coeficientes y1, y2 no negativos.
+
+## Slide 12
+"A la búsqueda de un límite superior". Se introduce formalmente la combinación lineal con multiplicadores y1≥0, y2≥0 sobre las restricciones:
+$$11x_1+5x_2+3x_3 \le 11,\quad 10x_1+x_2+3x_3\le10$$
+$$(y_1+3y_2)x_1+(4y_1{-}y_2)x_2+(y_2)x_3 \le y_1+3y_2$$
+Pregunta: "Que tenemos que hacer? Maximizar? Minimizar?"
+
+## Slide 13
+"A la búsqueda de un límite superior". Igual que la anterior, con la pregunta "¿Tenemos restricciones?" y la conclusión de que hay que **Minimizar** (el límite superior y1+3y2 sujeto a que los coeficientes dominen a los de la función objetivo original, con y1,y2≥0).
+
+## Slide 14
+"A la búsqueda de un límite superior". Se cierra el razonamiento: "Ese problema de minimización es el **dual** del problema de maximización original" — primera aparición explícita del concepto de problema dual, con la combinación lineal de restricciones mostrada como demostración informal.
+
+## Slide 15
+"Dual de un problema". Slide de build/animación (primera de una secuencia): aparecen dos columnas encabezadas "Problema primal…" y "…y su dual", inicialmente vacías o con muy poco contenido — se van revelando en las slides 16-18 siguientes.
+
+## Slide 16
+"Dual de un problema" (continuación del build). Columnas "Problema primal… / …y su dual" con más elementos revelados progresivamente (probablemente la función objetivo del primal apareciendo del lado izquierdo).
+
+## Slide 17
+"Dual de un problema" (continuación del build). Un paso más de la animación mostrando la construcción fila por fila del dual a partir del primal (restricciones → variables duales, coeficientes → función objetivo dual).
+
+## Slide 18
+"Dual de un problema" (última del build). Las dos columnas "Problema primal" y "su dual" completas, mostrando la correspondencia final entre ambos programas lineales.
+
+## Slide 19
+"Dual de un problema". Pregunta guía: "¿Cómo escribir el problema en forma canónica?" — transición hacia el procedimiento general de dualización.
+
+## Slide 20
+"Dual de un problema". Explicación: "Minimizar algo es maximizar su negativo y 'negativar' el resultado" — regla mnemotécnica para convertir min↔max al dualizar.
+
+## Slide 21
+"Dual de un problema". Aplicación concreta de la regla anterior con un ejemplo numérico:
+$$-\max\; y_1+3y_2$$
+$$\text{s.t.}\quad y_1+3y_2 \ge 4$$
+$$4y_1+y_2 \ge 1$$
+$$y_2 \ge 3$$
+$$y_1,y_2\ge0$$
+Título recordatorio al pie: "Minimizar algo es maximizar su negativo y 'negativar' el resultado".
+
+## Slide 22
+"El dual del dual de un problema es su primal". Dos columnas "Primal" y "Dual" (slide introductoria de la propiedad de involución de la dualidad), contenido mínimo visible aparte del título.
+
+## Slide 23
+"Teorema de la dualidad débil". Enunciado formal: dado (x1,…,xn) factible del primal y (y1,…,ym) factible del dual:
+$$\sum_j c_j x_j \le \sum_i b_i y_i$$
+Anotación: "Valor objetivo de cualquier solución del problema de maximización ≤ Valor objetivo de cualquier solución del problema de minimización".
+
+## Slide 24
+"Teorema de la dualidad débil". Repite el enunciado anterior, añadiendo la anotación de que la desigualdad da "el mejor límite superior del primal": "Valor óptimo del problema de maximización ≤ Valor óptimo del problema de minimización".
+
+## Slide 25
+"Teorema de la dualidad débil". Diagrama de recta numérica con dos corchetes `]` y `[` mostrando dos intervalos disjuntos: a la izquierda "valores posibles del primal" y a la derecha "valores posibles del dual", ilustrando que el conjunto de valores factibles del primal está siempre por debajo del conjunto de valores factibles del dual.
+
+## Slide 26
+"Teorema de la dualidad débil". Mismo diagrama de recta numérica, pero ahora marcando los extremos como "valor óptimo del primal" (corchete derecho `]`) y "valor óptimo del dual" (corchete izquierdo `[`), con la pregunta manuscrita en rojo: "¿gap (diferencia) de dualidad?"
+
+## Slide 27
+"Teorema de la dualidad débil". Diagrama similar pero con los corchetes `][` juntándose (sin espacio entre "valor óptimo del primal" y "valor óptimo del dual"), y la pregunta: "…o no gap? Si no hay gap, ¿qué significa?"
+
+## Slide 28
+"Teorema de la dualidad fuerte". Enunciado formal con superíndices *: si el primal tiene solución óptima (x1*,…,xn*), el dual también tiene solución óptima (y1*,…,ym*) tal que:
+$$\sum_j c_j x_j^{*} = \sum_i b_i y_i^{*}$$
+Columnas "Primal" y "Dual" con la igualdad "Valor óptimo del problema de maximización = Valor óptimo del problema de minimización".
+
+## Slide 29
+"Teorema de la dualidad fuerte". Repite la igualdad de valores óptimos maximización = minimización, con diagrama de recta numérica mostrando los corchetes `][` unidos (sin gap) etiquetados "valor óptimo del primal" / "valor óptimo del dual", y la nota: "No hay gap de optimalidad si existe una solución óptima para el problema primal o dual".
+
+## Slide 30
+"Resultados" (corolarios de la dualidad fuerte/débil), lista:
+1. Primal óptimo ⟺ dual óptimo
+2. Primal no acotado ⟹ dual no factible
+3. Dual no acotado ⟹ primal no factible
+
+## Slide 31
+"Ejercicio 1". Enunciado:
+$$\max\; z = 5x_1+2x_2$$
+$$\text{s.t.}\quad x_1+x_2 \le 2$$
+$$2x_1+3x_2 \le 5$$
+$$x_1,x_2\ge 0$$
+Consigna: "Escribir el dual del programa".
+
+## Slide 32
+"Ejercicio 2". Enunciado:
+$$\min\; z=6x_1+3x_2$$
+$$\text{s.t.}\quad 6x_1-3x_2+x_3 \ge 2$$
+$$3x_1+4x_2+x_3\ge5$$
+$$x_1,x_2,x_3\ge0$$
+Consigna: "Escribir el dual del programa".
+
+## Slide 33
+"Ejercicio 3". Enunciado (verificado en imagen):
+$$\max\; z=x_1+x_2$$
+$$\text{s.t.}\quad 2x_1+x_2=5$$
+$$3x_1-x_2=6$$
+$$x_1,x_2\in\mathbb{R}$$
+Consigna: "Escribir el dual del programa". (Nota: variables libres, restricciones de igualdad — caso especial de dualización.)
+
+## Slide 34
+"Ejercicio 4". Enunciado (verificado en imagen):
+$$\min\; -2x_1-3x_2-2x_3-3x_4$$
+$$\text{s.t.}\quad -2x_1-x_2-3x_3-2x_4 \ge -8$$
+$$3x_1+2x_2+2x_3+x_4 \le 7$$
+$$x_1,x_2,x_3,x_4\ge0$$
+Lista de 5 consignas a la derecha:
+1. Escribir el programa en forma estándar
+2. Escribir el dual del programa
+3. Encontrar una solución óptima del dual con el método gráfico
+4. Hacer la primera iteración del simplex con el programa original (primal). Después de 3 iteraciones obtenemos que la solución óptima es (0, 2, 0, 3)
+5. Averiguar que la solución encontrada en la pregunta 3 es óptima
+
+## Slide 35
+Slide de título de sección: "Método simplex **dual**" (texto centrado, "dual" en negrita).
+
+## Slide 36
+Slide inicial del ejemplo guía del método simplex dual (verificado en imagen). Programa primal (P) marcado en rojo:
+$$\text{maximize}\; -x_1-x_2$$
+$$\text{subject to}\; -2x_1-x_2\le4$$
+$$-2x_1+4x_2\le-8$$
+$$-x_1+3x_2\le-7$$
+$$x_1,x_2\ge0$$
+Se indica con flecha roja "Dual (D) —>" el espacio donde se escribirá el dual, y la consigna "Escribir el problema dual" (aún sin resolver en esta slide).
+
+## Slide 37
+Continuación (verificado en imagen). Mismo primal (P) a la izquierda; a la derecha se muestra ya resuelto el dual (D):
+$$\text{minimize}\;4y_1-8y_2-7y_3$$
+$$\text{subject to}\; -2y_1-2y_2-y_3\ge-1$$
+$$-y_1+4y_2+3y_3\ge-1$$
+$$y_1,y_2,y_3\ge0$$
+
+## Slide 38
+Continuación (verificado en imagen). Se piden los "diccionarios iniciales" de (P) y (D), con la nota roja recordatoria "minimizar algo es maximizar su negativo y 'negativar' el resultado" (preparación antes de escribirlos).
+
+## Slide 39
+Continuación (verificado en imagen). Diccionarios iniciales ya escritos:
+(P): $\zeta=-x_1-x_2$; $w_1=4+2x_1+x_2$; $w_2=-8+2x_1-4x_2$; $w_3=-7+x_1-3x_2$.
+(D): $-\xi=-4y_1+8y_2+7y_3$; $z_1=1-2y_1-2y_2-y_3$; $z_2=1-y_1+4y_2+3y_3$.
+
+## Slide 40
+Continuación (verificado en imagen). Mismos diccionarios (P) y (D); a la derecha la pregunta "<- diccionario factible?" junto a ambos, planteando si son factibles en el origen.
+
+## Slide 41
+Continuación (verificado en imagen). Respuesta: para (P) se anota "<- el diccionario primal **no es** factible" (w2=-8 y w3=-7 son negativos en el origen); para (D) queda pendiente la pregunta "<- diccionario factible?".
+
+## Slide 42
+Continuación (verificado en imagen). Se confirma: "<- el diccionario dual **es** factible" (todos los términos independientes de z1, z2 son ≥0), con la conclusión "Idea: más simple aplicar el simplex al dual".
+
+## Slide 43
+Continuación — Paso 1 del simplex dual (verificado en imagen). Se identifican la variable de salida (w2, la más negativa en el diccionario primal) y la variable de entrada correspondiente, señaladas con círculos rojo/azul. Nota: "y2 en (D) corresponde a w2 en (P)"; "z1 en (D) corresponde a x1 en (P)" — se explica la correspondencia biunívoca entre variables primal/dual.
+
+## Slide 44
+Continuación — Paso 1 (verificado en imagen). Igual señalización de variable de salida (w2 ↔ z1) y variable de entrada (x1 ↔ 8y2), con la instrucción "Escribir el diccionario después del paso 1" (aún sin resolver el pivoteo).
+
+## Slide 45
+Continuación — resultado del Paso 1 (verificado en imagen). Diccionarios actualizados tras el pivoteo:
+(P): $\zeta=-4-0.5w_2-3x_2$; $w_1=12+w_2+5x_2$; $x_1=4+0.5w_2+2x_2$; $w_3=-3+0.5w_2-x_2$.
+(D): $-\xi=4-12y_1-4z_1+3y_3$; $y_2=0.5-y_1-0.5z_1-0.5y_3$; $z_2=3-5y_1-2z_1+y_3$.
+
+## Slide 46
+Continuación — Paso 2 (verificado en imagen). Se identifica nueva variable de salida (w3 ↔ y2) y variable de entrada (w2 ↔ 3y3), señaladas con círculos. Resultado del pivoteo mostrado a la derecha:
+(P): $\zeta=-7-w_3-4x_2$; $w_1=18+2w_3+7x_2$; $x_1=7+w_3+3x_2$; $w_2=6+2w_3+2x_2$.
+(D): $-\xi=7-18y_1-7z_1-6y_2$; $y_3=1-2y_1-z_1-2y_2$; $z_2=4-7y_1-3z_1-2y_2$.
+
+## Slide 47
+Continuación — conclusión del ejemplo (verificado en imagen). Diccionarios finales de (P) y (D) mostrados (idénticos a los del final de la slide anterior), con la nota "los dos diccionarios son óptimos" (todos los coeficientes del renglón objetivo son del signo correcto). Conclusión en rojo: "**No se necesita** escribir el diccionario dual para aplicar el simplex dual, se puede aplicar directamente al diccionario primal. ¿Cómo no?"
+
+## Slide 48
+"¿Cómo no?" — Ilustración del algoritmo aplicado directamente sobre el diccionario primal (verificado en imagen), retomando el diccionario inicial de (P) y (D) con las variables de entrada/salida marcadas. A la derecha, procedimiento en 2 pasos:
+1) Seleccionar la variable de salida (entre las variables básicas) que tiene el término constante más negativo.
+2) Seleccionar la variable de entrada calculando el ratio del coeficiente de la línea de la variable de salida y del coeficiente del objetivo, eligiendo el pivote que corresponde al ratio más negativo.
+
+## Slide 49
+Pregunta de transición (verificado en imagen), texto centrado en rojo: "¿Qué pasa cuando los diccionarios primal y dual, ambos, son no factibles?"
+
+## Slide 50
+"¿Se acuerdan del método del problema auxiliar?" (verificado en imagen). Se recuerda el programa original:
+$$\max\;\sum_{j=1}^n c_jx_j \quad \text{s.t.}\quad \sum_{j=1}^n a_{ij}x_j\le b_i\ (i=1,\dots,m),\quad x_j\ge0$$
+y el problema auxiliar clásico (método de la Fase I):
+$$\max\;-x_0\quad\text{s.t.}\quad\Big(\sum_{j=1}^n a_{ij}x_j\Big)-x_0\le b_i,\quad x_j\ge0\ (j=0,\dots,n)$
+Nota roja: "Existe un método más elegante con el dual!"
+
+## Slide 51
+Nuevo ejemplo con ambos diccionarios no factibles (verificado en imagen). Primal (P):
+$$\max\; -x_1+4x_2$$
+$$\text{s.t.}\; -2x_1-x_2\le4,\; -2x_1+4x_2\le-8,\; -x_1+3x_2\le-7,\; x_1,x_2\ge0$$
+Diccionario primal: $\zeta=-x_1+4x_2$; $w_1=4+2x_1+x_2$; $w_2=-8+2x_1-4x_2$; $w_3=-7+x_1-3x_2$. Dual (D): $-\xi=-4y_1+8y_2+7y_3$; $z_1=1-2y_1-2y_2-y_3$; $z_2=-4-y_1+4y_2+3y_3$. Conclusión: "**Problema**: ningún diccionario es factible".
+
+## Slide 52
+Continuación (verificado en imagen). Se presenta la "Idea": modificar el objetivo del primal para que el diccionario inicial del dual sea factible; la solución óptima del problema modificado no será óptima para el original, pero será factible. Se muestra la modificación concreta: $\zeta=-x_1+4x_2 \;\to\; \eta=-x_1-x_2$.
+
+## Slide 53
+Continuación (verificado en imagen). Diccionario óptimo del primal modificado (η) obtenido tras el pivoteo:
+$\eta=-7-w_3-4x_2$; $w_1=18+2w_3+7x_2$; $x_1=7+w_3+3x_2$; $w_2=6+2w_3+2x_2$.
+Se muestra el paso de "substitución" de x1 de vuelta en la función objetivo original ζ = −x1+4x2, obteniendo el nuevo renglón objetivo $\zeta=-7-w_3+x_2$ con variable de entrada x2, lo que conduce a un **problema no acotado** en esa dirección (anotado en rojo).
+
+## Slide 54
+"Síntesis" del método (verificado en imagen), lista numerada:
+1) Hacemos que el primer diccionario del dual sea factible modificando la función objetivo del primal.
+2) Utilizamos el simplex dual sobre el primal.
+3) Obtenemos un punto extremo (factible) del primal.
+4) Utilizamos el punto extremo encontrado como punto inicial del simplex sobre el problema original.
+
+## Slide 55
+Slide de título de sección: "Interpretación económica de la dualidad" (texto centrado, sin gráficos).
+
+## Slide 56
+"Producción de cerveza" (verificado en imagen). Se presenta el modelo base con anotaciones de qué representa cada variable:
+$$\max\;6x_1+2x_2$$
+$$\text{s.t.}\;6x_1+4x_2\le24\;\text{(Recursos malta Munich, M1)}$$
+$$x_1+2x_2\le6\;\text{(Recursos malta Chocolate, M2)}$$
+Anotaciones: x1 = # batch Triple (C1), x2 = # batch Oscura (C2).
+
+## Slide 57
+"Producción de cerveza" (verificado en imagen). Mismo modelo; se plantea el razonamiento económico: "Vender las 6 unidades de Munich (M1) a y1 dólares/unidad y la unidad de Chocolate (M2) a y2 dólares/unidad genera una utilidad de $6y_1+y_2$ dólares" y la pregunta "¿Me interesa producir un batch menos de Tripel (C1) para vender la malta no utilizada? → depende de los precios y1 e y2".
+
+## Slide 58
+"Interpretación económica de las variables duales" (verificado en imagen). Mismo modelo primal; se plantea "¿A qué precio mínimo vender la malta 1?" derivando la restricción dual: $6y_1+y_2\ge6$.
+
+## Slide 59
+"Interpretación económica de las variables duales" (verificado en imagen). Análogo para la malta 2: "¿A qué precio mínimo vender la malta 2?" derivando $4y_1+2y_2\ge2$.
+
+## Slide 60
+"Interpretación económica de las variables duales" (verificado en imagen). Se plantea el problema dual completo a partir de las dos restricciones anteriores: si un comprador quiere comprar todo el stock de malta al costo mínimo, debe resolver
+$$\min\;24y_1+6y_2\quad\text{s.t.}\;6y_1+y_2\ge6,\;4y_1+2y_2\ge2$$
+Pregunta paralela: "¿A qué precio mínimo de la malta es interesante no producir cerveza para vender todo el stock de malta?"
+
+## Slide 61
+"Interpretación económica de las variables duales" (verificado en imagen). Se muestran las soluciones óptimas de ambos problemas lado a lado: primal $(x_1^*,x_2^*)=(4,0)$, dual $(y_1^*,y_2^*)=(1,0)$. Nota explicativa: "Al óptimo, los valores y1* y y2* representan el valor de la malta. En P.L. se llama 'precios duales' o 'precios sombra' (en inglés: dual prices o shadow prices)".
+
+## Slide 62
+"Interpretación económica de las restricciones duales" (verificado en imagen). Se construye el "costo reducido" de la Tripel (C1): $\left(6y_1^*+y_2^*\right)-6$ sobre $4y_1^*+2y_2^*-2$ (expresión con costo de recursos menos utilidad del batch), con la explicación: "Si no se produce Tripel en el plan de producción actual, el incremento en la producción de Tripel mejorará el ingreso sólo si el costo reducido de la Tripel es negativo."
+
+## Slide 63
+"Interpretación económica de las restricciones duales" (verificado en imagen). Análogo para la Oscura (C2): costo reducido $\dfrac{6y_1^*+y_2^*-6}{4y_1^*+2y_2^*-2}$ (aquí el "−2" corresponde al coeficiente de C2 en la función objetivo), con la misma explicación aplicada a Oscura. Además se muestran los "últimos diccionarios" del primal y del dual con los coeficientes finales (ζ, x1, w2 por un lado; η, y1, s2 por otro, en notación con variables de holgura s1) y la pregunta: "¿De cuánto debería subir la utilidad de la cerveza C2 para que sea rentable producirla?"
+
+## Slide 64
+"Ejercicio 6" (verificado en imagen). Enunciado de aplicación práctica: un vendedor de teléfonos móviles con stock de 8 móviles, 4 kits mano libre y 19 tarjetas prepagables quiere liquidar su stock antes de ser reabastecido. Puede vender paquetes de (1 móvil + 2 tarjetas) con utilidad neta 70 soles, o paquetes de (1 móvil + 1 kit mano libre + 3 tarjetas) con utilidad neta 90 soles, en la cantidad que desee dentro del límite de stock. Preguntas:
+1. ¿Cuál cantidad de cada oferta debería proponer para maximizar su utilidad neta?
+2. Una tienda propone comprar su stock por mayor. ¿Cuáles son los precios razonables que el vendedor tendría que negociar para cada producto (móvil, kit mano libre, tarjeta)? — (pregunta que exige interpretar económicamente las variables del problema dual, cerrando el capítulo).

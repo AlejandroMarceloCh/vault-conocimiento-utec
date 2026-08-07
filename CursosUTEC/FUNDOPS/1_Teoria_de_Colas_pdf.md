@@ -5,112 +5,173 @@ slides: 27
 fuente: 1 - Teoría de Colas.pdf
 ---
 
-Teoría de Colas
+## Slide 1
 
+Portada del curso. Título "Teoría de Colas" centrado, en letras grandes azul oscuro. Al pie derecho: "Expositor: Mg. Óscar Gamonal Pajares". Slide decorativa/de portada, sin contenido técnico.
 
+## Slide 2
 
-        Expositor: Mg. Óscar Gamonal Pajares
-Proceso de Llegadas
-Para especificar el proceso de llegadas a un sistema es necesario determinar la
-distribución de probabilidad del número de llegadas al proceso durante un periodo de
-tiempo determinado.
-El proceso de llegadas Poisson describe de una manera adecuada las llegadas a un
-sistema, la función de probabilidad es la siguiente:
+**Proceso de Llegadas**
 
+Para especificar el proceso de llegadas a un sistema es necesario determinar la distribución de probabilidad del número de llegadas al proceso durante un periodo de tiempo determinado. El proceso de llegadas Poisson describe de una manera adecuada las llegadas a un sistema, la función de probabilidad es la siguiente:
 
-                                     𝑷 𝑿 = 𝝀𝒙 𝒆−𝝀 /𝒙!
+$$P(X) = \frac{\lambda^x e^{-\lambda}}{x!}$$
 
-Donde: λ: Tasa promedio de llegadas (número de llegadas/unidad de tiempo)
-        x: Número de llegadas por periodo de tiempo
-        e: Número de Euler = 2.71828
+Donde:
+- λ: Tasa promedio de llegadas (número de llegadas/unidad de tiempo)
+- x: Número de llegadas por periodo de tiempo
+- e: Número de Euler = 2.71828
 
-En Excel: POISSON.DIST(x, λ, 0)
-Proceso de Llegadas Poisson a un Restaurant
-Determinar la probabilidad correspondiente al número de clientes que llegan a un restaurant durante el
-periodo de un minuto, si el proceso de llegadas es Poisson y en promedio llegan 45 clientes por hora.
-Realizar los cálculos con la fórmula general y luego utilizando la fórmula de Excel.
-Solución - Proceso de Llegadas Poisson a un Restaurant
-Proceso de Servicio Exponencial - Tiempo de Servicio
-Es el tiempo que transcurre desde el momento en que una unidad empieza a ser
-atendida hasta que sale del sistema. Si el tiempo de servicio se expresa a través de una
-función de distribución de probabilidad exponencial, se puede calcular la probabilidad de
-que el tiempo de servicio sea menor o igual a un determinado tiempo t de acuerdo con la
-siguiente fórmula:
+En Excel: `POISSON.DIST(x, λ, 0)`
 
-                            𝑷 𝒕 𝒅𝒆 𝒔𝒆𝒓𝒗𝒊𝒄𝒊𝒐 ≤ 𝒕 = 𝟏 − 𝒆−µ𝒕
+## Slide 3
 
-Donde: µ: Tasa de Servicio o Número promedio de unidades atendidas por unidad de
-         tiempo (unidades/tiempo)
-        e: Número de Euler = 2.71828
+**Proceso de Llegadas Poisson a un Restaurant**
 
-En Excel: DISTR.EXP.N(t, µ, 1)
-Proceso de Servicio Exponencial – Tiempo de Servicio
-Determinar la probabilidad correspondiente al tiempo de atención de una pizzería si se sabe que el proceso
-de servicio es exponencial y el tiempo promedio de atención es igual a 30 clientes por hora. Realizar los
-cálculos con la fórmula general y luego utilizando la fórmula de Excel.
-Solución – Proceso de Servicio Exponencial
-Disciplina de la Cola
-Es la forma en que las unidades que esperan en la cola son organizadas para ser
-atendidas, de tal forma que se asignan prioridades de atención en función a
-determinadas características. La disciplina más comúnmente utilizada es la
-denominada “Primero en Llegar, Primero en ser Servido”, aunque existen
-disciplinas adicionales.
-Líneas de Espera: Notación
-La notación utilizada en las fórmulas que permiten determinar las características
-de operación de un sistema con proceso de llegadas Poisson y tiempos de
-servicio exponenciales, con una cola y un servidor son las siguientes:
+Enunciado: Determinar la probabilidad correspondiente al número de clientes que llegan a un restaurant durante el periodo de un minuto, si el proceso de llegadas es Poisson y en promedio llegan 45 clientes por hora. Realizar los cálculos con la fórmula general y luego utilizando la fórmula de Excel.
 
-P0: Probabilidad de que el sistema esté vacío.
-λ: Tasa promedio de llegadas (unidades/tiempo).
-µ: Tasa de servicio o Número promedio de unidades atendidas por unidad de
-tiempo (unidades/tiempo).
-Lq: Longitud promedio de la cola.
-L: Número promedio de unidades en el sistema
-Líneas de Espera: Notación
+Captura de una hoja de cálculo (Excel) con el planteamiento (celdas aún vacías, valores por calcular):
 
-Wq: Tiempo promedio en la cola o tiempo de espera promedio.
-Pw: Probabilidad de que una unidad que llega tenga que hacer cola.
-Pn: Probabilidad de que haya n unidades en el sistema.
-Línea de Espera con una Cola y un Servidor
-Las fórmulas que permiten determinar las características de operación de un
-sistema con proceso de llegadas Poisson y tiempos de servicio exponenciales,
-con una cola y un servidor son las siguientes:
-                                                         𝝀
-a) Probabilidad de que el Sistema esté vacío:   𝑷𝟎 = 𝟏 −
-                                                         µ
+Bloque izquierdo (etiqueta verde "Proceso de Llegadas Poisson a un Restaurant"):
+| Variable | Valor |
+|---|---|
+| λ = | 45 clientes/hora |
+| λ = | ___ clientes/minuto |
 
+Tabla de valores de x (0 a 5) en amarillo, repetida dos veces (una para fórmula general, otra para fórmula Excel), cada fila dice "x = [0..5] clientes en un minuto".
 
-                                                   𝝀𝟐
-b) Número Promedio de Unidades en la Cola: 𝐋𝐪 =
-                                                µ(µ − 𝝀)
+Bloque derecho: fórmula $P(X)=\lambda^x e^{-\lambda}/x!$ con la definición de λ y x, y dos secciones tituladas "Utilizando la fórmula general" y "Utilizando la fórmula de Excel: POISSON.DIT(x;λ;0)", cada una con filas P[x=0] a P[x=5] (celdas de resultado vacías) junto a la descripción textual de cada probabilidad.
 
+## Slide 4
 
-                                                              𝝀
-c) Número Promedio de Unidades en el Sistema:        𝐋 = 𝐋𝐪 +
-                                                              µ
-Línea de Espera con una Cola y un Servidor
-                                      𝑳𝒒
-d) Tiempo Promedio en la Cola:   Wq =
-                                       λ
+**Solución - Proceso de Llegadas Poisson a un Restaurant**
 
+Misma hoja de cálculo que la slide 3, ahora con resultados calculados:
 
-                                                𝟏
-e) Tiempo Promedio en el Sistema:      𝑾 = 𝑾𝒒 +
-                                                µ
+| Variable | Valor |
+|---|---|
+| λ = | 45 clientes/hora |
+| λ = | 0.75 clientes/minuto |
 
+Resultados (idénticos en ambos métodos, fórmula general y Excel):
+| x | P[x] |
+|---|---|
+| 0 | 0.47237 |
+| 1 | 0.35427 |
+| 2 | 0.13285 |
+| 3 | 0.03321 |
+| 4 | 0.00623 |
+| 5 | 0.00093 |
 
-                                                          𝝀
-f) Probabilidad que una unidad tenga que hacer cola: Pw =
-                                                          µ
+## Slide 5
 
+**Proceso de Servicio Exponencial - Tiempo de Servicio**
 
-                                                         λ
-g) Probabilidad que haya n unidades en el Sistema: Pn = ( )𝑛𝑃0
-                                                         µ
-Auto Rápido Quentaqui Frai Chiquen
-El servicio de Auto Rápido de Quentaqui Frai Chiquen tiene una tasa de atención exponencial con promedio
-de 60 clientes/hora, sabiendo que existe una única ventanilla de atención y que los clientes llegan en su auto
-de acuerdo a una distribución de Poisson a razón de 30 clientes/hora, determinar:
+Es el tiempo que transcurre desde el momento en que una unidad empieza a ser atendida hasta que sale del sistema. Si el tiempo de servicio se expresa a través de una función de distribución de probabilidad exponencial, se puede calcular la probabilidad de que el tiempo de servicio sea menor o igual a un determinado tiempo t de acuerdo con la siguiente fórmula:
+
+$$P(t\ de\ servicio \le t) = 1 - e^{-\mu t}$$
+
+Donde:
+- µ: Tasa de Servicio o Número promedio de unidades atendidas por unidad de tiempo (unidades/tiempo)
+- e: Número de Euler = 2.71828
+
+En Excel: `DISTR.EXP.N(t, µ, 1)`
+
+## Slide 6
+
+**Proceso de Servicio Exponencial – Tiempo de Servicio**
+
+Enunciado: Determinar la probabilidad correspondiente al tiempo de atención de una pizzería si se sabe que el proceso de servicio es exponencial y el tiempo promedio de atención es igual a 30 clientes por hora. Realizar los cálculos con la fórmula general y luego utilizando la fórmula de Excel.
+
+Captura de hoja de cálculo (planteamiento, sin resolver aún; nótese que reutiliza visualmente la plantilla de "Proceso de Llegadas Poisson a un Restaurant" con λ=45 clientes/hora como resto de la plantilla anterior, valores de x en 0-5 y celdas P[x=0..5] vacías con la fórmula $P(X)=\lambda^x e^{-\lambda}/x!$; parece un artefacto de copiar la plantilla previa antes de adaptarla al caso de servicio exponencial).
+
+## Slide 7
+
+**Solución – Proceso de Servicio Exponencial**
+
+Captura de hoja de cálculo con la solución de la pizzería:
+
+| Variable | Valor |
+|---|---|
+| µ = | 30 clientes/hora |
+| µ = | 0.5 clientes/minuto |
+
+Fórmula: $P(t\ de\ servicio \le t) = 1 - e^{-\mu t}$
+
+"Utilizando la fórmula general: P(t de servicio <= t) = 1 - e^(-µt)":
+| t <= | Probabilidad |
+|---|---|
+| 0.5 min | 0.22120 |
+| 1 min | 0.39347 |
+| 1.5 min | 0.52763 |
+| 2 min | 0.63212 |
+| 2.5 min | 0.71350 |
+| 3 min | 0.77687 |
+
+"Utilizando la fórmula de Excel: DISTR.EXP.N(x;µ;1)": misma tabla, mismos resultados (0.22120, 0.39347, 0.52763, 0.63212, 0.71350, 0.77687).
+
+## Slide 8
+
+**Disciplina de la Cola**
+
+Es la forma en que las unidades que esperan en la cola son organizadas para ser atendidas, de tal forma que se asignan prioridades de atención en función a determinadas características. La disciplina más comúnmente utilizada es la denominada "Primero en Llegar, Primero en ser Servido", aunque existen disciplinas adicionales.
+
+## Slide 9
+
+**Líneas de Espera: Notación**
+
+La notación utilizada en las fórmulas que permiten determinar las características de operación de un sistema con proceso de llegadas Poisson y tiempos de servicio exponenciales, con una cola y un servidor, son las siguientes:
+
+- P0: Probabilidad de que el sistema esté vacío.
+- λ: Tasa promedio de llegadas (unidades/tiempo).
+- µ: Tasa de servicio o Número promedio de unidades atendidas por unidad de tiempo (unidades/tiempo).
+- Lq: Longitud promedio de la cola.
+- L: Número promedio de unidades en el sistema.
+
+## Slide 10
+
+**Líneas de Espera: Notación** (continuación)
+
+- Wq: Tiempo promedio en la cola o tiempo de espera promedio.
+- Pw: Probabilidad de que una unidad que llega tenga que hacer cola.
+- Pn: Probabilidad de que haya n unidades en el sistema.
+
+## Slide 11
+
+**Línea de Espera con una Cola y un Servidor**
+
+Las fórmulas que permiten determinar las características de operación de un sistema con proceso de llegadas Poisson y tiempos de servicio exponenciales, con una cola y un servidor, son las siguientes:
+
+a) Probabilidad de que el Sistema esté vacío:
+$$P_0 = 1 - \frac{\lambda}{\mu}$$
+
+b) Número Promedio de Unidades en la Cola:
+$$L_q = \frac{\lambda^2}{\mu(\mu-\lambda)}$$
+
+c) Número Promedio de Unidades en el Sistema:
+$$L = L_q + \frac{\lambda}{\mu}$$
+
+## Slide 12
+
+**Línea de Espera con una Cola y un Servidor** (continuación)
+
+d) Tiempo Promedio en la Cola:
+$$W_q = \frac{L_q}{\lambda}$$
+
+e) Tiempo Promedio en el Sistema:
+$$W = W_q + \frac{1}{\mu}$$
+
+f) Probabilidad que una unidad tenga que hacer cola:
+$$P_w = \frac{\lambda}{\mu}$$
+
+g) Probabilidad que haya n unidades en el Sistema:
+$$P_n = \left(\frac{\lambda}{\mu}\right)^n P_0$$
+
+## Slide 13
+
+**Auto Rápido Quentaqui Frai Chiquen**
+
+Enunciado: El servicio de Auto Rápido de Quentaqui Frai Chiquen tiene una tasa de atención exponencial con promedio de 60 clientes/hora, sabiendo que existe una única ventanilla de atención y que los clientes llegan en su auto de acuerdo a una distribución de Poisson a razón de 30 clientes/hora, determinar:
 
 a) La probabilidad de que el servicio de Auto Rápido se encuentre vacío.
 b) El número promedio de autos esperando a ser atendidos.
@@ -119,76 +180,100 @@ d) El tiempo promedio de espera.
 e) El tiempo promedio que transcurre desde que llega un auto hasta que se va.
 f) La probabilidad de que cuando llegue un auto el servicio esté ocupado.
 g) La probabilidad de que existan 5 autos en total.
-Auto Rápido Quentaqui Frai Chiquen – 1 Ventanilla
-Solución - Auto Rápido Quentaqui Frai Chiquen – 1 Ventanilla
-Línea de Espera con una Cola y n Servidores
-A continuación, se expresan las fórmulas que permiten determinar las
-características de operación de un sistema con una cola y n servidores
-considerando las siguientes características:
+
+## Slide 14
+
+**Auto Rápido Quentaqui Frai Chiquen – 1 Ventanilla**
+
+Captura de hoja de cálculo (planteamiento, sin resolver). Bloque de datos (etiqueta verde "Quentaqui Frai Chiquen - 1 ventanilla de Atención"):
+
+| Variable | Valor |
+|---|---|
+| µ = | 60 autos/hora |
+| λ = | 45 autos/hora |
+
+Nota: en esta slide el enunciado dice λ=30 clientes/hora, pero la hoja de cálculo del ejemplo usa λ=45 autos/hora (posible inconsistencia de la plantilla original del PDF; se transcribe tal cual aparece en la imagen).
+
+Tabla naranja de incógnitas (a-g) con celdas vacías: P0=, Lq= (autos), L= (autos), Wq= (minutos), W= (minutos), Pw=, n=5, P5=.
+
+Al lado derecho se repiten las 7 fórmulas (a-g) del modelo de un servidor (idénticas a las de las slides 11-12).
+
+## Slide 15
+
+**Solución - Auto Rápido Quentaqui Frai Chiquen – 1 Ventanilla**
+
+Misma hoja de cálculo que la slide 14, ahora resuelta:
+
+| Variable | Valor |
+|---|---|
+| µ = | 60 autos/hora |
+| λ = | 45 autos/hora |
+
+| Resultado | Valor | Unidad |
+|---|---|---|
+| a) P0 = | 0.25 | |
+| b) Lq = | 2.25 | autos |
+| c) L = | 3.00 | autos |
+| d) Wq = | 3.00 | minutos |
+| e) W = | 4.00 | minutos |
+| f) Pw = | 0.75 | |
+| n = | 5 | |
+| g) P5 = | 0.0593 | |
+
+Al lado derecho, mismas 7 fórmulas del modelo de un servidor como referencia.
+
+## Slide 16
+
+**Línea de Espera con una Cola y n Servidores**
+
+A continuación, se expresan las fórmulas que permiten determinar las características de operación de un sistema con una cola y n servidores considerando las siguientes características:
 
 a) Las llegadas al sistema siguen un proceso Poisson.
 b) Los tiempos de servicio son exponenciales.
 c) El tiempo de servicio promedio en cada servidor es el mismo.
-d) Cuando se desocupa un servidor la primera unidad en la cola empieza a ser
-atendida.
-Línea de Espera con una Cola y k Servidores
-Las fórmulas que permiten determinar las características de operación de un sistema con una cola
-y k servidores son las siguientes:
+d) Cuando se desocupa un servidor la primera unidad en la cola empieza a ser atendida.
+
+## Slide 17
+
+**Línea de Espera con una Cola y k Servidores**
+
+Las fórmulas que permiten determinar las características de operación de un sistema con una cola y k servidores son las siguientes:
 
 a) Probabilidad de que el Sistema esté vacío:
-
-                                                  𝟏
-                        𝑷𝟎 =
-                                    λ 𝒏
-                                    µ    𝝀 𝒌
-                               σ𝒌−𝟏
-                                𝒏=𝟎 𝒏! + µ /𝒌! (𝒌µ/(𝒌µ − λ))
-
+$$P_0 = \dfrac{1}{\sum_{n=0}^{k-1}\dfrac{(\lambda/\mu)^n}{n!} + \dfrac{(\lambda/\mu)^k}{k!}\cdot\dfrac{k\mu}{k\mu-\lambda}}$$
 
 b) Número Promedio de Unidades en la Cola:
+$$L_q = \dfrac{(\lambda/\mu)^k \lambda\mu}{(k-1)!\,(k\mu-\lambda)^2} P_0$$
 
-                                                𝝀 𝒌
-                                                ( ) λµ
-                                                µ
-                                    𝐋𝐪 =                 P0
-                                            𝒌−𝟏 ! 𝒌µ − 𝝀 𝟐
-Línea de Espera con una Cola y k Servidores
-Las fórmulas que permiten determinar las características de operación de un
-sistema con una cola y n servidores son las siguientes:
+## Slide 18
 
-                                                       𝝀
-c) Número Promedio de Unidades en el Sistema: 𝐋 = 𝐋𝐪 +
-                                                       µ
+**Línea de Espera con una Cola y k Servidores** (continuación)
 
+c) Número Promedio de Unidades en el Sistema:
+$$L = L_q + \frac{\lambda}{\mu}$$
 
-                                      𝑳𝒒
-d) Tiempo Promedio en la Cola:   Wq =
-                                       λ
+d) Tiempo Promedio en la Cola:
+$$W_q = \frac{L_q}{\lambda}$$
 
+e) Tiempo Promedio en el Sistema:
+$$W = W_q + \frac{1}{\mu}$$
 
-                                                 𝟏
-e) Tiempo Promedio en el Sistema:     𝑾 = 𝑾𝒒 +
-                                                 µ
-Línea de Espera con una Cola y k Servidores
+## Slide 19
+
+**Línea de Espera con una Cola y k Servidores** (continuación)
+
 f) Probabilidad que una unidad tenga que hacer cola:
-
-                          𝟏           𝝀   𝒌
-                     Pw =                     𝒌µ/(𝒌µ − λ) 𝑷𝟎
-                          𝒌!          µ
+$$P_w = \frac{1}{k!}\left(\frac{\lambda}{\mu}\right)^k \cdot \frac{k\mu}{k\mu-\lambda}\cdot P_0$$
 
 g) Probabilidad que haya n unidades en el Sistema:
+$$P_n = \frac{(\lambda/\mu)^n}{n!} P_0 \quad \text{Si } n \le k$$
+$$P_n = \frac{(\lambda/\mu)^n}{k!\,k^{(n-k)}} P_0 \quad \text{Si } n > k$$
 
-                           λ 𝑛
-                    Pn = (     /𝑛!)𝑃0                Si: n <= k
-                           µ
+## Slide 20
 
-                           λ 𝑛        (𝑛 − 𝑘)
-                    Pn = (     /(𝑘! 𝑘         ))𝑃0     Si: n > k
-                           µ
-Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas
-El gerente de Quentaqui Frai Chiquen ha decidido implementar una nueva ventanilla de atención con la
-misma tasa de servicio igual a 60 clientes por hora, manteniendo una sola cola, y sabiendo que los clientes
-llegan en su auto de acuerdo a una distribución de Poisson a razón de 30 clientes/hora, determinar:
+**Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas**
+
+Enunciado: El gerente de Quentaqui Frai Chiquen ha decidido implementar una nueva ventanilla de atención con la misma tasa de servicio igual a 60 clientes por hora, manteniendo una sola cola, y sabiendo que los clientes llegan en su auto de acuerdo a una distribución de Poisson a razón de 30 clientes/hora, determinar:
 
 a) La probabilidad de que el servicio de Auto Rápido se encuentre vacío.
 b) El número promedio de autos esperando a ser atendidos.
@@ -198,73 +283,112 @@ e) El tiempo promedio que transcurre desde que llega un auto hasta que se va.
 f) La probabilidad de que cuando llegue un auto el servicio esté ocupado.
 g) La probabilidad de que existan 5 autos en total.
 
-Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas
-Solución - Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas
-La Ley de Little
-El número de unidades que se encuentran en el sistema es igual a la tasa de llegadas
-multiplicada por el tiempo que la unidad se encuentra dentro del sistema:
+## Slide 21
 
-a) Número Promedio de Unidades en el Sistema: 𝐋 = λW
+**Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas**
 
-b) Número Promedio de Unidades en la Cola:       𝐋𝐪 = λWq
+Captura de hoja de cálculo (planteamiento). Bloque de datos ("Quentaqui Frai Chiquen - 2 Ventanillas de Atención"):
 
+| Variable | Valor |
+|---|---|
+| µ = | 60 autos/hora |
+| λ = | 45 autos/hora |
+| k = | 2 ventanillas |
 
-                                       𝑳𝒒
-c) Tiempo Promedio en la Cola:    Wq =
-                                        λ
+Tabla naranja de incógnitas (a-g) vacía: P0=, Lq= (autos), L= (autos), Wq= (minutos), W= (minutos), Pw=, n=(vacío), P=.
 
-                                             𝟏
-d) Tiempo Promedio en el Sistema: 𝑾 = 𝑾𝒒 +
-                                             µ
-Evaluación Económica de Líneas de Espera
-El costo total de un sistema está compuesto por el costo de espera y el costo de
-servicio, utilizando la siguiente notación:
+Al costado derecho se repiten las 7 fórmulas (a-g) del modelo de k servidores (slides 17-19).
 
-cw: Costo de espera de cada unidad por unidad de tiempo
-L: Número promedio de unidades en el sistema
-cs: Costo de servicio de cada servidor por unidad de tiempo
-k: Número de Servidores
-CT: Costo Total por periodo de tiempo
+## Slide 22
 
-                                 CT = cwL + csk
-Auto Rápido Quentaqui Frai Chiquen
-Compare los costos totales del servicio de Auto Rápido con 1 servidor y con 2 servidores, considerando que
-la empresa asigna un costo de 20 dólares por hora al tiempo de espera de un cliente y que el costo del
-servicio es igual a 10 dólares la hora.
+**Solución - Auto Rápido Quentaqui Frai Chiquen – 2 Ventanillas**
+
+Misma hoja resuelta:
+
+| Variable | Valor |
+|---|---|
+| µ = | 60 autos/hora |
+| λ = | 45 autos/hora |
+| k = | 2 ventanillas |
+
+| Resultado | Valor | Unidad |
+|---|---|---|
+| a) P0 = | 0.45 | |
+| b) Lq = | 0.12 | autos |
+| c) L = | 0.87 | autos |
+| d) Wq = | 0.16 | minutos |
+| e) W = | 1.16 | minutos |
+| f) Pw = | 0.20 | |
+| n = | 5 | |
+| g) P5 = | 0.0067 | |
+
+Al costado derecho, las mismas 7 fórmulas del modelo de k servidores como referencia.
+
+## Slide 23
+
+**La Ley de Little**
+
+El número de unidades que se encuentran en el sistema es igual a la tasa de llegadas multiplicada por el tiempo que la unidad se encuentra dentro del sistema:
+
+a) Número Promedio de Unidades en el Sistema: $L = \lambda W$
+
+b) Número Promedio de Unidades en la Cola: $L_q = \lambda W_q$
+
+c) Tiempo Promedio en la Cola: $W_q = \dfrac{L_q}{\lambda}$
+
+d) Tiempo Promedio en el Sistema: $W = W_q + \dfrac{1}{\mu}$
+
+## Slide 24
+
+**Evaluación Económica de Líneas de Espera**
+
+El costo total de un sistema está compuesto por el costo de espera y el costo de servicio, utilizando la siguiente notación:
+
+- cw: Costo de espera de cada unidad por unidad de tiempo
+- L: Número promedio de unidades en el sistema
+- cs: Costo de servicio de cada servidor por unidad de tiempo
+- k: Número de Servidores
+- CT: Costo Total por periodo de tiempo
+
+$$CT = c_w L + c_s k$$
+
+## Slide 25
+
+**Auto Rápido Quentaqui Frai Chiquen** (evaluación económica)
+
+Enunciado: Compare los costos totales del servicio de Auto Rápido con 1 servidor y con 2 servidores, considerando que la empresa asigna un costo de 20 dólares por hora al tiempo de espera de un cliente y que el costo del servicio es igual a 10 dólares la hora.
 
 Para 1 servidor:
-
-CT = cwL + csk => CT = 20*3 + 10*1 = 70 US$/hora
-
-
+$$CT = c_w L + c_s k \implies CT = 20 \times 3 + 10 \times 1 = 70\ \text{US\$/hora}$$
 
 Para 2 servidores:
+$$CT = c_w L + c_s k \implies CT = 20 \times 0.87 + 10 \times 2 = 37.4\ \text{US\$/hora}$$
 
-CT = cwL + csk => CT = 20*0.87 + 10*2 = 37.4 US$/hora
-Notación de 3 símbolos de Kendall: A/B/k
+Conclusión implícita: con 2 servidores el costo total es menor (37.4 vs 70 US$/hora), pese al mayor costo de servicio, porque cae fuertemente el costo de espera (L pasa de 3 a 0.87).
+
+## Slide 26
+
+**Notación de 3 símbolos de Kendall: A/B/k**
+
 Los diferentes modelos de líneas de espera se pueden clasificar de acuerdo a la notación de Kendall A/B/k:
 
-A: Distribución de probabilidad de las llegadas al sistema.
-B: Distribución de probabilidad del tiempo de servicio.
-k: Número de servidores.
+- A: Distribución de probabilidad de las llegadas al sistema.
+- B: Distribución de probabilidad del tiempo de servicio.
+- k: Número de servidores.
 
 Los valores para A y B pueden ser los siguientes:
 
-M – Representa a una distribución Poisson de las llegadas o a una distribución exponencial del
-    tiempo de servicio.
-D – Representa que las llegadas o el tiempo de servicio son constantes o determinísticos.
-G – Representa a cualquier distribución de probabilidad en la que se conoce la media y la desviación
-estándar.
-Notación de 3 símbolos de Kendall: A/B/k
+- M – Representa a una distribución Poisson de las llegadas o a una distribución exponencial del tiempo de servicio.
+- D – Representa que las llegadas o el tiempo de servicio son constantes o determinísticos.
+- G – Representa a cualquier distribución de probabilidad en la que se conoce la media y la desviación estándar.
+
+## Slide 27
+
+**Notación de 3 símbolos de Kendall: A/B/k** (ejercicio)
 
 Especifique de acuerdo a la notación de Kendall los siguientes modelos de líneas de espera:
 
-▪   Modelo de espera del caso Quentaqui Frai Chiquen con proceso de llegadas Poisson, tiempo de servicio
-    exponencial y 2 servidores.
-         M/M/2
-
-▪   Modelo de espera con un proceso de llegadas Poisson y tiempo de servicio en el que se conoce la media
-    y la desviación estándar del tiempo de atención, con 4 servidores.
-          M/G/4
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+- Modelo de espera del caso Quentaqui Frai Chiquen con proceso de llegadas Poisson, tiempo de servicio exponencial y 2 servidores.
+  → **M/M/2**
+- Modelo de espera con un proceso de llegadas Poisson y tiempo de servicio en el que se conoce la media y la desviación estándar del tiempo de atención, con 4 servidores.
+  → **M/G/4**

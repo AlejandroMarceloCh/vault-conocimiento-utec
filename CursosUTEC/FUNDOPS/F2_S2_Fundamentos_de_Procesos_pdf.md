@@ -5,336 +5,388 @@ slides: 32
 fuente: F2-S2 Fundamentos de Procesos.pdf
 ---
 
-FUNDAMENTOS DE OPERACIONES
-Semana 2 - Fundamentos de Procesos
-Índice:
+## Slide 1
 
+Portada decorativa: foto del edificio UTEC con overlay azul, logo UTEC. Texto: "FUNDAMENTOS DE OPERACIONES" / "Semana 2 - Fundamentos de Procesos".
+
+## Slide 2
+
+Índice del capítulo (fondo con foto decorativa de estructura de concreto UTEC + ícono de clipboard/checklist):
 1. Definición de proceso
 2. Diagramas de Flujo de proceso
-3. Diagrama de Operaciones del
-  proceso
+3. Diagrama de Operaciones del proceso
 4. Diagrama de Actividades del proceso
 5. Diagrama de Recorrido
-¿Qué es un
-Proceso?
-                              Definición de Proceso
-✔ Una serie de acciones o pasos tomados para lograr un fin particular”.
-✔ “Conjunto de actividades secuenciales que realizan una transformación de una serie de inputs en los
-  outputs deseados añadiendo valor”.
-✔ “Conjunto de actuaciones, decisiones, actividades y tareas que se encadenan de forma secuencial y
-  ordenada para conseguir un resultado que satisfaga plenamente los requerimientos del cliente al que
-  va dirigido”.
 
+## Slide 3
 
+Slide separadora (decorativa, foto de estructura de concreto UTEC): "1. ¿Qué es un Proceso?"
 
+## Slide 4
 
-                                                                          FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Proceso
+**Definición de Proceso**
 
+Texto (3 definiciones con check ✔):
+- "Una serie de acciones o pasos tomados para lograr un fin particular".
+- "Conjunto de actividades secuenciales que realizan una transformación de una serie de inputs en los outputs deseados añadiendo valor".
+- "Conjunto de actuaciones, decisiones, actividades y tareas que se encadenan de forma secuencial y ordenada para conseguir un resultado que satisfaga plenamente los requerimientos del cliente al que va dirigido".
 
+Diagrama debajo del texto: modelo genérico Entradas → Proceso → Salidas.
+- Círculo "Entradas" (nube de puntos de colores) → flecha naranja → texto "Proceso" → flecha gris → círculo azul "Salidas".
+- Debajo de Entradas, lista con viñetas: Recursos Humanos, Equipos, Materiales, Proveedores, Información y otros.
+- Debajo de Salidas, lista con viñetas: Productos, Servicios.
 
+## Slide 5
 
-          FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Características de un proceso
+**Proceso** — cita ilustrada (imagen: foto de W. Edwards Deming, fondo negro, texto en blanco/rojo):
 
+> "Si uno no puede describir lo que está haciendo como un proceso, no sabe lo que está haciendo"
+> — W. Edwards Deming
 
+## Slide 6
 
+**Características de un proceso**
 
-                       FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Diagramas
-de flujo
-                                                Diagramas de Flujo de proceso
+Diagrama de flujo de proceso con etiquetas numeradas (estrellas azules 1-7) sobre un diagrama de caja:
+- Flecha "E" (entrada, teal) → secuencia de 6 flechas de actividades en cadena (A, B, C, D, E, F, colores distintos: oliva, rojo, verde, azul, morado, gris) → flecha "S" (salida, roja).
+- Encima de la cadena: barra "CONTROL" (naranja claro) marcada con estrella 5.
+- Debajo de la cadena: barra "OPERACIÓN" (amarilla) marcada con estrella 4.
+- Debajo de todo: barra "RECURSOS" (morado claro) marcada con estrella 6, conectada por llave a las actividades A-F.
+- A la derecha: caja gris vertical "INDICADORES DE DESEMPEÑO" marcada con estrella 7, conectada por llave a la salida S.
+- Estrella 1 = entrada E, estrella 2 = actividad C, estrella 3 = salida S.
 
-Es una representación gráfica que muestra todas las
-actividades de un proceso; permite ver la relación y la
-secuencia lógica entre los pasos (Actividades) del proceso,
-incluye inspecciones y retrabajos
+Lista numerada a la derecha explicando cada estrella:
+1. Entradas – proveedores.
+2. Actividades.
+3. Salidas – cliente.
+4. Operación.
+5. Control.
+6. Recursos.
+7. Indicador de desempeño.
 
-● Las actividades de un proceso se unen mediante líneas
-       continuas con la orientación que indica el sentido del
-       flujo.
-● Mediante los diagramas de flujo se descubre por lo
-       general, vacíos que son las causas potenciales de
-       problemas.
+## Slide 7
 
-Fuente: Administración de las Operaciones Productivas. Fernando D’Alessio Ipinza. 1ra Edición
+Slide separadora (decorativa, foto estructura UTEC): "2. Diagramas de flujo"
 
+## Slide 8
 
+**Diagramas de Flujo de proceso**
 
-                                                                                                FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-                                                  Diagramas de Flujo de proceso
-             Pasos para la construcción de un diagrama de flujo
-                                                                                                                                                     4. Profundizar en el nivel de
-                                                                1. Definir el objetivo del diagrama                                                  detalle requerido
-                                                                             Establecer claramente el objetivo                                    Hasta incluir lo que se requiere de
-                                                                                        que se busca alcanzar                                     las actividades que constituyen cada
-                                                                                                                                                  etapa principal
+Recuadro amarillo (texto): "Es una representación gráfica que muestra todas las actividades de un proceso; permite ver la relación y la secuencia lógica entre los pasos (Actividades) del proceso, incluye inspecciones y retrabajos"
 
+Recuadro celeste (texto, con viñetas ●):
+- Las actividades de un proceso se unen mediante líneas continuas con la orientación que indica el sentido del flujo.
+- Mediante los diagramas de flujo se descubre por lo general, vacíos que son las causas potenciales de problemas.
 
-                                                   2. Definir el proceso bajo estudio                                                    5. Resaltar los puntos de decisión
-                                               Un proceso es parte de un Sistema, por lo                                                 o bifurcación
-                                               que una tarea importante es delimitar las
-                                              etapas o variantes que son importante que                                                De ser necesario identificar el tipo de
-                                                              se incluyan en el diagrama                                               actividades, tal como: operaciones,
-                                                                                                                                       transportes, inspecciones, esperas,
-                                                                                                                                       almacenamientos y actividades de retrabajo
-                   3. Hacer un esquema general del
-                                                                                                                                       o reproceso.
-                   proceso
-                                 Es necesario identificar la etapas o                                                         6. Revisar el diagrama completo
-                                grupos de acciones más relevantes                                                           Comprobar que el diagrama del proceso
-                                   que constituyen el proceso bajo                                                          tiene una secuencia clara y que ayuda a
-                               estudio, junto con la secuencia en la                                                        cumplir con el objetivo buscado, en caso
-                                                     que se realizan                                                        contrario identificar faltantes o tareas por
-                                                                                                                            desarrollar.
-                                                                                                                 7. Cumplir el objetivo planteado
-                                                                                                             Si el diagrama no es suficiente para cumplir con
-                                                                                                             el objetivo buscado, ver si lo que falta es incluir
-                                                                                                             otros detalles o bien si es necesario recurrir a
-                                                                                                             otra metodología.
+Imagen a la derecha: fotografía de una mano (con lapicero) dibujando en una pizarra un diagrama de flujo genérico sobre fondo azul — muestra rectángulos de proceso, un rombo de decisión y círculos terminales conectados por flechas, ilustrando el acto de diagramar.
 
-Fuente: Control Estadistico de la Calidad y Sies Sigma - Humberto Gutiérrez - Rubén de la Vara 3ra Edicion
+Fuente: Administración de las Operaciones Productivas. Fernando D'Alessio Ipinza. 1ra Edición
 
+## Slide 9
 
+**Diagramas de Flujo de proceso — Pasos para la construcción de un diagrama de flujo**
 
-                                                                                                                                              FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Símbolos más utilizados Diagramas de Flujo de proceso
+Infografía central: un lápiz grande de colores en diagonal (arcoíris de colores del borrador a la punta) numera los 7 pasos alrededor, cada uno con ícono:
+1. Definir el objetivo del diagrama (ícono diana/dardo) — Establecer claramente el objetivo que se busca alcanzar.
+2. Definir el proceso bajo estudio (ícono manos estrechándose) — Un proceso es parte de un Sistema, por lo que una tarea importante es delimitar las etapas o variantes que son importante que se incluyan en el diagrama.
+3. Hacer un esquema general del proceso (ícono foco/bombilla) — Es necesario identificar la etapas o grupos de acciones más relevantes que constituyen el proceso bajo estudio, junto con la secuencia en la que se realizan.
+4. Profundizar en el nivel de detalle requerido (ícono gráfico circular) — Hasta incluir lo que se requiere de las actividades que constituyen cada etapa principal.
+5. Resaltar los puntos de decisión o bifurcación (ícono barras crecientes) — De ser necesario identificar el tipo de actividades, tal como: operaciones, transportes, inspecciones, esperas, almacenamientos y actividades de retrabajo o reproceso.
+6. Revisar el diagrama completo (ícono maletín) — Comprobar que el diagrama del proceso tiene una secuencia clara y que ayuda a cumplir con el objetivo buscado, en caso contrario identificar faltantes o tareas por desarrollar.
+7. Cumplir el objetivo planteado (ícono personas) — Si el diagrama no es suficiente para cumplir con el objetivo buscado, ver si lo que falta es incluir otros detalles o bien si es necesario recurrir a otra metodología.
 
+Fuente: Control Estadístico de la Calidad y Seis Sigma - Humberto Gutiérrez - Rubén de la Vara 3ra Edición
 
+## Slide 10
 
+**Símbolos más utilizados Diagramas de Flujo de proceso**
 
-                                       FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-            Diagramas de Flujo de proceso
-Ejemplo de diagrama de flujo
+Tabla (imagen) con 4 columnas (Símbolo | Significado | Símbolo | Significado), 4 filas:
 
+| Símbolo | Significado | Símbolo | Significado |
+|---|---|---|---|
+| Óvalo/terminal | **Terminal**: Indica el inicio o la terminación del flujo del proceso. | Rectángulo | **Actividad**: Representa la actividad llevada a cabo en el proceso. |
+| Rombo | **Decisión**: Señala un punto en el flujo donde se produce una bifurcación del tipo "Sí"–"No". | Documento (rectángulo con borde ondulado) | **Documento**: Documento utilizado en el proceso. |
+| Pila de hojas | **Multidocumento**: Refiere un conjunto de documentos. Por ejemplo, un expediente. | Flecha → | **Línea de Flujo**: Indica el sentido del flujo del proceso. |
+| Rectángulo con banda lateral | **Conector de un Proceso**: Conexión o enlace con otro proceso, en el que continúa el diagrama de flujo. Por ejemplo, un subproceso. | Cilindro | **Base de Datos**: Empleado para representar la grabación de datos. |
 
+## Slide 11
 
+**Diagramas de Flujo de proceso — Ejemplo de diagrama de flujo**
 
-                                   FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-         Diagramas de Flujo de proceso
-Ejemplo de diagrama de flujo
+Diagrama de flujo swimlane "Rembolso de gastos" con 3 carriles (raias): Empleado, Jefe, Área Administrativa.
 
+- Carril Empleado: círculo verde "Inicio" → rectángulo "Realizar Reporte de gastos".
+- Baja al carril Jefe: rombo "¿Requiere aprobación?" → rama "Sí" → rectángulo "Revisar y emitir concepto" → rombo "¿Aprobado?" → rama "No" → rectángulo "Informar Empleado" → círculo rojo "Fin".
+- Rombo "¿Aprobado?" rama "Sí" baja al carril Área Administrativa → rectángulo "Revisar reporte de gastos" → rectángulo "Realizar Pago" → círculo rojo "Fin".
+- Rombo "¿Requiere aprobación?" rama "No" va directo al carril Área Administrativa a "Revisar reporte de gastos".
 
+## Slide 12
 
+**Diagramas de Flujo de proceso — Ejemplo de diagrama de flujo**
 
-                                  FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Consideraciones para un Diagrama de Flujo
+Segundo ejemplo swimlane "Proceso de Solicitud de Compras" con 3 carriles: Solicitante, Jefe, Dpto Compras; y 3 etapas horizontales marcadas con líneas punteadas: Etapa de Solicitud, Etapa de Cotizar, Etapa Orden de Compra.
 
-      Esta herramienta permite solo identificar los
-      problemas mas no analizar sus causas.
+- Solicitante: círculo verde "Inicio" → "Crear solicitud de compras".
+- Baja a Jefe: "Aprobar solicitud" → rombo "Solicitud autorizada?" → rama "No" → "Notificar rechazo" → círculo rojo "Fin". Rama "Sí" baja a Dpto Compras.
+- Dpto Compras: "Notificar aprobación" → rombo (implícito arriba) "Requiere cambios?" — si aplica, rama sube a Jefe → "Notificar cambios solicitados" (retorna al inicio del ciclo en Solicitante).
+- Dpto Compras continúa en Etapa de Cotizar: subproceso "Cotizaciones" → Etapa Orden de Compra: subproceso "Orden de Compras" → círculo rojo "Fin".
 
+## Slide 13
 
+**Consideraciones para un Diagrama de Flujo**
 
+Dos bloques de texto con imágenes ilustrativas:
+- Bloque 1 (barra naranja, imagen de personaje 3D con lupa observando una hoja con signo de interrogación): "Esta herramienta permite solo identificar los problemas mas no analizar sus causas."
+- Bloque 2 (barra azul-lila, imagen de personas empujando engranajes/piedra en equipo): "Es recomendable que las personas que elaboran este tipo de diagramas tengan pleno conocimiento del proceso, participen del mismo y tengan conocimiento de la simbología para expresar cada paso"
 
-      Es recomendable que las personas que elaboran este
-      tipo de diagramas tengan pleno conocimiento del
-      proceso, participen del mismo y tengan conocimiento
-      de la simbología para expresar cada paso
+## Slide 14
 
+**Importancia de un Diagrama de Flujo**
 
+Texto: "Identificar los pasos del proceso: *fuente de posibles problemas*, y nos permite:" seguido de 4 puntos con check ✔:
+- Eliminar las actividades que no agregan valor
+- Eliminar las necesidades de puntos de inspección y/o actividades duplicadas
+- Decidir cuáles procesos conviene automatizar.
+- Fusionar actividades si es posible.
 
-                                                            FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-         Importancia de un Diagrama de Flujo
+Imagen decorativa a la derecha: engranajes 3D con personas, laptop y gráfico de barras/torta dentro de los engranajes (simboliza colaboración/análisis de procesos).
 
-Identificar los pasos del proceso: fuente de posibles problemas, y nos permite:
+Fuente: Administración de las Operaciones Productivas. Fernando D'Alessio Ipinza. 1ra Edición
 
+## Slide 15
 
-✔ Eliminar las actividades que no agregan valor
+**Beneficios de un Diagrama de Flujo**
 
-✔ Eliminar las necesidades de puntos de inspección
+Lista con check ✔:
+- Ofrece una visión transparente del proceso.
+- Permite definir los límites de un proceso.
+- Facilita la identificación de los clientes.
+- Ayuda a establecer el valor agregado, desde el enfoque al cliente
+- Referencia para establecer mecanismos de control.
+- Proporciona un método de comunicación más eficaz.
 
-  y/o actividades duplicadas
+Imagen decorativa a la derecha: figura humana 3D gris señalando un cartel con dos casos — arriba tachado con X en rojo un diagrama de flujo complejo con nodos A-B-C, abajo con check ✓ verde un flujo simple A→B.
 
-✔ Decidir cuáles procesos conviene automatizar.
+## Slide 16
 
-✔ Fusionar actividades si es posible.
+Slide separadora (decorativa, foto estructura UTEC): "3. Diagrama de operaciones del proceso (DOP)"
 
+## Slide 17
 
-                   Fuente: Administración de las Operaciones Productivas. Fernando D’Alessio Ipinza. 1ra Edición
+**Diagrama de Operaciones del proceso (DOP)**
 
+Texto: "El diagrama de operaciones del proceso (DOP) es una representación gráfica de todas las operaciones que forman parte de un proceso, muestra la secuencia cronológica de todas las operaciones, inspecciones desde la llegada de la materia prima hasta el producto terminado."
 
-                                                                                                                   FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-              Beneficios de un Diagrama de Flujo
+(Sin más elementos visuales adicionales en esta slide — solo el texto centrado sobre fondo blanco.)
 
-✔ Ofrece una visión transparente del proceso.
+## Slide 18
 
-✔ Permite definir los límites de un proceso.
+**Diagrama de Operaciones del proceso (DOP) — Consideraciones para un DOP**
 
-✔ Facilita la identificación de los clientes.
+Recuadro amarillo de texto: "El diagrama de operaciones del proceso (DOP) es una representación gráfica de todas las operaciones que forman parte de un proceso, muestra la secuencia cronológica de todas las operaciones, inspecciones desde la llegada de la materia prima hasta el producto terminado."
 
-✔ Ayuda a establecer el valor agregado, desde el
+Tabla de símbolos:
 
-   enfoque al cliente
+| | OPERACIÓN | INSPECCIÓN | COMBINADO |
+|---|---|---|---|
+| SÍMBOLO | círculo | cuadrado | círculo dentro de cuadrado |
 
-✔ Referencia para establecer mecanismos de control.
+Diagrama de ejemplo a la derecha (recuadro verde) mostrando la estructura de un DOP genérico:
+- Fila "Encabezado" (barra roja) apunta a "TITULO" en la parte superior derecha del diagrama.
+- Fila "Cuerpo" (barra roja) apunta a la columna de símbolos numerados (círculos y cuadrados encadenados verticalmente) que representan operaciones/inspecciones, con entradas de materiales laterales: Insumo 2, Insumo 1, Materia Prima. Anotaciones: "Nombre de la actividad", "Nombre del material que ingresa", "Nombre del material que sale".
+- Fila "Resumen" (barra roja) apunta a un resumen de conteo de símbolos: círculo = 5, cuadrado = 3, combinado = 3, Total = 11.
+- El flujo termina en "Producto Final".
 
-✔ Proporciona un método de comunicación más eficaz.
+## Slide 19
 
+**Diagrama de Operaciones del proceso (DOP)**
 
+Texto destacado: "Consideraciones para un DOP — No deben existir cruces entre líneas."
 
-                                                      FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Diagrama de
-operaciones del
-proceso (DOP)
-      Diagrama de Operaciones del proceso (DOP)
+Diagrama izquierdo (recuadro azul) con ejemplo de estructura correcta sin cruces: 4 columnas de entrada (Insumo 3, Insumo 2, Insumo 1, Materia Prima) que descienden en símbolos (círculos/cuadrados) hasta confluir en "Producto Final"; se marca con una X roja grande el punto donde NO deben cruzarse las líneas de confluencia.
 
-  El diagrama de operaciones del proceso
-   (DOP) es una representación gráfica de
-todas las operaciones que forman parte de
-      un proceso, muestra la secuencia
-    cronológica de todas las operaciones,
-inspecciones desde la llegada de la materia
-     prima hasta el producto terminado.
+Diagrama derecho: ejemplo completo real "DIAGRAMA DE OPERACIONES DEL PROCESO PARA LA PRODUCCIÓN DE COMPOTA DE DURAZNOS PARA BEBES":
+- Entradas: Jarabe de azúcar → op.2 Dosificar; Agua → op.3 Filtrar (elimina impurezas); Duraznos → op.1 Seleccionar (elimina ramas/hojas/duraznos podridos).
+- Secuencia: 1 Lavar → 2 Descascarar (elimina cáscaras) → op.1 combinado "Cocer y verificar temperatura" (confluye con el jarabe dosificado y el agua filtrada) → 4 Prensar → 5 Colar (elimina pepas) → "Pulpa de durazno" → 6 Mezclar → "Compota de durazno" → op.3 Controlar calidad → 7 Pasteurizar (entra Envases) → 8 Envasar (entra Tapas) → 9 Colocar (entra Etiquetas) → 10 Etiquetar (entra Cajas) → 11 Embalar → "Compota de durazno envasada y embalada".
+- Resumen: círculo=11, combinado=1, cuadrado=3, Total=15.
+Etiqueta "Ejemplo" en cinta roja diagonal.
 
+## Slide 20
 
+**Diagrama de Operaciones del proceso (DOP)** — "Se recomienda el modo infinitivo para los verbos"
 
+Panel izquierdo (recuadro verde, cinta "Ejemplos"): comparación de 3 columnas de la misma secuencia de operaciones (5 Calentado, 6 Solubilizado, 7 Filtrado) etiquetadas "Correcto" / "Incorrecto" / "Incorrecto" — ilustra que el nombrado debe ser consistente (participio vs. infinitivo mal aplicado; solo una de las tres variantes está marcada correcta aunque las tres muestran el mismo texto, evidenciando el criterio de consistencia gramatical).
 
-                                              FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
- Diagrama de Operaciones del proceso (DOP)
+Panel derecho (recuadro azul, cinta "Ejemplos"): comparación de dos diagramas equivalentes con verbos en infinitivo vs. participio:
+- Columna 1 (infinitivo): Moler → Mezclar y controlar uniformidad (combinado) → Pesar.
+- Columna 2 (participio): Molido → Mezclado y controlado de uniformidad (combinado) → Pesado.
 
+## Slide 21
 
-Consideraciones para un DOP
+**Diagrama de Operaciones del proceso (DOP) — Ejemplo de un DOP**
 
+Repite el mismo diagrama completo de "DIAGRAMA DE OPERACIONES DEL PROCESO PARA LA PRODUCCIÓN DE COMPOTA DE DURAZNOS PARA BEBES" de la slide 19 (mismo contenido: Jarabe de azúcar/Agua/Duraznos como entradas, secuencia de 11 operaciones numeradas hasta "Compota de durazno envasada y embalada", resumen círculo=11/combinado=1/cuadrado=3/Total=15), presentado a página completa con el título "Ejemplo de un DOP" en un recuadro azul a la izquierda.
 
+## Slide 22
 
+Slide separadora (decorativa, foto estructura UTEC): "4. Diagrama de Actividades del Proceso (DAP)"
 
-                              FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Diagrama de Operaciones del proceso (DOP)
+## Slide 23
 
-                       Se recomienda el modo infinitivo para los
-                                       verbos
+**Diagrama de Actividades del proceso (DAP)**
 
+Recuadro amarillo (texto): "El diagrama de actividades del proceso (DAP), es una representación gráfica simbólica del trabajo realizado o que se va a realizar en un producto a medida que pasa por algunas o por todas las etapas de un proceso." Información que se conseguirá: Distancia recorrida, Tiempo de Trabajo realizado, Equipo utilizado.
 
+Tabla de símbolos adicionales del DAP (respecto al DOP):
 
+| | TRANSPORTE | DEMORA | ALMACENAJE |
+|---|---|---|---|
+| SÍMBOLO | flecha → | forma "D" (semicírculo) | triángulo invertido ▽ |
 
-                                    FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Diagrama de
-Operaciones
-del proceso
-   (DOP)
+Recuadro amarillo derecho: "Existen tres tipos de DAP:" — DAP para el producto (o material): el proceso o sucesos relacionados con un producto o material. DAP para las personas: el proceso relacionado con las actividades de una persona. DAP para el equipo: el proceso o acontecimientos asociados con el equipo.
 
- Ejemplo de un DOP
+## Slide 24
 
+**Ejemplo de Diagrama de Actividades del proceso (DAP)**
 
+Tabla completa "ACTIVIDADES DE PROCESO" — Proceso: Elaboración de Pisco, Encargado: Cocinero, Tiempo total: 600 s. Columnas: N°, Actividades, Área, Operación (círculo), Inspección (cuadrado), Transporte (flecha), Demora (D), Almacenaje (triángulo), Tiempo, Distancia recorrida.
 
+| N° | Actividad | Área | Símbolo marcado | Tiempo | Distancia |
+|---|---|---|---|---|---|
+| 1 | Ingredientes almacenados | Cocina | Almacenaje | - | - |
+| 2 | Llevar ingredientes a mesa de trabajo | Cocina | Transporte | 10 s | 3 mt |
+| 3 | Esperar para usar mesa de trabajo | Cocina | Demora | 60 s | - |
+| 4 | Servir pisco | Cocina | Operación | 5 s | - |
+| 5 | Verificar calidad y cantidad pisco | Cocina | Inspección | 10 s | - |
+| 6 | Añadir jarabe de goma | Cocina | Operación | 5 s | - |
+| 7 | Añadir limón | Cocina | Operación | 30 s | - |
+| 8 | Verificar calidad de huevos | Cocina | Inspección | 10 s | - |
+| 9 | Añadir clara de huevos | Cocina | Operación | 30 s | - |
+| 10 | Dirigir a refrigerador por hielo | Cocina | Transporte | 10 s | 2 mt |
 
-                     FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
+(la tabla continúa fuera del recorte visible de la slide, corta en la fila 10)
 
-Diagrama de
-Actividades del
-Proceso (DAP)
-  Diagrama de Actividades del proceso (DAP)
+## Slide 25
 
-✔ El diagrama de actividades del
-  proceso (DAP), es una
-  representación gráfica simbólica del
-  trabajo realizado o que se va a
-  realizar en un producto a medida
-  que pasa por algunas o por todas las   Existen tres tipos de DAP:
-  etapas de un proceso.                  •DAP para el producto (o material). El proceso o los
-✔ Información que se conseguirá:         sucesos relacionados con un producto o material.
-  • Distancia recorrida                  •DAP para las personas. El proceso relacionado con las
+**Ejemplo de Diagrama de Actividades del proceso (DAP)** — segundo ejemplo
 
-  • Tiempo de Trabajo realizado          actividades de una persona.
-                                         •DAP para el equipo. El proceso o los acontecimientos
-  • Equipo utilizado
-                                         asociados con el equipo.
+Tabla/hoja completa "PROCESO DE VIDRIO LAMINADO" (formato estándar de DAP):
+- Encabezado: Ubicación / Actividad: Producción de vidrio templado y laminado / Fecha / Operador-Analista / Comentarios.
+- Resumen del método actual: Operación=8, Transporte=8, Demora=1, Inspección=3, Almacén=2, Tiempo=100 min, Distancia=25.5 mts.
+- Tabla de pasos con símbolos conectados por líneas (columnas: Operación●, Transporte➡, Demora⊐, Inspección▤, Almacén▽), Tiempo (min), Distancia (mts):
 
-                                                             FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Ejemplo de Diagrama de Actividades del proceso
-                   (DAP)
+| Descripción | Tiempo | Distancia |
+|---|---|---|
+| Pedido al almacén (abrir caja de vidrio) | 5 | |
+| Espera del pedido | 1 | |
+| Inspección | 10 | |
+| Traslado del material (habilitar) | 20 | |
+| Corte | 5 | |
+| Inspección | | 2 |
+| Traslado del material | 1 | |
+| Lavado | 1 | |
+| Pulido | | 5 |
+| Traslado del material | 3 | |
+| Serigrafiado | | 10 |
+| Traslado del material | 2 | |
+| Laminado | | 2 |
+| Traslado del material | 20 | |
+| Pre laminado | | 0.5 |
+| Traslado del material | 30 | |
+| Horno de laminado | | 3 |
+| Traslado del material | 1 | |
+| Inspección | | |
+| Etiquetar | 1 | |
+| Traslado del material | | 3 |
+| Almacén de productos terminados | | |
 
+Las líneas conectan los símbolos marcados en cada fila (zigzag característico del formato DAP) indicando la secuencia de tipo de actividad por paso.
 
+## Slide 26
 
+**Diferencias entre DOP y DAP**
 
-                               FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Ejemplo de Diagrama de Actividades del proceso
-                   (DAP)
+Texto izquierdo: "En el caso de un DOP, es una representación gráfica de todas las operaciones e inspecciones que forman parte de un proceso." Con diagrama DOP de ejemplo debajo: 3 columnas de materia prima (Secundaria, Secundaria, Principal) con operaciones numeradas (Pesar 3, Calificación 2, Pesar 1) que confluyen en Mezclado 2, Secado 1, Verificación 1, un punto de "Desperdicios" (salida lateral), Verificación 2, hasta "Producto Final".
 
+Texto derecho: "En el caso de un DAP para un análisis más detallado, se representan las manipulaciones, los transportes, los almacenamientos, las demoras." Con tabla DAP de ejemplo (parcial) — columnas: Descripción, Operación, Transporte, Inspección, Retraso, Almacenaje, Tipo de desperdicio, Tiempo en segundos, Tipo de actividad:
 
+| Descripción | Símbolo activo | Tipo desperdicio | Tiempo (s) | Tipo actividad |
+|---|---|---|---|---|
+| 1) Desplazarse hacia zona de tapa tanque y regresar | Transporte | Movimiento | 3 | NO AGREGA VALOR |
+| 2) Coger tapa tanque y ponerlo en mesa de trabajo | Transporte | Traslado | 2 | NO AGREGA VALOR |
+| 3) Insertar tapa de tapa de tanque a la tapa de tanque | Operación | | 3 | AGREGA VALOR |
+| 4) Girar tapa tanque armado | Operación | | 1 | AGREGA VALOR |
+| 5) Coger sello de tapa tanque de caja (abajo) | Transporte | Transporte | 5 | NO AGREGA VALOR |
+| 6) Insertar sello en tapa de tanque | Operación | | 18 | AGREGA VALOR |
 
+Fuente: https://ikastaroak.ulhi.net/edu/es/PPFM/PP/PP05/es_PPFM_PP05_Contenidos/website_211_diagrama_de_operaciones.html
 
-                               FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-              Diferencias entre DOP y DAP
+## Slide 27
 
-En el caso de un DOP, es una                                                    En el caso de un DAP para un análisis más
-representación gráfica de todas las                                             detallado, se representan las manipulaciones,
-operaciones e inspecciones que forman                                           los transportes, los almacenamientos, las
-parte de un proceso.                                                            demoras.
+**Diferencias entre DOP y DAP**
 
+Texto: "Tanto los DOP como los DAP se representan por medio de símbolos. DOP sólo utiliza la operación e inspección, mientras que DAP utiliza todos los símbolos."
 
+Tabla "SIMBOLOGIA SEGÚN LA NORMA ASME – ISO 9000":
 
+| Actividad | Símbolo | Descripción |
+|---|---|---|
+| Operación | círculo | Indica las principales fases del proceso, método o procedimiento. |
+| Inspección | cuadrado | Indica que se verifica la calidad y/o cantidad de algo. |
+| Transporte | flecha ancha | Indica desplazamiento o movimiento de empleados, material y equipo de un lugar a otro. |
+| Espera | forma "D" | Indica demora en el desarrollo de los hechos. |
+| Almacenamiento | triángulo invertido | Indica el depósito de un documento o información dentro de un archivo, o de un objeto cualquiera dentro de un almacén. |
 
-                Fuente: https://ikastaroak.ulhi.net/edu/es/PPFM/PP/PP05/es_PPFM_PP05_Contenidos/website_211_diagrama_de_operaciones.html
+Fuente: https://formaciontecnica.net/index.php?option=com_sppagebuilder&view=page&id=90
 
-                                                                                                           FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-                                Diferencias entre DOP y DAP
+## Slide 28
 
-Tanto los DOP como los DAP se representan por medio de símbolos. DOP sólo utiliza la operación e
-inspección, mientras que DAP utiliza todos los símbolos.
+Slide separadora (decorativa, foto estructura UTEC): "5. Diagrama de Recorrido"
 
+## Slide 29
 
+**DIAGRAMAS DE RECORRIDO**
 
+Texto: "Es una representación gráfica sobre plano del área en la cual se desarrolla la actividad, con las ubicaciones indicadas de los puestos de trabajo y el trazado de los movimientos de los hombres y/o de los materiales. Este diagrama permite identificar las posibles áreas congestionadas, determinar los avances y retrocesos del proceso y facilitar el desarrollo de una mejor distribución de la planta. El objetivo, por tanto, es la mejora de métodos, **eliminando o reduciendo los recorridos mediante la adecuada distribución en planta.**"
 
-                   Fuente: https://formaciontecnica.net/index.php?option=com_sppagebuilder&view=page&id=90
+Imagen: plano/layout de una planta (ejemplo real) con áreas etiquetadas (Oficina de recepción, Báscula, Bancos, Depósito de desechos, Tabique, Estantes, varios Depósitos, Banco recepción, Banco para marcar, Banco inspección) y una ruta de recorrido trazada con símbolos numerados (rombos=inspección, triángulos=almacén, círculos=operación, flechas=transporte) conectados por líneas que serpentean por el plano mostrando distancias (ej. 15, 10, 20, 30, etc.) entre puntos, entrando por "Camión" en la parte superior.
 
-                                                                                                             FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-Diagrama de
-Recorrido
-                                                    DIAGRAMAS DE RECORRIDO
+Fuente: https://victoryepes.blogs.upv.es/2022/03/29/diagrama-de-recorrido-como-herramienta-de-estudio-de-métodos/
 
+## Slide 30
 
-      Es una representación gráfica sobre plano del área en
-      la cual se desarrolla la actividad, con las ubicaciones
-      indicadas de los puestos de trabajo y el trazado de los
-      movimientos de los hombres y/o de los materiales.
+**DIAGRAMAS DE RECORRIDO**
 
-      Este diagrama permite identificar las posibles áreas
-      congestionadas, determinar los avances y retrocesos
-      del proceso y facilitar el desarrollo de una mejor
-      distribución de la planta.
+Texto con viñetas:
+- En el diagrama de recorrido se va a registrar las operaciones, inspecciones, transporte, demoras y almacenaje, en el mismo orden en que tienen lugar.
+- La ruta de los movimientos se señala por medio de líneas,
+- cada actividad es identificada y localizada en el diagrama por el símbolo correspondiente, y
+- las operaciones e inspecciones se enumeran de acuerdo con el diagrama de proceso.
 
-      El objetivo, por tanto, es la mejora de métodos,
-      eliminando o reduciendo los recorridos mediante la
-      adecuada distribución en planta.
+Tabla de símbolos (fondo verde):
 
-                                                                                                            https://victoryepes.blogs.upv.es/2022/03/29/diagrama-de-
-                                                                                                               recorrido-como-herramienta-de-estudio-de-métodos/
-Fuente: https://victoryepes.blogs.upv.es/2022/03/29/diagrama-de-recorrido-como-herramienta-de-estudio-de-
-métodos/
+| Símbolo | Nombre | Descripción |
+|---|---|---|
+| círculo | OPERACIÓN | Indica las principales fases del proceso. Agrega, modifica, montaje, etc. |
+| cuadrado | INSPECCIÓN | Verifica la calidad y/o cantidad. En general no agrega valor. |
+| flecha | TRANSPORTE | Indica el movimiento de materiales. Traslado de un lugar a otro. |
+| forma "D" | ESPERA | Indica demora entre dos operaciones o abandono momentáneo. |
+| triángulo invertido | ALMACENAMIENTO | Indica depósito de un objeto bajo vigilancia en un almacén. |
+| círculo dentro de cuadrado | COMBINADA | Indica varias actividades simultáneas. |
 
+## Slide 31
 
-                                                                                                             FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-                           DIAGRAMAS DE RECORRIDO
+**DIAGRAMAS DE RECORRIDO** — ejemplo de planta de producción (panadería/similar)
 
+Plano dividido en áreas etiquetadas: "Almacén de materia prima y área de dosificado" (con almacenamiento 1 → operación 1 → transporte 1), "Área de mezclado" (símbolo combinado 2,1 → transporte 2), "Área de formado" (símbolo combinado 3,2 → transporte 3), "Área de fermentado" (operación 4), "Área de horneado" (transporte 4 → operación 5), "Área de enfriado" (transporte 5 → operación 6), "Área de embolsado" (transporte 6 → operación 7), "Almacén de producto terminado" (transporte 7 → almacenamiento 2). El recorrido serpentea en forma de U/circuito conectando todas las áreas en secuencia numerada del 1 al 7.
 
+## Slide 31
 
-● En el diagrama de recorrido se va a registrar
-  las operaciones, inspecciones, transporte,
-  demoras y almacenaje, en el mismo orden en
-  que tienen lugar.
-● La ruta de los movimientos se señala por
-  medio de líneas,
-● cada actividad es identificada y localizada en el
-  diagrama por el símbolo correspondiente, y
-● las operaciones e inspecciones se enumeran
-  de acuerdo con el diagrama de proceso.
+**DIAGRAMAS DE RECORRIDO** — ejemplo "Proceso de manufactura de tubería"
 
+Plano de planta con secciones: entrada de materia prima (almacén 1, triángulo rosa) → Cortadora (operación 1) → Molino laminador (operación 2) → Taladradora y remachadora ×3 estaciones (operación 3, con dos máquinas adicionales sin numerar en el layout) → salida "A los camiones" (transporte 4) y retorno a Almacén (triángulo rosa 2). Los números 1-4 sobre flechas verdes indican la secuencia de transporte entre estaciones; el layout muestra la disposición física de las máquinas (Cortadora, Molino laminador, Taladradora y remachadora ×2 adicionales) dentro del área de "ALMACÉN".
 
+## Slide 32
 
-
-                                                      FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-DIAGRAMAS DE RECORRIDO
-
-
-
-
-                         FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-DIAGRAMAS DE RECORRIDO
-
-
-
-
-                         FUNDAMENTOS DE OPERACIONES / Semana 2 / Ciclo 2024-2
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Slide de cierre — decorativa. Foto de escaleras de concreto pintadas de azul dentro del edificio UTEC, con logo UTEC "Universidad de Ingeniería y Tecnología" superpuesto y nombres de carreras en la pared de fondo (Mecatrónica, Bioingeniería, Ciencia de la Computación, Ambiental, Energía, Industrial, Eléctrica). Sin contenido de curso.

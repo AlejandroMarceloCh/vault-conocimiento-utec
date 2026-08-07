@@ -5,707 +5,499 @@ slides: 44
 fuente: 03 - Semana 1/EFP - Clase 1 - Fundamentos-1__pptx.pdf
 ---
 
-Fundamentos de Evaluación de Proyectos
-      Evaluación Financiera de Proyectos - Semana 1
-                           • Reconocer la importancia de la teoría
-                             financiera en la evaluación de
-                             proyectos.
+## Slide 1
 
+Portada del curso (decorativa: fondo de túnel digital azul con silueta caminando, logo UTEC, lema "Reinventa el mundo", marca "TransformaTEC").
 
+**Título:** Fundamentos de Evaluación de Proyectos
+**Subtítulo:** Evaluación Financiera de Proyectos - Semana 1
 
+## Slide 2
 
-Objetivo(s) de la sesión
-                           • Comprender el propósito del análisis
-                             y evaluación de proyectos.
+**Objetivo(s) de la sesión.** Imagen decorativa lateral (dos personas revisando documentos en oficina, tono azul).
 
-                           • Identificar la importancia de la ética
-                             en la evaluación de proyectos.
+- Reconocer la importancia de la teoría financiera en la evaluación de proyectos.
+- Comprender el propósito del análisis y evaluación de proyectos.
+- Identificar la importancia de la ética en la evaluación de proyectos.
+- Entender la estructura general del modelo financiero aplicado a proyectos.
 
-                           • Entender la estructura general del
-                             modelo financiero aplicado a
-                             proyectos.
+## Slide 3
 
+**Contenido** del curso. Imagen decorativa lateral (persona con gafas de realidad virtual, fondo de globo digital).
 
-
-                                                                      2
-Contenido
 1. Teoría financiera aplicada a proyectos.
-
 2. Proyectos en el desarrollo de una empresa.
-
 3. Análisis de proyectos.
-
 4. Evaluación de proyectos.
-
 5. Ética en la evaluación de proyectos.
-
 6. Modelo financiero del proyecto.
 
+## Slide 4
 
+Slide de pregunta disparadora, texto grande sobre foto de fondo (persona usando calculadora y tablet con gráficos de barras superpuestos, decorativa).
 
+**Texto:** "¿Qué recordamos de Finanzas Empresariales o de cualquier curso requisito?"
 
-                                                3
-   ¿Qué recordamos de
-Finanzas Empresariales
-    o de cualquier curso
-              requisito?
+## Slide 5
 
+Slide separador de sección 1 (fondo con mano robótica tocando globo digital, decorativo).
 
+**1. Teoría financiera aplicada a proyectos**
 
+## Slide 6
 
-                     4
-1.
-     Teoría financiera
-     aplicada a proyectos
+**¿Qué es la teoría financiera?**
 
+Analiza decisiones sobre el uso de recursos financieros, considerando:
+- Valor del dinero en el tiempo.
+- Riesgo y rendimiento.
+- Costo del capital.
 
+**Objetivo**
+- Optimizar el uso de recursos.
+- Maximizar valor económico.
 
+Ilustración: un signo de dólar dorado dentro de una trampa para animales (cepo/trap), con una persona (ejecutivo) saltando/escapando de ella — metáfora visual de "cuidado con el dinero fácil / riesgo de caer en la trampa del dinero".
 
-                            5
-           ¿Qué es la teoría financiera?
+## Slide 7
 
-Analiza decisiones sobre el uso de recursos
-financieros, considerando:
-• Valor del dinero en el tiempo.
-• Riesgo y rendimiento.
-• Costo del capital.
+**Conceptos clave de la teoría financiera**
 
+Lista con explicación:
+- **Valor del dinero en el tiempo**: Un dólar hoy vale más que un dólar mañana.
+- **Riesgo y rendimiento**: A mayor riesgo, mayor rendimiento esperado.
+- **Costo de capital**: Costo de financiar una inversión con deuda o capital propio.
+- **Estructura de capital**: Combinación de deuda y capital propio.
 
-Objetivo
-• Optimizar el uso de recursos.
-• Maximizar valor económico.
+Diagrama tipo diagrama de Venn (4 círculos superpuestos en cruz, colores gris/celeste alternados) con los 4 conceptos como etiquetas dentro de cada círculo: "Valor del dinero en el tiempo" (arriba), "Riesgo y rendimiento" (derecha), "Costo de capital" (abajo), "Estructura de capital" (izquierda) — mostrando que los 4 conceptos se interrelacionan/superponen.
 
+## Slide 8
 
+Slide separador de sección 2 (mismo diseño decorativo de mano robótica).
 
+**2. Proyectos en el desarrollo de una empresa**
 
-                                              6
-           Conceptos clave de la teoría financiera
+## Slide 9
 
-• Valor del dinero en el tiempo
-  Un dólar hoy vale más que un dólar mañana.                  Valor del dinero en
-                                                                  el tiempo
+**¿Qué es un proyecto?**
 
-• Riesgo y rendimiento
-  A mayor riesgo, mayor rendimiento esperado.
-                                                                                    Riesgo y
-                                                 Estructura
-                                                                                     rendi-
-• Costo de capital                               de capital
-                                                                                    miento
-  Costo de financiar una inversión con deuda o
-  capital propio.
+- Requiere inversión inicial.
+- Genera flujos futuros esperados.
+- Implica riesgo e incertidumbre.
+- Tiene horizonte de evaluación definido.
 
+**¿Por qué evaluar proyectos?**
+- Los recursos son limitados.
+- No todas las inversiones crean valor.
+- Las decisiones pueden ser irreversibles.
+- Evaluar reduce el riesgo de error.
 
-• Estructura de capital                                        Costo de capital
-  Combinación de deuda y capital propio.
+Ilustración tipo dibujo a mano alzada: persona de espaldas mirando una pared con íconos de gráfico de barras creciente, bombilla de idea, calendario, engranajes, personas conectadas, nube de datos binarios, diana con flecha (objetivo), sobre de correo, apretón de manos — representando planificación/ideación de un proyecto.
 
+## Slide 10
 
-                                                                                               7
-2.
-     Proyectos en el desarrollo de
-     una empresa
+**Importancia de los proyectos en una empresa**
 
-
-
-
-                                     8
-            ¿Qué es un proyecto?
-
-• Requiere inversión inicial.
-• Genera flujos futuros esperados.
-• Implica riesgo e incertidumbre.
-• Tiene horizonte de evaluación definido.
-
-
-¿Por qué evaluar proyectos?
-• Los recursos son limitados.
-• No todas las inversiones crean valor.
-• Las decisiones pueden ser irreversibles.
-• Evaluar reduce el riesgo de error.
-
-
-                                             9
-           Importancia de los proyectos en una empresa
-
-Los proyectos son herramientas clave para el
-crecimiento y la innovación.
-
+Los proyectos son herramientas clave para el crecimiento y la innovación.
 
 Permiten a las empresas:
-• Expandirse a nuevos mercados.
-• Mejorar procesos internos.
-• Desarrollar nuevos productos o servicios.
-• Adaptarse a cambios en el entorno
-  competitivo.
+- Expandirse a nuevos mercados.
+- Mejorar procesos internos.
+- Desarrollar nuevos productos o servicios.
+- Adaptarse a cambios en el entorno competitivo.
 
+Foto: manos señalando y dibujando un gráfico de barras ascendente sobre una hoja con gráficos de barras impresos de fondo (2020 vs 2021), con flecha roja de tendencia al alza.
 
+## Slide 11
 
+**Tipos de proyectos en una empresa**
 
-                                                         10
-                  Tipos de proyectos en una empresa
+Tabla comparativa de 5 columnas (tarjetas de color alternando gris/celeste):
 
-                                                                                         Social y
-    Inversión            Innovación       Mejora continua         Estratégico
-                                                                                        ambiental
-• Objetivo:           • Objetivo:         • Objetivo:          • Objetivo:          • Objetivo:
-  Aumentar              Crear o mejorar     Reducir costos y     Sostener             Cumplir
-  capacidad y           productos/          tiempos; mejorar     crecimiento y        normativa y
-  rentabilidad.         procesos.           calidad.             posicionamiento.     generar impacto.
+| Tipo | Objetivo | Ejemplo |
+|---|---|---|
+| Inversión | Aumentar capacidad y rentabilidad. | Nueva planta o compra de maquinaria. |
+| Innovación | Crear o mejorar productos/procesos. | Nueva línea de producto o automatización con sensores. |
+| Mejora continua | Reducir costos y tiempos; mejorar calidad. | Lean Manufacturing para reducir mermas y reprocesos. |
+| Estratégico | Sostener crecimiento y posicionamiento. | Expansión a nueva zona/apertura de nueva sede. |
+| Social y ambiental | Cumplir normativa y generar impacto. | Tratamiento de efluentes o eficiencia energética. |
 
-• Ejemplo:            • Ejemplo:          • Ejemplo:           • Ejemplo:           • Ejemplo:
-  Nueva planta o        Nueva línea de      Lean                 Expansión a          Tratamiento de
-  compra de             producto o          Manufacturing        nueva zona/          efluentes o
-  maquinaria.           automatización      para reducir         apertura de          eficiencia
-                        con sensores.       mermas y             nueva sede.          energética.
-                                            reprocesos.
+## Slide 12
 
+**Impacto de los proyectos en el desarrollo empresarial**
 
+Lista tipo tarjetas de dos columnas (etiqueta a la izquierda en color, detalle a la derecha):
 
-                                                                                                 11
-Impacto de los proyectos en el desarrollo empresarial
+| Dimensión | Detalle |
+|---|---|
+| Crecimiento económico | Aumento de ingresos y rentabilidad. Ejemplo: proyecto de expansión a nuevos mercados. |
+| Competitividad | Mejora de la posición en el mercado. Ejemplo: proyecto de innovación. |
+| Eficiencia operativa | Reducción de costos y tiempos de producción. Ejemplo: proyecto de automatización. |
+| Sostenibilidad | Contribución al desarrollo social y ambiental. Ejemplo: proyecto de energía renovable. |
+| Adaptabilidad | Capacidad para responder a cambios en el entorno. Ejemplo: proyecto de transformación digital. |
 
-  Crecimiento     • Aumento de ingresos y rentabilidad.
-  económico       • Ejemplo: proyecto de expansión a nuevos mercados.
+## Slide 13
 
-                  • Mejora de la posición en el mercado.
- Competitividad   • Ejemplo: proyecto de innovación.
+**Consideraciones preliminares**
 
+Un proyecto puede marcar el inicio de un nuevo negocio o la ampliación de uno existente, y para su éxito se requiere de los siguientes elementos:
 
-   Eficiencia     • Reducción de costos y tiempos de producción.
-   operativa      • Ejemplo: proyecto de automatización.
+- **Inversión**: incluye el local, maquinaria, equipos y otros recursos necesarios para que la operación funcione.
+- **Operaciones**: para llevar a cabo las actividades que generarán ingresos y cubrirán los egresos, con el objetivo de obtener beneficios netos.
+- **Financiamiento**: para ejecutar el proyecto. Sin el financiamiento adecuado, no es posible crear o expandir el negocio.
 
-                  • Contribución al desarrollo social y ambiental.
- Sostenibilidad   • Ejemplo: proyecto de energía renovable.
+Ilustración tipo pizarra/muro blanco con dibujos: gráfico de líneas ascendente, gráficos circulares (pie charts con "45%", "30%", "25%", "13%"), bombilla de idea, palabra "IDEA", "45% is SALE!", "TEAM", casa, computadora, celular, "MARKETING", "internet+" — persona señalando la pizarra de planificación de negocio.
 
-                  • Capacidad para responder a cambios en el entorno.
- Adaptabilidad    • Ejemplo: proyecto de transformación digital.
+## Slide 14
 
-                                                                        12
-             Consideraciones preliminares
+**Situación para analizar**
 
-Un proyecto puede marcar el inicio de un nuevo negocio
-o la ampliación de uno existente, y para su éxito se
-requiere de los siguientes elementos:
+Caso práctico: Un proyecto con una vida útil de 3 años requiere una inversión inicial de S/ 100,000. Las proyecciones indican ingresos netos de S/ 50,000 por año durante la operación.
 
-Inversión:      incluye el local, maquinaria, equipos y
-                otros recursos necesarios para que la
-                operación funcione.
+La evaluación financiera considera tres componentes:
+- **Inversión**: desembolso inicial de S/ 100,000.
+- **Operación**: resultados netos de S/ 50,000 por año.
+- **Financiamiento**: costo asociado al capital invertido.
 
-Operaciones:    para llevar a cabo las actividades que
-                generarán ingresos y cubrirán los
-                egresos, con el objetivo de obtener
-                beneficios netos.
+Para evaluar el proyecto, es necesario:
+- Flujo de caja de inversión.
+- Flujo de caja operativo.
+- Flujo de caja de financiamiento.
 
-Financiamiento: para ejecutar el proyecto. Sin el
-                financiamiento adecuado, no es posible
-                crear o expandir el negocio.
+**Diagrama de línea de tiempo (flujo de caja):** eje horizontal con 4 puntos — "Hoy" (con flecha roja hacia abajo, "Inversión = -100,000"), "Año 1" (+50,000, flecha azul hacia arriba), "Año 2" (+50,000), "Año 3" (+50,000). Representa el flujo de caja del proyecto: salida inicial de 100,000 y entradas de 50,000 en cada uno de los 3 años.
 
-                                                          13
-                   Situación para analizar
+Al costado, ilustración de dos personas pensativas con signos de interrogación, y el texto "¿Será conveniente?".
 
-    Un proyecto con una vida útil de 3 años requiere una inversión inicial de S/ 100,000. Las
-    proyecciones indican ingresos netos de S/ 50,000 por año durante la operación.
-    La evaluación financiera considera tres componentes:                     Para evaluar el proyecto, es necesario:
-    • Inversión: desembolso inicial de S/ 100,000.                           • Flujo de caja de inversión.
-    • Operación: resultados netos de S/ 50,000 por año.                      • Flujo de caja operativo.
-    • Financiamiento: costo asociado al capital invertido.                   • Flujo de caja de financiamiento.
-    Gráficamente, la situación se presenta de la siguiente manera:                        ¿Será conveniente?
+## Slide 15
 
+Slide separador de sección 3 (mismo diseño decorativo de mano robótica).
 
-                          +50,000               +50,000              +50,000
+**3. Análisis de proyectos**
 
+## Slide 16
 
-                           Año 1                Año 2                Año 3
-         Hoy
-Inversión = -100,000
+**¿Qué es el análisis de proyectos?**
 
-                                                                                                               14
-3.
-     Análisis de proyectos
+Proceso que permite identificar y estimar las variables relevantes de un proyecto, como inversión, costos, ingresos y riesgos, para apoyar la posterior evaluación financiera.
 
+**Objetivos**
+- Identificar y estimar variables relevantes.
+- Comparar escenarios y alternativas del proyecto.
+- Reducir la incertidumbre antes de la evaluación.
 
+Imagen: render arquitectónico 3D en wireframe de una casa (estructura de líneas superpuesta a los planos/blueprints impresos), representando el "análisis"/proyección de un proyecto de construcción.
 
+## Slide 17
 
-                             15
-            ¿Qué es el análisis de proyectos?
+**Componentes clave del análisis de proyectos**
 
-Proceso que permite identificar y estimar las
-variables relevantes de un proyecto, como
-inversión, costos, ingresos y riesgos, para apoyar
-la posterior evaluación financiera.
+Tabla de 4 filas (etiqueta en tarjeta de color a la izquierda, descripción a la derecha):
 
+| Viabilidad | Descripción |
+|---|---|
+| Económica | Analiza si los ingresos esperados permiten cubrir costos e inversión, a partir de flujos de caja proyectados. |
+| Social | Examina el impacto del proyecto en empleo, bienestar y entorno social. |
+| Ambiental | Analiza los efectos del proyecto sobre el medio ambiente y la sostenibilidad. |
+| Técnica | Evalúa si la tecnología, recursos y capacidades disponibles permiten ejecutar el proyecto. |
 
-Objetivos
-• Identificar y estimar variables relevantes.
-• Comparar escenarios y alternativas del
-  proyecto.
-• Reducir la incertidumbre antes de la
-  evaluación.
+## Slide 18
 
+**Importancia del análisis de proyectos**
 
+- **Reduce la incertidumbre**: Proporciona información sólida para tomar decisiones informadas.
+- **Optimiza recursos**: Ayuda a asignar recursos de manera eficiente, evitando inversiones poco rentables.
+- **Promueve la sostenibilidad**: Garantiza que los proyectos sean económicamente viables, socialmente justos y ambientalmente responsables.
 
+Ilustración 3D: gráfico de línea en zigzag rojo que sube y luego cae bruscamente hacia una flecha con la palabra "Reality" (realidad), mientras una flecha gris apunta hacia arriba con la palabra "Dream" (sueño) — metáfora de la brecha entre expectativa (dream) y realidad si no se analiza bien el proyecto.
 
-                                                     16
-         Componentes clave del análisis de proyectos
+## Slide 19
 
-Viabilidad   • Analiza si los ingresos esperados permiten cubrir costos e inversión, a partir de
-económica      flujos de caja proyectados.
+**Clasificación de los proyectos de inversión**
 
+Diagrama de árbol/organigrama horizontal: "Tipos de proyectos de inversión" se ramifica en 3 categorías, cada una con sus subcategorías:
+- **Según el tipo de producto** → Producción de bienes / Prestación de servicios
+- **Según la actividad económica** (sin subramas mostradas explícitamente)
+- **Según su finalidad** → Con lucro / Sin lucro
 
-Viabilidad   • Examina el impacto del proyecto en empleo, bienestar y entorno social.
-  social
+## Slide 20
 
+**Inversión en la creación de una Empresa**
 
-Viabilidad   • Analiza los efectos del proyecto sobre el medio ambiente y la sostenibilidad.
-ambiental
+Diagrama organizacional (organigrama) con flechas curvas de contexto:
+- Centro: "Inversión en la creación de una Empresa" conecta con "Evaluación de Proyectos Empresariales" (izquierda) y "Tomar decisiones" (derecha).
+- Jerarquía: "Gerencia General" en la cima, ramifica en 3: "Gerencia de Marketing" (a su vez ramifica en "Imagen Institucional" y "Ventas"), "Gerencia de Operaciones" (texto en rojo), "Gerencia de Finanzas" (texto en verde, ramifica en "Contabilidad").
+- A la derecha: "Tomar decisiones" — Gerenciales: Definir la misión (metas a CP) y visión (metas a LP). Financieras: Incrementar ganancias (verde) y reducir riesgos (rojo).
+- Texto: "Todas las áreas son impactadas por la ética" y pregunta "¿Qué es la ética?"
+- Fórmula en la parte inferior: **Ingresos (azul) − Egresos (rojo) = Ganancias (verde)**
+- Ilustración de un signo de interrogación 3D rojo con una figura humana pensativa junto a "Evaluación de Proyectos Empresariales".
 
+## Slide 21
 
-Viabilidad   • Evalúa si la tecnología, recursos y capacidades disponibles permiten ejecutar el
- técnica       proyecto.
+Slide separador de sección 4 (mismo diseño decorativo de mano robótica).
 
+**4. Evaluación de proyectos**
 
-                                                                                                   17
-           Importancia del análisis de proyectos
+## Slide 22
 
-• Reduce la incertidumbre
-  Proporciona información sólida para tomar
-  decisiones informadas.
+**Principios de la evaluación de proyectos**
 
-• Optimiza recursos
-  Ayuda a asignar recursos de manera eficiente,
-  evitando inversiones poco rentables.
+4 tarjetas con foto arriba e ícono/título abajo:
+1. **Rentabilidad** (foto: mano con flecha roja ascendente sobre monedas) — Capacidad del proyecto para crear valor económico a partir de los flujos netos generados.
+2. **Sostenibilidad** (foto: bloques de madera con íconos ecológicos sobre tierra) — Viabilidad del proyecto en el largo plazo sin comprometer su desempeño financiero futuro.
+3. **Impacto social y ambiental** (foto: manos sosteniendo una planta sobre monedas) — Efectos del proyecto que pueden afectar riesgos, costos o continuidad operativa.
+4. **Alineación con objetivos estratégicos** (foto: tres dianas con flechas en el centro) — Grado en que el proyecto refuerza la estrategia y la posición competitiva de la empresa.
 
-• Promueve la sostenibilidad
-  Garantiza que los proyectos sean
-  económicamente viables, socialmente justos y
-  ambientalmente responsables.
+## Slide 23
 
+**Evaluación de proyectos**
 
+Proceso que permite determinar la conveniencia de realizar un proyecto, comparando la inversión requerida con los beneficios esperados para tomar una decisión de inversión.
 
+**Ecuación básica** (diagrama de 3 círculos conectados con signos = y −):
+Ingresos esperados **−** Costos e inversiones **=** Resultados del proyecto
 
-                                                   18
-      Clasificación de los proyectos de inversión
+Las decisiones financieras buscan:
+- Incrementar valor.
+- Reducir riesgos.
 
-                                                    Producción de bienes
+**Ética en la toma de decisiones**
+- Todas las áreas son impactadas por la ética.
+- La evaluación financiera debe ser técnica y responsable.
 
-                        Según el tipo de producto
+## Slide 24
 
-                                                    Prestación de servicios
-Tipos de proyectos de      Según la actividad
-      inversión               económica
-                                                          Con lucro
-
-                           Según su finalidad
-
-                                                           Sin lucro
-
-
-
-                                                                              19
-                                Inversión en la creación
-                                    de una Empresa
-                                                                            Tomar decisiones
-                                                                            Gerenciales:
-                                                 Gerencia                   Definir la misión (metas a CP)
-                                                 General
-                                                                            y visión (metas a LP).
-
-Evaluación de                                                               Financieras:
-  Proyectos              Gerencia de           Gerencia de   Gerencia de    Incrementar ganancias y
-Empresariales             Marketing            Operaciones    Finanzas      reducir riesgos
-
-
-                                                                            Todas las áreas son
-                   Imagen                                                   impactadas por la ética
-                                        Ventas               Contabilidad
-                Institucional
-                                                                            ¿Qué es la ética?
-                                 Ingresos – Egresos = Ganancias
-                                                                                                      20
-
-4.
-     Evaluación de proyectos
-
-
-
-
-                               21
-           Principios de la evaluación de proyectos
-
-
-
-
-   Rentabilidad           Sostenibilidad        Impacto social y      Alineación con obje-
-                                                  ambiental            tivos estratégicos
-
-   Capacidad del            Viabilidad del     Efectos del proyecto     Grado en que el
-proyecto para crear     proyecto en el largo   que pueden afectar     proyecto refuerza la
-valor económico a             plazo sin          riesgos, costos o       estrategia y la
- partir de los flujos     comprometer su            continuidad             posición
- netos generados.            desempeño               operativa.        competitiva de la
-                         financiero futuro.                                empresa.
-
-
-                                                                                         22
-           Evaluación de proyectos
-
-Proceso que permite determinar la conveniencia
-de realizar un proyecto, comparando la inversión
-requerida con los beneficios esperados para
-tomar una decisión de inversión.
-
-
-                                                                                   Resultados
-Ecuación básica:       Ingresos                      Costos e
-                                                                                       del
-                      esperados                    inversiones
-                                                                                    proyecto
-
-
-
-Las decisiones financieras buscan:                 Ética en la toma de decisiones
-• Incrementar valor.                               • Todas las áreas son impactadas por la ética.
-• Reducir riesgos.                                 • La evaluación financiera debe ser técnica y
-                                                     responsable.
-                                                                                                    23
-            Evaluación de proyectos
+**Evaluación de proyectos** (continuación)
 
 Usa los resultados del análisis para decidir.
 
+**La evaluación financiera compara:**
+- Ingresos esperados.
+- Costos e inversiones.
+- Beneficios futuros.
 
-La evaluación financiera compara:
-• Ingresos esperados.
-• Costos e inversiones.
-• Beneficios futuros.
+**Decisiones posibles:**
+- Aceptar el proyecto.
+- Rechazar el proyecto.
+- Comparar alternativas.
 
+Foto: manos sosteniendo lupa y pluma sobre gráficos financieros impresos (líneas, barras de colores) — decorativa, ilustra "análisis".
 
-Decisiones posibles:
-• Aceptar el proyecto.
-• Rechazar el proyecto.
-• Comparar alternativas.
+## Slide 25
 
+**Métodos de evaluación de proyectos**
 
-                                                24
-           Métodos de evaluación de proyectos
+- **Valor Actual Neto (VAN)**: Mide la creación de valor del proyecto.
+- **Tasa Interna de Retorno (TIR)**: Mide la rentabilidad esperada.
+- **Período de Recuperación**: Calcula el tiempo de recuperación de la inversión.
+- **Relación Costo-Beneficio**: Compara los beneficios totales con los costos totales de un proyecto.
 
-• Valor Actual Neto (VAN)
-  Mide la creación de valor del proyecto.
+Ilustración: balanza/sube-y-baja con personas — un lado con dinero (monedas, billetes), otro lado con ideas (bombilla, engranajes, flecha ascendente) — representa el balance costo-beneficio.
 
-• Tasa Interna de Retorno (TIR)
-  Mide la rentabilidad esperada.
+## Slide 26
 
-• Período de Recuperación
-  Calcula el tiempo de recuperación de la
-  inversión.
+Slide separador de sección 5 (mismo diseño decorativo de mano robótica).
 
-• Relación Costo-Beneficio
-  Compara los beneficios totales con los costos
-  totales de un proyecto.
+**5. Ética en la evaluación de proyectos**
 
+## Slide 27
 
-                                                  25
-5.
-     Ética en la
-     evaluación de proyectos
+**Moral y ética**
 
+Dos columnas comparativas con ilustraciones:
+- **Moral**: normas sociales generales. La sociedad identifica lo "bueno" y lo "malo" que termina en leyes y normas jurídicas. Ilustración: grupo diverso de personas (representa la sociedad). Texto destacado: "La moral es social (**leyes**)" (leyes en rojo).
+- **Ética**: comportamiento individual ante un evento. Ilustración: persona central con figura angelical (alas) a un lado y figura con bolsa de dinero al otro lado (representando dilema ético). **Ética profesional**: comportamiento individual de un profesional ante un evento. Texto: "La ética es individual. La ética profesional se rige por códigos deontológicos ("deon" deber u obligación & "logos" estudio o tratado). (**Colegios Profesionales**)" (en rojo).
 
+## Slide 28
 
+**Ética profesional**
 
-                               26
-            Moral y ética
+- Responsabilidad del analista financiero.
+- Uso adecuado de la información.
+- Presentación honesta de resultados.
 
-Moral: normas sociales generales.               Ética: comportamiento individual ante un evento.
-La sociedad identifica lo “bueno” y lo “malo”
-que termina en leyes y normas jurídicas.
+Ilustración: persona pensando con dos nubes de pensamiento — una con un "diablito" (figura con cuernos y cola, tentación) y otra con un "angelito" (figura con halo y alas) — representa el dilema ético interno.
 
+## Slide 29
 
+**Aspectos éticos en la toma de decisiones**
 
+La ética empresarial guía la toma de decisiones en la evaluación de proyectos, promoviendo:
+- Prácticas responsables.
+- Supuestos realistas.
+- Presentación transparente de los resultados financieros.
 
-                                                Ética profesional: comportamiento individual de un
-                                                profesional ante un evento.
+Cita destacada: **"Sin ética, cualquier VAN puede manipularse."**
 
+Imagen: robot humanoide sosteniendo simbólicamente un martillo de juez (justicia) y una balanza, sobre fondo de código binario — representa juicio/ética aplicada de forma objetiva.
 
-La moral es social (leyes)                      La ética es individual.
-                                                La ética profesional se rige por códigos deontológicos
-                                                (“deon“ deber u obligación & "logos“ estudio o
-                                                tratado). (Colegios Profesionales).
-                                                                                                         27
-            Ética profesional
+## Slide 30
 
-• Responsabilidad del analista financiero.
+**Importancia de la ética en la evaluación financiera**
 
-• Uso adecuado de la información.
+Diagrama en forma de rombo/diamante con 4 cuadrantes de color:
+1. Promueve **transparencia** en la formulación de supuestos y proyecciones.
+2. Evita **fraudes y manipulación** de información financiera.
+3. Protege a **inversionistas y stakeholders** en la toma de decisiones.
+4. Contribuye a la **sostenibilidad y credibilidad** de los proyectos empresariales.
 
-• Presentación honesta de resultados.
+## Slide 31
 
+**Principios éticos en finanzas**
 
+Tabla de 4 columnas:
 
+| Transparencia | Integridad | Responsabilidad social | Sostenibilidad |
+|---|---|---|---|
+| Información financiera clara y verificable. Supuestos, criterios y resultados explícitos. | Supuestos realistas y coherentes. No manipulación de ingresos, costos o riesgos. | Identificación de impactos relevantes. Consideración de riesgos para el proyecto. | Viabilidad financiera en el largo plazo. Gestión de riesgos ambientales y regulatorios |
 
-                                             28
-            Aspectos éticos en la toma de decisiones
+## Slide 32
 
-La ética empresarial guía la toma de decisiones
-en la evaluación de proyectos, promoviendo:
-• Prácticas responsables.
-• Supuestos realistas.
-• Presentación transparente de los resultados
-  financieros.
+**Beneficios de la ética en la toma de decisiones**
 
+Diagrama de semicírculos concéntricos (gris exterior, celeste medio, gris interior) con 3 etiquetas y su detalle a la derecha:
+- **Construye confianza** → Genera credibilidad ante inversionistas y stakeholders.
+- **Reduce riesgos** → Disminuye fraudes, conflictos legales y riesgos reputacionales.
+- **Promueve la sostenibilidad** → Favorece decisiones viables y alineadas al largo plazo.
 
+## Slide 33
 
+**Conflictos éticos comunes**
 
-“Sin ética, cualquier VAN puede manipularse.”
+- **Uso de información privilegiada**: Aprovechar información no pública para obtener beneficios personales.
+- **Manipulación de datos financieros**: Distorsionar la información financiera para inducir decisiones erróneas.
+- **Distribución desigual de beneficios**: Asignar beneficios de forma injusta, afectando a stakeholders relevantes.
 
+Ilustración estilo pintura: persona sin rostro al centro, con una figura angelical (alas blancas) a un lado y una figura diabólica (con tridente y cola) al otro lado — representa el dilema ético entre actuar bien o mal.
 
+## Slide 34
 
+Slide de cierre de sección con texto sobre foto de fondo (reunión de negocios, manos con gráficos y bolígrafos, decorativa).
 
-                                                       29
-Importancia de la ética en la evaluación financiera
+**Texto principal:** "La teoría financiera y el análisis de proyectos son herramientas esenciales para la toma de decisiones informadas y éticas en la empresa."
 
+**Recomendaciones:** Integrar principios éticos en todas las decisiones financieras y utilizar métodos de evaluación robustos.
 
-                 Promueve
-                                 Evita fraudes y
-            transparencia en
-                                manipulación de
-            la formulación de
-                                  información
-                supuestos y
-                                   financiera.
-              proyecciones.
+## Slide 35
 
+Slide separador de sección 6 (mismo diseño decorativo de mano robótica).
 
+**6. Modelo financiero del proyecto**
 
-                 Protege a      Contribuye a la
-             inversionistas y   sostenibilidad y
-             stakeholders en    credibilidad de
-                la toma de        los proyectos
-                decisiones.      empresariales.
+## Slide 36
 
+**¿Qué es un modelo financiero?**
 
+Representa un proyecto mediante proyecciones numéricas.
 
-                                                      30
-              Principios éticos en finanzas
+**Herramienta que organiza:**
+- Ingresos y costos.
+- Inversiones.
+- Financiamiento.
 
+**Objetivo:** Evaluar la viabilidad financiera de una inversión.
 
-                                                Responsabilidad
-    Transparencia          Integridad                                   Sostenibilidad
-                                                    social
+Ilustración: persona señalando con puntero un gráfico de barras ascendente proyectado en una pizarra/caballete — representa presentación de un modelo financiero.
 
-Información           Supuestos realistas y   Identificación de      Viabilidad financiera
-financiera clara y    coherentes.             impactos relevantes.   en el largo plazo.
-verificable.          • No manipulación       • Consideración de     • Gestión de riesgos
-• Supuestos,            de ingresos, costos     riesgos para el        ambientales y
-   criterios y          o riesgos.              proyecto.              regulatorios
-   resultados
-   explícitos.
+## Slide 37
 
+**Componentes del modelo financiero**
 
+Tabla de 5 filas (etiqueta en tarjeta de color, detalle a la derecha):
 
+| Componente | Detalle |
+|---|---|
+| Supuestos del proyecto | Base para todas las proyecciones. |
+| Proyección de ingresos | Demanda, precios y participación de mercado. |
+| Proyección de costos | Fijos (alquileres, salarios). Variables (materias primas, insumos). |
+| Inversiones y Financiamiento | Activos fijos y capital de trabajo. Deuda y capital propio. |
+| Flujo de caja proyectado | Integración final para evaluar el proyecto. |
 
-                                                                                             31
-Beneficios de la ética en la toma de decisiones
+## Slide 38
 
+**Pasos para construir un modelo financiero — 1. Supuestos**
 
-                                   • Genera credibilidad ante
-         Construye confianza         inversionistas y
-                                     stakeholders.
-                                   • Disminuye fraudes,
-           Reduce riesgos            conflictos legales y riesgos
-                                     reputacionales.
+- Son las bases sobre las que se construye el modelo.
+- Ejemplo: crecimiento de ventas, costos variables y fijos, inflación, tasas de interés, etc.
+- Deben ser realistas y basados en datos confiables.
 
-                                   • Favorece decisiones viables
-      Promueve la sostenibilidad
-                                     y alineadas al largo plazo.
+Ilustración: grupo de 5 personas en una mesa de reunión, cada una con una nube de pensamiento con un ícono distinto (gráfico de barras, reloj, bombilla, diana, megáfono) — representa la definición colaborativa de supuestos.
 
+## Slide 39
 
+**Pasos para construir un modelo financiero — 2. Proyecciones de ingreso**
 
+Estimación de cuánto dinero generará el proyecto.
 
-                                                                    32
-            Conflictos éticos comunes
+**Fuentes de ingresos:**
+- Ventas de productos o servicios.
+- Otros ingresos (intereses, subvenciones).
 
-• Uso de información privilegiada
-  Aprovechar información no pública para obtener
-  beneficios personales.
+**Métodos para proyectar ingresos:**
+- Análisis de mercado (demanda, competencia).
+- Tendencias históricas.
+- Métodos estadísticos (regresión, series de tiempo).
 
-• Manipulación de datos financieros
-  Distorsionar la información financiera para inducir
-  decisiones erróneas.
+Foto: laptop mostrando una hoja de cálculo tipo Excel con gráfico de torta y gráfico de barras, sobre escritorio con taza de café y planta — representa el trabajo de proyección en hoja de cálculo.
 
-• Distribución desigual de beneficios
-  Asignar beneficios de forma injusta, afectando a
-  stakeholders relevantes.
+## Slide 40
 
+**Pasos para construir un modelo financiero — 3. Proyecciones de costos**
 
+Estimación de cuánto costará ejecutar el proyecto.
 
+**Ejemplo:**
+- Costos fijos: No varían con el nivel de producción (alquiler, salarios).
+- Costos variables: Dependen del nivel de producción (materias primas, servicios).
 
-                                                        33
-La teoría financiera y el análisis de proyectos
-son herramientas esenciales para la toma de
-decisiones informadas y éticas en la
-empresa.
+**Métodos para proyectar costos:**
+- Análisis de costos históricos.
+- Benchmarking (comparación con empresas similares).
+- Estimaciones basadas en proveedores.
 
+Foto vista cenital: persona trabajando con laptop, documentos con gráficos de colores y taza de café sobre escritorio oscuro.
 
+## Slide 41
 
-                    Recomendaciones
-                    Integrar principios éticos en todas
-                    las decisiones financieras y utilizar
-                    métodos de evaluación robustos.     34
-6.
-     Modelo financiero del
-     proyecto
+**Pasos para construir un modelo financiero — 4. Flujo de caja proyectado**
 
+Muestra cuánto efectivo generará o necesitará el proyecto en cada período.
 
+**Componentes del flujo de caja:**
+- Ingresos operativos.
+- Egresos operativos (**OPEX**: Operating Expenditure).
+- Inversión en activo fijo o Gasto de Capital (**CAPEX**: Capital Expenditure).
+- Financiamiento (préstamos, pagos de intereses).
 
+**Estructura del flujo de caja:**
+- Flujo neto de efectivo (ingresos - egresos).
+- Saldo acumulado de efectivo.
 
-                             35
-            ¿Qué es un modelo financiero?
+Ilustración: calculadora con gráfico de barras ascendente de colores (azul, naranja) y gráfico de torta multicolor, con flecha roja de tendencia ascendente.
 
-Representa un proyecto mediante proyecciones
-numéricas.
+## Slide 42
 
+**Pasos para construir un modelo financiero — 5. Indicadores financieros**
 
-Herramienta que organiza:
-• Ingresos y costos.
-• Inversiones.
-• Financiamiento.
+- Herramientas para evaluar la rentabilidad y viabilidad del proyecto.
+- Ejemplos: Valor Actual Neto (VAN), Tasa Interna de Retorno (TIR), Período de Recuperación (Payback).
 
+Ilustración: ícono circular central con mano sosteniendo monedas, rodeado de íconos menores (caja fuerte, tarjeta de crédito, gráfico de barras ascendente, gráfico de línea, panel solar/tablero, jarrón) conectados por líneas punteadas — representa el ecosistema de indicadores financieros.
 
-Objetivo:
-Evaluar la viabilidad financiera de una inversión.
+## Slide 43
 
+**Pasos para construir un modelo financiero — Resumen**
 
+Diagrama de flujo vertical con 4 cajas de color conectadas por flechas hacia abajo:
+1. **Paso 1**: Definir supuestos clave (crecimiento de ventas, costos, inversiones).
+2. **Paso 2 y 3**: Proyectar ingresos y costos.
+3. **Paso 4**: Elaborar el flujo de caja proyectado.
+4. **Paso 5**: Calcular indicadores financieros (VAN, TIR).
 
+Imagen: mano señalando pantalla con paneles de datos, calendario y gráficos — decorativa.
 
-                                                     36
-Componentes del modelo financiero
-  Supuestos del    • Base para todas las proyecciones.
-    proyecto
+## Slide 44
 
-  Proyección de    • Demanda, precios y participación de
-     ingresos        mercado.
+Slide de cierre (idéntica a portada, decorativa): fondo de túnel digital azul con silueta caminando, logo UTEC, lema "Reinventa el mundo", marca "TransformaTEC".
 
-  Proyección de    • Fijos (alquileres, salarios).
-     costos        • Variables (materias primas, insumos).
-
-   Inversiones y   • Activos fijos y capital de trabajo
-  Financiamiento   • Deuda y capital propio.
-
-   Flujo de caja   • Integración final para evaluar el proyecto.
-    proyectado
-
-                                                                   37
-           Pasos para construir un modelo financiero
-
-1. Supuestos
-
-
-   • Son las bases sobre las que se construye el
-     modelo.
-
-
-   • Ejemplo: crecimiento de ventas, costos
-     variables y fijos, inflación, tasas de interés,
-     etc.
-
-
-   • Deben ser realistas y basados en datos
-     confiables.
-
-
-
-                                                       38
-           Pasos para construir un modelo financiero
-
-2.      Proyecciones de ingreso               Métodos para proyectar ingresos:
-                                              • Análisis de mercado (demanda, competencia).
-Estimación de cuánto dinero generará el       • Tendencias históricas.
-proyecto.
-                                              • Métodos estadísticos (regresión, series de
-                                                tiempo).
-Fuentes de ingresos:
-• Ventas de productos o servicios.
-• Otros ingresos (intereses, subvenciones).
-
-
-
-
-                                                                                             39
-            Pasos para construir un modelo financiero
-
-3 Proyecciones de costos                     Métodos para proyectar costos:
-                                             • Análisis de costos históricos.
-Estimación de cuánto costará ejecutar el     • Benchmarking (comparación con empresas
-proyecto.                                      similares).
-                                             • Estimaciones basadas en proveedores.
-Ejemplo:
-• Costos fijos: No varían con el nivel de
-  producción (alquiler, salarios).
-• Costos variables: Dependen del nivel de
-  producción (materias primas, servicios).
-
-
-
-
-                                                                                        40
-
-           Pasos para construir un modelo financiero
-
-4.      Flujo de caja proyectado                Componentes del flujo de caja:
-                                                • Ingresos operativos.
-                                                • Egresos operativos
-Muestra cuánto efectivo generará o necesitará
-el proyecto en cada período.                      (OPEX: Operating Expenditure).
-                                                • Inversión en activo fijo o Gasto de Capital
-                                                  (CAPEX: Capital Expenditure).
-                                                • Financiamiento (préstamos, pagos de
-                                                  intereses).
-
-
-                                                Estructura del flujo de caja:
-                                                • Flujo neto de efectivo (ingresos - egresos).
-                                                • Saldo acumulado de efectivo.
-
-
-                                                                                                 41
-            Pasos para construir un modelo financiero
-
-5.       Indicadores financieros
-
-
-     • Herramientas para evaluar la
-       rentabilidad y viabilidad del proyecto.
-
-
-     • Ejemplos: Valor Actual Neto (VAN),
-       Tasa Interna de Retorno (TIR),
-       Período de Recuperación (Payback).
-
-
-
-
-                                                        42
-  Pasos para construir un modelo financiero
-
-          Paso 1: Definir supuestos clave
-          (crecimiento de ventas, costos,
-          inversiones).
-
-
-             Paso 2 y 3: Proyectar ingresos y
-             costos.
-
-Resumen
-                 Paso 4: Elaborar el flujo de caja
-                 proyectado.
-
-
-                     Paso 5: Calcular indicadores
-                     financieros (VAN, TIR).
-
-
-
-                                                     43
-Fundamentos de Evaluación de Proyectos
-      Evaluación Financiera de Proyectos - Semana 1
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+**Título:** Fundamentos de Evaluación de Proyectos
+**Subtítulo:** Evaluación Financiera de Proyectos - Semana 1
