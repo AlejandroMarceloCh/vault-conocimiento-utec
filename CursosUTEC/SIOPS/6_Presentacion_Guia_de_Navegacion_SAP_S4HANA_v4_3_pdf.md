@@ -5,204 +5,164 @@ slides: 14
 fuente: 6. Presentación Guia de Navegacion SAP S4HANA v4.3.pdf
 ---
 
-Navigation SAP S4/HANA
-SAP University Competence Center Magdeburg
-August 2025
-Teaching material - Information
+## Slide 1
 
+**Navigation SAP S4/HANA**
+SAP University Competence Center Magdeburg — August 2025
 
+Portada decorativa: foto de estudiantes conversando al aire libre con mochilas y cuadernos, franja superior amarilla, logos "SAP University Alliances" y "SAP UCC Magdeburg" (decorativa, sin contenido técnico).
 
-       i                     Teaching material - Version
+## Slide 2
 
-                              ▪ 4.3 (August 2025)
+**Teaching material - Information**
 
-                              ▪ Software used
-                                  • S/4HANA 2023
-                                  • Fiori 3.0
-                              ▪ Model
-                                  • Global Bike
+Icono decorativo de documentos apilados junto al bloque "Teaching material - Version":
+- 4.3 (August 2025)
+- Software used:
+  - S/4HANA 2023
+  - Fiori 3.0
+- Model: Global Bike
+- Prerequisites: No Prerequisites needed
 
+A la derecha, logo del modelo de datos usado en el curso: banner verde "Global Bike" con icono de bicicleta y ciclista en blanco.
 
-                              ▪ Prerequisites
-                                  •    No Prerequisites needed
+## Slide 3
 
+**Module Information**
 
+Dos bloques con icono e ícono correspondiente:
+- Icono de lápiz (autores) → **Authors**: Yeganeh Rashed
+- Icono de personas (audiencia) → **Target Audience**: Beginner
 
+## Slide 4
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.          2
-Module Information
+**Module Information**
 
+Icono de diana/objetivo → **Learning Objectives**
+Texto: "You are able to"
+- to build up an understanding of SAP Fiori Launchpad
 
+## Slide 5
 
-                             Authors
+**Log on to an SAP system**
 
-                              ▪ Yeganeh Rashed
+Slide de transición/separador de sección, solo título, sin contenido adicional.
 
+## Slide 6
 
+**Fiori Launchpad: An Overview**
 
+Texto (bullets):
+- SAP Fiori Launchpad:
+  - The **modern** user interface
+  - A standardized, role-based entry point for applications
+  - It is based on tiles that represent apps
+  - It is designed for an intuitive, user friendly experience (UX)
+  - The standard user interface in new SAP systems, like **SAP S/4HANA**
 
-                             Target Audience
+Captura de pantalla de la UI de SAP Fiori Launchpad (español "Idioma" en login previo, aquí interfaz en inglés) anotada con recuadros de color que señalan cada nivel de la jerarquía de navegación:
+- Barra superior con logo SAP y menú "Home ▾"; recuadro azul rotulado **"Spaces"** rodea la fila de pestañas: My Home | Controlling ▾ | Customizing | Enterprise Asset Management | Financial Accounting ▾
+- Bajo "Financial Accounting" se despliega un menú con recuadro verde rotulado **"Pages"**: Accounts Payable, Accounts Receivable, Investment and Asset Management
+- Debajo, el área de contenido muestra la página "Accounts Payable" con la sección "Head of Accounting" y 5 tiles: Manage G/L Account Master Data, Post General Journal Entries, Manage Journal Entries (New Version), Balance Sheet/Income Statement, Display Supplier Balances
+- El tile "Display Supplier Balances" está resaltado con recuadro naranja rotulado **"Tiles"**
+- Más abajo, sección "AP Accountant" con recuadro morado rotulado **"Sections"**, conteniendo 5 tiles: Manage Business Partner Master Data, Create Supplier Invoice, Display G/L Account Balances, Display Supplier Balances, Post Outgoing Payments
 
-                              ▪ Beginner
+## Slide 7
 
+**Fiori Launchpad: An overview**
 
+Texto (bullets):
+- The Fiori Launchpad includes a section called "My Home".
+- This page is usually empty when you log in for the first time.
+- Users can customize it to suit their needs.
+- Frequently used tiles or applications can be added.
+- This creates a personalized work interface tailored to your tasks.
 
+Captura de pantalla: barra superior SAP con pestañas My Home (activa), Financial Accounting ▾, Controlling ▾, Human Capital Management ▾. Área de contenido vacía con ilustración decorativa de una carpa de camping y una gaviota, texto "Nothing here yet?" y subtítulo "You can add your preferred apps to this page.", con botón "Edit Page".
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.   3
-Module Information
+## Slide 8
 
+**Structure of the SAP Fiori Launchpad**
 
+Texto (bullets) — definición de **Space**:
+- Represents the highest organizational level within the user interface structure
+- Consolidates thematically related applications for a specific user role or business area
+- Each space is designed for a defined work context
 
-                             Learning Objectives
+Captura de pantalla parcial: barra de navegación SAP con pestañas My Home, Controlling ▾, Customizing, Enterprise Asset Management, Financial Accounting ▾ (esta última subrayada en azul, indicando el espacio seleccionado).
 
-                              You are able to
-                              ▪ to build up an understanding of SAP Fiori Launchpad
+## Slide 9
 
+**Structure of the SAP Fiori Launchpad**
 
+Texto (bullets) — definición de **Page**:
+- Each space comprises at least one page
+- Serves as the primary workspace where applications and information are presented
+- Facilitates the structured presentation of a space's content
 
+Captura de pantalla: barra superior SAP (My Home, Controlling ▾, Customizing, Enterprise Asset Management, Financial Accounting ▾) con el menú desplegado de "Financial Accounting" mostrando las páginas: Accounts Payable, Accounts Receivable, Investment and Asset Management. Recuadro verde rotula el menú desplegable y recuadro negro rotula la etiqueta **"Page"** junto al menú desplegable. Debajo se ve el encabezado "Accounts Payable / Head of Accounting" de la página activa.
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.                               4
-Log on to an SAP system
+## Slide 10
 
+**Structure of the SAP Fiori Launchpad**
 
+Texto (bullets) — definición de **Section**:
+- Serves to further subdivide pages
+- Groups tiles according to specific tasks or processes
+- Enables improved clarity and organization
 
+Captura de pantalla: página "Accounts Payable" con sección "Head of Accounting" resaltada con recuadro morado rotulado **"Section"**, conteniendo 5 tiles: Manage G/L Account Master Data, Post General Journal Entries, Manage Journal Entries (New Version), Balance Sheet/Income Statement, Display Supplier Balances.
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.   5
-Fiori Launchpad: An Overview
+## Slide 11
 
+**Structure of the SAP Fiori Launchpad**
 
-▪ SAP Fiori Launchpad:
-  • The modern user interface
+Texto (bullets) — definición de **Tiles**:
+- The smallest interactive elements on a page
+- Provide direct entry points to applications
 
-  • A standardized, role-based entry point for applications
+Captura de pantalla: página "Accounts Payable / Head of Accounting" con 5 tiles visibles; el tile "Display Supplier Balances" está resaltado con recuadro naranja rotulado **"Tile"**.
 
-  • It is based on tiles that represent apps
+## Slide 12
 
-  • It is designed for an intuituve, user friendly experience
-    (UX)
+**Navigation Flow Summary**
 
-  • The standard user interface in new SAP systems, like
-    SAP S/4HANA
+Texto (bullets) resumiendo el flujo de navegación:
+- **Space:** Selects the overarching area of responsibility
+- **Page:** Directs the user to the main workspace
+- **Section:** Groups tiles according to specific tasks
+- **Tile:** Launches the desired application
 
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.         6
-Fiori Launchpad: An overview
-
-
-▪ The Fiori Launchpad includes a section called
-  „My Home“.
-
-▪ This page is usually empty when you log in for the
-  first time.
-
-▪ Users can customize it to suit their needs.
-
-▪ Frequently used tiles or applications can be added.
-
-▪ This creates a personalized work interface tailored to
-  your tasks.
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.    7
-Structure of the SAP Fiori Launchpad
-
-
-▪ Space
-  • Represents the highest organizational level within the user interface
-    structure
-
-  • Consolidates thematically related applications for a specific user role or
-    business area
-
-  • Each space is designed for a defined work context
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.                          8
-Structure of the SAP Fiori Launchpad
-
-
-▪ Page
-  • Each space comprises at least one page
-
-  • Serves as the primary workspace where applications and information
-    are presented
-
-  • Facilitates the structured presentation of a space’s content
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.                  9
-Structure of the SAP Fiori Launchpad
-
-
-▪ Section
-  • Serves to further subdivide pages
-
-  • Groups tiles according to specific tasks or processes
-
-  • Enables improved clarity and organization
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.     10
-Structure of the SAP Fiori Launchpad
-
-
-▪ Tiles
-  • The smallest interactive elements on a page
-
-  • Provide direct entry points to applications
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.   11
-Navigation Flow Summary
-
-
-▪ Space: Selects the overarching area of responsibility
-▪ Page: Directs the user to the main workspace
-▪ Section: Groups tiles according to specific tasks
-▪ Tile: Launches the desired application
-
-
+Diagrama jerárquico (texto con sangría y flechas "↳"), con ejemplos concretos:
+```
 Spaces (e.g. Financial Accounting)
  ↳ Pages (e.g Accounts Payable)
   ↳ Sections (e.g. AP Accountant)
-   ↳Tiles (e.g. Display Supplier Balances)
+   ↳ Tiles (e.g. Display Supplier Balances)
+```
 
+Captura de pantalla compuesta a la derecha, integrando todas las anotaciones anteriores en una sola imagen: recuadro azul "Spaces" en la barra de pestañas superior; recuadro verde "Pages" en el menú desplegable de Financial Accounting (Accounts Payable, Accounts Receivable, Investment and Asset Management); recuadro naranja "Tiles" alrededor del tile "Manage G/L Account Master Data" en la sección "Head of Accounting" (con 5 tiles: Manage G/L Account Master Data, Post General Journal Entries, Manage Journal Entries New Version, Balance Sheet/Income Statement, Display Supplier Balances); recuadro morado "Sections" alrededor de la sección "AP Accountant" (con 5 tiles: Manage Business Partner Master Data, Create Supplier Invoice, Display G/L Account Balances, Display Supplier Balances, Post Outgoing Payments).
 
+## Slide 13
 
+**Roles (Business Roles)**
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.   12
-Roles (Business Roles)
+Texto (bullets):
+- Roles (Business Roles)
+  - form the foundation of the authorization structure.
+  - define which content a user is allowed to see and use.
+  - Without an assigned role, the user cannot see any areas, pages or tiles.
 
+Sin elemento visual adicional (solo texto).
 
-▪ Roles (Business Roles)
-  • form the foundation of the authorization structure.
-  • define which content a user is allowed to see and use.
-  • Without an assigned role, the user cannot see any areas, pages or tiles.
+## Slide 14
 
+**Roles (Business Roles)**
 
+Comparación lado a lado mediante dos capturas de pantalla de la Fiori Launchpad, ilustrando el efecto de tener uno o varios roles asignados:
 
+- **Izquierda — "With one role":** barra superior con solo la pestaña "Financial Accounting ▾" visible (recuadro azul) además de "My Home". Página activa "Accounts Payable / Head of Accounting" con 5 tiles: Manage G/L Account Master Data, Post General Journal Entries, Manage Journal Entries (New Version), Balance Sheet/Income Statement, Display Supplier Balances.
 
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.                        13
-Roles (Business Roles)
+- **Derecha — "With several roles":** barra superior con tres pestañas visibles (recuadro azul): Financial Accounting ▾, Controlling ▾ (activa/resaltada), Human Capital Management ▾, además de "My Home". Página activa "Cost Center Controlling / Controller" con 6 tiles: Manage Cost Centers, Create Cost Centers, Manage Statistical Key Figures, Manage Activity Types, Manage G/L Account Master Data, Manage Cost Center Groups, Display Cost Element Groups.
 
-
-  ▪ With one role:                                        ▪ With several roles:
-
-
-
-
-© 2025 SAP SE / SAP UCC Magdeburg. All rights reserved.                           14
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+El contraste muestra que con más roles asignados el usuario ve más spaces (pestañas) disponibles en la barra de navegación.
