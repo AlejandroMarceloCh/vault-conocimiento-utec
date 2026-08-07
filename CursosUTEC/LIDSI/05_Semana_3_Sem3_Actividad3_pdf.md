@@ -5,36 +5,45 @@ slides: 5
 fuente: 05 - Semana 3/Sem3_Actividad3.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
 
-2026-1
+Portada del curso. Fondo blanco a la izquierda con collage fotográfico hexagonal de la fachada del edificio UTEC a la derecha (decorativa).
 
-Sesión 04 :
-Actividad
-Teorías y Estilos de Liderazgo en Entornos Tecnológicos..
-                 Índice
-1.   Actividad
-1.
+Texto:
+- Título: "LIDERAZGO EN SISTEMAS DE INFORMACIÓN."
+- "2026-1"
+- "Sesión 04 : Actividad — Teorías y Estilos de Liderazgo en Entornos Tecnológicos.."
 
-Actividad.
-Actividad:
+## Slide 2
 
-  Lectura obligatoria:
-  Five Actions Leaders Must Get Right to Get to Future Ready. MIT CISR CEMEX 2022.
+Slide de índice, fondo celeste sólido con el mismo collage hexagonal del edificio UTEC en el borde derecho (decorativo).
 
-  Lectura Opcional:
-  Achieving AI at Scale: Cemex’s Learning Journey. MIT CISR CEMEX AI 2024.
+Texto:
+- Título: "Índice"
+- Lista numerada: "1. Actividad"
 
-  Preparar:
+## Slide 3
 
-  •   ¿Cuál era el objetivo de negocio real de CEMEX?
+Slide separador de sección, fondo blanco con collage hexagonal del edificio UTEC a la derecha (decorativo).
 
-  •   ¿Qué evidencia muestra que la transformación no fue solo tecnológica?
+Texto:
+- Número grande "1." con línea subrayado
+- "Actividad." (en celeste)
 
-  •   ¿Qué hizo el liderazgo para conectar negocio y tecnología?
+## Slide 4
 
-  •   ¿Qué estilo viste más claro en el caso y por qué?
+Slide de contenido, texto plano sobre fondo blanco (sin elementos gráficos adicionales).
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Texto:
+- Título: "Actividad:"
+- **Lectura obligatoria:** "Five Actions Leaders Must Get Right to Get to Future Ready. MIT CISR CEMEX 2022."
+- **Lectura Opcional:** "Achieving AI at Scale: Cemex's Learning Journey. MIT CISR CEMEX AI 2024."
+- **Preparar:** (lista de preguntas guía para la lectura)
+  - ¿Cuál era el objetivo de negocio real de CEMEX?
+  - ¿Qué evidencia muestra que la transformación no fue solo tecnológica?
+  - ¿Qué hizo el liderazgo para conectar negocio y tecnología?
+  - ¿Qué estilo viste más claro en el caso y por qué?
+
+## Slide 5
+
+Slide de cierre/contraportada, fondo celeste con logo UTEC en blanco ("Universidad de Ingeniería y Tecnología") y collage hexagonal de fotos arquitectónicas (escaleras, estructuras) a la derecha. Es decorativa, sin texto de contenido adicional al logo institucional.

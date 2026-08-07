@@ -5,518 +5,191 @@ slides: 36
 fuente: 05 - Semana 3/Sem3_Sesion5.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
+Portada. "LIDERAZGO EN SISTEMAS DE INFORMACIÓN." — 2026-1 — Sesión 05: El rol de un líder de SI: conectar el negocio y la tecnología. Fondo decorativo: fotografía arquitectónica del edificio UTEC en patrón hexagonal (decorativa). Logo UTEC.
 
-2026-1
-Sesión 05 :
-El rol de un líder de SI: conectar el
-negocio y la tecnología
-                           Índice
-1.   Objetivos
+## Slide 2
+Índice, fondo celeste sólido con fotografía hexagonal decorativa de UTEC a la derecha.
+1. Objetivos
 2. El rol de un líder de SI: conectar el negocio y la tecnología
-3. CEMEX : Conectando Negocio y Tecnología
+3. CEMEX: Conectando Negocio y Tecnología
 4. Conclusiones.
-¿Cómo evita un líder de SI que la tecnología se quede en “proyecto” y la
-                    convierta en valor de negocio?
-1.
 
-Objetivos
-                                  Objetivos
-Al finalizar la sesión, el estudiante será capaz de:
-
-• Explicar el rol del líder de Sistemas de Información en la conexión entre negocio
-  y tecnología.
-
-• Diferenciar la gestión tecnológica operativa de un liderazgo estratégico de SI,
-  basado en creación de valor.
-
-• Analizar el caso CEMEX identificando decisiones de liderazgo que habilitan la
-  transformación digital.
-
-• Aplicar el marco del MIT CISR (Future Ready) para interpretar cómo se conecta
-  tecnología, organización y estrategia.
-
-• Evaluar estilos de liderazgo en contextos de transformación digital.
-
-• Evaluar el rol del líder de SI como articulador entre estrategia, organización y
-  tecnología.
-2.
-El rol de un líder de SI:
-conectar el negocio y la
-tecnología
-                        Evolución del liderazgo en Sistemas de Información
-
-1970s–1980s | Etapa técnico-operativa
-Procesamiento de datos, automatización básica y soporte interno.
-Rol: responsable de la operación y continuidad tecnológica.
-
-1990s–2000s tempranos | Etapa de integración
-Integración de sistemas, información y mejora de procesos.
-Rol: facilitador del uso de SI para coordinar y mejorar el desempeño organizacional.
-
-2000s tardíos–actualidad | Etapa estratégica
-Transformación digital, innovación y creación de valor.
-Rol: líder que conecta tecnología, procesos y estrategia del negocio.
-
-
-
-
-   Fuente: Applegate, L. M., & Elam, J. J. (1992). New information systems leaders: A changing role in a changing world. MIS Quarterly, 16(4), 469–490
-                              Evolución del rol del líder de Sistemas de Información
-
-
-
-De lo técnico a lo estratégico: cuatro roles clave:
-
-Technologist - Tecnólogo (operativo)
-Enfoque en infraestructura, sistemas y operación
-tecnológica.
-
-Enabler - Habilitador del negocio
-TI como soporte del negocio: mejora procesos y eficiencia.
-
-Innovator - Innovador digital
-Uso de tecnología para crear nuevas capacidades y
-propuestas de valor.
-
-Strategist - Estratega de negocio
-TI como motor de ventaja competitiva y transformación del
-negocio.
-
-
-El líder de SI evoluciona de gestor tecnológico a socio
-estratégico del negocio.
-
-
-
-
-                   Fuente: Adaptado de McLean & Smits (2003) y estudios posteriores sobre la evolución del rol del CIO en la estrategia empresarial.
-                             El equilibrio estructural del liderazgo en Sistemas de Información
-
-La eficacia del líder de Tecnología de la información depende de integrar dos enfoques complementarios:
-uno orientado a la estabilidad operativa y otro al impulso del cambio y la innovación. Esta idea está alineada
-con el trabajo de Ghawe y Brohman sobre estilos y características del liderazgo del director de Sistemas de
-Información.
-
-Resultado esperado: eficacia organizacional de TI
-
-                        Liderazgo transaccional                                              Liderazgo transformacional
-
-                        Gestión de la complejidad operativa                                    Impulso del cambio y la adaptación
-
-
-
-              Garantiza operaciones estables, confiables y predecibles              Promueve innovación y adaptación a entornos dinámicos
-
-
-
-                                                                                     Se enfoca en visión compartida, rediseño de procesos y
-        Se enfoca en presupuesto, SLA, eficiencia y resolución de problemas
-                                                                                                        empoderamiento
-
-
-
-                 Favorece el cumplimiento de objetivos específicos            Moviliza a las personas mediante inspiración y alineación con la misión
-
-
-
-
-La eficacia organizacional de TI surge cuando el líder equilibra disciplina operativa e innovación estratégica.
-Bass plantea que lo transaccional y lo transformacional no son excluyentes, sino dimensiones que pueden
-coexistir en un mismo líder.
-
-Fuente: Adaptado de Ghawe y Brohman (2016) y Bass (1990).
-         Responsabilidades del líder de SI para conectar negocio y tecnología
-
-
-
-   Alinear
-decisiones de                                                           Coordinar
-                                                                                               Integra TI, operaciones, finanzas, marketing
- negocio con    Asegura que TI responda al modelo                        equipos
-                                                                                               y negocio.
-capacidades     operativo y a las prioridades del negocio.            transversales
-tecnológicas
-
-
-
-
-  Traducir
-                                                                         Medir valor
-   entre        Convierte    objetivos  de    negocio     en
-                                                                                               Evalúa impacto en ingresos, eficiencia,
-                decisiones tecnológicas y explica riesgos en             y sostener
- negocio y                                                                                     experiencia, riesgo y adopción.
-                lenguaje ejecutivo.                                      el cambio
-     TI
-
-
-
-
-  Desarrollar
- capacidades    Prioriza plataformas, datos y procesos, no
-   digitales    solo herramientas.
-
-
-
-
-                        Fuente: elaboración propia a partir de Henderson y Venkatraman; MIT CISR; McKinsey; Gartner.
-                        El rol del líder de SI: conectar el negocio y la tecnología
-
-Según MIT CISR, este rol no se limita a implementar tecnología: consiste en liderar la transformación digital
-a través de cinco acciones clave.
-
-
-• Motivar con propósito
-     Traducir la tecnología en una ambición de negocio compartida.
-
-• Comprometer una ruta
-     Definir prioridades y secuencia estratégica de transformación.
-
-• Anticipar “explosiones”
-      Gestionar tensiones organizacionales, decisiones y nuevas formas de trabajo.
-
-• Construir capacidades
-     Desarrollar plataformas, datos, procesos y talento para escalar.
-
-• Acumular valor
-     Hacer visible el impacto en clientes, operaciones y ecosistema.
-
-
-Conectar negocio y tecnología no es coordinar áreas; es convertir decisiones tecnológicas en capacidades
-organizacionales y valor de negocio.
- Cuatro perfiles de directores de Sistemas de Información según la entrega de valor de liderazgo:
-
-Cuanto más valor entrega el líder de Sistemas de Información , más se mueve desde la función de TI hacia digitalización,
-funciones corporativas y crecimiento.
-                            El rol de un líder de SI: conectar el negocio y la tecnología
-
-Hallazgos clave
-
-• 50% de los CIOs ya se define como business leader, no solo como responsable técnico (Foundry, 2025).
-
-• 81% afirma que el CIO se está convirtiendo en un changemaker, liderando iniciativas de negocio y
-  tecnología (Foundry, 2025).
-
-• 45% de los CIOs está migrando a un modelo de co-liderazgo digital con otros ejecutivos del negocio
-  (Gartner, 2023).
-
-• En ese modelo, 63% de las iniciativas digitales cumple o supera sus metas, frente a 43% en modelos
-  tradicionales (Gartner, 2023).
-
-• Los líderes tecnológicos de empresas más innovadoras dedican 20% de su tiempo a clientes y partners,
-  versus 12% en empresas del cuartil inferior (Weill et al., 2024).
-
-• Solo 16% de las transformaciones digitales logra mejorar el desempeño y sostener esos cambios en el
-  tiempo, lo que evidencia que conectar negocio y tecnología sigue siendo una capacidad crítica
-  (McKinsey & Company, 2018).
-
-El líder de SI crea más valor cuando actúa como puente entre estrategia, operación y tecnología, y
-no solo como gestor de TI.
-
+## Slide 3
+Slide de pregunta disparadora (solo texto, fondo blanco con hexágonos decorativos tenues): "¿Cómo evita un líder de SI que la tecnología se quede en "proyecto" y la convierta en valor de negocio?"
+
+## Slide 4
+Slide separador de sección "1. Objetivos", con imagen arquitectónica hexagonal decorativa a la derecha (UTEC, incluye texto "INGENIERÍA" fragmentado en las teselas).
+
+## Slide 5
+Título "Objetivos". Lista de 6 objetivos de aprendizaje de la sesión (explicar rol del líder de SI, diferenciar gestión operativa de liderazgo estratégico, analizar caso CEMEX, aplicar marco MIT CISR Future Ready, evaluar estilos de liderazgo, evaluar rol de articulador). Solo texto, sin gráficos.
+
+## Slide 6
+Slide separador "2. El rol de un líder de SI: conectar el negocio y la tecnología", con misma imagen hexagonal decorativa UTEC.
+
+## Slide 7
+Título "Evolución del liderazgo en Sistemas de Información". Texto con 3 etapas cronológicas (1970s-1980s técnico-operativa; 1990s-2000s integración; 2000s tardíos-actualidad estratégica), cada una con descripción y "Rol". 
+Debajo, tabla/diagrama de 3 tarjetas azul marino en fila, cada una con encabezado de color (amarillo, naranja, celeste) e ilustración isométrica tipo icono 3D:
+- Tarjeta 1 "Etapa inicial / enfoque técnico-operativo" (fondo amarillo): ilustración de una caja/servidor tecnológico. Foco: procesamiento de datos, automatización básica y continuidad operativa. Rol: administrar la infraestructura y asegurar que los sistemas funcionen.
+- Tarjeta 2 "Etapa de integración / información y procesos" (fondo naranja): ilustración de edificios/sistemas conectados en red. Foco: integración de sistemas, eficiencia operativa y mejora de procesos. Rol: facilitar el uso de la tecnología para coordinar áreas y apoyar decisiones.
+- Tarjeta 3 "Etapa actual / enfoque estratégico" (fondo celeste): ilustración de un rascacielos/torre iluminada. Foco: transformación digital, innovación, datos y creación de valor. Rol: conectar negocio y tecnología para orientar capacidades hacia resultados.
+Fuente: Applegate & Elam (1992), MIS Quarterly.
+
+## Slide 8
+Título "Evolución del rol del líder de Sistemas de Información". Texto describe 4 roles clave (Technologist, Enabler, Innovator, Strategist) con su enfoque.
+A la derecha, diagrama de matriz 2x2 (estilo "blueprint" técnico azul oscuro con grid): eje Y "Demandas del Negocio" (Estable/Estático abajo, Dinámico/Turbulento arriba); eje X "Foco de Atención" (Tecnología/Función TI ← → El Negocio).
+- Cuadrante superior-izquierdo: "El Innovador" — Foco tecnológico, entorno dinámico. Reingeniería de la función TI, experimentación con tecnologías emergentes y creación de cultura de aprendizaje.
+- Cuadrante superior-derecho (resaltado con borde naranja brillante): "El Estratega" — Foco en el negocio, entorno turbulento. Boundary-spanner. Anticipa amenazas del mercado y lidera iniciativas que generan ventaja competitiva a través de TI.
+- Cuadrante inferior-izquierdo: "El Tecnólogo" — Foco interno y estable. Garantiza infraestructuras sólidas, escalables y rentables. El experto que mantiene la maquinaria en marcha.
+- Cuadrante inferior-derecho: "El Facilitador (Enabler)" — Foco en el negocio, entorno estable. Abogado del usuario. Optimiza el uso comercial de las capacidades actuales de TI.
+Fuente: Adaptado de McLean & Smits (2003).
+
+## Slide 9
+Título "El equilibrio estructural del liderazgo en Sistemas de Información". Texto introductorio sobre los dos enfoques complementarios (Ghawe y Brohman).
+Tabla comparativa de 2 columnas con encabezado celeste "Liderazgo transaccional" | "Liderazgo transformacional", y 4 filas:
+| Liderazgo transaccional | Liderazgo transformacional |
+|---|---|
+| Gestión de la complejidad operativa | Impulso del cambio y la adaptación |
+| Garantiza operaciones estables, confiables y predecibles | Promueve innovación y adaptación a entornos dinámicos |
+| Se enfoca en presupuesto, SLA, eficiencia y resolución de problemas | Se enfoca en visión compartida, rediseño de procesos y empoderamiento |
+| Favorece el cumplimiento de objetivos específicos | Moviliza a las personas mediante inspiración y alineación con la misión |
+Fuente: Ghawe y Brohman (2016) y Bass (1990).
+
+## Slide 10
+Título "Responsabilidades del líder de SI para conectar negocio y tecnología". Diagrama de 5 tarjetas de color (celeste sólido y con borde) con título en negrita y descripción a la derecha:
+- Alinear decisiones de negocio con capacidades tecnológicas: asegura que TI responda al modelo operativo y a las prioridades del negocio.
+- Traducir entre negocio y TI (tarjeta con borde, sin relleno): convierte objetivos de negocio en decisiones tecnológicas y explica riesgos en lenguaje ejecutivo.
+- Desarrollar capacidades digitales: prioriza plataformas, datos y procesos, no solo herramientas.
+- Coordinar equipos transversales: integra TI, operaciones, finanzas, marketing y negocio.
+- Medir valor y sostener el cambio (tarjeta con borde negro): evalúa impacto en ingresos, eficiencia, experiencia, riesgo y adopción.
+Fuente: elaboración propia a partir de Henderson y Venkatraman; MIT CISR; McKinsey; Gartner.
+
+## Slide 11
+Título "El rol del líder de SI: conectar el negocio y la tecnología". Texto: según MIT CISR, 5 acciones clave con subtítulo y descripción: Motivar con propósito, Comprometer una ruta, Anticipar "explosiones", Construir capacidades, Acumular valor. Solo texto, sin gráfico adicional.
+
+## Slide 12
+Título "Cuatro perfiles de directores de Sistemas de Información según la entrega de valor de liderazgo". Texto introductorio.
+Captura/infografía estilo Gartner (fondo blanco, iconos en cuadro superior azul marino) con 4 columnas progresivas conectadas por flechas ">":
+1. "CIO as Technology Function Leader (20% of Respondents)" — Leadership value based only on IT functional leadership operating a highly efficient technology function. Debajo: bloque "IT Function".
+2. "CIO as Business Digitalization Leader (52% of Respondents)" — Leadership value based on IT plus additive executive leadership of business digitalization initiatives. Debajo: "IT Function + Business Digitalization".
+3. "CIO as Business Function Leader (18% of Respondents)" (dentro de recuadro que agrupa 3 y 4) — Increase in leadership value delivered by adding executive leadership of non-IT functional teams. Debajo: "IT Function + Business Digitalization + Corporate Functions".
+4. "CIO as Growth Leader (10% of Respondents)" — Increase in leadership value delivered by adding executive leadership of P&L teams. Debajo: "IT Function + Business Digitalization + P&L Functions".
+Nota al pie: n = 2,317 CIOs responding. Pregunta de la encuesta y fuente: 2024 Gartner CIO and Technology Executive Survey, código 800977_C. Logo Gartner.
+
+## Slide 13
+Título "El rol de un líder de SI: conectar el negocio y la tecnología" — "Hallazgos clave". Lista de 6 estadísticas en negrita con fuente entre paréntesis:
+- 50% de los CIOs ya se define como business leader (Foundry, 2025)
+- 81% afirma que el CIO se está convirtiendo en un changemaker (Foundry, 2025)
+- 45% de los CIOs está migrando a un modelo de co-liderazgo digital (Gartner, 2023)
+- En ese modelo, 63% de las iniciativas digitales cumple o supera sus metas, frente a 43% en modelos tradicionales (Gartner, 2023)
+- Líderes tecnológicos de empresas más innovadoras dedican 20% de su tiempo a clientes y partners, vs 12% en cuartil inferior (Weill et al., 2024)
+- Solo 16% de las transformaciones digitales logra mejorar el desempeño y sostener esos cambios (McKinsey & Company, 2018)
 Fuente: Foundry (2025); Gartner (2023); Weill et al. (2024); McKinsey & Company (2018).
-3.
 
-CEMEX : Conectando
-Negocio y Tecnología
-CEMEX
-                                                   CEMEX
-PANORAMA: De eficiencia operativa a IA a escala
+## Slide 14
+Slide separador "3. CEMEX: Conectando Negocio y Tecnología", con la misma imagen hexagonal decorativa UTEC.
+
+## Slide 15
+Título "CEMEX". Captura de pantalla del sitio web corporativo cemex.com (barra superior azul con "Global | NYSE(USD) 11.91 | BMV(MXN) 20.65", menú "Newsroom, Careers, Suppliers, Contact, EN"; logo CEMEX y menú "About Us, Products and Solutions, Sustainability, Innovation, Investors"; foto de camión mezclador de cemento CEMEX con fondo de montañas; banner celeste con texto "We're constantly pushing the boundaries of what's possible to build a better future for all. View more →").
+Debajo, 3 infografías/paneles adicionales:
+- "Cemex: Liderazgo Global y Compromiso Sostenible en la Industria Cementera" — texto sobre transformación bajo "Proyecto Cutting Edge". Dos íconos con cifras: "Excelencia en Seguridad Laboral 97%" y "Liderazgo en Economía Circular 32.1%".
+- "Ventas 2025 y Margen EBITDA por Región" — gráfico de barras/columnas estilo pilares 3D con 3 regiones: México (Ventas: 4,364 M USD, Margen EBITDA 32.2%), Estados Unidos (Ventas: 5,008 M USD, Margen EBITDA 19.5%), EMEA (Ventas: 5,118 M USD, Margen EBITDA 15.4%).
+- "Presencia Global y Valoración Competitiva" — íconos de regiones: México, EE.UU., Europa, SCAC (Sudamérica/Caribe), MEA (Medio Oriente/África).
+
+## Slide 16
+Título "CEMEX" — "PANORAMA: De eficiencia operativa a IA a escala". Texto: "La historia de CEMEX puede leerse como una secuencia de cinco decisiones estratégicas."
+Línea de tiempo horizontal con 6 hitos (círculos de color sobre línea gris), cada uno con año, título y descripción corta:
+- 2000s — CEMEX Way — estandarización operativa
+- 2014 — Giro estratégico — cliente + digital
+- 2017 — CEMEX Go — plataforma end-to-end
+- 2020-21 — Adopción — escala comercial y NPS récord
+- 2022 — MLOps + Arkik — industrializar y monetizar
+- 2024 — AI at Scale — US$30M estimados
+Texto final: CEMEX primero construye disciplina operativa, luego redefine la experiencia del cliente, después convierte esa apuesta en plataforma, y finalmente industrializa la IA.
+
+## Slide 17
+Título "CEMEX" — "FASE I / 2000s-2019 | decidir el camino". Texto introductorio.
+Lista con 4 recuadros de color (azul marino oscuro / teal alternados) con el año y descripción a la derecha:
+- 2000s: Se consolida el "CEMEX Way": la alta dirección prioriza eficiencia global, calidad y seguridad.
+- 2014: El top management inicia la transformación digital del negocio con foco explícito en experiencia del cliente.
+- 2017: Se lanza CEMEX Go y se crea Global Data Science (GDS) como capacidad central para soluciones de IA escalables.
+- 2017-19: Se integran front-end y back-end: order fulfillment, CRM y trabajo conjunto entre negocio y TI.
+
+## Slide 18
+Título "CEMEX" — "FASE II / 2020-2022 | de adopción a eficiencia". Texto: la plataforma deja de ser experimento y pasa a ser el motor comercial y operativo del cambio.
+Captura de la app móvil "CEMEX GO" mostrando una mano sosteniendo un smartphone con la interfaz (bolsa de cemento, botones "Seguimiento en tiempo real de tu pedido", "Ordena desde donde estés", "Administra facturas y pagos", "Visualiza los detalles de tu pedido"), con un camión mezclador de fondo.
+3 tarjetas de estadística: 52% de ventas globales procesadas por CEMEX Go en 2020 | 90% de clientes recurrentes usando el servicio | 68 NPS global récord en 2020 y 2021.
+Ícono de carita feliz con flecha ascendente: "Índice de Satisfacción (NPS) — Incremento de 44 (2018) a 68 (2021)".
+Decisión 1: la transformación deja de depender solo del CEO y se convierte en responsabilidad del equipo ejecutivo.
+Decisión 2: se abre la segunda fase (mantener experiencia del cliente + capturar eficiencia operativa y reducir costo de servir) — SmartOps: Producción; Working Smarter: optimización interna.
+2021: shared ownership del comité ejecutivo.
+
+## Slide 19
+Título "CEMEX" — "FASE III / 2017-2024 | el viaje de IA a escala". Texto: CEMEX aprende primero a desplegar modelos, luego a proliferarlos y finalmente a industrializarlos.
+3 bloques de color (verde agua, beige, verde agua) con etiqueta de fase y descripción:
+- 2017- Deploy: GDS desarrolla casos de uso de IA con equipos multifuncionales. Magic Tools explica el modelo y construye confianza.
+- 2020- Proliferate: IT habilita data lake, catálogo, APIs y entrenamiento; Speed to Value prioriza qué escalar y qué dejar local.
+- 2022- Industrialize: MLOps automatiza despliegue, monitoreo y soporte; los data scientists se enfocan en trabajo de mayor valor.
+A la derecha, captura de una tabla del MIT: "Table 1: Outcomes of Establishing Facilitating Elements During the AI Scaling Journey", con columnas "Learning to deploy AI models / Learning to proliferate AI models / Learning to industrialize AI models / AI at Scale" y filas "Data Assets", "Workforce", "AI Resources" con la evolución descrita en cada etapa. Texto: la tabla del MIT resume el salto desde datos y recursos dispersos hacia una organización con IA a escala.
+
+## Slide 20
+Slide de pregunta (solo texto): "1. ¿Cuál era el objetivo de negocio real de CEMEX?" con encabezado "CEMEX".
+
+## Slide 21
+Título "CEMEX" — "1. ¿Cuál era el objetivo de negocio real de CEMEX?" Texto: el objetivo real no era implementar tecnología, sino transformar el negocio. Objetivos concretos (4 bullets: mejor experiencia al cliente, operación más eficiente, reducir costo de servir, crear nuevo valor).
+Debajo, panel oscuro con 4 recuadros de estadística: "Objetivo" (texto: entregar una experiencia superior al cliente y luego convertir esa mejora en eficiencia operativa, menor costo de servir y nuevos modelos de negocio) | "68 NPS global récord en 2020 y 2021" | "52% de ventas globales procesadas por CEMEX Go en 2020" | "90% de clientes recurrentes usando el servicio" | "US$14.5B revenues en 2021" | "9.7% net profit margin (TTM)" | "US$30M valor estimado de soluciones de IA asociadas".
+
+## Slide 22
+Título "CEMEX" — "1. ¿Cuál era el objetivo de negocio real de CEMEX?" — "Evidencia del objetivo de negocio". Texto: transformación conectada al propósito corporativo, diseñada en dos fases (Fase 1: experiencia de cliente y omnicanalidad; Fase 2: eficiencia operativa y reducción de costos).
+A la derecha, captura del framework MIT CISR "Future Ready" (diagrama de cuadrantes con ejes "Customer Experience" (vertical, "Increasing customer focus") y "Operational Efficiency" (horizontal, "Increasing automation, standardization, reuse, and productivity")): cuadrantes "Silos and Spaghetti" (inferior izq.), "Integrated Experience" (superior izq.), "Industrialized" (inferior der.), "Future Ready" (superior der.). Flechas de colores (verde, amarilla, azul, roja) numeradas 1-4 muestran trayectorias/pathways de transformación entre cuadrantes. Fuente: Ross, Beath & Mocker (2022), MIT CISR.
+Debajo a la izquierda, gráfico "Preparados para el futuro" en degradado de verdes con 5 franjas apiladas tipo flecha: Acumular (valor), Construir (capacidades), Anticipar (las disrupciones), Comprometerse (con una ruta), Motivar (con un propósito claro) — marcado "Pathway 2".
+Recuadro con los 4 estados de madurez organizacional del modelo MIT CISR: 1. Industrializado, 2. Experiencia Integrada, 3. Habilitado Digitalmente, 4. Preparado para el Futuro.
+
+## Slide 23
+Slide de pregunta (solo texto): "2. ¿Qué evidencia muestra que la transformación no fue sólo tecnológica?" con encabezado "CEMEX".
+
+## Slide 24
+Título "CEMEX" — "2. ¿Qué evidencia muestra que la transformación no fue sólo tecnológica?" Lista con check (✓) de 6 elementos que cambiaron: la estrategia, la cultura, los procesos, la forma de trabajo, las métricas de valor, la relación entre negocio y TI. Solo texto.
+
+## Slide 25
+Título "CEMEX". Dos columnas de evidencia con recuadros de borde teal:
+"Evidencia organizacional y cultural" — bullets extensos: propósito corporativo citado textual ("hacer el futuro mejor para nuestros clientes..."), cambio cultural con 5 componentes del digital mindset (enfoque en cliente, procesos iterativos, hábitos colaborativos, entornos de prueba/aprendizaje, adaptación al cambio), nuevos modelos de trabajo (equipos ágiles, colaboración transversal), el CEO inició y luego compartió con el comité ejecutivo, educación ejecutiva y workshops, gestión de tensiones de cambio, rediseño operativo, medición de valor de negocio (ventas digitales, NPS, eficiencia operativa, nuevos negocios de ecosistema).
+"Evidencia Operativa y Tecnológica" — bullets: CEMEX Go integró front-end con order fulfillment y CRM; confirmación digital automática sobre inventario/transporte/servicio; SmartOps y Working Smarter; data lake, catálogo, comunidades y Speed to Value para IA; MLOps redujo despliegues de semanas/meses a horas/días.
+Debajo, recuadro "Datos que lo prueban / Resultados de negocio": 52% ventas globales por CEMEX Go en 2020, ~90% clientes recurrentes, NPS 68 en 2020-2021, automatización del fulfillment para cemento, desarrollo de IA/ML para ready-mix concrete.
+
+## Slide 26
+Slide de pregunta (solo texto): "3. ¿Qué hizo el liderazgo para conectar negocio y tecnología?" con encabezado "CEMEX".
+
+## Slide 27
+Título "CEMEX" — "3. ¿Qué hizo el liderazgo para conectar negocio y tecnología?" Lista con check (✓) de 5 acciones con descripción: definió que no era proyecto TI sino transformación del negocio (usó el propósito corporativo como norte); tomó decisión estratégica de secuencia (primero cliente, luego eficiencia); intervino en la organización no solo en tecnología; invirtió en capacidades escalables; exigió valor de negocio visible.
+A la derecha, la misma gráfica en degradado de verdes "Preparados para el futuro" (Acumular, Construir, Anticipar, Comprometerse, Motivar) con leyenda: "Marco Future Ready del MIT: motivar, comprometer, anticipar, construir y acumular valor."
+
+## Slide 28
+Título "CEMEX". Texto: "¿Dónde estuvo realmente el rol del líder de SI en CEMEX?" No se limita a: implementar CEMEX Go, crear modelos de IA, construir data lake y MLOps. Se evidencia en: decidir qué transformar, definir la secuencia del cambio, alinear negocio y TI, rediseñar formas de trabajo, exigir resultados de negocio. Frase final: "La tecnología habilita; el liderazgo integra, prioriza y convierte esa tecnología en valor." Solo texto.
+
+## Slide 29
+Slide de pregunta (solo texto): "4. ¿Qué estilo viste más claro en el caso y por qué?" con encabezado "CEMEX".
+
+## Slide 30
+Título "CEMEX" — "4. ¿Qué estilo viste más claro en el caso y por qué?" Texto: predomina el liderazgo transformacional (redefine visión, moviliza organización, impulsa cambio cultural, rompe silos, alinea tecnología con transformación estratégica); también rasgos de liderazgo situacional (cambia según fase) y liderazgo servicial (énfasis en cliente, colaboración, experiencia del empleado). Conclusión: estilo predominante transformacional. Solo texto.
+
+## Slide 31
+Título "CEMEX". Infografía resumen grande de dos mitades: 
+Izquierda "Cinco Acciones para Estar 'Future Ready'" — camino/ruta ilustrada con íconos: estrella/brújula "Motivar con un Propósito y Elegir una Ruta" (definir una "Estrella del Norte"); ícono de red de nodos con conexión a pantalla "..." (siguiente paso en el camino, texto parcialmente fusionado con el siguiente bullet); explosión con personas "Anticipar las 'Explosiones' Organizacionales" (gestionar cambios disruptivos en roles, cultura y formas de trabajo); ícono de red circular "Cemex Go procesa más del 50% de las ventas globales, mejorando la satisfacción del cliente" (de las ventas globales procesadas).
+Derecha "El Ciclo de Vida para Escalar la IA" — ilustración de cerebro/cabeza robótica rodeada de engranajes con flujo hacia una red neuronal: "Desplegar, Proliferar e Industrializar" (evolucionar de modelos aislados a gestión automatizada de cientos de modelos interconectados); íconos de gota/cerebro/maletín "Elementos Facilitadores: Datos, Talento y Recursos" (requiere datos líquidos, personal con conocimientos de IA y uso eficiente de expertos); ícono de reloj con flecha "Meses → Días" "Eficiencia Industrializada con MLOps" (el uso de plataformas MLOps redujo el despliegue de modelos de meses a solo días).
+Panel derecho "Resultados del Viaje de Transformación": ícono moneda "$30 Millones USD en eficiencias" (Valor Estimado de Soluciones IA); ícono carita feliz "Incremento de 44 (2018) a 68 (2021)" (Índice de Satisfacción NPS); ícono globo/apretón de manos "52% de las ventas globales procesadas" (Ventas vía Cemex Go).
+
+## Slide 32
+Slide separador "4. Conclusiones.", con la misma imagen hexagonal decorativa UTEC.
+
+## Slide 33
+Título "CONCLUSIONES". Lista numerada de 6 conclusiones (liderazgo de SI evolucionó de técnico a estratégico; conectar negocio y tecnología implica traducir estrategia en capacidades y valor; la transformación digital requiere liderazgo no solo herramientas; CEMEX evidencia que el impacto surge cuando tecnología/procesos/negocio se integran; el líder de SI aporta más como puente entre estrategia/operación/cambio; el liderazgo de SI no es gestionar tecnología sino tomar decisiones que transforman el negocio). Frase final destacada en negrita: "La diferencia entre digitalizar y transformarse no es la tecnología, sino el liderazgo." Solo texto.
+
+## Slide 34
+Slide de pregunta final (solo texto): "¿Qué decisiones puede tomar un líder de SI que un gerente funcional tradicional no suele tomar?"
 
-La historia de CEMEX puede leerse como una secuencia de cinco decisiones estratégicas.
+## Slide 35
+Slide de cierre: "GRACIAS." Solo texto, fondo blanco con hexágonos decorativos tenues.
 
-
-
-
-     2000s                2014                   2017              2020-21               2022                     2024
-
-
-                           Giro                                                         MLOps +
-  CEMEX Way            estratégico            CEMEX Go             Adopción                                   AI at Scale
-                                                                                         Arkik
-                        cliente +                                    escala
- estandarización                              plataforma                               industrializar              US$30M
-                         digital                                   comercial
-    operativa                                 end-to-end                                y monetizar               estimados
-                                                                 y NPS récord
-
-
-
-
-     CEMEX primero construye disciplina operativa, luego redefine la experiencia del cliente, después convierte
-        esa apuesta en plataforma, y finalmente industrializa la IA para crear eficiencias y nuevos negocios.
-                                        CEMEX
-FASE I
-2000s-2019 | decidir el camino
-
-Las primeras decisiones combinan disciplina operativa, visión customer-centric y
-creación de una plataforma institucional.
-
-
-
-                2000s      Se consolida el “CEMEX Way”: la alta dirección
-                           prioriza eficiencia global, calidad y seguridad.
-
-                          El top management inicia la transformación
-                 2014     digital del negocio con foco explícito en
-                          experiencia del cliente.
-
-                           Se lanza CEMEX Go y se crea Global Data
-                 2017
-                           Science (GDS) como capacidad central para
-                           soluciones de IA escalables.
-
-                2017-19    Se integran front-end y back-end: order
-                           fulfillment, CRM y trabajo conjunto entre
-                           negocio y TI.
-FASE II                                             CEMEX
-2020-2022 | de adopción a eficiencia
-La plataforma deja de ser experimento y pasa a ser el motor comercial y operativo del cambio.
-
-
-
-                                                   52%                         90%                         68
-                                               de ventas globales           de clientes                 NPS global
-                                                procesadas por              recurrentes              récord en 2020 y
-                                               CEMEX Go en 2020          usando el servicio                2021
-
-
-
-
-Decisión 1    La transformación deja de depender solo del CEO y se convierte en responsabilidad del equipo ejecutivo.
-
-             Se abre la segunda fase: mantener la experiencia del cliente, pero capturar eficiencia operativa y reducir el costo de
-Decisión 2
-             servir.
-                     SmartOps: Producción
-                     Working Smarter: optimización interna
-
- 2021: shared ownership del comité ejecutivo
-                                              CEMEX
-FASE III
-
-2017-2024 | el viaje de IA a escala
-CEMEX aprende primero a desplegar modelos, luego a proliferarlos y finalmente a industrializarlos.
-
-
-      2017-      GDS desarrolla casos de uso de IA con equipos
-                 multifuncionales. Magic Tools explica el
-    Deploy
-                 modelo y construye confianza.
-
-
-
-      2020-       IT habilita data lake, catálogo, APIs y
-   Proliferate    entrenamiento; Speed to Value prioriza
-                  qué escalar y qué dejar local.
-                                                                         La tabla del MIT resume el salto
-                                                                              desde datos y recursos
-                                                                               dispersos hacia una
-      2022-       MLOps automatiza despliegue, monitoreo y                organización con IA a escala.
-                  soporte; los data scientists se enfocan en
- Industrialize    trabajo de mayor valor.
-                    CEMEX
-
-
-
-
-1. ¿Cuál era el objetivo de negocio real de CEMEX?
-
-                                       CEMEX
-
-1. ¿Cuál era el objetivo de negocio real de CEMEX?
-
-El objetivo real no era implementar tecnología, sino transformar el negocio para competir
-mejor en la economía digital.
-
-Objetivos concretos:
-•ofrecer una mejor experiencia al cliente
-•lograr una operación más eficiente
-•reducir el costo de servir
-•crear nuevo valor desde clientes, operaciones y ecosistema
-
-
-CEMEX buscaba convertirse en una empresa más eficiente, innovadora y centrada en el
-cliente, usando la tecnología como habilitador estratégico del negocio.
-                                         CEMEX
-1. ¿Cuál era el objetivo de negocio real de CEMEX?
-Evidencia del objetivo de negocio
-
-La transformación se conectó con el
-propósito corporativo
-
-Se diseñó en dos fases:
-   • Fase 1: experiencia de cliente y
-     omnicanalidad
-   • Fase 2: eficiencia operativa y
-     reducción de costos
-
-El foco no fue “implementar sistemas”,
-sino mejorar cómo CEMEX vende,
-atiende y opera
-
-                                                     Fuente: Ross, J. W., Beath, C. M., & Mocker, M. (2022). Future ready: The four pathways to
-                                                     capturing digital value. MIT Center for Information Systems Research (CISR)
-
-
-                                                          Estados de madurez organizacional del modelo MIT CISR:
-                                                 1. Industrializado: opera con eficiencia.
-                                                 2. Experiencia Integrada: conecta mejor con el cliente.
-                                  Pathway 2:     3. Habilitado Digitalmente: usa lo digital para transformarse.
-                                                 4. Preparado para el Futuro: une eficiencia y experiencia para competir
-                                                 mejor.
-                   CEMEX
-
-
-
-
-2. ¿Qué evidencia muestra que la transformación no
-               fue sólo tecnológica?
-                                   CEMEX
-
-
-
-2. ¿Qué evidencia muestra que la transformación no fue sólo tecnológica?
-
-No fue sólo tecnológica porque cambió:
-
-✓ la estrategia
-✓ la cultura
-✓ los procesos
-✓ la forma de trabajo
-✓ las métricas de valor
-✓ la relación entre negocio y TI
-                                                                 CEMEX
-Evidencia organizacional y cultural                                                        Evidencia Operativa y Tecnológica
-
-• Se Partió del propósito: "hacer el futuro mejor para nuestros clientes, nuestros         • CEMEX Go integró front-end con order fulfillment y
-  accionistas y nuestras comunidades, convirtiéndonos en la empresa de                       CRM.
-  materiales de construcción más eficiente e innovadora del mundo" y no de una
-  herramienta o software.                                                                  • Creó confirmación digital automática sobre
-                                                                                             inventario, transporte y servicio.
-• Hubo cambio cultural, definieron un digital mindset que consta de cinco
-  componentes: (1) un enfoque centrado en el cliente y su experiencia, (2) procesos        • Sumó SmartOps y Working Smarter para eficiencia
-  de trabajo iterativos (con plazos definidos), (3) hábitos de trabajo colaborativos que     interna.
-  trascienden las barreras y jerarquías, (4) entornos de prueba y aprendizaje que
-  fomentan la experimentación y (5) la adaptación al cambio continuo.                      • Construyó data lake, catálogo, comunidades y
-                                                                                             Speed to Value para AI.
-• Hubo nuevos modelos de trabajo:
-      equipos ágiles                                                                       • MLOps redujo despliegues de semanas/meses a
-      colaboración transversal                                                               horas/días.
-
-• El CEO inició la transformación y luego la compartió con el comité ejecutivo.
-                                                                                           Datos que lo prueban
-• Hubo educación ejecutiva y workshops para crear lenguaje común.                          Resultados de negocio
-
-• Se gestionaron tensiones de cambio y nuevas formas de trabajo.                           • 52% de las ventas globales procesadas por CEMEX
-                                                                                             Go en 2020
-• Hubo rediseño operativo , integración de CEMEX Go con fulfillment y CRM y
-  reemplazo de procesos manuales.                                                          • Cerca de 90% de clientes recurrentes usaban la
-                                                                                             plataforma
-• Se midió valor de negocio:
-       ventas digitales                                                                    • NPS global de 68 en 2020 y 2021
-       NPS
-       eficiencia operativa                                                                • Automatización del fulfillment para cemento
-       nuevos negocios de ecosistema
-                                                                                           • Desarrollo de IA/ML para procesos más complejos
-                                                                                             en ready-mix concrete
-                      CEMEX
-
-
-
-
-3. ¿Qué hizo el liderazgo para conectar negocio y
-                    tecnología?
-                                     CEMEX
-3. ¿Qué hizo el liderazgo para conectar negocio y tecnología?
-
-
-✓ Definió que no era un proyecto TI, sino una
-  transformación del negocio
-  Usó el propósito corporativo como norte.
-
-✓ Tomó una decisión estratégica de secuencia
-  Primero experiencia del cliente; luego eficiencia
-  operativa.
-
-✓ Intervino en la organización, no solo en la tecnología
-  Gestionó cultura, decisiones, trabajo ágil y
-  coordinación entre áreas.
-
-✓ Invirtió en capacidades escalables
-  Plataformas, datos, IA y nuevas prácticas para
-  operar a escala.                                              Marco Future Ready del MIT: motivar,
-                                                                comprometer, anticipar, construir y
-✓ Exigió valor de negocio visible                                         acumular valor.
-  Hizo visible el impacto en cliente, operaciones y
-  ecosistema.
-                                       CEMEX
-
-¿Dónde estuvo realmente el rol del líder de SI en CEMEX?
-
-No se limita a:
-
-• implementar CEMEX Go
-• crear modelos de IA
-• construir data lake y MLOps
-
-Se evidencia en:
-
-•   decidir qué transformar
-•   definir la secuencia del cambio
-•   alinear negocio y TI
-•   rediseñar formas de trabajo
-•   exigir resultados de negocio
-
-
-La tecnología habilita; el liderazgo integra, prioriza y convierte esa tecnología en valor.
-                     CEMEX
-
-
-
-
-4. ¿Qué estilo viste más claro en el caso y por qué?
-                                            CEMEX
-
-4. ¿Qué estilo viste más claro en el caso y por qué?
-
-Predomina el liderazgo transformacional
-porque redefine la visión de la empresa, moviliza a la organización alrededor de un propósito,
-impulsa cambio cultural, rompe silos y alinea tecnología con transformación estratégica.
-
-También aparecen rasgos de liderazgo situacional
-porque el liderazgo cambia según la fase del proceso.
-
-Y rasgos de liderazgo servicial
-porque hay énfasis en cliente, colaboración y experiencia del empleado.
-
-
-El estilo predominante es transformacional, porque cambia visión, cultura, capacidades y
-modelo de creación de valor.
-CEMEX
-4.
-
-Conclusiones.
-                                      CONCLUSIONES
-1. El liderazgo en SI ha evolucionado de lo técnico a lo estratégico.
-
-2. Conectar negocio y tecnología implica traducir estrategia en capacidades y valor.
-
-3. La transformación digital requiere liderazgo, no solo herramientas.
-
-4. CEMEX evidencia que el impacto surge cuando tecnología, procesos y negocio se integran.
-
-5. El líder de SI aporta más cuando actúa como puente entre estrategia, operación y cambio.
-
-6. El liderazgo de SI no consiste en gestionar tecnología, sino en tomar decisiones que
-   transforman el negocio.
-
-
-           La diferencia entre digitalizar y transformarse no es la tecnología, sino el liderazgo.
-¿Qué decisiones puede tomar un líder de SI que un
-  gerente funcional tradicional no suele tomar?
-GRACIAS.
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+## Slide 36
+Slide final decorativa: fondo celeste sólido con logo UTEC en blanco ("Universidad de Ingeniería y Tecnología") y fotografía hexagonal del edificio UTEC (escalera). Decorativa, sin contenido textual de la sesión.

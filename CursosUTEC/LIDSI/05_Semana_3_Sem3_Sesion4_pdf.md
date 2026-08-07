@@ -5,16 +5,16 @@ slides: 40
 fuente: 05 - Semana 3/Sem3_Sesion4.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
 
-2026-1
+Portada decorativa (logo UTEC, foto arquitectónica del campus en tonos azul/beige, patrón hexagonal).
 
-Sesión 04 :
-Teorías y Estilos de Liderazgo en Entornos Tecnológicos..
-                          Índice
-1.   Objetivos
+Texto: "LIDERAZGO EN SISTEMAS DE INFORMACIÓN. 2026-1". Sesión 04: Teorías y Estilos de Liderazgo en Entornos Tecnológicos.
+
+## Slide 2
+
+Slide de índice sobre fondo azul cyan con foto arquitectónica decorativa a la derecha. Lista numerada:
+1. Objetivos
 2. Contexto y evidencia
 3. Teorías y estilos de liderazgo
 4. Liderazgo transformacional en entornos tecnológicos
@@ -22,751 +22,426 @@ Teorías y Estilos de Liderazgo en Entornos Tecnológicos..
 6. Liderazgo situacional en entornos tecnológicos
 7. Comparativo de estilos de liderazgo
 8. Conclusiones
-1.   ¿Qué fortaleza tuya es más visible para los demás?
 
-2.   ¿Qué posible punto ciego identificaste en la actividad?
+## Slide 3
 
-3.   ¿Cómo podría ese autoconocimiento ayudarte a liderar
-     mejor a un equipo?
-1.
+Slide de preguntas de reflexión inicial (solo texto, fondo blanco con líneas hexagonales decorativas):
+1. ¿Qué fortaleza tuya es más visible para los demás?
+2. ¿Qué posible punto ciego identificaste en la actividad?
+3. ¿Cómo podría ese autoconocimiento ayudarte a liderar mejor a un equipo?
 
-Objetivos
-                                 Objetivos
+## Slide 4
 
-Al finalizar la sesión podrás:
+Slide separador de sección "1. Objetivos". Solo título grande sobre fondo blanco, con foto arquitectónica decorativa a la derecha.
 
-• Diferenciar los estilos de liderazgo transformacional, servicial y situacional en
-  entornos tecnológicos.
+## Slide 5
 
-• Explicar cuándo y por qué cada estilo genera mayor valor en equipos, productos
-  y proyectos de Sistemas de Información.
+Título: "Objetivos". Texto: "Al finalizar la sesión podrás:"
+- Diferenciar los estilos de liderazgo transformacional, servicial y situacional en entornos tecnológicos.
+- Explicar cuándo y por qué cada estilo genera mayor valor en equipos, productos y proyectos de Sistemas de Información.
+- Analizar casos y escenarios reales para traducir la teoría en decisiones concretas de liderazgo.
+- Aplicar estos estilos a contextos de cambio, presión, innovación y distintos niveles de madurez del equipo.
 
-• Analizar casos y escenarios reales para traducir la teoría en decisiones concretas
-  de liderazgo.
+## Slide 6
 
-• Aplicar estos estilos a contextos de cambio, presión, innovación y distintos
-  niveles de madurez del equipo.
-2.
+Slide separador de sección "2. Contexto y Evidencia". Solo título, foto arquitectónica decorativa.
 
-Contexto y Evidencia
-Contexto y Evidencia
-¿Por qué hoy liderar tecnología es más desafiante?
-Gartner plantea que el cambio actual se vuelve más difícil de gobernar por
-la convergencia de transformaciones:
+## Slide 7
 
-✓ apiladas
-✓ interdependientes
-✓ impulsadas externamente
-✓ continuas
+Título: "Contexto y Evidencia". Columna izquierda de texto + diagrama a la derecha titulado "4 Factors Making Change Ungovernable" (fuente: Gartner/HBR).
 
-Este entorno exige un liderazgo capaz de dar dirección, sostener al equipo y
-adaptarse con rapidez.
+Texto: "¿Por qué hoy liderar tecnología es más desafiante?" Gartner plantea que el cambio actual se vuelve más difícil de gobernar por la convergencia de transformaciones: apiladas, interdependientes, impulsadas externamente, continuas. "Este entorno exige un liderazgo capaz de dar dirección, sostener al equipo y adaptarse con rapidez."
 
-Paradoja de la IA :
-A medida que los algoritmos asumen tareas de ejecución, el liderazgo
-humano gana valor en visión, criterio ético, priorización y construcción de
-confianza.
+"Paradoja de la IA": a medida que los algoritmos asumen tareas de ejecución, el liderazgo humano gana valor en visión, criterio ético, priorización y construcción de confianza.
 
-Implicancias para el liderazgo tecnológico:
-El líder no solo debe dominar herramientas, sino también:
-✓ leer el contexto
-✓ sostener foco y aprendizaje
-✓ ajustar su estilo según la situación
+"Implicancias para el liderazgo tecnológico": el líder no solo debe dominar herramientas, sino también: leer el contexto, sostener foco y aprendizaje, ajustar su estilo según la situación.
 
-¿Qué estilos resultan más útiles?
-Transformacional: moviliza con visión y sentido.
-Servicial: desarrolla al equipo y remueve obstáculos.
-Situacional: adapta dirección y apoyo según madurez y riesgo.
-                                           Contexto y Evidencia
+"¿Qué estilos resultan más útiles?" Transformacional: moviliza con visión y sentido. Servicial: desarrolla al equipo y remueve obstáculos. Situacional: adapta dirección y apoyo según madurez y riesgo.
 
-                  En tecnología, el liderazgo impacta crecimiento, adopción, coordinación y
-                  desempeño.
+Diagrama derecho (en inglés, tomado de Gartner/HBR): 4 cuadrantes ilustrando los "4 factores que hacen el cambio ingobernable", cada uno con un pictograma de puntos de colores:
+- "Stacked changes": puntos de colores apilados en filas escalonadas ("There aren't just more changes, they're stacked on top of each other").
+- "Interdependent changes": puntos agrupados en 3 círculos superpuestos tipo diagrama de Venn ("Changes aren't only complex, they're interdependent").
+- "Externally driven changes": círculo de puntos alrededor de un punto central, con flechas hacia afuera ("driven largely by external factors, like technology, economic uncertainty").
+- "Continuous changes": puntos en trayectoria de flujo continuo tipo espiral ("no clear start or end date").
+Fuente al pie: Kayla Velnoskey, Ingrid Laman and Carolina Valencia, Gartner (logo HBR).
 
+## Slide 8
 
+Título: "Contexto y Evidencia". Ícono decorativo de gráfico con velocímetro a la izquierda. Texto: "En tecnología, el liderazgo impacta crecimiento, adopción, coordinación y desempeño."
 
-MIT: equipos ejecutivos digitalmente competentes logran 48% más crecimiento de ingresos y
-15% más margen neto.
+Lista de estadísticas (con cifras resaltadas en azul):
+- MIT: equipos ejecutivos digitalmente competentes logran 48% más crecimiento de ingresos y 15% más margen neto.
+- McKinsey 2025: 92% de las compañías planean aumentar inversión en IA, pero solo 1% se considera madura en despliegue.
+- McKinsey 2024: las transformaciones centradas en equipos pueden lograr hasta 30% de ganancia de eficiencia.
+- PwC 2024: 62% de los trabajadores perciben que el ritmo de cambio en el trabajo aumentó el último año.
 
-McKinsey 2025: 92% de las compañías planean aumentar inversión en IA, pero solo 1% se
-considera madura en despliegue.
+Conclusión: "En entornos de cambio continuo, el líder tecnológico necesita visión para movilizar, servicio para habilitar y adaptación para calibrar dirección y autonomía."
 
-McKinsey 2024: las transformaciones centradas en equipos pueden lograr hasta 30% de
-ganancia de eficiencia.
+Fuente: Gartner; MIT Sloan Management Review & Capgemini; McKinsey Global Survey on AI, 2025; McKinsey, 2024; PwC, 2024.
 
-PwC 2024: 62% de los trabajadores perciben que el ritmo de cambio en el trabajo aumentó el
-último año.
+## Slide 9
 
+Slide separador de sección "3. Teorías y Estilos de Liderazgo". Solo título, foto arquitectónica decorativa.
 
-En entornos de cambio continuo, el líder tecnológico necesita visión para movilizar, servicio
-para habilitar y adaptación para calibrar dirección y autonomía.
+## Slide 10
 
- Fuente: Gartner; MIT Sloan Management Review & Capgemini; McKinsey Global Survey on AI, 2025; McKinsey, 2024; PwC, 2024.
-3.
+Título: "Teorías y estilos de liderazgo". Texto explicativo a la izquierda + imagen decorativa a la derecha.
 
-Teorías y Estilos de
-Liderazgo
-                               Teorías y estilos de liderazgo
+Texto: las teorías de liderazgo ayudan a entender los distintos enfoques que los líderes utilizan según sus valores, el contexto y las necesidades del equipo. Explican cómo influyen, motivan y guían a sus equipos, y cómo ello impacta en la toma de decisiones, la comunicación de metas y la generación de resultados. Permiten comprender que el liderazgo no es único ni rígido, sino dinámico. En esta sesión: transformacional, servicial y situacional.
 
-Las teorías de liderazgo ayudan a entender los distintos enfoques
-que los líderes utilizan según sus valores, el contexto y las
-necesidades del equipo.
+Imagen a la derecha: infografía "EL TRIÁNGULO DEL LIDERAZGO EN SISTEMAS (SI)" — un triángulo con un ejecutivo señalando hacia una montaña/faro en la cima, dividido en 3 vértices con ilustraciones de personas:
+- "Liderazgo Servicial" (esquina inferior izquierda, un líder arrodillado ayudando a un grupo con engranajes/fuego): "Foco: Remover obstáculos, proteger el foco del equipo. Esencial en entornos Agile y equipos de ingeniería."
+- "Liderazgo Transformacional" (vértice superior, ejecutivo señalando hacia la cima con un faro): "Motor: Visión y propósito. Usar Alinear a la organización en grandes migraciones o cambios culturales."
+- "Liderazgo Situacional" (esquina inferior derecha, personas en una reunión con gráficos): "Consiste en diagnosticar la madurez del equipo. Decidir cuándo dirigir (alta instrucción) y cuándo delegar (alta autonomía)."
 
-Estos enfoques explican cómo los líderes influyen, motivan y
-guían a sus equipos, y cómo ello impacta en la toma de
-decisiones, la comunicación de metas y la generación de
-resultados.
+## Slide 11
 
-También permiten comprender que el liderazgo no es único ni
-rígido, sino un proceso dinámico que combina personalidad,
-contexto y necesidades organizacionales.
+Título: "Teorías y estilos de liderazgo". Subtítulo: "¿Qué muestra la literatura reciente sobre liderazgo?"
 
-En la práctica, sirven para elegir la forma más efectiva de conducir
-al equipo hacia objetivos comunes.
+Texto: revisión integradora de 9,638 publicaciones en Web of Science (2003–2024) muestra que el campo evolucionó desde teorías de rasgos, comportamiento y situación hacia enfoques más recientes, con claro predominio del liderazgo transformacional.
 
-En esta sesión trabajaremos tres estilos clave en entornos
-tecnológicos: transformacional, servicial y situacional.
-                                                      Teorías y estilos de liderazgo
-¿Qué muestra la literatura reciente sobre liderazgo?
+Línea de tiempo horizontal con 5 puntos de color:
+- Rasgos y conducta (gris) — 1900s–1950s
+- Contingencia y situacional (ámbar) — 1960s–1970s
+- Transformacional y transaccional (rojo) — 1970s–1990s
+- Servicial, auténtico, ético, compartido (verde) — 1990s–2010s
+- Digital, híbrido, distribuido (azul) — 2010s–hoy
 
-Una revisión integradora de 9,638 publicaciones en Web of Science (2003–2024) muestra que el campo evolucionó desde
-teorías de rasgos, comportamiento y situación hacia enfoques más recientes, con claro predominio del liderazgo
-transformacional
+Gráfico de barras horizontales "Frecuencia" (publicaciones por estilo):
+| Estilo | Frecuencia |
+|---|---|
+| Transformacional | 1555 |
+| Transaccional | 435 |
+| Carismático | 380 |
+| Ético | 361 |
+| Servicial | 170 |
 
+Texto adicional: aunque hoy se ven tres estilos, el campo real es más amplio y sigue expandiéndose hacia liderazgo digital, híbrido y participativo. El transformacional domina la conversación académica; el servicial aparece con menor frecuencia pero es muy pertinente en entornos ágiles y de conocimiento distribuido.
 
-                                    Rasgos y            Contingencia y       Transformacional y       Servicial, auténtico,    Digital, híbrido,
-                                    conducta             situacional            transaccional          ético, compartido         distribuido
+Fuente: Alan & Onur (2025), Administrative Sciences; elaboración propia.
 
+## Slide 12
 
+Título: "Teorías y estilos de liderazgo". Subtítulo: 'Evolución del Liderazgo – De "Comando" a "Contexto"'. Solo texto, sin elementos visuales adicionales.
 
-                                1900s–1950s             1960s–1970s           1970s–1990s                 1990s–2010s             2010s–hoy
+- El Pasado (Comando): Jerarquías rígidas donde el líder dicta tareas.
+- El Futuro (Contexto): El rol del líder es diseñar ecosistemas y límites claros y valores para que los equipos naveguen la disrupción con autonomía.
 
+"No existe un único estilo 'correcto'; el éxito radica en la combinación de visión, servicio y adaptación."
 
+## Slide 13
 
+Slide separador de sección "4. Liderazgo Transformacional." Solo título, foto arquitectónica decorativa.
 
-                                                                                                                              Frecuencia
+## Slide 14
 
-Aunque hoy veremos tres estilos, el campo real es más                                             Transformacional                                 1555
-amplio y sigue expandiéndose hacia liderazgo digital,
-híbrido y participativo.                                                                          Transaccional                                    435
+Título: "Liderazgo Transformacional". Subtítulo "¿Qué es?" y "Lógica de reciprocidad" en texto.
 
-El liderazgo transformacional domina la conversación                                              Carismático                                      380
-académica; el servicial aparece con menor frecuencia,
-pero resulta muy pertinente en entornos ágiles y de                                               Ético                                             361
-conocimiento distribuido.
-                                                                                                  Servicial                                        170
+Es la capacidad de inspirar, movilizar y guiar a las personas hacia una visión compartida de cambio. Conecta el trabajo cotidiano con un propósito más amplio y fortalece la motivación, el compromiso y la innovación. Busca transformar no solo resultados, sino también mentalidades, valores y comportamientos.
 
+Lógica de reciprocidad: el líder aporta visión, confianza, motivación y desarrollo; el equipo responde con compromiso, creatividad y esfuerzo extra.
 
-  Fuente: Alan & Onur (2025), Administrative Sciences; elaboración propia.
-                      Teorías y estilos de liderazgo
+Diagrama: recuadro redondeado titulado "Las 4 'I' del liderazgo transformacional", con 4 flechas tipo chevron en secuencia (alternando azul/gris), cada una con su término en inglés arriba y descripción abajo:
+1. Idealized Influence → "Influencia idealizada" — Ejemplo y confianza
+2. Inspirational Motivation → "Motivación inspiradora" — Visión y propósito compartido
+3. Intellectual Stimulation → "Estimulación intelectual" — Pensamiento crítico e innovación
+4. Individualized Consideration → "Consideración individualizada" — Desarrollo y acompañamiento personal
 
-         Evolución del Liderazgo – De "Comando" a "Contexto“
+Fuente: Bass (1985), Leadership and Performance Beyond Expectations; Bass & Avolio.
 
+## Slide 15
 
-El Pasado (Comando) : Jerarquías rígidas donde el líder dicta tareas.
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Texto intro: para abordar el liderazgo transformacional en tecnología es preciso centrarse en la capacidad de gestionar la innovación, la incertidumbre y el empoderamiento técnico.
 
-El Futuro (Contexto) : El rol del líder es diseñar ecosistemas y límites claros
-y valores para que los equipos naveguen la disrupción con autonomía.
+Diagrama: 4 flechas chevron (alternando azul/gris) equivalentes a las 4 "I" pero aplicadas a tech, cada una con etiqueta arriba, título en la flecha, y dos párrafos "Enfoque" / "En tecnología" debajo:
+1. Estimulación intelectual → "Estimulación para la Innovación." — Enfoque: el líder estimula al equipo a pensar de forma creativa, cuestionar el statu quo y resolver problemas desde nuevas perspectivas. En tecnología: es el motor que permite resolver problemas técnicos complejos y fomentar la curiosidad intelectual necesaria para la mejora continua.
+2. Motivación Inspiradora → "Visión Inspiradora y con Propósito" — Enfoque: capacidad de comunicar una visión atractiva y ambiciosa que dé sentido al trabajo. En tecnología: ayuda a los equipos a entender el "porqué" de las tareas técnicas, alineando esfuerzos individuales con objetivos colectivos.
+3. Consideración Individualizada → "Empoderamiento y Autonomía" — Feedback/Feedforward. Enfoque: el líder actúa como mentor o coach, atendiendo necesidades de desarrollo de cada seguidor de forma personal. En tecnología: delegar autoridad, confiar en el criterio técnico del experto y usar el feedback no solo para evaluar sino para potenciar el crecimiento profesional.
+4. Influencia idealizada → "Seguridad Psicológica" — Enfoque: el líder sirve como modelo de conducta, demostrando altos estándares éticos, integridad y coherencia. En tecnología: el líder ejerce esta influencia al modelar la vulnerabilidad (admitiendo errores o falta de respuestas), generando la confianza necesaria para que el equipo tome riesgos sin miedo al castigo.
 
+## Slide 16
 
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Solo texto, sin gráficos.
 
-   No existe un único estilo "correcto"; el éxito radica en la combinación de
-                        visión, servicio y adaptación.
-4.
+"Mecanismos de Liderazgo Transformacional" de aplicación específica en entornos tecnológicos adicionales a las 4 "I":
+- Seguridad Psicológica: fundamento sobre el que se construyen los equipos de alto rendimiento; el entorno que permite que las "4 Is" funcionen.
+- Uso de Marcos Ágiles (OKRs): herramientas de gestión modernas que aterrizan la "Motivación Inspiradora" en objetivos medibles y dinámicos.
+- Gestión del Cambio: capacidad estratégica del líder transformacional para navegar la incertidumbre técnica, actuando como agente movilizador.
 
-Liderazgo
-Transformacional.
-                                     Liderazgo Transformacional
-¿Qué es?
+Aplicación en Tech, crucial para procesos:
+- Replataformación o migración cloud con cambio cultural.
+- Reposicionamiento de producto o rediseño de experiencia.
+- Recuperación de una empresa o unidad en rezago tecnológico.
+- Entrada decidida a IA, datos o automatización.
 
-Es la capacidad de inspirar, movilizar y guiar a las personas hacia una visión compartida de cambio.
-Conecta el trabajo cotidiano con un propósito más amplio y fortalece la motivación, el compromiso y la innovación.
-Busca transformar no solo resultados, sino también mentalidades, valores y comportamientos.
+## Slide 17
 
-Lógica de reciprocidad
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Subtítulo: "Caso AMD: Lisa Su y liderazgo transformacional".
 
-•   El líder aporta visión, confianza, motivación y desarrollo.
-•   El equipo responde con compromiso, creatividad y esfuerzo extra.
+Imagen: fotografía de la Dra. Lisa Su con overlay de texto "DR. LISA SU — Chair & CEO" sobre fondo oscuro con nebulosa roja.
 
+Cita destacada en recuadro: "AMD (Advanced Micro Devices Inc) alcanza su máximo potencial cuando asume riesgos audaces y calculados, y cuando persigue con determinación las tecnologías de vanguardia que transforman el mundo". — Dra. Lisa Su, Presidenta y Directora Ejecutiva.
 
+Recuadro biográfico:
+- Profesión: Ingeniera eléctrica, con PhD del MIT.
+- Inicio técnico: Texas Instruments (1994–1995), staff técnico en semiconductores.
+- Crecimiento ejecutivo: IBM (13 años), hasta vicepresidenta del Semiconductor R&D Center.
+- Consolidación directiva: Freescale (2007–2011), primero CTO, luego Vicepresidenta Senior y Gerente General.
+- Ascenso en AMD: ingresó en 2012 como Vicepresidenta Senior y Gerente General, COO en 2014, CEO desde octubre 2014, Presidenta del Directorio (Chair) desde febrero 2022.
 
+Recuadro "Premios y reconocimientos recientes": lista extensa de 15+ reconocimientos 2020–2025 (Forbes World's Most Powerful Women, TIME CEO of the Year 2024, Financial Times Woman of the Year 2024, Barron's World's Best CEOs, etc.), cada uno como hipervínculo azul.
 
-                                        Las 4 “I” del liderazgo transformacional :
+Fuente: AMD Leadership – Lisa Su; AMD Corporate.
 
-         Idealized Influence     Inspirational Motivation         Intellectual Stimulation       Individualized Consideration
+## Slide 18
 
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Layout de 2 columnas: imagen + bullets a la izquierda, "Línea de tiempo financiera y estratégica" a la derecha.
 
-               Influencia                 Motivación                    Estimulación                   Consideración
-               idealizada                 inspiradora                    intelectual                  individualizada
+Imagen: captura de pantalla del sitio web de AMD (amd.com), banner "Your Trusted Partner for Advancing AI" con submenu "Advancing AI 2026, July 22-23, San Francisco, CA".
 
-         Ejemplo y confianza          Visión y propósito          Pensamiento crítico                     Desarrollo y
-                                         compartido                  e innovación.                     acompañamiento
-                                                                                                           personal.
+Bullets izquierda: AMD es una empresa estadounidense de semiconductores fundada en 1969. Bajo Lisa Su, AMD dejó de ser vista como competidor rezagado y reorientó su estrategia hacia computación de alto rendimiento, data center, IA y soluciones adaptativas. En su nombramiento como CEO en 2014, dijo que AMD tenía la oportunidad de "shape the future of computing". Antes de ser CEO, como COO, integró unidades de negocio, ventas, operaciones e infraestructura. AMD está en su mejor momento cuando toma "bold, calculated risks".
 
+Línea de tiempo (derecha, con cifras resaltadas en azul):
+- 2014: Lisa Su nombrada CEO. AMD cerró 2014 con US$5.51 mil millones en ingresos.
+- 2015: año difícil de partida: ingresos US$3.99 mil millones y pérdida operativa de US$481 millones.
+- 2017: punto de inflexión: ingresos US$5.33 mil millones, +25% anual, utilidad neta US$43 millones.
+- 2021: fuerte escalamiento: ingresos US$16.4 mil millones, utilidad operativa US$3.6 mil millones.
+- 2022: adquisición de Xilinx, ingresos US$23.6 mil millones.
+- 2024: consolidación en IA y Data Center: ingresos US$25.8 mil millones; Data Center = US$12.6 mil millones, +94% vs 2023.
+- 2025: ingreso récord de US$34.6 mil millones, 6.3 veces más que 2014. Motores: Data Center (US$16.6B), Client & Gaming (US$14.6B), Embedded (US$3.5B).
 
-                               Fuente: Bass (1985), Leadership and Performance Beyond Expectations; Bass & Avolio.
-                   Liderazgo Transformacional en Entornos Tecnológicos
-Para abordar el liderazgo transformacional en entornos tecnológicos es preciso centrarse en :la capacidad de gestionar
-la innovación, la incertidumbre y el empoderamiento técnico.
+Fuente: AMD Leadership; AMD Investor Relations; interpretación académica de docente.
 
-         Estimulación intelectual        Motivación Inspiradora        Consideración Individualizada            Influencia idealizada
+## Slide 19
 
-
-           Estimulación                      Visión
-                                                                              Empoderamiento                       Seguridad
-              para la                     Inspiradora y
-                                                                               y Autonomía                         Psicológica
-           Innovación.                    con Propósito
-
-
-      Enfoque: El líder estimula al   Enfoque: Consiste en la           Feedback/Feedforward                Enfoque: El líder sirve como
-                                      capacidad de comunicar una                                            modelo de conducta,
-      equipo a pensar de forma
-                                      visión atractiva y ambiciosa      Enfoque: El líder actúa como        demostrando altos estándares
-      creativa, cuestionar el statu                                                                         éticos, integridad y coherencia
-                                      que dé sentido al trabajo         mentor o coach, atendiendo las
-      quo y resolver problemas                                          necesidades de desarrollo de
-      desde nuevas perspectivas       En tecnología: Ayuda a los        cada seguidor de forma              En tecnología: El líder ejerce
-                                      equipos a entender el "porqué"    personal                            esta influencia al modelar la
-      En tecnología: Es el motor      de las tareas técnicas,                                               vulnerabilidad (admitiendo
-      que permite resolver            alineando los esfuerzos           En tecnología: Se traduce en        errores o falta de respuestas), lo
-                                      individuales con los objetivos    delegar autoridad, confiar en el    cual genera la confianza
-      problemas técnicos
-                                      colectivos de la organización     criterio técnico del experto y      necesaria para que el equipo
-      complejos y fomentar la                                           utilizar el feedback no solo para   tome riesgos sin miedo al
-      curiosidad intelectual                                            evaluar, sino para potenciar el     castigo
-      necesaria para la mejora                                          crecimiento profesional del
-      continua                                                          colaborador
-       Liderazgo Transformacional en Entornos Tecnológicos
-
-Mecanismos de Liderazgo Transformacional de aplicación específicos en entornos de
-tecnológicos adicional a los ya mencionados:
-
-Seguridad Psicológica: Fundamento o pilar sobre el que se construyen los equipos de
-alto rendimiento; es el entorno que permite que las "4 Is" funcionen.
-
-Uso de Marcos Ágiles (OKRs): Son herramientas de gestión modernas que aterrizan la
-"Motivación Inspiradora" en objetivos medibles y dinámicos.
-
-Gestión del Cambio: Es una capacidad estratégica del líder transformacional para
-navegar la incertidumbre técnica, actuando como un agente movilizador
-
-
-Aplicación en Tech: Crucial para procesos :
-
-• Replataformación o migración cloud con cambio cultural.
-• Reposicionamiento de producto o rediseño de experiencia.
-• Recuperación de una empresa o unidad en rezago tecnológico.
-• Entrada decidida a IA, datos o automatización.
-                   Liderazgo Transformacional en Entornos Tecnológicos
-                                      Caso AMD: Lisa Su y liderazgo transformacional
-
-
-                                                              “AMD (Advanced Micro Devices Inc) alcanza su máximo potencial cuando
-                                                              asume riesgos audaces y calculados, y cuando persigue con
-                                                              determinación las tecnologías de vanguardia que transforman el
-                                                              mundo”.
-
-                                                              Dra. Lisa Su, Presidenta y Directora Ejecutiva
-
-                                                                                                  Premios y reconocimientos recientes
-
-•   Profesión: Ingeniera eléctrica, con PhD del MIT.
-
-•   Inicio técnico: Texas Instruments (1994–1995), como parte del staff técnico en
-    semiconductores.
-
-•   Crecimiento ejecutivo: IBM (13 años), donde asumió roles de ingeniería y
-    liderazgo hasta llegar a vicepresidenta del Semiconductor R&D Center.
-
-•   Consolidación directiva: Freescale (2007–2011), primero como CTO y luego
-    como Vicepresidenta Senior y Gerente General.
-
-•   Ascenso en AMD: ingresó en 2012 como Vicepresidenta Senior y Gerente
-    General, fue Directora de Operaciones (COO) en 2014, CEO desde octubre de
-    2014 y Presidenta del Directorio (Chair) desde febrero de 2022.
-
-
-
-                                  Fuente: AMD Leadership – Lisa Su; AMD Corporate.
-                 Liderazgo Transformacional en Entornos Tecnológicos
-                                                                                                Línea de tiempo financiera y estratégica
-
-
-                                                                                                2014: Lisa Su es nombrada CEO. AMD cerró 2014 con
-                                                                                                US$5.51 mil millones en ingresos.
-
-                                                                                                2015: año difícil de partida: ingresos de US$3.99 mil
-                                                                                                millones y pérdida operativa de US$481 millones.
-
-                                                                                                2017: punto de inflexión: ingresos de US$5.33 mil
-✓ AMD (Advanced Micro Devices) es una empresa estadounidense de                                 millones, +25% anual, con utilidad neta de US$43
-  semiconductores fundada en 1969.                                                              millones.
-
-✓ Bajo el liderazgo de Lisa, AMD dejó de ser vista principalmente como un                       2021: fuerte escalamiento: ingresos de US$16.4 mil
-  competidor rezagado en procesadores y reorientó su estrategia hacia                           millones y utilidad operativa de US$3.6 mil millones.
-  computación de alto rendimiento, data center, IA y soluciones adaptativas.
-  AMD afirma que Lisa Su ha liderado la transformación de la empresa hasta                      2022: AMD completa la adquisición de Xilinx y reporta
-  convertirla en líder en computación de alto rendimiento y adaptativa.                         US$23.6 mil millones de ingresos.
-
-✓ En su nombramiento como CEO en 2014, Lisa Su dijo que AMD tenía la                            2024: consolidación en IA y Data Center: ingresos de
-  oportunidad de “shape the future of computing” y de desarrollar                               US$25.8 mil millones; Data Center = US$12.6 mil
-  tecnologías y productos líderes para distintos mercados.                                      millones, +94% vs. 2023.
-
-✓ Antes de ser CEO, como COO, fue responsable de integrar unidades de                           2025: ingreso récord de US$34.6 mil millones en 2025,
-  negocio, ventas, operaciones e infraestructura en una sola organización                       es decir, 6.3 veces más que el 2014.
-  orientada al mercado, responsable de estrategia y ejecución.
-                                                                                                Sus motores principales fueron: Data Center
-✓ Según Lisa, AMD está en su mejor momento cuando toma “bold,                                   (US$16.6B), Client & Gaming (US$14.6B) y Embedded
-  calculated risks” y persigue agresivamente tecnologías de frontera que                        (US$3.5B), mostrando una expansión apoyada en
-  cambian el mundo.                                                                             servidores, CPUs, GPUs y soluciones para IA.
-
-                                   Fuente: AMD Leadership; AMD Investor Relations; interpretación académica de docente
-Liderazgo Transformacional en Entornos Tecnológicos
-
-
-
-
- 1. ¿Qué hizo Lisa que permita verla como líder transformacional?
-
- 2. ¿Qué evidencia del caso respalda esa idea?
-
- 3. ¿Cuál de las 4 “I” aparece con mayor claridad?
-
- 4. ¿Qué riesgo tendría este estilo si se exagera?
-                 Liderazgo Transformacional en Entornos Tecnológicos
- 1.   ¿Qué hizo Lisa Su que permita verla como líder transformacional?
-
-         Redefinió el rumbo de AMD. No se limitó a administrar la operación: ayudó a reposicionar la empresa hacia computación de alto
-         rendimiento, data center e IA. Además, antes de ser CEO, integró negocio, ventas y operaciones en una sola organización
-         orientada al mercado, lo que muestra capacidad de alinear estructura y ejecución con una visión. AMD incluso afirma
-         oficialmente que, como CEO, ha liderado la transformación de la empresa hasta convertirla en líder en high-performance and
-         adaptive computing.
-
- 2. ¿Qué evidencia del caso respalda esa idea?
-
-         La evidencia más fuerte es doble: declarativa y objetiva. Declarativa, porque AMD describe su gestión como una transformación
-         del negocio. Objetiva, porque en 2024 AMD reportó US$25.8 mil millones en ingresos y su negocio de Data Center alcanzó
-         US$12.6 mil millones, con un crecimiento de 94% frente a 2023. En 2025 ingreso récord de US$34.6 mil millones en 2025, es decir,
-         6.3 veces más que el 2014. Es decir, la visión no quedó en discurso: se tradujo en resultados visibles.
-
-
- 3. ¿Cuál de las 4 “I” aparece con mayor claridad?
-
-         La más visible es motivación inspiradora porque muestra una visión clara de futuro: “shape the future of computing” y
-         convertir a AMD en referente de computación de alto rendimiento y adaptativa. Como segunda dimensión: estimulación
-         intelectual, por la apuesta sostenida por innovación en IA, data center y nuevos productos.
-
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Slide de preguntas de discusión (ícono de foco/bombilla decorativo):
+1. ¿Qué hizo Lisa que permita verla como líder transformacional?
+2. ¿Qué evidencia del caso respalda esa idea?
+3. ¿Cuál de las 4 "I" aparece con mayor claridad?
 4. ¿Qué riesgo tendría este estilo si se exagera?
 
-        Como aplicación teórica, el principal riesgo sería que la visión se vuelva discurso si no se acompaña de aterrizaje operativo.
-        También puede aparecer una sobre dependencia de un solo estilo, cuando en realidad los líderes necesitan adaptarse a la
-        situación y moverse entre distintas tensiones de liderazgo
+## Slide 20
 
-                La visión inspira, pero en tecnología, la credibilidad técnica y el análisis profundo de problemas complejos son fundamentales para movilizar al talento
+Título: "Liderazgo Transformacional en Entornos Tecnológicos". Slide de respuestas a las 4 preguntas de la slide anterior (solo texto):
 
-5.
+1. ¿Qué hizo Lisa Su...? Redefinió el rumbo de AMD hacia computación de alto rendimiento, data center e IA; antes de ser CEO integró negocio, ventas y operaciones en una sola organización orientada al mercado. AMD afirma oficialmente que lideró la transformación de la empresa.
 
-Liderazgo Servicial.
-                        Liderazgo Servicial en Entornos Tecnológicos
-¿Qué es?
+2. ¿Qué evidencia respalda esa idea? Evidencia doble: declarativa (AMD describe su gestión como transformación) y objetiva (2024: US$25.8 mil millones en ingresos, Data Center US$12.6 mil millones +94%; 2025: récord US$34.6 mil millones, 6.3x el 2014).
 
-El líder no es el centro; su prioridad es crear las condiciones para que el equipo rinda al máximo.
+3. ¿Cuál de las 4 "I" aparece con mayor claridad? Motivación inspiradora ("shape the future of computing"); en segundo lugar, estimulación intelectual (apuesta sostenida por innovación en IA, data center y nuevos productos).
 
-Conexión con Agile: El Scrum Master es el ejemplo puro de líder servicial que facilita la autogestión y remueve obstáculos.
+4. ¿Qué riesgo si se exagera? Que la visión se vuelva discurso sin aterrizaje operativo; sobre dependencia de un solo estilo cuando se necesita adaptarse a la situación.
 
-Beneficio: Mejora la seguridad psicológica, esencial para aprender de errores en entornos de alta experimentación
+Frase final en cursiva: "La visión inspira, pero en tecnología, la credibilidad técnica y el análisis profundo de problemas complejos son fundamentales para movilizar al talento."
 
+## Slide 21
 
- Del líder al equipo: cadena de valor                                              Por qué encaja tan bien en tecnología
+Slide separador de sección "5. Liderazgo Servicial." Solo título, foto arquitectónica decorativa.
 
-                                                                                     •     Los equipos de software y producto trabajan mejor cuando
-                   Comprender necesidades reales y                                         tienen autonomía y contexto.
-    Escuchar       fricciones del trabajo
-                                                                                     •     La complejidad técnica hace que remover impedimentos
-                                                                                           sea una tarea de alto valor.
-    Remover
-                    Dependencias, interrupciones,                                          La seguridad psicológica es crítica para aprender rápido,
-    bloqueos                                                                         •
-                    burocracia, falta de claridad                                          escalar y corregir errores.
-    Desarrollar
-                   Coaching, feedback, aprendizaje y
-     personas
-                   autonomía
+## Slide 22
 
-    Compartir                                                                      Riesgos :
-      poder        Dar voz, contexto y margen de decisión                            •     Ser “amable” sin fijar estándares claros.
+Título: "Liderazgo Servicial en Entornos Tecnológicos". Subtítulo "¿Qué es?"
 
-                                                                                     •     Evitar conversaciones difíciles para no incomodar.
-   Proteger el      Priorizar y cuidar el ritmo sostenible                           •     Asumir que servicio significa ausencia de dirección.
-      foco
+El líder no es el centro; su prioridad es crear las condiciones para que el equipo rinda al máximo. Conexión con Agile: el Scrum Master es el ejemplo puro de líder servicial que facilita la autogestión y remueve obstáculos. Beneficio: mejora la seguridad psicológica, esencial para aprender de errores en entornos de alta experimentación.
 
+Recuadro izquierdo "Del líder al equipo: cadena de valor" — 5 bloques azules apilados con etiqueta y descripción:
+- Escuchar — Comprender necesidades reales y fricciones del trabajo
+- Remover bloqueos — Dependencias, interrupciones, burocracia, falta de claridad
+- Desarrollar personas — Coaching, feedback, aprendizaje y autonomía
+- Compartir poder — Dar voz, contexto y margen de decisión
+- Proteger el foco — Priorizar y cuidar el ritmo sostenible
 
+Recuadro superior derecho "Por qué encaja tan bien en tecnología":
+- Los equipos de software y producto trabajan mejor cuando tienen autonomía y contexto.
+- La complejidad técnica hace que remover impedimentos sea una tarea de alto valor.
+- La seguridad psicológica es crítica para aprender rápido, escalar y corregir errores.
 
+Recuadro inferior derecho "Riesgos":
+- Ser "amable" sin fijar estándares claros.
+- Evitar conversaciones difíciles para no incomodar.
+- Asumir que servicio significa ausencia de dirección.
 
-                                                   Fuente: Greenleaf; elaboración propia
-                   Liderazgo Servicial en Entornos Tecnológicos
-CASO: FINTECH
+Fuente: Greenleaf; elaboración propia.
 
-Una fintech está por liberar una funcionalidad crítica de pagos. Faltan 10
-días para la salida. El equipo de desarrollo arrastra deuda técnica, QA
-reporta defectos repetidos y Seguridad exige controles adicionales.
+## Slide 23
+
+Título: "Liderazgo Servicial en Entornos Tecnológicos". Subtítulo: "CASO: FINTECH". Ilustración decorativa de un hombre estresado rodeado de íconos (fuego, bug, alerta, reloj de arena).
+
+Texto del caso: una fintech está por liberar una funcionalidad crítica de pagos. Faltan 10 días para la salida. El equipo de desarrollo arrastra deuda técnica, QA reporta defectos repetidos y Seguridad exige controles adicionales.
 
 Al mismo tiempo:
+- Producto insiste en no mover la fecha porque ya hay campaña comercial.
+- Un developer senior renunció hace una semana.
+- Dos personas junior están perdidas, pero no lo dicen abiertamente.
+- En las dailies todos responden "todo bien", pero en privado varios dicen que están agotados.
+- El Engineering Manager empieza a entrar al detalle técnico, reasignar tareas y pedir avances varias veces al día.
+- El Scrum Master nota que el equipo está cumpliendo por miedo, no por claridad.
 
-• Producto insiste en no mover la fecha porque ya hay campaña comercial.
-• Un developer senior renunció hace una semana.
-• Dos personas junior están perdidas, pero no lo dicen abiertamente.
-• En las dailies todos responden “todo bien”, pero en privado varios dicen que están agotados.
-• El Engineering Manager empieza a entrar al detalle técnico, reasignar tareas y pedir avances
-  varias veces al día.
-• El Scrum Master nota que el equipo está cumpliendo por miedo, no por claridad.
+Recuadro: "Scrum Master: persona responsable de facilitar Scrum, remover impedimentos y ayudar a que el equipo sea más efectivo, sirviendo al equipo y a la organización." Fuente: Scrum Guide (2020).
 
-              Scrum Master: persona responsable de facilitar Scrum, remover impedimentos y ayudar
-              a que el equipo sea más efectivo, sirviendo al equipo y a la organización.
-              Fuente: Scrum Guide (2020)
+Pregunta final: "Si fueras el líder del equipo, ¿cómo aplicarías liderazgo servicial sin perder exigencia, foco ni responsabilidad?"
 
+## Slide 24
 
+Título: "Liderazgo Servicial en Entornos Tecnológicos". Slide de consigna de actividad (ícono bombilla):
+- Tres (3) acciones del líder en las próximas 24 horas
+- Dos (2) errores que el líder debe evitar
+- Justificación desde liderazgo servicial
 
+Recuadro: "El líder tiene que decidir entre varias tensiones reales":
+1. Cuidar a las personas vs cumplir el deadline
+2. Escuchar al equipo vs evitar que se excuse
+3. Remover obstáculos vs microgestionar
+4. Proteger el foco vs hacer visible el riesgo al negocio
+5. Servir al equipo vs servir al cliente y a la organización
 
-    Si fueras el líder del equipo, cómo aplicarías liderazgo servicial sin perder exigencia, foco ni
-                                          responsabilidad?
-    Liderazgo Servicial en Entornos Tecnológicos
+## Slide 25
 
+Título: "Liderazgo Servicial en Entornos Tecnológicos". Dos recuadros con bordes redondeados, layout 2x2 visual (izquierda grande, derecha dos apilados):
 
+Recuadro izquierdo "Tres acciones del líder en las próximas 24 horas":
+1. Transparentar la situación y alinear prioridades — Reunirse con Producto, QA y Seguridad para definir qué es crítico, qué riesgo existe y qué sí es viable en 10 días.
+2. Proteger al equipo y remover bloqueos — Reducir interrupciones, ordenar canales de comunicación y destrabar dependencias con otras áreas.
+3. Hablar con el equipo y redistribuir el trabajo con criterio — Revisar carga, detectar necesidades de apoyo y reasignar tareas solo donde haga falta.
 
+Recuadro superior derecho "Dos errores que el líder debe evitar":
+1. Microgestionar — Pedir avances todo el tiempo, entrar a cada detalle y reasignar tareas impulsivamente.
+2. Fingir que todo se puede sin ajustar nada — Aceptar fecha, alcance y calidad como si no existiera tensión real.
 
-•   Tres (3) acciones del líder en las próximas 24 horas
-       • Dos (2) errores que el líder debe evitar
-        • justificación desde liderazgo servicial
+Recuadro inferior derecho "Justificación desde liderazgo servicial": el liderazgo servicial no consiste en complacer al equipo ni en resolver todo por él. Consiste en dar contexto, proteger el foco, remover obstáculos, desarrollar a las personas y sostener la responsabilidad.
 
+## Slide 26
 
+Slide separador de sección "6. Liderazgo Situacional." Solo título, foto arquitectónica decorativa.
 
-        El líder tiene que decidir entre varias tensiones reales:
+## Slide 27
 
-        1. Cuidar a las personas vs cumplir el deadline
-        2. Escuchar al equipo vs evitar que se excuse
-        3. Remover obstáculos vs microgestionar
-        4. Proteger el foco vs hacer visible el riesgo al negocio
-        5. Servir al equipo vs servir al cliente y a la organización
-             Liderazgo Servicial en Entornos Tecnológicos
+Título: "Liderazgo Situacional". Texto intro: Paul Hersey y Kenneth Blanchard proponen que no existe un único estilo de liderazgo universalmente eficaz. El líder debe adaptar su comportamiento según la situación y el nivel de desarrollo del colaborador. El modelo se basa en dos dimensiones: Dirección (orientación, estructura y supervisión) y Apoyo (acompañamiento, escucha y motivación). De esta combinación emergen cuatro estilos: S1 Directivo, S2 Coaching, S3 Apoyo y S4 Delegación.
 
+Diagrama "Modelo SLII®": matriz de 2x2 (ejes: eje Y "Comportamiento de Apoyo" bajo→alto, eje X "Comportamiento Directivo" bajo→alto):
+- Cuadrante superior izquierdo: APOYO S3 — Alto Apoyo / Bajo Dirección
+- Cuadrante superior derecho: COACHING S2 — Alto Apoyo / Alta Dirección
+- Cuadrante inferior izquierdo: DELEGACION S4 — Bajo Apoyo / Bajo Dirección
+- Cuadrante inferior derecho: DIRECTIVO S1 — Bajo Apoyo / Alta Dirección
 
-                                              Dos errores que el líder debe evitar
-Tres acciones del líder en las próximas 24
-horas                                         1. Microgestionar
-                                              Pedir avances todo el tiempo, entrar a cada detalle
-1. Transparentar la situación y alinear       y reasignar tareas impulsivamente.
-prioridades
-Reunirse con Producto, QA y Seguridad         2. Fingir que todo se puede sin ajustar nada
-para definir qué es crítico, qué riesgo       Aceptar fecha, alcance y calidad como si no
-existe y qué sí es viable en 10 días.         existiera tensión real.
+A la derecha del cuadrante, banda de 4 flechas chevron (D4→D3→D2→D1, de izquierda a derecha, colores degradado) con "NIVELES DE DESARROLLO", de "Desarrollado" a "Desarrollando":
+- D4: Alta competencia / Alto compromiso
+- D3: Competencia de moderada a alta / compromiso variable
+- D2: Baja a alguna competencia / bajo compromiso
+- D1: Baja competencia / Alto compromiso
 
-2. Proteger al equipo y remover bloqueos
-Reducir interrupciones, ordenar canales
-de      comunicación       y      destrabar
-dependencias con otras áreas.
+Fuente: Hersey, P. & Blanchard, K. H. (1969). Life Cycle Theory of Leadership. Training and Development Journal, 23(5), 26–34. Terminología actual adaptada de Blanchard SLII®.
 
-3. Hablar con el equipo y redistribuir el
-                                              Justificación desde liderazgo servicial
-trabajo con criterio
-Revisar carga, detectar necesidades de
-                                              El liderazgo servicial no consiste en complacer al
-apoyo y reasignar tareas solo donde haga
-                                              equipo ni en resolver todo por él.
-falta.
-                                              Consiste en dar contexto, proteger el foco, remover
-                                              obstáculos, desarrollar a las personas y sostener la
-                                              responsabilidad
-6.
+## Slide 28
 
-Liderazgo Situacional.
-                                                                                    Liderazgo Situacional
-                                           Paul Hersey y Kenneth Blanchard proponen que no existe un único estilo de liderazgo universalmente eficaz.
-                                           El líder debe adaptar su comportamiento según la situación y el nivel de desarrollo del colaborador.
+Título: "Liderazgo Situacional en Entornos Tecnológicos". Layout de 2 columnas: matriz 2x2 a la izquierda, texto a la derecha.
 
-                                           El modelo se basa en dos dimensiones:
-                                           ✓ Dirección: orientación, estructura y supervisión.
-                                           ✓ Apoyo: acompañamiento, escucha y motivación.
+Matriz izquierda (misma estructura de ejes Apoyo/Directivo) con contenido aplicado a tech:
+- D3 — Apoyar más (Alto Apoyo/Bajo Dirección): existe capacidad técnica, baja confianza o fricción, se necesita coaching.
+- D2 — Dirigir y acompañar (Alto Apoyo/Alta Dirección): hay voluntad pero aún faltan recursos o dominio; explicas, observas y ajustas.
+- D4 — Delegar más (Bajo Apoyo/Bajo Dirección): alta competencia, alto compromiso, menos seguimiento, más accountability.
+- D1 — Dirigir más (Bajo Apoyo/Alta Dirección): tarea nueva, poca experiencia, alta claridad de instrucciones.
 
-                                           De esta combinación emergen cuatro estilos: S1 Directivo, S2 Coaching, S3 Apoyo y S4 Delegación.
+Texto derecho: "No existe un único estilo válido para todo. El líder ajusta nivel de dirección y apoyo según competencia y compromiso frente a una tarea concreta."
 
+Simplificando: más novedad o más riesgo = más dirección y seguimiento; más experiencia y más confianza = más autonomía y delegación.
 
-                                                                                                 Modelo SLII®
-              Alto
-                                 Alto Apoyo                                       Alto Apoyo
-                                 Bajo Dirección                                Alta Dirección
+"Se nota en tecnología cuando...": hay equipos con distinto seniority, cambia la urgencia del problema, sube el riesgo operativo o regulatorio, una tarea nueva exige más guía al inicio y luego más delegación.
 
+"Aplicación en tech": un incidente crítico con varios juniors suele exigir más dirección inmediata; un equipo senior de plataforma puede requerir muy poca dirección y mucha delegación.
 
-                                    APOYO                         COACHING                                             D4                    D3                          D2                      D1
-                                                                                                                       Alta                                        Baja a alguna                 Baja
+## Slide 29
 
+Título: "Liderazgo Situacional en Entornos Tecnológicos". Tabla de 4 columnas y 4 filas con escenarios:
 
+| Escenario tech | Lectura del contexto | Estilo Sugerido | Razón Principal |
+|---|---|---|---|
+| Onboarding a un dev junior en pipeline (flujo de trabajo técnico) de producción. | Alta criticidad, baja experiencia | S1 → S2 | Primero claridad y seguridad; luego coaching. |
+| Hay una emergencia técnica SEV1 y quien está de turno (on-call) no domina todavía bien ese tipo de incidente. | Urgencia alta, margen de error bajo | S1 | Se necesita dirección explícita y contención. |
+| Squad (Equipo de desarrollo + diseño + producto + datos o QA) que ya domina el producto pero no al stakeholder nuevo. | Competencia técnica alta, contexto cambiante | S3 | Menos instrucción; más apoyo político y de alineamiento. |
+| Equipo senior dueño de una plataforma estable | Alta autonomía y expertise | S4 | Delegar decisiones y enfocarse en outcomes. |
 
+## Slide 30
 
-Comportamiento de Apoyo
-                                 S3                                                 S2                           competencia
-                                                                                                                 ------------------
-                                                                                                                                        Competencia de
-                                                                                                                                        moderada a alta            competencia
-                                                                                                                                                                   ------------------
-                                                                                                                                                                                           competencia
-                                                                                                                                                                                           ------------------
-                                                                                                                                          ----------------
-                                                                                                                       Alto              compromiso                      bajo                    Alto
-                                                                                                                 compromiso                 variable               compromiso              compromiso
-                                 Bajo Apoyo                                       Bajo Apoyo
-                                 Bajo Dirección                                Alta Dirección
+Título: "Liderazgo Situacional en Entornos Tecnológicos". Slide de caso de discusión (ícono bombilla, solo texto):
 
+"Una empresa está implementando un piloto de IA generativa para apoyar la atención al cliente. Como el sistema aún comete errores, exige pruebas continuas, control de riesgos y acompañamiento cercano al equipo. En este contexto, ¿qué estilo de liderazgo situacional debería predominar y cómo debería ajustarse entre dirección y apoyo a medida que evoluciona el piloto?"
 
-                                 DELEGACION                       DIRECTIVO                                                                                                                       Desarrollando
-                                                                                                                    Desarrollado                  NIVELES DE DESARROLLO
-                                 S4                                                  S1
-                          Bajo                                                            Alto
-
-                                          Comportamiento Directivo
-
-                                   Fuente: Hersey, P. & Blanchard, K. H. (1969). Life Cycle Theory of Leadership. Training and Development Journal, 23(5), 26–34. Terminología actual adaptada de Blanchard SLII®
-                                                 Liderazgo Situacional en Entornos Tecnológicos
-
-                                                                                              • No existe un único estilo válido para todo.
-                          Lectura simplificada inspirada en la lógica de                      • El líder ajusta nivel de dirección y apoyo según competencia y
-                          competencia más compromiso.                                         compromiso frente a una tarea concreta
-
-                                                                                              Simplificando:
-              Alto
-                                 D3 — Apoyar más               D2 — Dirigir y                 • Más novedad o más riesgo = más dirección y seguimiento.
-                                                               acompañar                      • Más experiencia y más confianza = más autonomía y
-                                 • Existe capacidad técnica
-                                 • Baja confianza o fricción   • Hay voluntad, pero aún       delegación
-                                 • Se necesita coaching
-
-
-
-
-Comportamiento de Apoyo
-                                                               faltan recursos o dominio
-                                                               • Explicas, observas y
-                                                               ajustas
-                                                                                              Se nota en tecnología cuando…
-
-                                                                                              ✓ • Hay equipos con distinto seniority.
-                                 D4 — Delegar más              D1 — Dirigir más               ✓ • Cambia la urgencia del problema.
-                                 • Alta competencia            • Tarea nueva
-                                                                                              ✓ • Sube el riesgo operativo o regulatorio.
-                                 • Alto compromiso             • Poca experiencia             ✓ • Una tarea nueva exige más guía al inicio y luego más
-                                 • Menos seguimiento, más      • Alta claridad de
-                                 accountability                instrucciones
-                                                                                                delegación.
-
-                                                                                              Aplicación en tech:
-                          Bajo                                                         Alto
-                                                                                              • Un incidente crítico con varios juniors suele exigir más
-                                          Comportamiento Directivo
-                                                                                              dirección inmediata.
-                                                                                              • Un equipo senior de plataforma puede requerir muy poca
-                                                                                              dirección y mucha delegación.
-                            Liderazgo Situacional en Entornos Tecnológicos
+## Slide 31
 
+Título: "Liderazgo Situacional en Entornos Tecnológicos". Layout de 3 columnas: texto explicativo izquierda, matriz vertical de 4 bloques de color al centro (COACHING S2 naranja / DIRECTIVO S1 rojo / APOYO S3 amarillo / DELEGACION S4 verde, cada uno rotulado con su combinación Alto/Bajo Apoyo-Dirección), y explicación de cada etapa a la derecha.
 
-          Escenario tech                    Lectura del contexto              Estilo Sugerido            Razón Principal
+Texto izquierdo: predomina inicialmente S2 (Coaching), porque el equipo necesita: 1. Alta dirección (al tratarse de un piloto de IA generativa que aún comete errores, el líder debe definir objetivos, criterios de uso, límites y controles); 2. Alto apoyo (acompañar al equipo, resolver dudas, retroalimentar y sostener el aprendizaje continuo).
 
+Explicaciones a la derecha de cada bloque:
+- COACHING S2: al inicio predomina, porque hay incertidumbre, necesidad de experimentación y aprendizaje guiado.
+- DIRECTIVO S1: en momentos críticos de riesgo, el líder puede moverse temporalmente a S1 para reforzar control, cumplimiento, calidad y manejo de errores.
+- APOYO S3: cuando el equipo gana experiencia, conviene avanzar hacia S3, reduciendo la dirección y fortaleciendo la autonomía, confianza y participación.
+- DELEGACION S4: solo sería adecuado cuando el piloto ya sea más estable y el equipo actúe con alta competencia y compromiso.
 
-Onboarding a un dev junior en                                                     S1 → S2
-                                                                                                  Primero claridad y seguridad; luego
-pipeline(flujo de trabajo técnico) de     Alta criticidad, baja experiencia
-                                                                                                               coaching.
-producción.
+## Slide 32
 
+Slide separador de sección "7. Comparativo Estilos de Liderazgo." Solo título, foto arquitectónica decorativa.
 
-Hay una emergencia técnica SEV1 y                                                   S1
-                                          Urgencia alta, margen de error                           Se necesita dirección explícita y
-quien está de turno (on-call) no domina
-                                                       bajo                                                  contención.
-todavía bien ese tipo de incidente.
+## Slide 33
 
+Título: "Mapa comparativo de estilos de liderazgo". Tres columnas con encabezados tipo píldora de color (celeste, teal, gris): Liderazgo Transformacional / Liderazgo Servicial / Liderazgo Situacional. Cada columna con 4 secciones (Pregunta, Enfoque, Aporta más cuando, Riesgo):
 
-Squad (Equipo de desarrollo + diseño +                                              S3
-producto + datos o QA) que ya domina        Competencia técnica alta,                           Menos instrucción; más apoyo político y
-el producto pero no al stakeholder            contexto cambiante                                           de alineamiento.
-nuevo.
+**Transformacional**: Pregunta: ¿Cómo movilizo a las personas hacia una visión nueva? Enfoque: visión, propósito, innovación y cambio cultural. Aporta más cuando: la organización enfrenta transformación digital, reinvención o necesidad de alinear al equipo con un futuro distinto. Riesgo: exceso de discurso, fatiga de cambio o pérdida de foco en la ejecución.
 
+**Servicial**: Pregunta: ¿Cómo ayudo al equipo a rendir mejor y crecer? Enfoque: escucha, confianza, desarrollo de personas y remoción de obstáculos. Aporta más cuando: se necesita fortalecer colaboración, autonomía, aprendizaje continuo y seguridad psicológica. Riesgo: confundir apoyo con baja exigencia o perder claridad en la responsabilidad.
 
-Equipo senior dueño de una plataforma                                               S4            Delegar decisiones y enfocarse en
-                                            Alta autonomía y expertise
-estable                                                                                                      outcomes.
-             Liderazgo Situacional en Entornos Tecnológicos
+**Situacional**: Pregunta: ¿Qué nivel de dirección y apoyo necesita esta persona o equipo en este momento? Enfoque: adaptar liderazgo según tarea, madurez, urgencia y contexto. Aporta más cuando: hay incorporación, incidentes, cambios de rol, tareas nuevas o distintos niveles de experiencia. Riesgo: parecer inconsistente o improvisado si no existe un buen diagnóstico.
 
+Fuente: elaboración propia a partir de Bass, Greenleaf y Hersey & Blanchard. Frase final: "No existe un único estilo suficiente: el liderazgo tecnológico efectivo combina visión, servicio y adaptación."
 
+## Slide 34
 
+Título: "¿Qué estilo priorizar según el reto tecnológico?" Texto intro: en la práctica, el buen liderazgo tech suele combinar estilos; la diferencia está en cuál domina cada desafío.
 
-Una empresa está implementando un piloto de IA generativa para apoyar la
-atención al cliente. Como el sistema aún comete errores, exige pruebas continuas,
-control de riesgos y acompañamiento cercano al equipo. En este contexto, ¿qué
-estilo de liderazgo situacional debería predominar y cómo debería ajustarse entre
-dirección y apoyo a medida que evoluciona el piloto?
-                          Liderazgo Situacional en Entornos Tecnológicos
+Tabla-matriz visual con 3 filas (TRANSFORMACIONAL / SERVICIAL / SITUACIONAL) y 5 columnas de retos (Transformación AI/cloud, Innovación producto, Habilitación del equipo, Madurez desigual, Crisis/incidente). Celdas coloreadas como "Primario" (relleno de color) o "Secundario" (borde de color, fondo blanco), o "—" (vacío/gris) cuando no aplica:
 
-En este caso predomina inicialmente                        Alto Apoyo
-el estilo S2 (Coaching), porque el                      Alta Dirección   Al inicio, predomina S2 (Coaching),
-equipo necesita al mismo tiempo:                                         porque hay incertidumbre,
-                                            COACHING                     necesidad de experimentación y
-                                                                         aprendizaje guiado.
-1.Alta dirección :                                          S2
-         Al tratarse de un piloto de IA
-        generativa que aún comete
-        errores, el líder debe definir                    Bajo Apoyo     En momentos críticos de riesgo, el
-                                                       Alta Dirección
-        objetivos, criterios de uso,                                     líder puede moverse temporalmente
-        límites y controles,                                             a S1 (Directivo) para reforzar control,
-                                           DIRECTIVO                     cumplimiento, calidad y manejo de
-2.Alto apoyo :                                                S1         errores.
-       Acompañar al equipo, resolver
-       dudas,    retroalimentar     y                                    Cuando el equipo gana experiencia,
-                                           Alto Apoyo
-       sostener    el     aprendizaje      Bajo Dirección
-                                                                         conviene avanzar hacia S3 (Apoyo),
-       continuo.                                                         reduciendo la dirección y
-                                                APOYO                    fortaleciendo la autonomía, la
-A medida que evoluciona el piloto, el                                    confianza y la participación.
-liderazgo debería ajustarse así:           S3
-                                          Bajo Apoyo                     S4 (Delegación) solo sería adecuado
-                                          Bajo Dirección                 cuando el piloto ya sea más estable y
-                                                                         el equipo actúe con alta
-                                          DELEGACION                     competencia y compromiso.
-                                           S4
-7.
+| | Transformación AI/cloud | Innovación producto | Habilitación del equipo | Madurez desigual | Crisis/incidente |
+|---|---|---|---|---|---|
+| TRANSFORMACIONAL | Primario | Primario | Secundario | — | Secundario |
+| SERVICIAL | Secundario | Secundario | Primario | Secundario | — |
+| SITUACIONAL | Secundario | Secundario | Secundario | Primario | Primario |
 
-Comparativo Estilos de
-Liderazgo.
-                                Mapa comparativo de estilos de liderazgo
+Frase final: "Si el reto es cambiar dirección, domina lo transformacional; si el reto es habilitar personas, domina lo servicial; si el reto es ajustar liderazgo a tarea y experiencia, domina lo situacional."
 
+## Slide 35
 
-    Liderazgo Transformacional                                  Liderazgo Servicial                                      Liderazgo Situacional
+Título: "Comparativo de estilos de liderazgo en Entornos Tecnológicos". Tabla grande de 6 columnas (Estilo de Liderazgo, Enfoque principal, Aplicación en SI, Empresa, Acciones que lo identifican, Por qué no es de los otros estilos) y 3 filas, con encabezado azul:
 
+**TRANSFORMACIONAL** | Inspirar, movilizar y redefinir el rumbo | Cambio cultural, innovación, reposicionamiento tecnológico | AMD – Lisa Su | Reorientó AMD hacia high-performance y adaptive computing; AMD atribuye a Lisa Su la transformación; ingresos récord US$34.6 mil millones en 2025 (link a amd.com/leadership/lisa-su) | Domina visión de cambio y reposicionamiento estratégico. No es servicial porque el centro no es remover bloqueos del equipo; no es situacional porque la evidencia no se enfoca en calibrar apoyo/dirección según madurez, sino en transformar el negocio.
 
+**SERVICIAL** | Habilitar al equipo, desarrollar personas y remover obstáculos | Equipos ágiles, autonomía, mejora continua, colaboración | Atlassian – Engineering / Agile coaching | Equipos rinden mejor con ownership, trust y common language; reemplaza mando y control por equipos autónomos alineados con principios/rituales; prácticas: OKRs, SLOs, playbooks, RFCs, métricas de ingeniería, gestión de incidentes (link atlassian.com/blog/atlassian-engineering/handbook) | Lógica dominante es servir para que el equipo rinda mejor. No es transformacional porque no hay gran narrativa de reinvención corporativa; no es situacional porque no varía el mando según madurez, sino que crea condiciones para que el equipo funcione.
 
-Pregunta                                            Pregunta                                                      Pregunta
-¿Cómo movilizo a las personas hacia una             ¿Cómo ayudo al equipo a rendir mejor y                        ¿Qué nivel de dirección y apoyo necesita
-visión nueva?                                       crecer?                                                       esta persona o equipo en este momento?
+**SITUACIONAL** | Ajustar dirección, control y apoyo según criticidad y contexto | Incidentes, operaciones críticas, on-call, continuidad del servicio | Google – SRE / IMAG (Site Reliability Engineering / Incident Management at Google) | En incidentes críticos Google estructura la respuesta con roles claros: Incident Commander, Ops Lead, Communication y Planning; el liderazgo se ajusta según criticidad, carga de trabajo y necesidad operativa; solo el equipo de operaciones modifica el sistema (link sre.google/sre-book/managing-incidents) | Se acerca mucho al situacional porque el nivel de dirección cambia con severidad, riesgo y experiencia disponible. No es transformacional porque el propósito inmediato no es movilizar una visión de futuro; no es servicial porque en crisis la prioridad no es desarrollo del equipo sino claridad, control y coordinación adaptativa.
 
-Enfoque                                             Enfoque                                                       Enfoque
-Visión, propósito, innovación y cambio              Escucha, confianza, desarrollo de personas                    Adaptar liderazgo según tarea, madurez,
-cultural.                                           y remoción de obstáculos.                                     urgencia y contexto.
+## Slide 36
 
-Aporta más cuando                                   Aporta más cuando                                             Aporta más cuando
-La organización enfrenta transformación             Se   necesita    fortalecer         colaboración,             Hay incorporación, incidentes, cambios de
-digital, reinvención o necesidad de alinear         autonomía,    aprendizaje           continuo   y              rol, tareas nuevas o distintos niveles de
-al equipo con un futuro distinto.                   seguridad psicológica.                                        experiencia.
+Slide separador de sección "8. Conclusiones." Solo título, foto arquitectónica decorativa.
 
-Riesgo                                              Riesgo                                                        Riesgo
-Exceso de discurso, fatiga de cambio o              Confundir apoyo con baja exigencia o                          Parecer inconsistente o improvisado si no
-pérdida de foco en la ejecución.                    perder claridad en la responsabilidad.                        existe un buen diagnóstico.
+## Slide 37
 
-                                   Fuente: elaboración propia a partir de Bass, Greenleaf y Hersey & Blanchard.
+Título: "CONCLUSIONES". Lista numerada (solo texto):
+1. En entornos tecnológicos, no existe un único estilo de liderazgo suficiente; el liderazgo efectivo combina visión, servicio y adaptación.
+2. El liderazgo transformacional aporta más cuando se requiere movilizar cambio, innovación y alineamiento con una visión de futuro.
+3. El liderazgo servicial crea valor al desarrollar personas, remover obstáculos, proteger el foco y fortalecer la colaboración y la seguridad psicológica.
+4. El liderazgo situacional permite ajustar el nivel de dirección y apoyo según la tarea, el riesgo y la madurez del equipo.
+5. Liderar tecnología no es solo gestionar tareas, sino movilizar visión, habilitar personas y adaptar el estilo al contexto para generar valor.
 
+## Slide 38
 
+Slide de pregunta de cierre/reflexión (solo texto, fondo blanco decorativo):
 
-         No existe un único estilo suficiente: el liderazgo tecnológico efectivo combina visión, servicio y adaptación.
-                      ¿ Qué estilo priorizar según el reto tecnológico?
-En la práctica, el buen liderazgo tech suele combinar estilos. La diferencia está en cuál domina cada desafío.
+"¿Qué estilo te es natural y cuál necesitas desarrollar más para liderar el próximo cambio tecnológico?"
 
+## Slide 39
 
+Slide final: "GRACIAS." Fondo blanco con líneas hexagonales decorativas, logo UTEC.
 
+## Slide 40
 
-TRANSFORMACIONAL
-
-
-
-
-SERVICIAL
-
-
-
-
-SITUACIONAL
-
-
-
-
-    Si el reto es cambiar dirección, domina lo transformacional; si el reto es habilitar personas, domina
-    lo servicial; si el reto es ajustar liderazgo a tarea y experiencia, domina lo situacional.”
-                                        Comparativo de estilos de liderazgo en Entornos Tecnológicos
-
-   Estilo de          Enfoque                                                                                                                                     Por qué no es de los otros
-   Liderazgo          principal             Aplicación en SI                        Empresa                   Acciones que lo identifican                                  estilos
-
-                                                                                                             Reorientó AMD hacia high-performance y adaptive
-                                                                                                             computing; la propia AMD atribuye a Lisa Su la           Domina una visión de cambio y de
-                                        Cambio cultural, innovación,                                         transformación de la empresa; además, AMD          reposicionamiento estratégico. No es servicial
-TRANSFORMACI Inspirar, movilizar y                                                                           reportó ingresos récord de US$34.6 mil millones     porque el centro no es remover bloqueos del
-                                           reposicionamiento                     AMD – Lisa Su               en 2025. (AMD)                                     equipo como lógica principal; no es situacional
-    ONAL      redefinir el rumbo
-                                               tecnológico                                                                                                       porque la evidencia pública no se enfoca en
-                                                                                                             https://www.amd.com/en/corporate/leadership/lisa- calibrar apoyo/dirección según madurez, sino en
-                                                                                                             su.html                                                     transformar el negocio. (AMD)
-
-
-                                                                                                             Atlassian: liderazgo servicial y equipos autónomos La lógica dominante es servir para que el equipo
-                                                                                                             • Los equipos rinden mejor cuando existen           rinda mejor. No es transformacional porque el foco
-                                                                                                             ownership, trust y common language:                    no está en una gran narrativa de reinvención
-                                                                                                             responsabilidad, confianza y un marco                   corporativa; no es situacional porque la idea
-                                                                                                             compartido.                                           central no es variar el mando según la madurez
-                                                                                                             • Reemplaza el modelo de mando y control por         del colaborador, sino crear condiciones para que
-                                                                                                             equipos con mayor autonomía, pero alineados                 el equipo funcione. (atlassian.com)
-                                                                                                             con principios, rituales y expectativas comunes.
-                  Habilitar al equipo, Equipos ágiles, autonomía,                                            • El liderazgo crea condiciones para que el
-                                                                         Atlassian – Engineering / Agile
-  SERVICIAL      desarrollar personas       mejora continua,
-                                                                                    coaching
-                                                                                                             equipo decida, colabore, aprenda y entregue
-                                                                                                             valor al cliente con rapidez y responsabilidad.
-                 y remover obstáculos        colaboración                                                    • Esta lógica se sostiene con prácticas concretas
-                                                                                                             como OKRs, SLOs, playbooks, RFCs, métricas de
-                                                                                                             ingeniería y gestión de incidentes.
-                                                                                                             • El líder no controla todo: habilita al equipo con
-                                                                                                             confianza, claridad y herramientas comunes.
-
-                                                                                                             https://www.atlassian.com/blog/atlassian-
-                                                                                                             engineering/handbook
-
-                   Ajustar dirección,     Incidentes, operaciones
-                                                                                                             En incidentes críticos, Google estructura la        Se acerca mucho al liderazgo situacional porque
-                    control y apoyo     críticas, on-call, continuidad        Google – SRE / IMAG            respuesta con roles claros:                          el nivel de dirección cambia con la severidad, el
-                   según criticidad y             del servicio                                               • Incident Commander, Ops Lead,                          riesgo y la experiencia disponible. No es
-                                                                                                             Communication y Planning (Comandante de            transformacional porque el propósito inmediato no
-                       contexto                                          SRE: Site Reliability Engineering   incidentes, jefe de operaciones y jefe de            es movilizar una visión de futuro; no es servicial
-                                                                          /Ingeniería de confiabilidad de    comunicaciones).                                          porque, en una crisis, la prioridad no es
-                                                                                                             • El liderazgo se ajusta según la criticidad, la   principalmente desarrollo del equipo sino claridad,
-                                                                                       sitios                carga de trabajo y la necesidad operativa.          control y coordinación adaptativa. (Google SRE)
- SITUACIONAL                                                                                                 • Durante el incidente, solo el equipo de
-                                                                                                             operaciones modifica el sistema, mientras otros
-                                                                         IMAG: Incident Management at        roles coordinan, comunican y planifican.
-                                                                                      Google                 • Este enfoque reduce improvisación, mejora la
-                                                                                                             coordinación y acelera la recuperación del
-                                                                         Gestión de incidentes en Google     servicio. (Google SRE)
-
-                                                                                                             https://sre.google/sre-book/managing-incidents/
-8.
-
-Conclusiones.
-                                     CONCLUSIONES
-
-1. En entornos tecnológicos, no existe un único estilo de liderazgo suficiente; el liderazgo efectivo
-   combina visión, servicio y adaptación.
-
-2. El liderazgo transformacional aporta más cuando se requiere movilizar cambio, innovación y
-   alineamiento con una visión de futuro.
-
-3. El liderazgo servicial crea valor al desarrollar personas, remover obstáculos, proteger el foco y
-   fortalecer la colaboración y la seguridad psicológica.
-
-4. El liderazgo situacional permite ajustar el nivel de dirección y apoyo según la tarea, el riesgo y
-   la madurez del equipo.
-
-5. Liderar tecnología no es solo gestionar tareas, sino movilizar visión, habilitar personas y
-   adaptar el estilo al contexto para generar valor.
-¿Qué estilo te es natural y cuál necesitas desarrollar
- más para liderar el próximo cambio tecnológico?
-GRACIAS.
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Slide decorativa de cierre: fondo azul cyan con logo UTEC en blanco ("UNIVERSIDAD DE INGENIERÍA Y TECNOLOGÍA") y foto arquitectónica de escalera de concreto a la derecha, sin texto de contenido.

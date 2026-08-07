@@ -5,129 +5,122 @@ slides: 13
 fuente: 06 - Semana 4/Evaluacion Coninua EC1.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
 
-2026-1
+Portada decorativa. Título "LIDERAZGO EN SISTEMAS DE INFORMACIÓN." con subtítulo "2026-1" y "Evaluación Continua 01: Liderazgo, Comunicación y Gestión del Cambio en Sistemas de Información." Al lado derecho, foto grande decorativa de la fachada de UTEC recortada en formas hexagonales, con logo UTEC arriba a la izquierda. Sin contenido académico adicional.
 
+## Slide 2
 
-Evaluación Continua 01:
-Liderazgo, Comunicación y Gestión del
-Cambio en Sistemas de Información.
-                             Evaluación Continua 1 (EC1)
+Título de sección: "Evaluación Continua 1 (EC1)".
 
+**1. Objetivo:**
 
-1. Objetivo:
+La Evaluación Continua 1 (EC1) tiene como objetivo evaluar la capacidad del estudiante para analizar una transformación digital real e integrar los conceptos desarrollados en el curso, incluyendo:
 
-La Evaluación Continua 1 (EC1) tiene como objetivo evaluar la capacidad del
-estudiante para analizar una transformación digital real e integrar los conceptos
-desarrollados en el curso, incluyendo:
-
-• Liderazgo en Sistemas de Información
-• Comunicación estratégica
-• Ética y responsabilidad profesional
-• Gestión del cambio
-• Identificación y gestión de stakeholders
+- Liderazgo en Sistemas de Información
+- Comunicación estratégica
+- Ética y responsabilidad profesional
+- Gestión del cambio
+- Identificación y gestión de stakeholders
 
 Esta evaluación abarca los contenidos del sílabo desde 5.1 hasta 5.4.2.
 Peso: 20%
 Modalidad: Individual
 Entrega del informe y defensa oral: Semana 9 – Miércoles 20.05
-                                 Evaluación Continua 1 (EC1)
 
+## Slide 3
 
-2. Caso de análisis
+Título de sección: "Evaluación Continua 1 (EC1)".
 
+**2. Caso de análisis**
 
 El trabajo se desarrollará a partir del siguiente caso:
 
-
-
-
 DBS – Digital Transformation to Best Bank in the World - HBR
-                                  Evaluación Continua 1 (EC1)
 
+Visual: junto al texto del caso aparece el logo institucional de "Harvard Business Review" (escudo con las palabras latinas VERITAS y texto "Harvard Business Review"), indicando que el caso proviene de HBR.
 
+## Slide 4
 
-3. ¿Qué entregan?
+Título de sección: "Evaluación Continua 1 (EC1)".
+
+**3. ¿Qué entregan?**
 
 Cada estudiante debe entregar obligatoriamente:
 
-•   1 informe individual en PDF
+- 1 informe individual en PDF
+- máximo 5 páginas
+- estructura obligatoria (3 secciones)
+- nombre del archivo definido: EC1_ApellidoNombre_IS3012.pdf
+- Entrega del informe y defensa oral: miércoles 20.05.2026
 
-•   máximo 5 páginas
+## Slide 5
 
-•   estructura obligatoria (3 secciones)
+Título de sección: "Evaluación Continua 1 (EC1)".
 
-•   nombre del archivo definido: EC1_ApellidoNombre_IS3012.pdf
-
-•   Entrega del informe y defensa oral: miércoles 20.05.2026
-                                 Evaluación Continua 1 (EC1)
-
-4. ¿Qué contiene?
+**4. ¿Qué contiene?**
 
 El informe debe contener las siguientes tres secciones:
 
-   SECCIÓN 1: ANÁLISIS DEL CASO (40%)
+🔵 **SECCIÓN 1: ANÁLISIS DEL CASO (40%)** — el ícono es una viñeta circular azul decorativa junto al encabezado de sección.
 
 Desarrolle un análisis estructurado del caso respondiendo:
 
 1. ¿Cuál es el propósito de la transformación de DBS?
 2. Explique la diferencia entre liderazgo y gestión evidenciada en el caso.
-3. Identifique el estilo de liderazgo predominante (transformacional, servicial o situacional) y
-   sustente.
+3. Identifique el estilo de liderazgo predominante (transformacional, servicial o situacional) y sustente.
 4. Explique cómo el liderazgo conecta negocio y tecnología en la organización.
 5. Identifique un posible riesgo o dilema ético asociado a la transformación digital.
 
 ❖ Se espera análisis, no resumen del caso.
-                                  Evaluación Continua 1 (EC1)
 
-4. ¿Qué contiene?
+## Slide 6
 
-   SECCIÓN 2: COMUNICACIÓN ESTRATÉGICA (30%)
+Título de sección: "Evaluación Continua 1 (EC1)".
+
+**4. ¿Qué contiene?** (continuación)
+
+🔵 **SECCIÓN 2: COMUNICACIÓN ESTRATÉGICA (30%)**
 
 Desarrolle los siguientes elementos aplicados al caso:
 
-a. Short talk
-Redacte un discurso breve (máx. 120 palabras) dirigido a la alta dirección explicando la
-importancia de la transformación.
+**a. Short talk**
+Redacte un discurso breve (máx. 120 palabras) dirigido a la alta dirección explicando la importancia de la transformación.
 
-b. Storytelling
-Construya una breve historia (puede ser cliente, empleado o usuario) que refleje el impacto del
-cambio.
+**b. Storytelling**
+Construya una breve historia (puede ser cliente, empleado o usuario) que refleje el impacto del cambio.
 
-c. Framing
+**c. Framing**
 Plantee cómo presentaría estratégicamente el proyecto (enfoque positivo, oportunidad, impacto).
 
-d. Traducción técnica
+**d. Traducción técnica**
 Explique un aspecto técnico del caso en lenguaje comprensible para un público no técnico.
 
 ❖ Se evaluará claridad, capacidad de síntesis y adaptación del mensaje.
-                                   Evaluación Continua 1 (EC1)
 
-4. ¿Qué contiene?
+## Slide 7
 
-   SECCIÓN 3: STAKEHOLDERS Y GESTIÓN DEL CAMBIO (30%)
+Título de sección: "Evaluación Continua 1 (EC1)".
+
+**4. ¿Qué contiene?** (continuación)
+
+🔵 **SECCIÓN 3: STAKEHOLDERS Y GESTIÓN DEL CAMBIO (30%)**
 
 Desarrolle:
 
 1. Identifique al menos 5 stakeholders clave
-
 2. Clasifíquelos según su nivel de influencia/interés
-
 3. Identifique posibles resistencias al cambio
-
 4. Proponga mensajes clave para cada grupo
-
 5. Sugiera canales de comunicación adecuados
 
-
 ❖ Se evaluará la capacidad de anticipar el impacto organizacional.
-                                   Evaluación Continua 1 (EC1)
 
+## Slide 8
 
-5. ¿Qué pasará en la sesión del viernes?
+Título de sección: "Evaluación Continua 1 (EC1)".
+
+**5. ¿Qué pasará en la sesión del viernes?**
 
 Cada estudiante tendrá entre 6 y 7 minutos para realizar una defensa oral breve de su EC1.
 
@@ -137,15 +130,15 @@ Durante ese tiempo deberá presentar de manera clara y sintética:
 2. Un stakeholder clave y por qué es relevante
 3. Un riesgo de cambio y cómo lo gestionaría
 
-❖ Criterios: claridad, síntesis, dominio del tema, coherencia con el informe y capacidad de
-  responder preguntas.
+❖ Criterios: claridad, síntesis, dominio del tema, coherencia con el informe y capacidad de responder preguntas.
 ❖ Formato: oral (no es necesario PPT).
-❖ No es una exposición completa del informe. Es una defensa breve de componentes estratégicos
-  de su trabajo.
-                                 Evaluación Continua 1 (EC1)
+❖ No es una exposición completa del informe. Es una defensa breve de componentes estratégicos de su trabajo.
 
+## Slide 9
 
-6. ¿Cómo se evalúa?
+Título de sección: "Evaluación Continua 1 (EC1)".
+
+**6. ¿Cómo se evalúa?**
 
 La evaluación depende de la:
 
@@ -161,29 +154,33 @@ La EC1 evalúa la capacidad de:
 ✓ argumentar
 ✓ comunicar
 ✓ y pensar como futuro profesional de Sistemas de Información
-                                   Evaluación Continua 1 (EC1)
 
+## Slide 10
 
-6. ¿Cómo se evalúa?
+Título de sección: "Evaluación Continua 1 (EC1)".
 
-Rúbrica de evaluación:
+**6. ¿Cómo se evalúa?** (continuación)
 
-                                       Criterio                  Peso
+Rúbrica de evaluación (tabla con dos columnas, Criterio y Peso):
 
-             Comprensión y análisis del caso                     25%
+| Criterio | Peso |
+|---|---|
+| Comprensión y análisis del caso | 25% |
+| Aplicación de liderazgo en SI | 20% |
+| Análisis ético y criterio profesional | 15% |
+| Comunicación estratégica | 20% |
+| Stakeholders y gestión del cambio | 20% |
 
+(Suma total = 100%)
 
-             Aplicación de liderazgo en SI                       20%
+## Slide 11
 
+Slide minimalista de transición: solo el texto "Dudas?" en el centro-izquierda, sobre fondo blanco con formas hexagonales decorativas tenues de fondo y el logo UTEC arriba a la derecha (decorativo).
 
-             Análisis ético y criterio profesional               15%
+## Slide 12
 
+Slide de cierre: solo el texto "GRACIAS." en el centro-izquierda, mismo fondo blanco con formas hexagonales decorativas tenues y logo UTEC arriba a la derecha (decorativo).
 
-             Comunicación estratégica                            20%
+## Slide 13
 
-
-             Stakeholders y gestión del cambio                   20%
-Dudas?
-GRACIAS.
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+Slide final decorativa (contraportada institucional): fondo celeste sólido con el logo UTEC en blanco ("UTEC — Universidad de Ingeniería y Tecnología") a la izquierda, y a la derecha una fotografía de una escalera/edificio institucional recortada en formas hexagonales con tonos duotono celeste/beige. Sin contenido textual académico.

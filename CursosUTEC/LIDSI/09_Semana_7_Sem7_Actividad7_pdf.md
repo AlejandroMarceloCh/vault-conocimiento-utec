@@ -5,57 +5,59 @@ slides: 6
 fuente: 09 - Semana 7/Sem7_Actividad7.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
 
-2026-1
+Portada del curso. Texto: "LIDERAZGO EN SISTEMAS DE INFORMACIÓN." / "2026-1" / "Sesión 12: Planificación de comunicación en proyectos digitales". Visual: foto arquitectónica de UTEC con mosaico de hexágonos en tonos celeste/turquesa a la derecha, logo UTEC arriba a la izquierda — decorativa.
 
+## Slide 2
 
-Sesión 12 : Planificación de
-comunicación en proyectos digitales
-                 Índice
-1.   Actividad
-1.
+Slide de índice. Fondo celeste sólido, título "Índice", lista con un único punto: "1. Actividad". Foto arquitectónica hexagonal de UTEC a la derecha — decorativa.
 
-Actividad.
-CASO SIMULADO:
+## Slide 3
 
-EsSalud Digital: Migración al Historial Clínico Electrónico (HCE)
+Slide separador de sección. Texto: "1." (numeral grande) y "Actividad." en celeste. Foto arquitectónica hexagonal de UTEC a la derecha (incluye texto parcial "INGENIERÍA" fragmentado en los hexágonos) — decorativa.
 
-Contexto: EsSalud inicia un proyecto de 18 meses para digitalizar los historiales clínicos de sus 12
-millones de asegurados en 400 establecimientos de salud a nivel nacional. El sistema actual es
-mixto: papel + un sistema legacy de los años 2000. El nuevo sistema HCE estará en la nube, con
-acceso desde tablets y computadoras.
+## Slide 4
 
-•Presupuesto: S/. 180 millones
-•Usuarios finales: 32,000 médicos, enfermeros y personal administrativo
-•Stakeholders críticos: Directores de red asistencial, sindicatos médicos, MINSA, SIS, Contraloría
-•Riesgo principal identificado: Alta resistencia del personal médico senior (60+ años) al cambio
-•Hito crítico: Piloto en 10 hospitales en mes 6; despliegue nacional en mes 18
+Slide de contenido: caso simulado completo, con logo de EsSalud (icono de familia + wordmark azul) junto al logo UTEC arriba a la derecha.
 
+Texto:
 
-              Preguntas:
-              Diseñen el Plan Estratégico de Comunicación para los primeros 6 meses del proyecto. Deben
-              incluir:
-              (1) Canales y frecuencia (matriz del plan de comunicación),
-              (2) Estrategia para gestionar la resistencia del personal médico senior,
-              (3) Indicadores de éxito de la comunicación.
-              (4) ¿Qué percepción o rumor podría poner en riesgo la adopción del HCE durante el piloto y
-                  cómo debería gestionarse comunicacionalmente?
-Actividad: Lecturas y caso
-Lecturas obligatorias
+**CASO SIMULADO:**
 
-Kotter, J. P. — Liderar el cambio: por qué fracasan los intentos de transformación.
-https://hbsp.harvard.edu/product/R0701J-PDF-SPA
+**EsSalud Digital: Migración al Historial Clínico Electrónico (HCE)**
 
-O’Morain & Aykens — Employees Are Losing Patience with Change Initiatives.
-https://hbsp.harvard.edu/product/H07M9B-PDF-ENG
+**Contexto:** EsSalud inicia un proyecto de 18 meses para digitalizar los historiales clínicos de sus 12 millones de asegurados en 400 establecimientos de salud a nivel nacional. El sistema actual es mixto: papel + un sistema legacy de los años 2000. El nuevo sistema HCE estará en la nube, con acceso desde tablets y computadoras.
 
-Rigby, First & O’Keeffe — How to Create a Stakeholder Strategy.
-https://hbsp.harvard.edu/product/R2303C-PDF-ENG
+- Presupuesto: S/. 180 millones
+- Usuarios finales: 32,000 médicos, enfermeros y personal administrativo
+- Stakeholders críticos: Directores de red asistencial, sindicatos médicos, MINSA, SIS, Contraloría
+- Riesgo principal identificado: Alta resistencia del personal médico senior (60+ años) al cambio
+- Hito crítico: Piloto en 10 hospitales en mes 6; despliegue nacional en mes 18
 
-Lectura complementaria:
+**Preguntas:**
+Diseñen el Plan Estratégico de Comunicación para los primeros 6 meses del proyecto. Deben incluir:
+1. Canales y frecuencia (matriz del plan de comunicación),
+2. Estrategia para gestionar la resistencia del personal médico senior,
+3. Indicadores de éxito de la comunicación.
+4. ¿Qué percepción o rumor podría poner en riesgo la adopción del HCE durante el piloto y cómo debería gestionarse comunicacionalmente?
+
+## Slide 5
+
+Slide de contenido: "Actividad: Lecturas y caso" — lista de lecturas obligatorias y complementarias, con enlaces.
+
+**Lecturas obligatorias**
+
+- Kotter, J. P. — Liderar el cambio: por qué fracasan los intentos de transformación.
+  https://hbsp.harvard.edu/product/R0701J-PDF-SPA
+- O'Morain & Aykens — Employees Are Losing Patience with Change Initiatives.
+  https://hbsp.harvard.edu/product/H07M9B-PDF-ENG
+- Rigby, First & O'Keeffe — How to Create a Stakeholder Strategy.
+  https://hbsp.harvard.edu/product/R2303C-PDF-ENG
+
+**Lectura complementaria:**
 MIT CISR — Develop Ten Capabilities to Accelerate Digital Transformation (canvas).
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+## Slide 6
+
+Slide de cierre. Solo logo UTEC (versión blanca) sobre fondo celeste, con foto arquitectónica hexagonal (escalera de concreto) a la derecha — decorativa, sin texto de contenido adicional.

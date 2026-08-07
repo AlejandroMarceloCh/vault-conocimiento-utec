@@ -5,1864 +5,424 @@ slides: 126
 fuente: Semana14-Capitulo5.pdf
 ---
 
-    X2
-
-
-        Y1
-                                                                 Programación entera
-3
-
-
+## Slide 1
+Portada del capítulo: "Programación entera". Diagrama en el plano X1-X2: región factible poligonal (verde/gris) con dos subregiones marcadas Y1 (triángulo superior) e Y2 (rectángulo/región inferior), puntos enteros marcados con círculos amarillos rellenos dentro de la región factible y círculos vacíos fuera. Una línea roja diagonal representa una restricción/curva de nivel que corta la región cerca de x1≈2.6. Un punto rojo marca la solución óptima continua en (≈2.6, 2). Créditos: "©Fabien Cornillier, Investigación de operaciones 1: Modelos determinísticos" (decorativa/pie de página, se repite en varias slides).
 
+## Slide 2
+Portada de sección: "Problemas enteros clásicos" (texto negro + subtítulo rojo manuscrito "clásicos"). Sin contenido adicional.
 
-2
+## Slide 3
+Texto: "Problema de asignación (Assignment Problem)". Definición: n personas para hacer n tareas, costo c_ij, hallar asignación de costo mínimo. Sin elementos visuales adicionales (solo texto).
 
+## Slide 4
+Formulación matemática del problema de asignación:
+$$\min \sum_{i=1}^n\sum_{j=1}^n c_{ij}x_{ij}$$
+$$\text{s.t.} \sum_{j=1}^n x_{ij}=1 \quad \forall i\in\{1,...,n\}$$
+$$\sum_{i=1}^n x_{ij}=1 \quad \forall j\in\{1,...,n\}$$
+$$x_{ij}\in\{0,1\}\quad \forall (i,j)\in\{1,...,n\}^2$$
 
+## Slide 5
+Texto: "Problema de la mochila (0-1 Knapsack Problem)". Definición: presupuesto b, n proyectos, monto de inversión a_i, utilidad esperada c_i; hallar subconjunto que maximiza utilidad sin exceder presupuesto.
 
+## Slide 6
+Formulación matemática del problema de la mochila:
+$$\max \sum_{i=1}^n c_i x_i$$
+$$\text{s.t.} \sum_{i=1}^n a_i x_i \le b$$
+$$x_i \in \{0,1\}\quad \forall i\in\{1,...,n\}$$
 
-1
+## Slide 7
+Título "Bin-Packing 1D" (subtítulo rojo "1D"). Gráfico de barras (19 contenedores/bins numerados 1-19) cada uno de altura hasta 80, subdividido en segmentos con números (objetos empaquetados dentro de cada bin) que suman aproximadamente la capacidad de cada bin (ej. bin 1: 79 = 8+45+26; bin 6: 80 = 3+14+63). Ilustra el problema de empaquetado de objetos 1D en contenedores de capacidad fija.
 
+## Slide 8
+Título "2D" (rojo, manuscrito). Captura de una herramienta de optimización de corte/empaquetado 2D: un rectángulo grande contiene 40 piezas rectangulares numeradas (1-40) de distintos tamaños, acomodadas sin solaparse (packing). A la izquierda, panel de estadísticas de la herramienta: TYPE 1, FinEff, Max 95.61, Aver 95.24, Min 94.74, Time 13048/5.0, Iter 595, RAND 5, Eff 95.12, Sort 40/0, PACKING Rand 1, Eff 91.78/94.79, Best 4/0, Sort 12/0. Ilustra bin-packing 2D.
 
+## Slide 9
+Título "3D" (rojo, manuscrito). Captura de una herramienta de empaquetado 3D: contenedor tipo caja/container visto en perspectiva isométrica con 20 cajas numeradas (1-20) de distintos colores y tamaños acomodadas dentro sin solaparse. Ilustra bin-packing 3D.
 
-        Y2
-                                                  X1
-    0         1              2             3
+## Slide 10
+Título "Set covering problem" (rojo, manuscrito, esquina superior derecha). Diagrama de puntos: conjunto de ~25 puntos dispersos, algunos resaltados en azul (subconjunto seleccionado) y otros en blanco (no seleccionados/cubiertos). Ilustra el concepto base del problema de cobertura de conjuntos (selección de puntos "centro").
 
+## Slide 11
+Mismo tema "Set covering problem". Ahora se añaden círculos naranjas translúcidos (áreas de cobertura) centrados en los puntos azules, que se solapan entre sí, cubriendo el conjunto de puntos blancos. Ilustra visualmente cómo un conjunto de centros (azules) con radio de cobertura cubre todos los puntos del plano.
 
-             ©Fabien Cornillier, Investigación de operaciones 1: Modelos determinísticos
-Problemas enteros
-    clásicos
-                Problema de asignación
-                (Assignment Problem)
+## Slide 12
+Continuación "Set covering problem": variante del diagrama anterior con puntos grises adicionales (posiblemente puntos no cubiertos) y círculos naranjas de cobertura reubicados; menos puntos azules (centros) que en la slide 11, mostrando una solución de cobertura distinta/optimizada.
 
+## Slide 13
+Portada de subsección: "Explosión combinatoria" (rojo manuscrito) + "combinatoria" en negro. Sin más contenido.
 
-Tenemos n personas para hacer n tareas. Cada persona tiene que
-hacer exactamente una tarea. Hay personas más eficientes que
-otras para hacer una tarea especı́fica, ası́ tenemos un costo cij si la
-persona i es asignada a la tarea j. Hallar la asignación de costo
-mı́nimo.
-       Problema de asignación
-       (Assignment Problem)
-       n
-       XXn
-min              cij xij
-       i=1 i=1
-       Xn
-s.t.         xij = 1        8i 2 {1, . . . , n}
-       j=1
-       Xn
-             xij = 1        8j 2 {1, . . . , n}
-       i=1
-                                                     2
-             xij 2 {0, 1} 8(i, j) 2 {1, . . . , n}
-                  Problema de la mochila
-                 (0–1 Knapsack Problem)
+## Slide 14
+Título "Explosión combinatoria" con lista de los 4 problemas clásicos vistos: Problema de asignación, Problema de la mochila, Covering Problem, Traveling Salesman Problem. Anotación manuscrita roja con flecha: "¿Cuántas soluciones posibles?".
 
+## Slide 15
+"Explosión combinatoria — Problema de asignación". Gran signo de interrogación rojo (manuscrito) centrado, con texto "Asignaciones factibles" debajo — plantea la pregunta antes de dar la respuesta (slide siguiente).
 
-Tenemos un presupuesto b para invertir en varios proyectos y se
-consideran n proyectos potenciales donde ai es el monto que
-inversión para desarrollar el proyecto i, y ci el valor esperado de su
-utilidad. Hallar un subconjunto de proyectos en los cuales
-invertir sin exceder el presupuesto y maximizando el valor
-esperado de la utilidad total.
-       i=1
-                                                     2
-         xij 2 {0, 1}
-        Problema       8(i,
-                   de la    j) 2 {1, . . . , n}
-                         mochila
-       (0–1 Knapsack Problem)
+## Slide 16
+Misma cabecera "Explosión combinatoria — Problema de asignación". Respuesta mostrada en rojo grande: **n!** — "Asignaciones factibles" = n! (factorial).
 
-         n
-         X
-max            c i xi
-        i=1
-        Xn
-s.t.           ai xi  b
-         i=1
-                 xi 2 {0, 1}   8i 2 {1, . . . , n}
-Bin-Packing 1D
-2D
-3D
-Set covering
-     problem
-Set covering
-     problem
-Set covering
-     problem
- Explosión
-combinatoria
-Explosión combinatoria
-                             ¿Cuantas
-                             soluciones
-                             posibles?
+## Slide 17
+"Explosión combinatoria — Problema de la mochila y Covering Problem". Signo de interrogación rojo grande, "Combinaciones factibles" debajo (pregunta).
 
-  Problema de asignación
-  Problema de la mochila
-     Covering Problem
-Traveling Salesman Problem
-Explosión combinatoria
-     Problema de asignación
+## Slide 18
+Misma cabecera. Respuesta: **2ⁿ** en rojo grande — "Combinaciones factibles" = 2 elevado a n.
 
+## Slide 19
+"Explosión combinatoria — TSP". Signo de interrogación rojo grande, "Ciclos factibles" debajo (pregunta).
 
+## Slide 20
+Diagrama con 3 nodos numerados (1, 2, 3) dispersos, sin conexiones. Anotación roja manuscrita con flecha: "¿Cuántos caminos posibles?". Introduce el conteo de ciclos en TSP con n=3.
 
+## Slide 21
+Igual que la slide 20 pero con 4 nodos (1,2,3,4) dispersos, misma pregunta "¿Cuántos caminos posibles?" (sin responder aún).
 
-             ?
-     Asignaciones factibles
-Explosión combinatoria
-     Problema de asignación
+## Slide 22
+Con n=4 nodos: se muestran 3 grafos distintos, cada uno con las 4 aristas de un ciclo hamiltoniano distinto sobre los mismos 4 nodos (cada grafo dibuja un ciclo diferente que pasa por 1,2,3,4). Anotación roja "3" indicando que hay 3 ciclos posibles distintos con 4 nodos.
 
+## Slide 23
+5 nodos (1,2,3,4,5) dispersos sin conexiones. Pregunta "¿Cuántos caminos posibles?" (aún sin responder).
 
+## Slide 24
+Con n=5 nodos: cuadrícula de 12 grafos pequeños, cada uno mostrando un ciclo hamiltoniano distinto sobre los 5 nodos (1,2,3,4,5) con conexiones distintas entre sí. Anotación roja "12" — hay 12 ciclos hamiltonianos distintos con 5 nodos ((5-1)!/2 = 12).
 
+## Slide 25
+6 nodos (1,2,3,4,5,6) dispersos. Pregunta "¿Cuántos caminos posibles?". Anotación roja "60" ya visible como respuesta ((6-1)!/2 = 60).
 
-             n!
-     Asignaciones factibles
-Explosión combinatoria
- Problema de la mochila y Covering Problem
+## Slide 26
+12 nodos numerados (1 a 12) dispersos aleatoriamente en el plano. Pregunta "¿Cuántos caminos posibles?". Respuesta roja grande: **19,958,400** (=(12-1)!/2).
 
+## Slide 27
+"20 puntos" — ~20 puntos dispersos grises en el plano. Anotación "20 puntos" con flecha. Número gigante rojo: **6,082,255,020,4416,000** (≈6.08×10^15, factorial de ciclos con 20 nodos) — nota: el texto extraído tiene el número mal formateado en el OCR (posible salto de coma), se transcribe tal como aparece renderizado en la slide.
 
+## Slide 28
+"¿Con 100 puntos?" — solo texto, gran número (soluciones) escrito en gris/negro ocupando casi toda la slide: una cifra de aproximadamente 156 dígitos representando el número de ciclos factibles con 100 nodos, terminando en "...soluciones ..." (rojo). Ilustra la explosión combinatoria extrema.
 
+## Slide 29
+"¿Con 1000 puntos?" con anotación roja "Exactamente…". Bloque de texto denso (~20 líneas) con un número astronómico de cientos de dígitos que representa las soluciones factibles con 1000 nodos, terminando en muchos ceros y "...soluciones ..." en rojo. Tamaño de fuente pequeño para caber el número completo.
 
-                   ?
-        Combinaciones factibles
-Explosión combinatoria
- Problema de la mochila y Covering Problem
+## Slide 30
+"Explosión combinatoria — TSP". Fórmula roja grande: **(n-1)!/2** — "Ciclos factibles", resumiendo la fórmula general derivada en las slides anteriores (20-29).
 
+## Slide 31
+"Aplicación con 85,900 puntos" con anotación manuscrita roja y flecha. Imagen técnica: patrón denso de líneas azules horizontales tipo circuito impreso/VLSI (textura de rayado denso simulando un layout de circuito). Texto explicativo: "Very-large-scale integration (integración a muy gran escala): creación de circuitos integrados con miles de transistores". Ilustra aplicación real de TSP a gran escala (ruteo de VLSI).
 
+## Slide 32
+Bloque de texto gris denso ocupando casi toda la slide (columnas de dígitos ilegibles a simple vista, representando una cifra combinatoria enorme para el caso de 85,900 puntos), con un recuadro rojo resaltando una porción del número. Etiqueta roja "soluciones …" en la esquina inferior derecha. Continuación de la slide 31 (cifra de soluciones para VLSI).
 
+## Slide 33
+Título "Explosión combinatoria". Tabla con columnas n, log n, n^0.5, n², 2ⁿ, n!:
 
-                 2 n
-        Combinaciones factibles
-Explosión combinatoria
-             TSP
+| n | log n | n^0.5 | n² | 2ⁿ | n! |
+|---|---|---|---|---|---|
+| 10 | 3.32 | 3.16 | 10² | 1.02×10³ | 3.6×10⁶ |
+| 100 | 6.64 | 10.00 | 10⁴ | 1.27×10³⁰ | 9.33×10¹⁵⁷ |
+| 1000 | 9.97 | 31.62 | 10⁶ | 1.07×10³⁰¹ | 4.02×10²⁵⁶⁷ |
 
+Texto: "Un TSP con 101 nodos tiene alrededor de 9.33×10¹⁵⁷ ciclos". Compara crecimiento de distintas funciones para mostrar la explosión combinatoria de n!.
 
+## Slide 34
+"¿Un tema de potencia de computadoras?" Texto: problema de mochila (2ⁿ) con 438 objetos, computadora resuelve por fuerza bruta en 1 hora. Pregunta: "Una computadora 1,000,000 veces más rápida podrá resolver un problema con n = ? en una hora" (con "?" en rojo, sin respuesta aún).
 
+## Slide 35
+Misma pregunta que la 34, pero ahora con la respuesta: **n = 458** en negrita — muestra que aumentar la velocidad computacional 1 millón de veces solo permite crecer n de 438 a 458, ilustrando lo inútil de la fuerza bruta ante el crecimiento exponencial.
 
-            ?
-       Ciclos factibles
-            ¿Cuantos caminos
-                posibles?
-1       2
+## Slide 36
+"¿Un tema de potencia de computadoras?" Tabla con columnas n, n, n², n³, n⁵, 2ⁿ, n! (tiempos si se evalúan mil millones de soluciones/segundo):
 
+| n | n | n² | n³ | n⁵ | 2ⁿ | n! |
+|---|---|---|---|---|---|---|
+| 10 | 0.01µs | 0.1µs | 1µs | 0.1ms | 1µs | 0.0036ms |
+| 20 | 0.02µs | 0.4µs | 8µs | 3.2ms | 1ms | 77 años |
+| 50 | 0.05µs | 2.5µs | 125µs | 312.5ms | 13 días | 9.64×10⁴⁷ años |
+| 60 | 0.06µs | 3.6µs | 216µs | 777.6ms | 36.5 años | 2.64×10⁶⁵ años |
 
+Muestra cómo n! y 2ⁿ crecen inmanejablemente incluso con hardware muy rápido.
 
+## Slide 37
+Dos tablas lado a lado bajo "¿Un tema de potencia de computadoras?": izquierda "Problema con n variables binarias — si evaluamos mil millones de soluciones/segundo" (n=30→1 seg, 40→18 min, 50→13 días, 60→36 años, 70→37436 años); derecha "si evaluamos un millón de millones de soluciones/segundo y eliminamos 99.9999999% de soluciones no óptimas" (n=70→1 seg, 80→20 min, 90→14 días, 100→40 años, 110→41161 años). Compara fuerza bruta vs poda agresiva.
 
-    3
+## Slide 38
+Repite la tabla derecha de la slide 37 (millón de millones de soluciones/seg, eliminando 99.9999999% de soluciones no óptimas: n=70→1seg...110→41161 años). Pregunta manuscrita roja: "¿Cómo resolver problemas enteros grandes?" con texto: "Tenemos que eliminar mucho más que 99.99999999999999999999% de las soluciones sin evaluarlas" — plantea la necesidad de algoritmos de poda tipo Branch & Bound.
 
-        ¿Cuantos caminos
-            posibles?
+## Slide 39
+Imagen decorativa de un satélite tipo Sputnik en el espacio, con la Tierra al fondo, y textos manuscritos "ip... mip... bip..." (juego de palabras con IP/MIP/BIP — Integer/Mixed/Binary Programming — simulando el sonido de un satélite emitiendo señales). Pie: "¿Cómo resolver los programas lineales enteros, mixtos y binarios?" — transición hacia los métodos de resolución.
 
-1   2
+## Slide 40
+"Ejemplo de programa entero". Formulación:
+$$\max x_1+0.64x_2$$
+$$\text{s.t. } 50x_1+31x_2\le 250$$
+$$3x_1-2x_2\ge -4$$
+$$x_1,x_2\in\mathbb{Z}_+^2$$
+Gráfico: retícula de puntos enteros (círculos blancos) en el primer cuadrante, con una línea roja diagonal (curva de nivel de la función objetivo) que toca dos puntos enteros marcados en negro (uno arriba cerca del eje Y, otro abajo cerca del eje X), representando las dos soluciones óptimas alternativas sobre la retícula entera. También se dibuja la región factible en negro (polígono triangular irregular).
 
+## Slide 41
+Título "Redondeo de solución continua". Formulación repetida (max x1+0.64x2, s.t. 50x1+31x2≤250, 3x1-2x2≥-4). Texto: "Solución LP: (1.9637, 4.9223)"; "Redondeo: ¿cuál? ¿(2,5)? ¿(2,4)?"; "Solución entera: (5,0)". Nota roja manuscrita: "...y es aún peor para los problemas binarios". Gráfico: retícula de puntos enteros con línea roja diagonal; recuadro gris "solución LP" con flecha apuntando al punto óptimo continuo (arriba, cerca del vértice); recuadro gris "solución entera" con flecha apuntando al punto óptimo entero real (5,0) en el eje X — muestra que redondear la solución LP da un resultado muy distinto (y peor) que la verdadera solución entera óptima.
 
+## Slide 42
+Título "Programación lineal y programación lineal entera". Subtítulo rojo "Conclusión". Texto: "La idea básica que consiste en aplicar el simplex y redondear la solución óptima generalmente **no funciona**."
 
+## Slide 43
+Mismo título. Subtítulo rojo "Sin embargo…". Texto: "El simplex (u otro método como puntos interiores) es **indispensable** para los programas lineales enteros, mixtos o binarios." — transición hacia el uso de LP como subrutina (relajación).
 
-3   4
-    1       2   1       2
+## Slide 44
+Portada de sección: "Relajación lineal" con subtítulo rojo manuscrito "(LP Relaxation)". Sin más contenido.
 
+## Slide 45
+Título "Relajación lineal (o continua) (LP Relaxation)". Formulación del problema (P) en rojo:
+$$\max c^Tx+h^Ty$$
+$$\text{s.t. } Ax+Gy\le b,\; x\in\mathbb{Z}_+^n,\; y\in\mathbb{R}_+^p$$
+Anotación roja manuscrita con flecha señalando las restricciones de integralidad: "La relajación lineal R_P de P se obtiene por la supresión de las restricciones de integralidad (relajación LP)".
 
+## Slide 46
+Misma cabecera. Comparación lado a lado: (P) problema entero original (x∈Z_+^n, y∈R_+^p) a la izquierda, flecha azul hacia (R_P) relajación LP a la derecha (misma función objetivo y restricciones pero x∈R_+^n en vez de Z_+^n). Etiquetas rojas "problema entero original" / "relajación LP" debajo de cada formulación.
 
+## Slide 47
+Retoma "Ejemplo de programa entero" (mismo enunciado de knapsack 2D: max x1+0.64x2, s.t. 50x1+31x2≤250, 3x1-2x2≥-4). Gráfico con retícula de puntos enteros, línea roja diagonal; recuadro "Solución de la relajación lineal (Rp)" con flecha al punto óptimo continuo (arriba); recuadro "solución de (P)" con flecha al punto óptimo entero real (abajo, en el eje X) — repite la comparación LP vs entero de la slide 41 en este contexto de relajación.
 
-    3       4   3       4
+## Slide 48
+Título "Relajación lineal (o continua) (LP Relaxation)". Texto/teorema: "Si F(P) es el espacio de soluciones factibles de P, entonces: F(P) ⊆ F(R_P)." (solo texto, sin gráfico).
 
+## Slide 49
+Título rojo "Límite superior de un problema P de maximización". Teorema: "Si (x*,y*) es una solución óptima de P y (x̄,ȳ) es una solución óptima de R_P, entonces: c^Tx̄+h^Tȳ ≥ c^Tx*+h^Ty*." Conclusión: "El valor óptimo de R_P es un límite superior de P."
 
+## Slide 50
+Mismo título rojo "Límite superior de un problema P de maximización". Texto: "El valor óptimo de R_P es un límite superior de P. Cuanto más pequeño sea F(R_P), el límite superior obtenido resolviendo R_p está más cerca del valor óptimo de P." (solo texto).
 
+## Slide 51
+Texto centrado: "Un mismo problema se puede formular de varias formas distintas". Subtítulo rojo manuscrito: "Una formulación puede ser mejor que otra". Sin gráficos.
 
-        1           2
+## Slide 52
+Sin título visible (continuación conceptual). Gráfico en el plano con retícula de puntos enteros (círculos blancos, algunos en rojo relleno formando un pentágono irregular). Se dibujan 3 polígonos superpuestos: P1 (triángulo grande, rotado), P2 (rectángulo/polígono mediano) y P3 (pentágono pequeño formado exactamente por los puntos rojos, ajustado a la envolvente de los puntos enteros factibles). Ilustra 3 formulaciones distintas (P1, P2, P3) de la misma región factible entera.
 
+## Slide 53
+Título rojo "Envolvente convexa de P". Mismo gráfico de la slide 52 (P1, P2, P3 superpuestos con puntos rojos). A la derecha: fórmula F(R_P3) ⊆ F(R_P1) y F(R_P3) ⊆ F(R_P2), con flecha azul hacia abajo señalando la conclusión: "La formulación P3 es mejor que las formulaciones P1 y P2." y "P3 es la envolvente convexa de P".
 
+## Slide 54
+Mismo título y gráfico (P1, P2, P3). Texto a la derecha: "La envolvente convexa P3 es la formulación ideal de P"; "Un punto extremo (y entero) de P3 es solución óptima de P"; en negrita: "Si resolvemos la relajación lineal de P3 obtenemos una solución óptima entera de P".
 
+## Slide 55
+Mismo gráfico (P1, P2, P3, puntos rojos). Pregunta a la derecha: "¿Podríamos determinar la envolvente convexa de P y resolver su relajación lineal para tener la solución óptima del problema entero?" — plantea la idea antes de refutarla.
 
-3       3           4
-            ¿Cuantos caminos
-                posibles?
+## Slide 56
+Título rojo "¿Porqué no determinar la envolvente convexa de P y resolver su relajación lineal?". Texto: "Identificar todas las restricciones que configuren la envolvente convexa de P es un problema generalmente mucho más difícil que el mismo problema P" — explica por qué el enfoque de la envolvente convexa no es práctico, motivando Branch & Bound.
 
-1       2
+## Slide 57
+Portada de sección: "Algoritmo de Branch & Bound" con subtítulo rojo manuscrito "Divide y vencerás". Sin más contenido.
 
+## Slide 58
+Título "Idea general". Bullets: "Queremos resolver z* = max{cx | x∈X}"; "Particionamos X en {X1,X2}"; "Entonces z* = max{z1*, z2*}". Diagrama: hexágono dividido en dos regiones (X1 amarilla, X2 verde) por una línea diagonal, con etiquetas z1* y z2* marcando cada subregión mediante líneas discontinuas — ilustra la partición del espacio de soluciones.
 
+## Slide 59
+Mismo título "Idea general" y mismo diagrama (ahora solo la región X1 amarilla se muestra completa, X2 removida/oculta). Bullets adicionales: "Si z1* > z2* es inútil explorar X2"; "No hay solución óptima en X2." Fórmula en el diagrama: z1* > z2*.
 
+## Slide 60
+Mismo título y diagrama (X1 amarilla). Bullets iguales a la slide 59 más uno nuevo: "¿Cómo saber que es inútil explorar X2 sin calcular z2*?" — plantea la necesidad de un límite superior (bounding) sin resolver X2 directamente.
 
-    5
-3       4
-1       2   1        2   1       2
-                                     1       2
+## Slide 61
+Mismo título y diagrama de las slides 59-60 (X1 amarilla, X2 verde, z1*>z2*). Bullets iguales más uno nuevo final: "Podemos determinar un límite superior de z2*. ¿Cómo?" — cierra la idea de bounding antes de pasar al ejemplo gráfico con B&B sobre el ejemplo de knapsack.
 
+## Slide 62
+Sin título. Gráfico X1-X2 con región factible verde (polígono irregular), retícula de puntos enteros (amarillos dentro, blancos fuera). Línea roja diagonal "función objetivo" con flecha indicando dirección de crecimiento (hacia arriba-derecha). Introduce el ejemplo gráfico de Branch & Bound sobre el problema entero de las slides 1/40/47.
 
-    5           5            5
-                                         5
-3       4   3        4   3       4
-                                     3       4
+## Slide 63
+Mismo gráfico. Anotaciones rojas: "ramificación sobre la variable x2" (flecha a línea discontinua horizontal en x2≈2.6) y "solución continua" (flecha al punto rojo, intersección de la línea objetivo con el borde de la región, arriba a la derecha) — muestra el primer paso de ramificación de B&B sobre x2.
 
-1       2
-            1        2   1       2
-                                     1       2
+## Slide 64
+Región dividida en dos subregiones: Y1 (triángulo verde oscuro, arriba, x2≥3) e Y2 (pentágono verde claro/oscuro, abajo, x2≤2), separadas por la línea discontinua horizontal. Anotaciones: "ramificación sobre la variable x2" y "resolución del problema relajado sobre Y2" (apunta a la región Y2). Punto rojo en el borde de Y1/línea objetivo.
 
+## Slide 65
+Mismo diagrama con Y1/Y2. Anotación "solución continua" ahora apunta a un nuevo punto rojo (intersección de la línea objetivo con el borde de Y2, en x2=2) — resultado de resolver la relajación LP sobre Y2.
 
-    5
-                5            5
-3       4                                5
-            3        4   3       4
-                                     3       4
+## Slide 66
+Mismo diagrama Y1/Y2. Nueva anotación roja "ramificación sobre la variable x1" con flecha a una línea discontinua vertical (en x1≈2.6) — segunda ramificación, ahora sobre x1 dentro de la región relajada.
 
-1       2
-            1        2   1       2
-                                     1       2
+## Slide 67
+Mismo diagrama, ahora con una subregión rectangular verde oscuro más pequeña delimitada además por la línea discontinua vertical (x1≤2), y región clara (x1≥3, vacía/descartada) a la derecha. Punto rojo en la esquina (2,2) — solución continua tras ramificar sobre x1.
 
+## Slide 68
+Texto rojo "ahora tenemos que averiguar si una mejor solución entera existe sobre Y1" (a la izquierda). Diagrama: mismo Y1 (triángulo)/Y2 (rectángulo verde), con un punto azul relleno en (2,2) marcado como "primera solución entera" (anotación roja con flecha) — se ha encontrado la primera solución entera factible.
 
-    5
-                5            5
-3       4                                5
-            3        4   3       4
-                                     3       4
+## Slide 69
+Mismo diagrama y punto azul (2,2). Anotación "solución continua" ahora señala el punto rojo en la parte superior (intersección con Y1, arriba, cerca de x2=3) — se continúa evaluando la rama Y1 para ver si mejora la solución entera encontrada.
 
+## Slide 70
+Mismo diagrama. Nueva anotación roja "ramificación sobre la variable x1" con flecha a línea discontinua vertical en la parte superior (sobre Y1) — se ramifica nuevamente sobre x1 dentro de la subregión Y1 para verificar si existe mejor solución entera.
 
+## Slide 71
+Mismo diagrama Y1(triángulo)/Y2(rectángulo verde), punto azul en (2,2). Anotaciones: "solución continua" (apunta al punto rojo arriba, en la intersección con Y1 tras la ramificación x1) y "ramificación sobre la variable x1" (línea discontinua vertical arriba); a la izquierda, texto rojo "el límite superior no permite podar Y1" — el límite superior de Y1 sigue siendo mejor que la solución entera actual, por lo que no se poda.
 
+## Slide 72
+Mismo diagrama. Punto azul ahora también en (1,3) marcado "segunda solución entera" (anotación roja con flecha) — nueva solución entera encontrada al explorar Y1. Texto izquierdo: "solución sobre Y2 mejor que solución sobre Y1 (solo un poquito…)" — compara el valor de la 2ª solución entera (Y1) con la 1ª (Y2), casi empatadas.
 
-                12
-                ¿Cuantos caminos
-                    posibles?
+## Slide 73
+Título "Problema original X". Formulación:
+$$\max -x_1+2x_2$$
+$$\text{s.t. } -4x_1+6x_2\le 9,\; x_1+x_2\le 4,\; (x_1,x_2)\in\mathbb{Z}_+^2$$
+Nota: función objetivo distinta a la de las slides 1-72 (nuevo ejemplo numérico para desarrollar el algoritmo Branch & Bound paso a paso con tablas).
 
-1           2
+## Slide 74
+Título "Inicialización". Misma formulación (X). A la derecha: "Z*=+∞"; "Subproblemas activos: X" — estado inicial del algoritmo B&B antes de resolver nada.
 
-    6
+## Slide 75
+Título "Resolución de la relajación LP de X". Misma formulación. A la derecha: Z*=+∞, Subproblemas activos: recuadro verde "X". Abajo: "Solución LP: (1.5, 2.5)"; "Z*(LP(X)): 3.5" — primer bound superior calculado.
 
+## Slide 76
+Título "Ramificación de X sobre x2". Misma formulación (X). A la derecha: "Dos nuevos subproblemas: x2 ≤ ⌊x2*⌋=2 (Y1); x2 ≥ ⌈x2*⌉=3 (Y2)". Abajo: Solución LP: (1.5,2.5), Z*(LP(X)):3.5 — se ramifica sobre x2.
 
-        5
+## Slide 77
+Título "Resolución de la relajación LP de Y1". Formulación (Y1) añade x2≤2. A la derecha: Z*=+∞; Subproblemas activos (recuadro amarillo): X, Y1, Y2. Abajo: "Solución LP: (0.75, 2.0)"; "Z*(LP(Y1)): 3.25".
 
-3           4
+## Slide 78
+Título "Resolución de la relajación LP de Y2". Formulación (Y2) añade x2≥3. A la derecha: Z*=+∞; Subproblemas activos: X (amarillo), Y1 (amarillo), Y2 (gris, indicando resuelto/descartado). Abajo: "Solución LP: No factible" — Y2 se elimina por infactibilidad.
 
-    60
-                                  ¿Cuantos caminos
-                                      posibles?
-            7                10
+## Slide 79
+Título "Ramificación de Y1 sobre x1". Formulación (Y1) con x2≤2. A la derecha: "Dos nuevos subproblemas: x1≤⌊x1*⌋=0 (Y1,1); x1≥⌈x1*⌉=1 (Y1,2)". Abajo: Solución LP: (0.75,2.0), Z*(LP(Y1)):3.25.
 
-                     8
-1                2
+## Slide 80
+Título "Resolución de la relajación LP de Y1,1". Formulación (Y1,1) añade x1≤0. A la derecha: Z*=+∞; Subproblemas activos (recuadro amarillo): X, Y1, gris: Y2, amarillo: Y1,1, Y1,2. Abajo: "Solución LP: (0, 1.5)"; "Z*(LP(Y1,1)): 3.0".
 
-    6                    9
+## Slide 81
+Título "Resolución de la relajación LP de Y1,2". Formulación (Y1,2) añade x1≥1. A la derecha: Z*=3.0 (ya hay solución entera); Subproblemas activos (recuadro amarillo): X, Y1, gris Y2, amarillo Y1,1, gris Y1,2. Abajo: "Solución LP: (1.0, 2.0)"; "Z*(LP(Y1,2)): 3.0".
 
-            12               11
-        5
+## Slide 82
+Título "Eliminación de Y1,1". Misma formulación (Y1,1). Anotación roja manuscrita: "Relajación Z*(LP(Y1,1)) no mejor que Z*" con flechas señalando Z*=3.0 y la solución LP (0,1.5), Z*(LP(Y1,1))=3.0. Subproblemas activos: X, Y1 (amarillos), Y2/Y1,1/Y1,2 (grises) — Y1,1 se elimina por bounding (no mejora Z*).
 
-3                4
+## Slide 83
+Título "Eliminación de Y1". Texto: "Mejor solución entera de Y1 = 3.0". A la derecha: Z*=3.0; Subproblemas activos: X (amarillo), Y1/Y2/Y1,1/Y1,2 (todos grises, ya resueltos/eliminados) — se cierra la rama Y1.
 
+## Slide 84
+Título "Eliminación de X". Texto: "Mejor solución entera de X = 3.0". A la derecha: Z*=3.0; Subproblemas activos: todos grises (X, Y1, Y2, Y1,1, Y1,2) — el algoritmo termina, la solución óptima entera del problema X es Z*=3.0.
 
+## Slide 85
+Título "Enumeración implícita". Definición formal: "Para resolver z*=max{cx|x∈X}: particionamos el espacio factible X en {Y1,...,Yn}; para cada parte Yi calculamos un límite superior z*_LP(Yi) del valor óptimo z*(Yi); si z*_LP(Yi) es menor que la mejor solución ya encontrada, podamos Yi; sino, particionamos recursivamente Yi." (solo texto, resumen del método).
 
+## Slide 86
+Título "Algoritmo". Texto: "A cada paso del algoritmo, tenemos que mantener: una lista de subproblemas activos (no resueltos o no eliminados); el valor Z* de la mejor solución encontrada; el valor inicial de Z* es -∞ o cᵀx para un valor x factible conocido" (solo texto).
 
-    19,958,400
-                20 puntos
+## Slide 87
+Título "Algoritmo". Lista numerada (1-5) con el pseudocódigo completo de Branch & Bound: (1) elegir subproblema activo Yi de la lista, sino terminar; (2) resolver relajación lineal de Yi, si no factible eliminar y volver a 1; (3) si Z_LP(Yi)≤Z* eliminar Yi y volver a 1; (4) si LP(Yi) es solución entera mejor que Z*, actualizar Z*←Z_LP(Yi) y volver a 1; (5) si Z_LP(Yi) no es solución entera, resolver Yi directamente o particionar y agregar a la lista, volver a 1. Anotación roja manuscrita junto al paso 4: "hubiera sido eliminado antes si fuera una solución entera no mejor".
 
+## Slide 88
+Portada de subsección: "Estrategias de recorrido" con subtítulo "Ejemplo simplificado". Sin más contenido.
 
+## Slide 89
+Título "Breadth-First" (recuadro izquierdo). Árbol binario de búsqueda con nodos etiquetados A-Q: raíz A (60.75, solución fraccional) se ramifica en B (60.0, fraccional) y C (57.3, fraccional); B→D(55.5,fraccional)/E(57,fraccional); C→F(55.7,fraccional)/G(55.5,solución entera); D→H(55.5,fraccional)/I(55.2,fraccional); E→J(No factible)/K(55.8,solución entera); F→L(55.2,solución entera)/M(No factible); H→N(55.2,entera)/O(54.9,entera); I→P(54.9,fraccional)/Q(54.9,entera). Ilustra el árbol completo de B&B para el recorrido en anchura.
 
+## Slide 90
+Mismo árbol y título "Breadth-First" (repetición de la slide 89, sin números de orden todavía) — transición antes de mostrar la numeración.
 
-6,082,255,020,4416,000
-               ¿Con 100 puntos?
+## Slide 91
+Mismo árbol "Breadth-First". Ahora cada nodo tiene un círculo de color con número indicando orden de exploración: verde = explorado/activo (A=1, B=2, C=3, D=4, E=5, F=6, G=7, J=8, K=9) y rojo = podado/descartado sin numerar (H, I, L, M, N, O, P, Q, y su continuación). Muestra el recorrido nivel por nivel (BFS): se exploran todos los nodos del nivel 1, luego nivel 2, etc.; los rojos se podan por bounding/infactibilidad sin explorarlos más.
 
-46663107721972076340849619428133350245357984132190
-81073429648194760879999661495780447073198807825914
-31268489604136118791255926054584320000000000000000
-000000 soluciones …
-Explosión combinatoria
-             TSP
+## Slide 92
+Título "Best-First". Mismo árbol base A-Q, sin números de orden aún (recién presentado el criterio).
 
+## Slide 93
+Mismo árbol "Best-First" con numeración de orden en círculos verdes/rojos: A=1, B=2, C=3, D=4, E=5, F=6, G=7, J=8, K=9 (idéntica secuencia que Breadth-First en este ejemplo simplificado, ya que en el primer nivel best-first coincide con breadth-first al tener pocos nodos con bounds similares).
 
+## Slide 94
+Título "Depth-First". Mismo árbol base, sin números de orden aún.
 
+## Slide 95
+Mismo árbol "Depth-First" con numeración de orden en círculos verdes/rojos: A=1, B=2, D=3, H=4, N=5, O=6, I=7, P(rojo, no numerado), Q(rojo), J=9, K=10, E=8, C=11, F=12, L(rojo), M(rojo), G=13 — recorre primero en profundidad una rama completa (A→B→D→H→N→O...) antes de retroceder, a diferencia de BFS/Best-First que exploran por niveles.
 
-   (n–1)! / 2
-       Ciclos factibles
-Exactamente…
-                               ¿Con 1000 puntos?
-2011936300385468867718512169615019928596874321053573162718999552149692561993145102960221042434847024002399
-9430509859802931583343649740427945066191483497229549871225204353687995941181386359436625988975297549763806
-0437487731248521800709139047323248145528196943718943243668559590522912891823924988506238316444917977867716
-2565926619792315377787045571312087371746737767143232883058338986983344101456036895719268597941249040634339
-1918727986587306804268976726211079329660096404543914865421569642220164061577930551848840067865210808437380
-4837935674156012739294660383584566224213118065706254390104000130841575513670913988852392317934085082182512
-0768456991406324051065463806224481799643525574824877099546711107834162860404106665930584057768079182734920
-2335448780145047526880823792386421094483982312247258038267670409945069272124399247997665955086167777830106
-9725199868140375068918807653563880963424517176312600007944267573665805851051984087960755453894009696589057
-0972726286119327707305314460939801119194857380442531384314835733373487814556170412196040800768904449469822
-5913162183580838108958445488995595187701563731114499400259772220714100609368087299632147829087331415147778
-5149512162076590808605232916018393453058630079391760375758142112770132585241652113071987143466530845448984
-2412950627291635841132290332633849793263411364035378906959290894448261040821741724129966330216838300884998
-0641593039419307513973297756557827601804699409030606927930015071784726361210317231589873029734128655189504
-2012216219232828622507201410942626235467595310464511568246636748782756979360279827114374887005706673481357
-7114229311886937691152419328444882309636919074500703836552233201299497451111108829521699509430092832632425
-3089985117809694850893002040594486495915551058561492295082096053444219356092782306248039936145425964840968
-6194321307419828691145561562512093324676571985068714265963324937668609470347140717059260079007061672414007
-5256998471450767415388222845495365762166391441349323013949321605695417531085475012986949317771385983714111
-2437879338287617211010378681528474941254398446408137692443169845497991314047806072549743585062225823063018
-9514654560444543471014255320091077199728578402970936374499047127371086791200531838702297870892580414615067
-6790409200484981862621152804279518503121356217084545020768450529669919178889697054850138767360000000000000
-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-000000000000000000000 soluciones …
-   Aplicación con
-   85,900 puntos
+## Slide 96
+Portada de subsección: "Otra idea: algoritmo de plano de corte" (rojo manuscrito) con subtítulo "Acercándonos a la envolvente convexa". Sin más contenido.
 
+## Slide 97
+Título "Restricción válida". Definición formal: "Se dice de una restricción πᵀx≤π0 que es válida para el programa P cuando está satisfecha por cualquier solución del espacio factible de P": C={πᵀx≤π0} válida para P ⟺ [x'∈F(P) ⟹ πᵀx'≤π0].
 
+## Slide 98
+Título "Plano de corte". Definición: "Sea P' el problema P al cual se agrega una restricción C válida para P. La restricción C es un plano de corte para P si F(R_P')⊂F(R_P)." (solo texto).
 
+## Slide 99
+Título "Corte válido". Definición: "Un plano de corte C={πᵀx≤π0} es un corte válido para x̄∈R_p si πᵀx̄>π0." (solo texto).
 
-Very-large-scale integration (integración a muy
-gran escala): creación de circuitos integrados
-con miles de transistores
-soluciones …
-    Explosión combinatoria
+## Slide 100
+Título "Algoritmo del plano de corte" (negro, con "plano de corte" en negrita). Sin más contenido (portada de la sección del algoritmo).
 
-   n     log n     n0.5   n2         2n             n!
-   10     3.32    3.16    102    1.02 x 103     3.6 x 106
-  100     6.64    10.00   104    1.27 x 1030   9.33 x 10157
-  1000    9.97    31.62   106   1.07 x 10301   4.02 x 102567
+## Slide 101
+Portada: "Ejemplo: Problema de la mochila". Sin más contenido.
 
+## Slide 102
+Título "Problema de la mochila". Formulación:
+$$\max 8x_1+11x_2+6x_3+4x_4$$
+$$\text{s.t. } 5x_1+7x_2+4x_3+3x_4\le 14,\; x_i\in\{0,1\}\;\forall i=\{1,...,4\}$$
+Texto: "Averiguar que las restricciones siguientes son planos de corte:" x1+x2+x3≤2; x1+x2+x4≤2.
 
-Un TSP con 101 nodos tiene al rededor de 9.33 x 10157 ciclos
-¿Un tema de potencia de computadoras?
+## Slide 103
+Mismo título "Problema de la mochila". Definiciones formales: "Definición: Un conjunto C⊂{1,...,n} tal que Σ_{i∈C} wᵢ>W es una cobertura."; "Definición: Sea una cobertura C. Si para cualquier elemento j∈C el conjunto C\{j} no es una cobertura, C es una cobertura mínima."; "Proposición: Sea C una cobertura mínima, la restricción Σ_{i∈C}xᵢ≤|C|-1 es un corte válido." Anotación roja manuscrita: "Se tiene que remover cualquier elemento de C para satisfacer la restricción de capacidad".
 
+## Slide 104
+Título "Ejercicio". Texto: "Consideramos el problema de mochila siguiente:" X={x∈B⁷: 11x1+6x2+6x3+5x4+5x5+4x6+x7≤19}. Lista: "1. Identificar unas coberturas; 2. Identificar coberturas mínimas; 3. Escribir los cortes válidos correspondientes (las restricciones de corte)".
 
-   Tomamos un problema de mochila (2n) con 438 objetos y una
-  computadora capaz de resolverlo en una hora por fuerza bruta.
+## Slide 105
+Mismo enunciado del ejercicio. Ahora con la solución a la derecha: "Some cover inequalities for X are:" x1+x2+x3≤2; x1+x2+x6≤2; x1+x5+x6≤2; x3+x4+x5+x6≤3 — cuatro restricciones de corte derivadas de coberturas mínimas del problema.
 
+## Slide 106
+Título "Estrategia". Lista numerada (1-4): "1. Resolver R_P y obtener la solución continua x̄; 2. Si x̄∈Zⁿ, tenemos la solución óptima del programa entero, se termina el algoritmo; 3. Determinar un corte válido C para x̄ y P; 4. Agregar la restricción C al programa P y volver al paso 1." Anotación roja manuscrita con círculo alrededor del paso 3 y flecha: "problema de separación: paso más importante".
 
+## Slide 107
+Texto centrado (solo texto, sin título de sección visible): "Algoritmo de plano de corte cuando un problema se formula con un número exponencial de restricciones" — transición hacia el ejemplo del TSP.
 
- Una computadora 1.000.000 veces más rápida podrá resolver un
-               problema con n = ? en una hora
-¿Un tema de potencia de computadoras?
+## Slide 108
+Portada: "Ejemplo: TSP". Sin más contenido.
 
+## Slide 109
+Título "Problema del viajante de comercio (Traveling Salesman Problem – TSP)". Diagrama: grafo completo K5 con 5 nodos numerados 1-5 (nodos 1,3 arriba; 2,4 abajo; 5 a la derecha), todas las aristas dibujadas entre cada par de nodos. Anotación roja manuscrita "Grafo" señalando el diagrama. Texto a la derecha: "Objetivo: Hallar el ciclo hamiltoniano más corto… …el tour (o un tour) de menos costo que pasa por cada nodo exactamente una vez".
 
-   Tomamos un problema de mochila (2n) con 438 objetos y una
-  computadora capaz de resolverlo en una hora por fuerza bruta.
+## Slide 110
+Continuación del grafo TSP: ahora solo se muestran resaltadas en azul las aristas de un tour específico (1-3, 3-5, 5-4, 4-2, 2-1), formando un ciclo hamiltoniano (pentágono irregular: 1→3→5→4→2→1). Texto: "Para determinar las aristas que utilizar en el tour, definimos las variables binarias xᵢⱼ: xᵢⱼ=1 si se utiliza la arista (i,j), xᵢⱼ=0 sino". Valores manuscritos rojos de ejemplo: x1,2=1; x1,3=1; x1,4=0; x1,5=0; x2,3=…
 
+## Slide 111
+Sin título de sección visible. Fórmula manuscrita roja "Costo de cada arista" con flecha a c_ij en min Σ_{ij∈E} c_ij x_ij; anotación roja "Minimizar el costo total de las aristas seleccionadas" con flecha a la fórmula completa. Debajo, grafo pequeño con nodos 1,3 (arriba), 2,4,5 (abajo/derecha) y solo 3 aristas dibujadas (1-2, 2-3, 4-5, faltando conexión con nodo 3 y 5 completa) — pregunta roja "¿Esa solución es factible? ¿Porqué?" — introduce que solo minimizar costo de aristas no garantiza un tour válido (puede dar componentes desconectados).
 
+## Slide 112
+Fórmula completa: min Σc_ij x_ij s.r. Σ_{ij∈δ(i)} x_ij=2 ∀i∈V; x_ij∈{0,1} ∀ij∈E. Anotaciones rojas: "Minimizar el costo total de las aristas seleccionadas" (flecha a la función objetivo) y "De tal manera que cada nodo tenga 2 aristas adyacentes" (flecha a la restricción de grado 2). Primer intento de formulación del TSP (solo restricción de grado, sin eliminación de subciclos).
 
- Una computadora 1.000.000 veces más rápida podrá resolver un
-              problema con n = 458 en una hora
-¿Un tema de potencia de computadoras?
-                       Si una computadora puede
-                         evaluar mil millones de
-                        soluciones por segundo:
+## Slide 113
+Mismo modelo. Grafo con nodos 1,2,3,4,5 y aristas resaltadas en azul formando un pentágono (ciclo válido). Anotaciones rojas "Nodo 1" y "Nodo 4" señalando esos nodos específicos, con recuadro rojo resaltando la restricción de grado. Verifica que cada nodo tenga exactamente 2 aristas en la solución.
 
- n      n       n2       n3       n5         2n             n!
- 10   0.01µs   0.1µs     1µs     0.1ms      1µs          0.0036ms
- 20   0.02µs   0.4µs     8µs     3.2ms      1ms           77 años
- 50   0.05µs   2.5µs    125µs   312.5ms    13 días    9.64 x 1047 años
- 60   0.06µs   3.6µs    216µs   777.6ms   36.5 años   2.64 x 1065 años
-¿Un tema de potencia de computadoras?
-      Problema con n        Si podemos evaluar un
-     variables binarias     millón de millones de
-                            soluciones por segundo y
-   Si podemos evaluar mil   eliminar inmediatamente
-   millones de soluciones   99.9999999% de las
-   por segundo              soluciones no óptimas
-      n         Tiempo          n         Tiempo
-      30      1 segundo        70       1 segundo
-      40      18 minutos       80       20 minutos
-      50        13 días        90         14 días
-      60        36 años        100        40 años
-      70      37436 años       110      41161 años
-¿Un tema de potencia de computadoras?
-                                    Si podemos evaluar un
-                                    millón de millones de
-        ¿Cómo resolver              soluciones por segundo y
-      problemas enteros             eliminar inmediatamente
-           grandes?                 99.9999999% de las
-                                    soluciones no óptimas
-  Tenemos que eliminar mucho            n         Tiempo
-             más que                   70       1 segundo
-  99.99999999999999999999%             80       20 minutos
- de las soluciones sin evaluarlas      90         14 días
-                                       100        40 años
-                                       110      41161 años
-                                 ip…
-                                        mip…
-                                          bip…
+## Slide 114
+Texto en post-it rojo: "En un circuito cada nodo es de grado 2 (cada nodo tiene 2 aristas incidentes)". Debajo, pregunta: "Si cada nodo es de grado 2, ¿tenemos un circuito???" — plantea la falla lógica de la primera formulación (grado 2 no implica un único ciclo).
 
+## Slide 115
+Título "Cada nodo tiene 2 aristas incidentes, pero…". Diagrama: dos triángulos separados, nodos {1,2,3} formando un triángulo (grado 2 cada uno) y nodos {4,5,6} formando otro triángulo — cada nodo tiene grado 2 pero la solución consta de dos subciclos separados en vez de un único tour de 6 nodos. Anotación roja "No es una solución factible" señalando el grafo. Etiqueta "Subciclos".
 
+## Slide 116
+Título "Eliminar las soluciones con subciclos: añadir nuevas restricciones" (rojo manuscrito para la segunda parte). Mismo diagrama de dos triángulos {1,2,3} y {4,5,6}.
 
+## Slide 117
+Título "Eliminar los subciclos es impedir cualquier ciclo para cada subconjunto de puntos del grafo". A la derecha, ejemplo con el subconjunto {1,2,3} (triángulo) resaltado con un óvalo rojo. Fórmula: x1,2+x1,3+x2,3=3 → flecha azul hacia abajo → "añadir la restricción" x1,2+x1,3+x2,3<3. Anotación roja: "Ejemplo, para el subconjunto {1,2,3} rechazamos cada solución que contiene 3 o más aristas".
 
-¿Cómo resolver los programas lineales enteros, mixtos y binarios?
-        8                   9
-        <X                  =
-   Ejemplo
- mı́n
- S✓N :
-           de;programa entero
-               cj : S 2 F
-         j2S
+## Slide 118
+Mismo esquema, ahora con el subconjunto {4,5,6} resaltado con óvalo rojo. Fórmula: x4,5+x4,6+x5,6=3 → "añadir la restricción" x4,5+x4,6+x5,6<3. Anotación: "Ejemplo, para el subconjunto {4,5,6} rechazamos cada solución que contiene 3 o más aristas adyacentes".
 
+## Slide 119
+Título "Segundo intento: Costo de cada arista". Formulación completa con restricción de eliminación de subciclos añadida:
+$$\min \sum_{ij\in E} c_{ij}x_{ij}$$
+$$\text{s.r. } \sum_{ij\in\delta(i)} x_{ij}=2\;\forall i\in V,\quad \sum_{ij\in E(S)} x_{ij}\le |S|-1\;\forall S\subset V,\quad x_{ij}\in\{0,1\}\;\forall ij\in E$$
+Anotaciones rojas: "Minimizar el costo total de las aristas seleccionadas"; "De tal manera que cada nodo tenga 2 aristas adyacentes"; "Restricciones de eliminación de subciclos". Pequeño diagrama de los dos triángulos {1,2,3}/{4,5,6} abajo a la izquierda.
 
-max     x1 + 0.64x2
-s.t.    50x1 + 31x2  250
-          3x1      2x2      4
-                             2
-                x 1 , x2 2 Z +
+## Slide 120
+Título "Problema del viajante de comercio (Traveling Salesman Problem – TSP)". Formulación completa alternativa (formulación clásica de asignación con eliminación implícita, sin subtour aún):
+$$\min \sum_{i=1}^n\sum_{j=1}^n c_{ij}x_{ij}$$
+$$\text{s.t. } \sum_{j:j\ne i} x_{ij}=1\;\forall i,\quad \sum_{i:i\ne j} x_{ij}=1\;\forall j,\quad x_{ij}\in\{0,1\}\;\forall(i,j)$$
+Recapitula la formulación básica de asignación del TSP antes de agregar restricciones de eliminación de subciclos.
 
+## Slide 121
+Sin título de sección. Formulación completa del "Segundo intento" (min Σc_ij x_ij, restricción de grado=2, restricción de eliminación de subciclos Σx_ij≤|S|-1, x_ij binaria). Preguntas rojas manuscritas: "¿Cuántas variables?" (flecha a x_ij en la función objetivo), "¿Cuántas restricciones de grado?" (flecha a la restricción de grado), "¿Cuántas restricciones de eliminación de subciclos?" (flecha a la restricción de subciclos) — plantea las 3 preguntas antes de responderlas.
 
-               1
+## Slide 122
+Misma formulación. Respuesta roja a la derecha: "n(n-1)/2 variables" — responde solo la primera pregunta (número de variables xᵢⱼ, combinaciones de pares de nodos).
 
-           <X                  =
-    mı́n          cj : S 2 F
-   S✓N :                       ;
-  Redondeo de solución continua
-            j2S
+## Slide 123
+Misma formulación. Respuestas rojas: "n(n-1)/2 variables" y "n restricciones de grado" (una por cada nodo i∈V).
 
+## Slide 124
+Misma formulación. Respuestas rojas completas: "n(n-1)/2 variables"; "n restricciones de grado"; "2^(n-1) restricciones de eliminación de subciclos" — cierra las 3 preguntas, mostrando que las restricciones de subciclos crecen exponencialmente con n (2^(n-1) subconjuntos posibles de V).
 
-                                                solución LP
-  max      x1 + 0.64x2
-  s.t.
-  Solución50x    +  31x
-           LP: (1.9637,
-               1         2  250
-                        4.9223)
+## Slide 125
+Misma formulación (min Σc_ij x_ij, restricciones de grado y subciclos). A la derecha: "Con n=100:" seguido de "4950 variables"; "100 restricciones de grado"; "~6.338×10²⁹ restricciones de eliminación de subciclos" — instancia numérica que muestra la explosión combinatoria real de las restricciones de subciclos incluso para un TSP de tamaño moderado (n=100).
 
-            3x1 ¿(2,2x
-Redondeo: ¿cuál?                 4
-                     5)?2 ¿(2, 4)?
-                               2
-                   x1 ,0)x2 2 Z+
-  Solución entera: (5,
-                                     solución
-    … y es aún peor para             entera
-    los problemas binarios
-                  1
-Programación lineal y programación lineal entera
-
-
-                       Conclusión
-
-         La idea básica que consiste en aplicar el
-         simplex y redondear la solución óptima
-         generalmente no funciona.
-Programación lineal y programación lineal entera
-
-
-                       Sin embargo…
-
-        El simplex (u otro método como puntos
-        interiores) es indispensable para los
-        programas lineales enteros, mixtos o binarios.
-Relajación lineal
-   (LP Relaxation)
-   s.t.       Ax  b
-               Relajación
-                     n    lineal (o continua)
-               x 2 Z+
-                      (LP Relaxation)
-
-          (P)
-          T        T         La relajación lineal RP de P se obtiene
-max       c x+h y
-                             por la supresión de las restricciones
-                                 de integralidad (relajación LP)
-s.t.      Ax + Gy  b
-                       n
-                  x 2 Z+
-                       p
-                  y 2 R+
-                                                              n
-   s.t.       Ax  b                                     x 2 Z+
-               Relajación lineal (o continua)                 p
-               x 2 Z+n                                   y 2 R+
-                      (LP Relaxation)
-
-          (P)                              (RP)
-                                             T           T
-max       T
-          c x+h y  T              max      c x+h y
-
-s.t.      Ax + Gy  b             s.t.     Ax + Gy  b
-                                                              n
-                       n
-                  x 2 Z+                                 x 2 R+
-                                                              p
-                       p
-                  y 2 R+                                 y 2 R+
-  problema entero original               relajación LP
-        8                   9
-        <X                  =
-   Ejemplo
- mı́n
- S✓N :
-           de;programa entero
-               cj : S 2 F
-         j2S
-                                                Solución de
-          (P)                                  la relajación
-max     x1 + 0.64x2                              lineal (Rp)
-s.t.    50x1 + 31x2  250
-          3x1      2x2      4
-                             2
-                x 1 , x2 2 Z +   solución de
-                                     (P)
-
-
-               1
-            Relajación lineal (o continua)
-                   (LP Relaxation)
-
-
-
-
-Si F (P) es el espacio de soluciones factibles de P, entonces:
-F (P) ✓ F (RP ).
-Limite superior de un problema P de maximización
-
-
-     ⇤   ⇤
-Si (x , y ) es una solución óptima de P y (x, y ) es una solución
-óptima de RP , entonces:
-                     T       T       T ⇤     T ⇤
-                    c x +h y       c x +h y .
-
-El valor óptimo de RP es un limite superior de P.
-Limite superior de un problema P de maximización
-  Un mismo problema se puede
-formular de varias formas distintas
-
-
-    Una formulación puede ser
-         mejor que otra
-3
-
-
-
-
-2
-
-
-
-
-1
-
-
-
-
-    0   1   2   3   4
-            Envolvente convexa de P
-
-3                               F (RP3 ) ✓ F (RP1 ) y F (RP3 ) ✓ F (RP2 )
-
-
-2
-                                        F (RP3 ) ✓ F (RP1 ) y F (RP3 ) ✓ F (RP2 )
-                          La formulación P3 es mejor que las formulaciones P1 y P2 .
-1
-
-
-                                  P3 es la envolvente convexa de P
-
-    0   1     2   3   4
-            Envolvente convexa de P
-
-3
-                           La envolvente convexa P3 es la
-                               formulación ideal de P
-
-2                         Un punto extremo (y entero) de P3
-                              es solución óptima de P
-1
-                          Si resolvemos la relajación lineal
-                           de P3 obtenemos una solución
-                                 óptima entera de P
-    0   1     2   3   4
-            Envolvente convexa de P
-
-3
-
-
-
-                            ¿Podríamos determinar la envolvente
-2
-                           convexa de P y resolver su relajación
-                          lineal para tener la solución optima del
-1                                    problema entero?
-
-
-
-    0   1     2   3   4
-¿Porqué no determinar la envolvente convexa de P
-         y resolver su relajación lineal?
-
-
-
-           Identi car todas las restricciones
-             que con guren la envolvente
-             convexa de P es un problema
-          generalmente mucho más difícil que
-                 el mismo problema P
-
-
-
-     fi
-fi
-Algoritmo de Branch & Bound
-         Divide y vencerás
-                     Idea general
-                   ⇤
-Queremos resolver z = max{cx|x 2 X }.
-                   {X         } ⇤ X     X
-         Queremos resolver z = max{cx|x 2 X }.
-Particionamos
-          ⇤
-              X en
-                  ⇤
-                      1
-                       ⇤
-                        , X 2
-Entonces z = max{z1 , z2 }.
-       Particionamos
-      Queremos             ⇤
-                          z {X
-                       X en
-                 resolver    = 1 ,X X   }
-                                 max{cx|x 2 X }.
-                                    1 2
-                   ⇤           ⇤    ⇤
-                        en {X11, zX22}.
-       Entonces z =Xmax{z
-      Particionamos                   }
-                                      X2
-                 ⇤           ⇤
-      Entonces z = max{z1 , z2 }. ⇤
-                         Idea general
-                   ⇤
-Queremos resolver z = max{cx|x 2 X }.
-Particionamos X en {X1 , X2 }           X
-           ⇤             ⇤
-Entonces z = max{z1 , z2 }. ⇤
-
-    ⇤    ⇤
-Si z1 > z2 es inútil explorar X2 .     X1
-No hay solución óptima en X2 .                 ⇤    ⇤
-                                             Si z1 > z2 es in
-                                             No hay solución
-                         Idea general
-                   ⇤
-Queremos resolver z = max{cx|x 2 X }.
-Particionamos X en {X1 , X2 }                    X
-           ⇤             ⇤
-Entonces z = max{z1 , z2 }. ⇤
-
-    ⇤    ⇤
-Si z1 > z2 es inútil explorar X2 .              X1
-No hay solución óptima en X2 .                                ⇤    ⇤
-                                                            Si z1 > z2 es in
-                                                      ⇤
-¿Cómo saber que es inútil explorar X2 sin calcular z2 ?   No hay solución
-                                               ⇤
-Podemos determinar una lı́mite superior de z2 . ¿Cómo?
-
-                         Idea general
-                   ⇤
-Queremos resolver z = max{cx|x 2 X }.
-Particionamos X en {X1 , X2 }                    X
-           ⇤             ⇤
-Entonces z = max{z1 , z2 }. ⇤
-
-    ⇤    ⇤
-Si z1 > z2 es inútil explorar X2 .              X1
-No hay solución óptima en X2 .                                ⇤    ⇤
-                                                            Si z1 > z2 es in
-                                                      ⇤
-¿Cómo saber que es inútil explorar X2 sin calcular z2 ?   No hay solución
-                                               ⇤
-Podemos determinar una lı́mite superior de z2 . ¿Cómo?
-                       X2
-
-
-                   3
-función objetivo
-
-
-                   2
-
-
-
-
-                   1
-
-
-
-                            X
-                                            X1
-                       0        1   2   3
-                     X2
-ramificación sobre                solución continua
-   la variable x2
-                3
-
-
-
-
-                2
-
-
-
-
-                1
-
-
-
-                          X
-                                                X1
-                     0        1   2        3
-                         X2
-    ramificación sobre
-       la variable x2
-                             Y1
-                    3
-
-
-
-
-                    2
-
-
-
-  resolución del
-problema relajado   1
-    sobre Y2
-
-                             Y2
-                                              X1
-                         0        1   2   3
-                        X2
-
-                                         solución continua
-                            Y1
-                    3
-
-
-
-
-                    2
-
-
-
-  resolución del
-problema relajado   1
-    sobre Y2
-
-                            Y2
-                                                     X1
-                        0        1   2          3
-    X2       ramificación sobre
-                la variable x1
-
-        Y1
-3
-
-
-
-
-2
-
-
-
-
-1
-
-
-
-        Y2
-                                      X1
-    0         1        2          3
-    X2       ramificación sobre
-                la variable x1
-
-        Y1
-3
-
-
-
-
-2
-
-
-
-
-1
-
-
-
-        Y2
-                                      X1
-    0         1        2          3
-                            X2               primera
- ahora tenemos que
-                                             solución
-  averiguar si una
-                                             entera
-mejor solución entera           Y1
-                        3
-   existe sobre Y1
-
-
-                        2
-
-
-
-
-                        1
-
-
-
-                                Y2
-                                                   X1
-                            0        1   2     3
- ahora tenemos que          X2
-                                             solución
-  averiguar si una                           continua
-mejor solución entera           Y1
-                        3
-   existe sobre Y1
-
-
-                        2
-
-
-
-
-                        1
-
-
-
-                                Y2
-                                                  X1
-                            0        1   2    3
-    X2               ramificación
-                       sobre la
-                      variable x1
-        Y1
-3
-
-
-
-
-2
-
-
-
-
-1
-
-
-
-        Y2
-                                X1
-    0        1   2          3
-                                 X2               ramificación
-                                                    sobre la
-                                                   variable x1
-                                     Y1
-                             3
-
-                  solución
-                  continua
-                             2
-
-
-
-
-                             1
- el límite superior
-no permite podar
-          Y1
-                                     Y2
-                                                             X1
-                                 0        1   2          3
-                                 X2
-
-
-                                     Y1
-                             3
-
-                   segunda
-               solución entera
-                             2
-
-
-
-
-solución sobre Y2 mejor      1
- que solución sobre Y1
-   (solo un poquito…)
-                                     Y2
-                                                      X1
-                                 0        1   2   3
-                     s.t.   5x1 + 7x2 + 4x3 + 3x4  14
-                                        xi 2 {0, 1}   8i = {1, . . . , 4}
-
-  x1 + x2 + x3  2
-  x1 + x2 + x4  2
-                      Problema original X
-
-                                 max       x1 + 2x2
-                                 s.t.    4x1 + 6x2  9
-                   (X)
-                                            x1 + x2  4
-                                                          2
-                                            (x1 , x2 ) 2 Z+
-
-
-
-dentificar un conjunto C ⇢ 1, . . . , n de elementos tal que:
-                                        X
-                                            w x > W,
-                   xi 2 {0, 1}   8i = {1, . . . , 4}
-
-
-                                 Inicialización
-           max       x1 + 2x2
-                                                             Z*=+∞
-           s.t.     4x1 + 6x2  9
-    (X)                                                Subproblemas activos:
-                      x1 + x2  4
-                                                               X
-                                    2
-                      (x1 , x2 ) 2 Z+
-
-
-
-o C ⇢ 1, . . . , n de elementos tal que:
-                   X
-                       wi xi > W,
-                  xi 2 {0, 1}   8i = {1, . . . , 4}
-
-
-      Resolución de la relajación LP de X
-          max        x1 + 2x2
-                                                             Z*=+∞
-           s.t.    4x1 + 6x2  9
-    (X)                                                Subproblemas activos:
-                      x1 + x2  4
-                                                               X
-                                    2
-                      (x1 , x2 ) 2 Z+
-
-
-                                   Solución LP: (1.5, 2.5)
-o C ⇢ 1, . . . , n de elementos tal que:Z*(LP(X)): 3.5
-                   X
-                       wi xi > W,
-                   xi 2 {0, 1}   8i = {1, . . . , 4}
-
-
-                 Rami cación de X sobre x2
-          max        x1 + 2x2                          Dos nuevos subproblemas:
-           s.t.     4x1 + 6x2  9                                   ⇤
-                                                             x2  bx2 c = 2   (Y1)
-    (X)
-                      x1 + x2  4                                   ⇤
-                                                             x2 dx2 e = 3     (Y2)
-                                    2
-                      (x1 , x2 ) 2 Z+
-
-
-                                   Solución LP: (1.5, 2.5)
-o C ⇢ 1, . . . , n de elementos tal que:Z*(LP(X)): 3.5
-                   X
-                       wi xi > W,
-            fi
-                    i
-
-
-
-
-      Resolución de la relajación LP de Y1
-           max          x1 + 2x2
-                                                                Z*=+∞
-   (Y1)
-           s.t.     4x1 + 6x2  9
-                                                          Subproblemas activos:
-                         x1 + x2  4
-                                                                  X
-                              x2  2                              Y1
-                                       2
-                         (x1 , x2 ) 2 R+                          Y2
-
-
-                                   Solución LP: (0.75, 2.0)
-                                       Z*(LP(Y1)): 3.25
-o C ⇢ 1, . . . , n de elementos tal que:
-                   X
-       Resolución de la relajación LP de Y2
-           max       x1 + 2x2
-                                                            Z*=+∞
-    (Y2)
-           s.t.     4x1 + 6x2  9
-                                                     Subproblemas activos:
-                      x1 + x2  4
-                                                             X
-                            x2    3                          Y1
-                                    2
-                      (x1 , x2 ) 2 R+                        Y2
-
-
-                                 Solución LP: No factible
-
-
-o C ⇢ 1, . . . , n de elementos tal que:
-                   X
-                    i
-
-
-
-
-                Rami cación de Y1 sobre x1
-           max          x1 + 2x2                     Dos nuevos subproblemas:
-
-   (Y1)
-           s.t.     4x1 + 6x2  9                                    ⇤
-                                                              x1  bx1 c = 0 (Y1,1)
-                         x1 + x2  4                                 ⇤
-                                                              x1 dx1 e = 1 (Y1,2)
-                              x2  2
-                                       2
-                         (x1 , x2 ) 2 R+
-
-                                   Solución LP: (0.75, 2.0)
-                                       Z*(LP(Y1)): 3.25
-o C ⇢ 1, . . . , n de elementos tal que:
-           fi
-                   X
-                      xi 2 {0, 1}     8i = {1, . . . , 4}
-
-2
-2       Resolución de la relajación LP de Y1,1
-             max          x1 + 2x2
-             s.t.         4x1 + 6x2  9                                Z*=+∞
-    (Y1,1)                  x1 + x2  4
-                                                                 Subproblemas activos:
-                                 x2  2
-                                                                          X
-                                 x1  0
-                                          2                              Y1
-                            (x1 , x2 ) 2 R+
-                                                                         Y2
-                                                                         Y1,1
-                                              Solución LP: (0, 1.5)      Y1,2
-unto C ⇢ 1, . . . , n de elementos tal que: Z*(LP(Y1,1)): 3.0
-                      X
-                          wi xi > W,
-                    i2C
-
-                      xi 2 {0, 1}     8i = {1, . . . , 4}
-
-2
-2       Resolución de la relajación LP de Y1,2
-             max          x1 + 2x2
-             s.t.         4x1 + 6x2  9                                 Z* = 3.0
-    (Y1,2)                  x1 + x2  4
-                                                                  Subproblemas activos:
-                                 x2  2
-                                                                           X
-                                 x1    1
-                                          2
-                                                                           Y1
-                            (x1 , x2 ) 2 R+
-                                                                           Y2
-                                                                          Y1,1
-                                              Solución LP: (1.0, 2.0)     Y1,2
-unto C ⇢ 1, . . . , n de elementos tal que: Z*(LP(Y1,2)): 3.0
-                      X
-                          wi xi > W,
-                    i2C
-                      xi 2 {0, 1}     8i = {1, . . . , 4}
-
-2
-2                              Eliminación de Y1,1
-             max          x1 + 2x2
-             s.t.         4x1 + 6x2  9                                 Z* = 3.0
-    (Y1,1)                  x1 + x2  4
-                                                                   Subproblemas activos:
-                                 x2  2            Relajación               X
-                                 x1  0          Z*(LP(Y1,1)) no
-                                          2                                Y1
-                            (x1 , x2 ) 2 R+       mejor que Z*             Y2
-                                                                           Y1,1
-                                              Solución LP: (0, 1.5)        Y1,2
-unto C ⇢ 1, . . . , n de elementos tal que: Z*(LP(Y1,1)): 3.0
-                      X
-                          wi xi > W,
-                    i2C
-              Eliminación de Y1
-                                         Z* = 3.0
-                                    Subproblemas activos:
-                                             X
-Mejor solución entera de Y1 = 3.0
-                                            Y1
-                                            Y2
-                                            Y1,1
-                                            Y1,2
-              Eliminación de X
-                                        Z* = 3.0
-                                   Subproblemas activos:
-                                            X
-Mejor solución entera de X = 3.0
-                                           Y1
-                                           Y2
-                                           Y1,1
-                                           Y1,2
-                                                                     xi 2 {0, 1}       8i = {1, . . . , 4}
-
-                           x1 + x2 + x3  2
-                           x1 + x2 + x4  2
-
-
-                                                           max           x1 + 2x2
-                                                            s.t.         4x1 + 6x2  9           Solución LP: (1.5, 2.5)
-                                                                           x1 + x2  4               Z*(LP(X)): 3.5
-
-                                                                           (x1 , x2 ) 2 Z2+                   Descartado por
-
-
-
-                                      ⇤
-                                                                                                       X       infactibilidad
-                                                                                                                           x2  bx2⇤ c = 2
-                                                                                                                           x2 dx2⇤ e = 3
-                            x2  bxun
-                        Identificar   2 cconjunto
-                                           =2     C ⇢ 1, . . . , n de elementos tal que:
-                            x2 LP:    ⇤
-                                   dx2(0.75,
-                                        e = 2.0)
-                                               3
-                          Solución                                 X                                                         No factible
-                              Z*(LP(Y1)): 3.25                         wi xi > W,
-Descartado por
-                                                                   i2C
-límite superior
-  (bounding)
-                   X    para obtener las restricción:             X
-                                                                          |C|    1.
-                                                    x1  bx1⇤ ci2C
-                                                                =0
-           ⇤
- x1  bx1 c = 0                                     x1 dx1⇤ e = 1
- x1     dx ⇤e = 1
- Solución LP:
-           1 (0, 1.5)                              Solución LP: (1.0, 2.0)
-   Z*(LP(Y1,1)): 3.0                                  Z*(LP(Y1,2)): 3.0
-         Enumeración implicita
-               ⇤
-Para resolver z = max{cx|x 2 X }
-    Particionamos el espacio factible X en {Y1 , . . . , Yn }
-    Para cada parte Yi de la partición de X , calculamos un lı́mite
-              ⇤                           ⇤
-    superior zLP (Yi ) del valor óptimo z (Yi ).
-        ⇤
-    Si zLP (Yi ) es menor que la mejor solución ya encontrada,
-    podamos Yi .
-    Sino, particionamos recursivamente Yi .
-                    Algoritmo
-
-A cada paso del algoritmo, tenemos que mantener:
-    una lista de subproblemas activos (no resueltos o no
-    eliminados)
-              ⇤
-    el valor Z de la mejor solución encontrada
-                         ⇤
-    el valor inicial de Z es        T
-                               1 o c x para un valor x factible
-    conocido
-                                   Algoritmo
-                           1   Si existe un subproblema activo en la lista, elegir un
-                               subproblema Yi de la lista. Sino terminar.
-                           2   Resolver la relajación lineal de Yi : obtenemos la solución
-                               relajada LP(Yi ). Si la relajación lineal de Yi no es factible,
-hubiera sido eliminado
-                               eliminar Yi y volver al paso 1.
-antes si fuera una
-                               Si ZLP(Yi )      ⇤
-                                              Z , eliminar Y
-solución entera no mejor   3
-                                                                i y volver al paso 1.
-                           4                                                           ⇤
-                               Si LP(Yi ) es una solución entera mejor mejor que Z (es decir
-                                            ⇤               ⇤
-                               ZLP(Yi ) > Z ), actualizar Z con el nuevo valor óptimo
-                               ZLP(Yi ) (es decir Z ⇤   ZLP(Yi ) ) y volver al paso 1.
-                           5   Si ZLP(Yi ) no es una solución entera, resolver Yi directamente,
-                               o crear nuevos subproblemas (particionar Yi ) y agregarlos a la
-                               lista de subproblemas activos y volver al paso 1.
-Estrategias de recorrido
-      Ejemplo simpli cado
-
-
-
-
-fi
-                                                                                                             A
-                                                                                                                    60.75
-                                                                                                                  Solución
-    Breadth-First                                                                                                fraccional
-
-
-
-
-                                                             B                                                                                      C
-                                                                    60.0                                                                                     57.3
-                                                                  Solución                                                                                 Solución
-                                                                 fraccional                                                                               fraccional
-
-
-
-
-                               D                                                          E         57
-                                                                                                                                       F        55.7
-                                                                                                                                                                       G     55.5
-                                      55.5
-                                    Solución                                                     Solución                                     Solución                     Solución
-                                   fraccional                                                   fraccional                                   fraccional                     entera
-
-
-
-
-           H                                         I                        J                         K                     L                      M
-                   55.5                                     55.2                                               55.8                 55.2
-                 Solución                                 Solución                No factible                Solución             Solución                No factible
-                fraccional                               fraccional                                           entera               entera
-
-
-
-N                     O                     P                    Q
-       55.2                    54.9                54.9                 54.9
-     Solución                Solución            Solución             Solución
-      entera                  entera            fraccional             entera
-                                                                                                                 A                 1
-                                                                                                                         60.75
-                                                                                                                       Solución
-    Breadth-First                                                                                                     fraccional
-
-
-
-
-                                                             B                    2                                                                          C                      3
-                                                                    60.0                                                                                              57.3
-                                                                  Solución                                                                                          Solución
-                                                                 fraccional                                                                                        fraccional
-
-
-
-
-                               D                4                                             E         57
-                                                                                                                  5                             F        55.7
-                                                                                                                                                                     6          G         55.5
-                                                                                                                                                                                                   7
-                                      55.5
-                                    Solución                                                         Solución                                          Solución                         Solución
-                                   fraccional                                                       fraccional                                        fraccional                         entera
-
-
-
-
-           H                                         I                        J                      8      K                 9        L                      M
-                   55.5                                     55.2                                                   55.8                      55.2
-                 Solución                                 Solución                    No factible                Solución                  Solución                No factible
-                fraccional                               fraccional                                               entera                    entera
-
-
-
-N                     O                     P                    Q
-       55.2                    54.9                54.9                 54.9
-     Solución                Solución            Solución             Solución
-      entera                  entera            fraccional             entera
-                                                                                                            A
-                                                                                                                   60.75
-                                                                                                                 Solución
-     Best-First                                                                                                 fraccional
-
-
-
-
-                                                            B                                                                                      C
-                                                                   60.0                                                                                     57.3
-                                                                 Solución                                                                                 Solución
-                                                                fraccional                                                                               fraccional
-
-
-
-
-                              D                                                          E         57
-                                                                                                                                      F        55.7
-                                                                                                                                                                      G     55.5
-                                     55.5
-                                   Solución                                                     Solución                                     Solución                     Solución
-                                  fraccional                                                   fraccional                                   fraccional                     entera
-
-
-
-
-          H                                         I                        J                         K                     L                      M
-                  55.5                                     55.2                                               55.8                 55.2
-                Solución                                 Solución                No factible                Solución             Solución                No factible
-               fraccional                               fraccional                                           entera               entera
-
-
-
-N                    O                     P                    Q
-      55.2                    54.9                54.9                 54.9
-    Solución                Solución            Solución             Solución
-     entera                  entera            fraccional             entera
-                                                                                                                A                 1
-                                                                                                                        60.75
-                                                                                                                      Solución
-     Best-First                                                                                                      fraccional
-
-
-
-
-                                                            B                    2                                                                          C                      3
-                                                                   60.0                                                                                              57.3
-                                                                 Solución                                                                                          Solución
-                                                                fraccional                                                                                        fraccional
-
-
-
-
-                              D                4                                             E         57
-                                                                                                                 5                             F        55.7
-                                                                                                                                                                    6          G         55.5
-                                                                                                                                                                                                  7
-                                     55.5
-                                   Solución                                                         Solución                                          Solución                         Solución
-                                  fraccional                                                       fraccional                                        fraccional                         entera
-
-
-
-
-          H                                         I                        J                      8      K                 9        L                      M
-                  55.5                                     55.2                                                   55.8                      55.2
-                Solución                                 Solución                    No factible                Solución                  Solución                No factible
-               fraccional                               fraccional                                               entera                    entera
-
-
-
-N                    O                     P                    Q
-      55.2                    54.9                54.9                 54.9
-    Solución                Solución            Solución             Solución
-     entera                  entera            fraccional             entera
-                                                                                                            A
-                                                                                                                   60.75
-                                                                                                                 Solución
-    Depth-First                                                                                                 fraccional
-
-
-
-
-                                                            B                                                                                      C
-                                                                   60.0                                                                                     57.3
-                                                                 Solución                                                                                 Solución
-                                                                fraccional                                                                               fraccional
-
-
-
-
-                              D                                                          E         57
-                                                                                                                                      F        55.7
-                                                                                                                                                                      G     55.5
-                                     55.5
-                                   Solución                                                     Solución                                     Solución                     Solución
-                                  fraccional                                                   fraccional                                   fraccional                     entera
-
-
-
-
-          H                                         I                        J                         K                     L                      M
-                  55.5                                     55.2                                               55.8                 55.2
-                Solución                                 Solución                No factible                Solución             Solución                No factible
-               fraccional                               fraccional                                           entera               entera
-
-
-
-N                    O                     P                    Q
-      55.2                    54.9                54.9                 54.9
-    Solución                Solución            Solución             Solución
-     entera                  entera            fraccional             entera
-                                                                                                                A                 1
-                                                                                                                        60.75
-                                                                                                                      Solución
-    Depth-First                                                                                                      fraccional
-
-
-
-
-                                                            B                    2                                                                          C                      11
-                                                                   60.0                                                                                              57.3
-                                                                 Solución                                                                                          Solución
-                                                                fraccional                                                                                        fraccional
-
-
-
-
-                              D                3                                             E         57
-                                                                                                                 8                             F        55.7
-                                                                                                                                                                    12         G      55.5
-                                                                                                                                                                                               13
-                                     55.5
-                                   Solución                                                         Solución                                          Solución                      Solución
-                                  fraccional                                                       fraccional                                        fraccional                      entera
-
-
-
-
-          H                  4                      I                7       J                      9      K                 10       L                      M
-                  55.5                                     55.2                                                   55.8                      55.2
-                Solución                                 Solución                    No factible                Solución                  Solución                No factible
-               fraccional                               fraccional                                               entera                    entera
-
-
-
-N               5    O                 6   P                    Q
-      55.2                    54.9                54.9                 54.9
-    Solución                Solución            Solución             Solución
-     entera                  entera            fraccional             entera
-        Otra idea:
-algoritmo de plano de corte
-     Acercándonos a la envolvente convexa
-              Restricción válida
-                             T
-Se dice de una restricción ⇡ x  ⇡0 que es válida para el
-programa P cuando está satisfecha por cualquier solución del
-espacio factible de P:
-
-                                       h                         i
-          T                                0            T 0
-  C = {⇡ x  ⇡0 } válida para P , x 2 F (P) ) ⇡ x  ⇡0
-                Plano de corte
-
-     0
-Sea P el problema P al cual se agrega una restricción C válida
-para P. La restricción C es un plano de corte para P si
-F (RP 0 ) ⇢ F (RP ).
-                   Corte válido
-
-                        T
-Un plano de corte C = {⇡ x  ⇡0 } es un corte válido para x 2 Rp
-    T
-si ⇡ x > ⇡0 .
-Algoritmo del plano de corte
-
-       Ejemplo:
-Problema de la mochila
-    Problema de la mochila
-       max    8x1 + 11x2 + 6x3 + 4x4
-       s.t.   5x1 + 7x2 + 4x3 + 3x4  14
-                                         max     8x1 + 11x2 + 6x3 + 4
-                           xi 2 {0, 1}   8i = {1, . . . , 4}
-                                         s.t.    5x1 + 7x2 + 4x3 + 3x
-Averiguar que las restricciones siguientes son planos de corte:xi 2 {0, 1
-
-                    x1 + x2 + x3  2
-                    x1 + x2 + x4  2
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Problema de la mochila
-
-
-<latexit sha1_base64="v89D5JD+kxiQw5a6eEeLiONMLZw=">AAAD0HichVJLbxMxEJ5kgYbwSsqRi0WKxKGKkl6oUA8VyYFjeKSt1ESV1+tt3Pqx2F7UaLVCXPlR/A+u3DnxB5h1VqJpirA0M5+/+WY8GjnOpHB+MPjRaEZ37t7bat1vP3j46PGTTnf7yJncMj5lRhp7ElPHpdB86oWX/CSznKpY8uP4clTljz9z64TRH/0y43NFz7VIBaMeKdP5DjPQYECgT4Cj98h4RFfoY0ihgDHe0qAQwNB+I3oNJRD4gBmKMUemigw7xchZrM3RV9wOjND6QS3QZ8jaWp1jlPAJowhVBL1EU/UkJtRf4ETV6yR0WmlWb2nM5deUI1Q6zHvsUFXkeCPIFaFHGap10PKQ+ffcu/95Z2ejx9+tCbTi1l0o+BW2qPBWQv+s0xv0B+GQTTCsQQ/qMznrNg5miWG54tozSZ07He5nfl5Q6wWTvGzPcsczyi7pOT91C2P9rjbMKEXnhcm8SHi6rkGoqeJuXoSvVJIXyCQkNRZNexLY6xUFVc4tVYxKRf3C3cxV5K25ivHGSIcDjDkOb/mECsuTMf5dJTy3xYxxIctiJutoQ1yf16f780LoLPdcs9W4aS6JN6T63STBjszLJQLKrMCtELagljLs79q47+HN7W6Co73+EPG7vd7hm3rzLXgGz+ElDOEVHMJbmMAUWONns9XsNrej99FV9CX6upI2G3XNU1g70bc/fNf7Tw==</latexit>
-
-
-
-
-<latexit sha1_base64="TYCUYmIc/tJESXhf5nzg12/vAtQ=">AAADTnicbVJNbxMxEJ3d8hHCR1M4crEISBxKlPRChThUpAeOQZC2UjcKXq+3sepdL7a3arTNlSv8NK4c+QGckLgheLsJEmmxNDPPb55nZ8eOC62c7/e/BuHGtes3brZutW/fuXtvs7N1/8CZ0go5FkYbexRzJ7XK5dgrr+VRYSXPYi0P49NhnT88k9Ypk7/z80JOMn6Sq1QJ7kGZzoIiysmQgk9IwnswHugcPqaUKhqRhaKAOegE7Ad0L2hBjN5CyREf0xDGqESm3guoY+QsqpTwNZfRd2QVIqdt7HXDWqgcVLap/bd6XTECX0I9RQ8KO9XwQ3z3HJwCjlBD0gegC/AX9IwGTRd1xWUvy05s80eMzugbTij8qaHetNPt9/rNYlfBYAW6tFqj6VbwMkqMKDOZe6G5c8eD3cJPKm69Elou2lHpZMHFKT+Rx25mrN/OjTBZxieVKbxKZLquAcx5Jt2kai5ywZ6ASVhqLCz3rGH/PVHxzLl5FkOZcT9zl3M1+d9czXhjtEMD+xLNWzniyspkHy8nU17aKhJS6UUV6VW0TVzv16e7k0rlRellLpbtpqVm3rD6bbEEFYXXcwAurMJUmJhxywXquzbmPbg83avgYKc3AH6z0917tZp8ix7SI3qKu31Oe/Qa73FMIngffAw+BZ/DL+HP8Ff4eykNg9WZB7S2Nlp/AJH450w=</latexit>
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Se tiene que remover cualquier
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              elemento de C para
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              satisfacer la restricción de
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              capacidad
-                                                           Ejercicio
-actice: Cover Inequalities
- ise 3
-      Consideramos el problema
- er the knapsack problem:      de mochila siguiente:
-
-
-         X = {x 2 B : 11x1 + 6x2 + 6x3 + 5x4 + 5x5 + 4x6 + x7  19}
-                      7
-
-
-s many cover inequalities for this problem as you can. Are your cover ineq
-al? 1. Identi car unas coberturas
-    2. Identi
-Exercise 3     car coberturas  mínimas
-    3. Escribir los cortes válidos correspondientes
-       (las restricciones de corte)
-
-
-         fi
-         fi
-                                                                Ejercicio
-actice: Cover Inequalities
- ise 3
-      Consideramos el problema
- er the knapsack problem:      de mochila siguiente:
-
-
-         X = {x 2 B : 11x1 + 6x2 + 6x3 + 5x4 + 5x5 + 4x6 + x7  19}
-                      7
-
-                          Solution 3
-s many cover inequalities    for this problem   as  you can.
-                        Some cover inequalities for X are:   Are your cover ineq
-al? 1. Identi car unas coberturas
-    2. Identi  car coberturas  mínimas                     x1 + x2 + x3  2
-Exercise 3
-    3. Escribir los cortes válidos correspondientes        x1 + x2 + x6  2
-       (las restricciones de corte)
-                                                           x1 + x5 + x6  2
-                                                       x3 + x4 + x5 + x6  3
-         fi
-         fi
-                      Estrategia
-
-1   Resolver RP y obtener la solución continua x
-2   Si x 2 Z , el tenemos la solución óptima del programa entero.
-            n
-
-    Se termina el algoritmo.
-3   Determinar un corte válido C para x y P.
-4   Agregar la restricción C al programa P y volver al paso 1.
-
-          problema de separación:
-           paso más importante
-Algoritmo de plano de corte cuando un problema
-   se formula con un número exponencial de
-                 restricciones
-Ejemplo: TSP
-Formular una restricción de grado por cada nod
-    Problema del viajante de comercio
-                    !
-   (Traveling Salesman Problem  – TSP)
-                         xij = 2, ∀i ∈ V.
-       Grafo       ij∈δ(i)
-
-                                    Objetivo:
-                                   x12 + x13 + x14 + x15 =
-   1           3                   Hallar el ciclo
-                                   x    +  x     +
-                             hamiltoniano más corto…
-                                     12      23     x 24 + x 25 =
-                                   x 13 +  x 23  +  x
-                              …el tour (o un tour) de 34 + x 35 =
-                   5
-                              menos     + xque
-                                   x14costo  24  +  x34 + x45 =
-                                                  pasa
-                                  por cada nodo
-   2           4                   x15 + x25
-                               exactamente    una+vez
-                                                    x35 + x45 =
-1          3
-                   Para   determinar
-                       x12 = x            las
-                               13 = x24 = x 35 = x45 = 1
-               5
-                   aristas  que
-                       x14 = x     utilizar
-                               15 = x        en= x34 = 0
-                                      23 = x25
-
-2          4
-                   el tour, de nimos las
-
-    x1,2 = 1       variables binarias xij
-    x1,3 = 1
-    x1,4 = 0       xij = 1 si se utiliza la arista (i,j)
-    x1,5 = 0       xij = 0 sino
-    x2,3 = …                           Casa Abierta Facultad de Ciencias, Junio 2011 – p.18
-
-
-
-
-      fi
-                          Costo de cada arista
-            Modelo de optimización:
-
-Minimizar el costo                   !
-total de las aristas           min          cij xij
-seleccionadas                        ij∈E
-                              s.r.
-                               !
-                                      xij = 2, ∀i ∈ V,
-    1        3          ¿Esa solución
-                              ij∈δ(i)
-                                          es
-                        factible?
-                   5         xij ∈ {0, 1}, ∀ij ∈ E.
-    2        4          ¿Porqué?
-            Funciona?
-            En nuestro ejemplo sí, en general NO.
-                          Costo de cada arista
-            Modelo de optimización:
-
-Minimizar el costo                  !
-total de las aristas          min          cij xij
-seleccionadas                       ij∈E
-                              s.r.
-                               !
- De tal manera que cada                 xij = 2,       ∀i ∈ V,
- nodo tenga 2 aristas         ij∈δ(i)
-
- adyacentes                   xij ∈ {0, 1},          ∀ij ∈ E.
-
-            Funciona?
-            En nuestro ejemplo sí, en general NO.
-                   !
-         Modelo de     xij = 2, ∀i ∈ V.
-                   optimización:
-                   ij∈δ(i)
-Nodo 1
-                                 !
-                              x12 + xc13ij x
-                             min           +ijx14 + x15 = 2
-   1         3                   ij   E
-                               x12 + x23 + x24 + x25 = 2
-                                    ∈
-                             s.r.x13 + x23 + x34 + x35 = 2
-                   5          !
-                               x14 +x x24=+2,x34 +∀ix45 =
-                                                      ∈ V,2
-                                       ij
-   2         4                  x 15
-                             ij∈δ(i)
-                                     + x 25 + x 35 + x 45 = 2
-
-                             xij ∈ {0, 1},     ∀ij ∈ E.
-           Nodo 4                                 Casa Abierta Facultad de Ciencias, Junio 2
-
-         Funciona?
-         En nuestro ejemplo sí, en general NO.
-         En un circuito cada nodo es de grado
-             2 (cada nodo tiene 2 aristas
-                       incidentes)
-
-
-Si cada nodo es de grado 2, tenemos un circuito ???
-bciclos
-   Cada nodo tiene 2 aristas
-    incidentes,
-ueden  aparecerpero…
-                soluciones que contengan subciclos
-
-
-                        2            4
-
-     No es una     1                     6
-     solución
-     factible           3            5
-
-                         Subciclos
-bciclos Eliminar las soluciones con subciclos:
-            añadir   nuevas  restricciones
-ueden aparecer soluciones que contengan subciclos
-
-
-                        2        4
-
-                  1                    6
-
-                        3        5
-Eliminar los subciclos es              Ejemplo, para el
-                                      subconjunto {1,2,3}
-impedir cualquier ciclo
-      Subciclos
-para cada subconjunto
-                                     rechazamos cada
-                                  solución que contiene 3 o
-de puntosPueden                         más aristas
-           del grafoaparecer soluciones que contengan sub
-
- x1,2 + x1,3 + x2,3 = 3
-                                     2             4
-
-añadir la restricción         1                               6
-
- x1,2 + x1,3 + x2,3 < 3              3             5
-Eliminar los subciclos es             Ejemplo, para el
-                                     subconjunto {4,5,6}
-impedir cualquier ciclo
-      Subciclos
-para cada subconjunto
-                                     rechazamos cada
-                                  solución que contiene 3 o
-de puntosPueden                   más aristas adyacentes
-           del grafoaparecer soluciones que contengan sub
-
- x4,5 + x4,6 + x5,6 = 3
-                                     2             4
-
-añadir la restricción         1                               6
-
- x4,5 + x4,6 + x5,6 < 3              3             5
-                           Segundo intento:
-                                      Costo        de    cada    arista
-                           Añadir una restricción por cada S ⊂ V para eliminar
-                           subciclos:
-                                                !
- Minimizar el costo total de               min       cij xij
- las aristas seleccionadas                      ij∈E
-                                           s.r.
-                                            !
-De tal manera que cada nodo tenga                  xij = 2, ∀i ∈ V,
-2 aristas adyacentes                       ij∈δ(i)
-                                             !
-                                                   xij ≤ |S| − 1, ∀S ⊂ V,
-      Subciclos Restricciones de
-                                                           ij∈E(S)
-
-       Puedeneliminación          de
-             aparecer soluciones que    subciclos
-                                     contengan subciclos   xij ∈ {0, 1},   ∀ij ∈ E.
-                               2       4
-
-                          1                 6
-                                                                                      Casa Abierta Facultad de Ciencias, Ju
-
-                               3       5
-    s.t.             ai xi  b
-              i=1
- Problema del   viajante
-             xi 2         de
-                  {0, 1} 8i   comercio
-                            2 {1, . . . , n}
-(Traveling Salesman Problem – TSP)
-           n
-           XXn
- min                   cij xij
-           i=1 j=1
-           X
-  s.t.              xij = 1        8i = {1, . . . , n}
-           j:j6=i
-           X
-                    xij = 1        8j = {1, . . . , n}
-           i:i6=j
-                                                            2
-                    xij 2 {0, 1} 8(i, j) 2 {1, . . . , n}
-
-    Segundo intento:
-                       ¿Cuantas
-    Añadir una restricción           variables?
-                             por cada S   ⊂ V para eliminar
-    subciclos:
-                         !
-                    min       cij xij ¿Cuantas
-                         ij∈E        restricciones
-                    s.r.               de grado?
-                     !
-                            xij = 2, ∀i ∈ V,
-                     ij∈δ(i)
-  ¿Cuantas            !
-restricciones                  xij ≤ |S| − 1,     ∀S ⊂ V,
-                     ij∈E(S)
-de eliminación
-de subciclos?       xij ∈ {0, 1},      ∀ij ∈ E.
-
-
-                                                        Casa Abierta Facultad de Ciencias, Junio 2011 – p.25
-ntento:
-          ¿Cuantas
-a restricción          variables?
-              por cada S    ⊂ V para eliminar
- :
-           !                                                                                        n(n-1)/2 variables
-       min     cij xij
-            ij∈E
-      s.r.
-       !
-                 xij = 2,     ∀i ∈ V,
-       ij∈δ(i)
-        !
-                 xij ≤ |S| − 1,        ∀S ⊂ V,
-       ij∈E(S)
-
-      xij ∈ {0, 1},         ∀ij ∈ E.
-
-
-                                             Casa Abierta Facultad de Ciencias, Junio 2011 – p.25
-ntento:
-a restricción por cada S ⊂ V para eliminar
- :
-            !               ¿Cuantas                                                            n(n-1)/2 variables
-       min       cij xij restricciones de
-            ij∈E
-                             grado?
-       s.r.
-        !                                                                                       n restricciones
-               xij = 2, ∀i ∈ V,                                                                    de grado
-      ij∈δ(i)
-       !
-                xij ≤ |S| − 1,     ∀S ⊂ V,
-      ij∈E(S)
-
-      xij ∈ {0, 1},     ∀ij ∈ E.
-
-
-                                         Casa Abierta Facultad de Ciencias, Junio 2011 – p.25
-ntento:
-a restricción por cada S ⊂ V para eliminar
- :
-           !                                                                                       n(n-1)/2 variables
-       min     cij xij
-           ij∈E
-      s.r.
-       !                                                                                           n restricciones
-                xij = 2,     ∀i ∈ V,                                                                  de grado
-      ij∈δ(i)
-       !
-                xij ≤ |S| − 1,        ∀S ⊂ V,
-                                                                                                   2 restricciones
-                                                                                                    n-1
-      ij∈E(S)
-
-      xij ∈ {0, 1},        ∀ij ∈ E.
-                                          ¿Cuantas                                                 de eliminación de
-                                        restricciones
-                                        de eliminación                                                 subciclos
-                                        de subciclos?
-                                            Casa Abierta Facultad de Ciencias, Junio 2011 – p.25
-ntento:
-a restricción por cada S ⊂ V para eliminar                                                             Con n = 100:
- :
-           !                                                                                        4950 variables
-       min     cij xij
-           ij∈E
-      s.r.                                                                                         100 restricciones
-       !
-                xij = 2,     ∀i ∈ V,                                                                   de grado
-      ij∈δ(i)
-
-                                                                                                    ~6.338x10
-       !
-                xij ≤ |S| − 1,        ∀S ⊂ V,                                                                 29
-      ij∈E(S)
-
-      xij ∈ {0, 1},        ∀ij ∈ E.
-                                                                                                   restricciones de
-                                                                                                    eliminación de
-                                            Casa Abierta Facultad de Ciencias, Junio 2011 – p.25       subciclos
-ntento:
-a restricción por cada S ⊂ V para eliminar                                                            Con n = 267:
- :
-           !                                                                                         ~1.1857x10 80
-       min     cij xij
-           ij∈E
-                                                                                                   restricciones de
-      s.r.                                                                                          eliminación de
-       !
-                xij = 2,     ∀i ∈ V,                                                                   subciclos
-      ij∈δ(i)
-       !
-                xij ≤ |S| − 1,        ∀S ⊂ V,
-                                                                                         Número estimado de
-      ij∈E(S)
-
-      xij ∈ {0, 1},        ∀ij ∈ E.                                                      átomos en la parte
-                                                                                          visible del universo:
-                                            Casa Abierta Facultad de Ciencias, Junio 2011 – p.25
-                                                                                                   10 80
-
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+## Slide 126
+Misma formulación. A la derecha: "Con n=267:" "~1.1857×10⁸⁰ restricciones de eliminación de subciclos"; comparación: "Número estimado de átomos en la parte visible del universo: 10⁸⁰" — cierre dramático del capítulo mostrando que el número de restricciones de subciclos de un TSP de 267 nodos es comparable al número de átomos del universo observable, justificando la necesidad de los algoritmos de plano de corte y branch & bound vistos en el capítulo (no se puede enumerar todas las restricciones de antemano).
