@@ -5,260 +5,199 @@ slides: 21
 fuente: 2. Teoría - Proceso de Gestión de Pedidos - Datos Maestros.pdf
 ---
 
-        Proceso d e Ge st ión d e
-               Pedidos
-                            (Datos Maestros)
-                          Profesor: Carlos Villanueva Q.
+## Slide 1
 
+Portada del capítulo. Título "Proceso de Gestión de Pedidos (Datos Maestros)". Profesor: Carlos Villanueva Q. Logo UTEC (decorativo). Crédito: "Adaptado de: Magal and Word | Integrated Business Processes with ERP Systems | © 2011. Traducido por Grandón, Pinto y Soto (2017)".
 
+## Slide 2
 
+**Objetivos de Aprendizaje**
 
-Adaptado de: Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-   Traducido por Grandón, Pinto y Soto ( 2017)
-Objetivos de Aprendizaje
-1.    Identiﬁcar los Datos Maestros asociados al
-      proceso d e G est ión d e Pedid os.
-2.    Utilizar S AP S / 4 HA NA para visu aliza r
-      los Datos Maestros.
+1. Identificar los Datos Maestros asociados al proceso de Gestión de Pedidos.
+2. Utilizar SAP S/4HANA para visualizar los Datos Maestros.
 
+## Slide 3
 
+**Datos maestros**
 
+Lista de los 6 datos maestros que se cubrirán en el capítulo:
+- Maestro de Material (¿Cuáles vistas?)
+- Maestro de Clientes (¿Cuáles segmentos?)
+- Registro de Información (INFO) Cliente-Material
+- Condiciones de precio
+- Condiciones de mensajes
+- Registro maestro gestión de créditos
 
-     Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-     Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-•    Maestro d e Material (¿Cuáles vistas?)
-•    Maestro d e Clientes (¿Cuáles segmentos?)
-•    Registro d e I nform a c ión ( IN FO) Cl iente
-    -Ma terial
-•    Cond i cione s d e prec io
-•    Cond i cione s d e mensajes
-•    Registro maestro gestión d e créditos
+## Slide 4
 
+Misma lista de la slide 3 (slide "índice" reutilizada como separador). Visualmente el ítem **"Maestro de Material (¿Cuáles vistas?)"** está resaltado con un recuadro naranja de borde, indicando que es el tema que se desarrolla a continuación.
 
+## Slide 5
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-•    Maestro d e Material (¿Cuáles vistas?)
-•    Maestro d e Clientes (¿Cuáles segmentos?)
-•    Registro d e I nform a ción ( IN FO) Cliente
-    -Ma terial
-•    Cond i c ione s d e prec io
-•    Cond i c ione s d e mensajes
-•    Registro maestro gestión d e créditos
+**Datos maestro de material: vistas**
 
+- **Datos Básicos**: a nivel de mandante
+- **Datos de Organización de Ventas**
+  - Incluye datos específicos de una combinación de organización de venta y canal de distribución
+  - Ejemplos incluyen: centro suministrador, unidades de venta (unidad de medida), cantidad mínima (orden, despacho)
+- **Datos de Ventas de Centro**
+  - Incluye datos específicos para un centro
 
+## Slide 6
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-    Datos maestro de material:
-    vistas
-•       Datos Básicos: a nivel de m a n da nt e
-•       Datos de Or g aniz ación de Ventas
-    •    I n c luye da tos esp ec íﬁc os d e u n a c o m b i n a c i ón d e
-         or ga n iz a c ió n d e vent a y ca na l d e d istr ibu ción
-    •    E j e mp l os in c luye n : c en t ro su min ist ra dor, u nid a d e s
-         d e vent a (unida d d e me did a), c an t id ad m í n i m a
-         (orden, de spacho)
-•       Datos de Ventas de Ce nt ro
-    •    I n c luye da tos esp ec íﬁc os pa ra u n c en t ro
-Datos maestros
+Misma lista índice de datos maestros (igual a slides 3-4). Esta vez el ítem resaltado con recuadro es **"Maestro de Clientes (Cuáles segmentos?)"**, señalando el tema siguiente.
 
-•    Maestro d e Material (Cuáles vistas?)
-•    Maestro d e Clientes (Cuáles segmentos?)
-•    Registro d e I nform a ción ( IN FO) Cliente
-    • -Ma terial
-•    Cond i c ione s d e prec io
-•    Cond i c ione s d e mensajes
-•    Registro maestro gestión d e créditos
+## Slide 7
 
+**Datos del maestro de cliente**
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-    Datos del maestro de cliente
-•    Datos Generales
-    • se d e ﬁ ne n a nive l d e m a n d a nte
-    • Vál id o pa ra todas las socied ades y área d e ventas
-    • Espec íﬁ co pa ra u n cliente
-•    Datos Contables/Financieros
-    • Espec íﬁ co pa ra u na sociedad
-•    Datos de área de ventas
-    • Es p ec íﬁ co pa ra el área d e venta
+- **Datos Generales**
+  - se definen a nivel de mandante
+  - Válido para todas las sociedades y área de ventas
+  - Específico para un cliente
+- **Datos Contables/Financieros**
+  - Específico para una sociedad
+- **Datos de área de ventas**
+  - Específico para el área de venta
 
+## Slide 8
 
+**Segmentos de los datos de maestro de cliente**
 
-     Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-     Traducido por Grandón, Pinto y Soto ( 2017)
-Segmentos de los datos de maestro
-de cliente
+Diagrama de tres óvalos superpuestos sobre un fondo con forma de "trébol"/pétalos en azul claro, mostrando la jerarquía de los tres segmentos de datos del cliente:
+- Óvalo superior central: **"Datos generales (mandante)"**
+- Óvalo inferior izquierdo, bajo etiqueta **"Contabilidad"**: **"Datos contables (sociedad)"**
+- Óvalo inferior derecho, bajo etiqueta **"Ventas"**: **"Datos área de ventas (área de ventas)"**
 
+El diagrama ilustra visualmente que los datos generales son la base común (mandante), de la cual se derivan/especializan los datos contables (por sociedad) y los datos de ventas (por área de ventas).
 
+## Slide 9
 
+**Datos del maestro de cliente** (continuación, con datos concretos por segmento)
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-     Datos del maestro de cliente
-•    Datos Ge nera les
-    • N ú m e r o d e cue nta
-    • Di rec ció n
-    • Comunicación
-•    Datos d e sociedad(FI)
-    • Cu e nt a asociada del L M
-    • Té rm in os d e pa go
+- **Datos Generales**
+  - Número de cuenta
+  - Dirección
+  - Comunicación
+- **Datos de sociedad (FI)**
+  - Cuenta asociada del LM
+  - Términos de pago
 
+## Slide 10
 
+**Datos del maestro de cliente** (continuación)
 
+- **Datos Area Venta (Ventas)**
+  - Relacionados con venta
+    - Área de venta, precio, moneda
+  - Expedición
+    - Centro suministrador, prioridades, métodos, tolerancias, envío parcial
+  - Facturación
+    - Términos, impuesto relacionado.
+  - Funciones de interlocutor: roles múltiples
+    - solicitante, destinatario, destinatario de la factura, pagador
+- Un cliente puede ser atendido por múltiples áreas de venta
 
-        Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-        Traducido por Grandón, Pinto y Soto ( 2017)
-Datos del maestro de cliente
-•    Datos Area Venta (Ventas)
-    • Re la cionados c o n venta
-      • Área d e venta, precio, m on e d a
-    • E x pe d ic ión
-      • C e n t ro sumin istrador, priorida des, mé tod os ,
-         tolerancias, e nvío parcial
-    • Factura ción
-      • Té r minos, impu es to relacionado.
-    • Fu ncione s d e interlocu tor: roles mú ltipl es
-      • solicitante, destinatario, destinatario d e la factura,
-        pa ga dor
-•    U n cliente pu ed e ser atend ido p or
-     mú ltiples á rea s d e venta
-Múltiples deﬁniciones de un área de venta
-para el mismo cliente
+## Slide 11
 
+**Múltiples definiciones de un área de venta para el mismo cliente**
 
+Diagrama jerárquico de tres niveles con recuadros azules conectados por líneas verticales/en árbol:
 
+- **Nivel Mandante**: recuadro único "(GBI) Datos generales"
+- **Nivel Sociedad** (dos ramas desde el mandante):
+  - "(US00) Datos contables"
+  - "(DE00) Datos contables"
+- **Nivel Área de ventas** (ramifica desde cada sociedad):
+  - Desde US00: "(UE00 + WH + BI) Datos área de ventas" y "(UW00 + WH + BI) Datos área de ventas"
+  - Desde DE00: "(DN00 + IN + BI) Datos área de ventas"
 
-     Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-     Traducido por Grandón, Pinto y Soto ( 2017)
-Clientes de GBI
+Ilustra que un mismo cliente global (GBI) puede tener múltiples sociedades asociadas, y cada sociedad puede tener múltiples combinaciones de área de ventas.
 
+## Slide 12
 
+**Clientes de GBI**
 
+Dos tarjetas/paneles con encabezado azul, listando clientes reales usados como datos de ejemplo (empresa ficticia GBI del caso de estudio del curso):
 
-   Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-   Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-⚫ Maestro d e Material (Cuáles vistas?)
-⚫ Maestro d e Clientes    (Cuáles segmentos?)
-⚫ Registro d e I nform a c ión ( IN FO) Cliente
-  -Ma terial
-⚫ Cond i cione s d e precio
-⚫ Cond i cione s d e mensajes
-⚫ Registro maestro gestión d e créditos
+**Clientes de GBI EE.UU.:**
+Beantown Bikes, Big Apple Bikes, DC Bikes, Furniture City Bikes, Motown Bikes, Northwest Bikes, Peachtree Bikes, Philly Bikes, Rocky Mountain Bikes, Silicon Valley Bikes, SoCal Bikes, Windy City Bikes
 
+**Clientes de GBI DE:**
+Berliner Cykel (Berlín), Bicicletas Madrileños (Madrid), Cykel Zurich (Zurich), Frankfurter Cycle (Frankfurt), Munich Bikes (Munich), Vélos Parisienne (Paris), Ye Olde Bike (London)
 
+## Slide 13
 
+Lista índice de datos maestros (misma de slides 3/4/6). Resaltado con recuadro: **"Registro de Información (INFO) Cliente-Material"**, indicando el tema siguiente.
 
-   Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-   Traducido por Grandón, Pinto y Soto ( 2017)
-Registro de Información Cliente-Material
-  •   Da tos especíﬁcos pa ra la c om b in a c ió n d e
-      cliente y ma terial
-  •   Sustituyen datos e n maestro d e cliente
-      y maestro d e material
-  •   E je mplos :
-      • Referencias cruzadas entre el n ú m e r o d e
-        ma terial d el cliente y el n ú m e r o d e
-        ma terial d e la e mpresa , descripciones
-      • Tér mi no s es pecíﬁcos ejm.: preferencias de
-        e nvío, tolerancias, entrega especial, centro
-        suministrador.
-Número de material de GBI y Cliente RMB
+## Slide 14
 
+**Registro de Información Cliente-Material**
 
+- Datos específicos para la combinación de cliente y material
+- Sustituyen datos en maestro de cliente y maestro de material
+- Ejemplos:
+  - **Referencias cruzadas** entre el número de material del cliente y el número de material de la empresa, descripciones
+  - **Términos específicos** ejm.: preferencias de envío, tolerancias, entrega especial, centro suministrador.
 
+## Slide 15
 
-     Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-     Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-•    Maestro d e Material (Cuáles vistas?)
-•    Maestro d e Clientes (Cuáles segmentos?)
-•    Registro d e I nform a ción ( IN FO) Cliente
-    • Ma terial
-•    Cond i cione s d e prec io
-•    Cond i c ione s d e mensajes
-•    Registro maestro gestión d e
-     créditos
+**Número de material de GBI y Cliente RMB**
 
+Tabla con encabezado azul, mostrando ejemplo de referencias cruzadas de números de material:
 
+| Material | Número de material GBI | Número de material RMB |
+|---|---|---|
+| Bicicleta de turismo de lujo negra | DXTR1000 | G1000BL |
+| Bicicleta de turismo de lujo plateada | DXTR2000 | G1000SL |
+| Bicicleta de turismo de lujo roja | DXTR3000 | G1000RD |
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-Condición de precios
-•    Prec io
-    • Pre cio d el Material
-    • Pre cio es pe cíﬁco pa ra el Cl ie nte
-•    Fletes
-    • I n C o Te rm s
-•    Rec argas y descuentos
-    • Por cliente, ma terial , o c om b in a c ió n
-•    I mpu estos
+## Slide 16
 
+Lista índice de datos maestros. Resaltado con recuadro: **"Condiciones de precio"**, tema siguiente.
 
+## Slide 17
 
-     Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-     Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-•    Maestro d e Material (Cuáles vistas?)
-•    Maestro d e Clientes (Cuáles segmentos?)
-•    Registro d e I nform a ción ( IN FO) Cliente
-    • -Ma terial
-•    Cond i c ione s d e prec io
-•    Cond i cione s d e mensajes
-•    Registro maestro gestión d e
-     créditos
+**Condición de precios**
 
+- **Precio**
+  - Precio del Material
+  - Precio específico para el Cliente
+- **Fletes**
+  - InCoTerms
+- **Recargas y descuentos**
+  - Por cliente, material, o combinación
+- **Impuestos**
 
+## Slide 18
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
-    Condiciones de mensajes
-•    Envíos al cliente utilizando u na variedad
-     d e m ed io s
-•    E je mplos d e mensajes:
-    • Cotiz a ció n, c onﬁ r m a c ió n d e órd en, facturas
-•    L os datos en el maestro incluye n:
-    • T i po d e salida,
-    • M e d i o ( i m p re s o ra , e M a il , E D I ) ,
-    • T ie m po (inm edia to o m á s tarde)
+Lista índice de datos maestros. Resaltado con recuadro: **"Condiciones de mensajes"**, tema siguiente.
 
+## Slide 19
 
+**Condiciones de mensajes**
 
-      Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-      Traducido por Grandón, Pinto y Soto ( 2017)
-Datos maestros
-•    Maestro d e Material (Cuáles vistas?)
-•    Maestro d e Clientes (Cuáles segmentos?)
-•    Registro d e I nform a ción ( IN FO) Cliente
-    • -Ma terial
-•    Cond i c ione s d e prec io
-•    Cond i cione s d e mensajes
-•    Registro maestro gestión d e
-     créditos
+- Envíos al cliente utilizando una variedad de medios
+- Ejemplos de mensajes:
+  - Cotización, confirmación de orden, facturas
+- Los datos en el maestro incluyen:
+  - Tipo de salida,
+  - Medio (impresora, eMail, EDI),
+  - Tiempo (inmediato o más tarde)
 
+## Slide 20
 
+Lista índice de datos maestros. Resaltado con recuadro: **"Registro maestro gestión de créditos"**, tema siguiente (último de la lista).
 
-    Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-    Traducido por Grandón, Pinto y Soto ( 2017)
+## Slide 21
 
-        Registro maestro de gestión de
-        créditos
-•       Es u n a ex tens ión del m ae stro d e clientes
-•       Lo s d a tos s e a gru pa n e n 3 s e gm e nto s:
-•       D ato s G en er ales (nivel e m pre sa global)
-    •    D ir e c c i ón , c o m u n i c a c i ón , cr éd ito total a nive l d e
-         e mp r e sa
-•       D ato s área d e cont ro l d e crédito (nivel área
-        d e control d e crédito)
-    •    L í m i t e d e cr éd ito pa ra u n área d e c ont rol d e
-         cr éd ito
-    •    C la se d e rie sgo
-•       R e s u m e n (datos claves de sde otras segmentos)
-           Magal and Word | Integrated Business Processes with ERP Systems | © 2011
-           Traducido por Grandón, Pinto y Soto ( 2017)
+**Registro maestro de gestión de créditos**
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+- Es una extensión del maestro de clientes
+- Los datos se agrupan en 3 segmentos:
+- **Datos Generales** (nivel empresa global)
+  - Dirección, comunicación, crédito total a nivel de empresa
+- **Datos área de control de crédito** (nivel área de control de crédito)
+  - Límite de crédito para un área de control de crédito
+  - Clase de riesgo
+- **Resumen** (datos claves desde otras segmentos)

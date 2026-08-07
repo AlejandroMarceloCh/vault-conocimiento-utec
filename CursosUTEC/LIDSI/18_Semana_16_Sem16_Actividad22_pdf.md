@@ -5,34 +5,34 @@ slides: 5
 fuente: 18 - Semana 16/Sem16_Actividad22.pdf
 ---
 
-LIDERAZGO EN
-SISTEMAS DE
-INFORMACIÓN.
+## Slide 1
 
-2026-1
+Portada del curso. Texto: "LIDERAZGO EN SISTEMAS DE INFORMACIÓN." · "2026-1" · "Sesión 26: Liderazgo Digital y Tendencias Futuras". Imagen decorativa: collage hexagonal de fotos de la fachada/interiores del edificio UTEC, con logo UTEC en la esquina superior izquierda.
 
-Sesión 26:
+## Slide 2
 
-Liderazgo Digital y Tendencias
-Futuras
-                 Índice
-1.   Actividad
-1.
+Slide de índice. Título "Índice". Lista numerada con un solo ítem: "1. Actividad". Fondo celeste sólido con el mismo collage hexagonal decorativo de fotos del edificio UTEC en el borde derecho.
 
-Actividad.
-Actividad: Lectura, Evaluación
+## Slide 3
 
-1. Lectura:
+Slide separador de sección. Texto: "1." (número grande) seguido de "Actividad." en celeste. Fondo blanco con collage hexagonal decorativo de fotos del edificio UTEC (interiores, pasillos, letrero "INGENIERÍA") en el borde derecho.
 
-Managing The Two Faces Of Generative Ai
+## Slide 4
 
-https://utec.instructure.com/courses/21469/files/4607896?module_item_id=2305113
+Slide de contenido con la actividad de la sesión. Título: "Actividad: Lectura, Evaluación".
 
+Contenido en dos bloques:
 
-Evaluación :
+1. **Lectura:**
+   - "Managing The Two Faces Of Generative Ai"
+   - Enlace: https://utec.instructure.com/courses/21469/files/4607896?module_item_id=2305113
 
-Completar Evaluación generada de: Liderazgo en la Era de la IA Generativa
+2. **Evaluación:**
+   - "Completar Evaluación generada de: Liderazgo en la Era de la IA Generativa"
+   - Enlace: https://edtech-ai.utec.edu.pe/quiz/play/6a4dd1d5e26a63bfb2d71c16
 
-https://edtech-ai.utec.edu.pe/quiz/play/6a4dd1d5e26a63bfb2d71c16
+Sin gráficos ni tablas, solo texto y dos hipervínculos subrayados en color teal.
 
-<!-- vision-pendiente: deck sin figuras (ensamblado texto-primero) -->
+## Slide 5
+
+Slide de cierre. Contenido: logo "UTEC – Universidad de Ingeniería y Tecnología" en blanco sobre fondo celeste (decorativa). Sin texto adicional relevante. Collage hexagonal decorativo de fotos de escaleras e interiores del edificio a la derecha.
